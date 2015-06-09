@@ -1,0 +1,48 @@
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.intro-header {
+  background-image:url("../images/intro-background.jpg");
+  background-size:auto;
+  background-repeat: no-repeat;
+  height:500px;
+  opacity: .7;
+}
+
+p { text-align: center;
+    color: #fff;
+}
+
+.container-textbox {
+    height: 100%;
+    position: relative;
+}
+.container h1 {
+    margin: 0;
+    position: relative;
+    top: -250px;
+    transform: translate(0, -50%);
+    color: white;
+/*    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;*/
+    text-align: center;
+    font-size: 75px;
+}
+.container h2 {
+    margin: 0;
+    position: relative;
+    top: -50px;
+    transform: translate(0, -50%);
+    color: #000;
+    text-align: center;
+}
+.container h5 {
+    margin: 0;
+    position: relative;
+    top: -50px;
+    transform: translate(0, -50%);
+    color: #000;
+    text-align: center;
+}
