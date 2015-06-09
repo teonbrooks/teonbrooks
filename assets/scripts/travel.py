@@ -158,17 +158,6 @@ for page in pages:
 carousel.append('\t\t</div>')
 
 
-
-carousel.append(u'\t\t<ol class="carousel-indicators">')
-
-indicator = u'\t\t\t<li data-target="#carousel-scrapbook" data-slide-to="0" '
-indicator += u'class="active"></li>'
-carousel.append(indicator)
-for ii in range(1, len(pages) + 1):
-    html = u'\t\t\t<li data-target="#carousel-scrapbook" '
-    html += u'data-slide-to="%d"></li>' %ii
-    carousel.append(html)
-carousel[-1] += u'\n\t\t</ol>'
 footer = """
 <!-- Controls -->
 <a class="left carousel-control" href="#carousel-scrapbook" role="button" data-slide="prev">
