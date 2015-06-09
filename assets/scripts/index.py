@@ -147,6 +147,8 @@ html_footer = """
 
 <!-- BOOTSTRAP SCRIPTS  -->
 <script src="assets/plugins/bootstrap.js"></script>
+<!-- Google Analytics Script  -->
+<script src="assets/js/google.js"></script>
 
 </div>
 </html>

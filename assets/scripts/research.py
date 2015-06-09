@@ -132,12 +132,13 @@ html_footer = """
 <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
 <!-- CORE JQUERY/Click action, order matters!  -->
 <script src="assets/plugins/jquery-1.10.2.min.js"></script>
-
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 
 <!-- BOOTSTRAP SCRIPTS  -->
 <script src="assets/plugins/bootstrap.js"></script>
+<!-- Google Analytics Script  -->
+<script src="assets/js/google.js"></script>  
 
 
 </html>
