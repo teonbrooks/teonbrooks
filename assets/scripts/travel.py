@@ -260,7 +260,11 @@ travelmap = """
 <!--/.MAP START-->
 <section id="travel-map">
     <div class="col-xs-24 text-center">
-    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=zZsTLjHcUH_k.ke8mpkwj2aCA" width="640" height="480"></iframe>
+        <!-- Responsive iFrame -->
+        <div class="responsive-iframe-container">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=zZsTLjHcUH_k.ke8mpkwj2aCA" width="640" height="480"></iframe>
+        </div>
+    </div>
 <!--/.MAP END-->
 """
 
