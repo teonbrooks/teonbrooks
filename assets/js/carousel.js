@@ -8,7 +8,7 @@
 
     100% To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
+
     ========================================================  */
 
 
@@ -18,29 +18,14 @@
 
         main_fun: function () {
 
-            //ADD REMOVE PADDING CLASS ON SCROLL
-            $(window).scroll(function () {
-                if ($(".navbar").offset().top >50) {
-                    $(".navbar-fixed-top").addClass("navbar-pad-original");
-                } else {
-                    $(".navbar-fixed-top").removeClass("navbar-pad-original");
-                }
-            });
             //SLIDESHOW SCRIPT
             $('.carousel').carousel({
                 interval: 5000 //TIME IN MILLI SECONDS
             })
-            // PRETTYPHOTO FUNCTION 
-
-            $("a.preview").prettyPhoto({
-                social_tools: false
-            });
-
-       
 
 
             /*====================================
-               WRITE YOUR SCRIPTS BELOW 
+               WRITE YOUR SCRIPTS BELOW
            ======================================*/
 
 
@@ -59,6 +44,3 @@
     });
 
 }(jQuery));
-
-
-
