@@ -23,6 +23,7 @@
 }
 .grid img {
   vertical-align: middle;
+  width: 100px;
 }
 
 .grid .mix .thumbnail {
