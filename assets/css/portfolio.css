@@ -16,13 +16,12 @@
 .grid .mix {
     width: 150px;
     height: 150px;
-    vertical-align: top;
+    vertical-align: middle;
     margin: 10px 10px 10px 0;
     color: #fff;
     text-align: center;
 }
 .grid img {
-  vertical-align: middle;
   width: 100px;
 }
 
