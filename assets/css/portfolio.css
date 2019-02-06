@@ -1,6 +1,10 @@
 /* ==========================================================================
    Portfolio
    ========================================================================== */
+.grid {
+  background-color: #f7f7f7;
+}
+
 .grid-sizer {
   width: 50%;
 }
@@ -14,15 +18,16 @@
     display: inline-block;
 }
 .grid .mix {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     vertical-align: middle;
-    margin: 10px 10px 10px 0;
+    margin: 10px 5px 5px 10px;
     color: #fff;
     text-align: center;
 }
 .grid img {
-  width: 100px;
+  width: 170px;
+  vertical-align: middle;
 }
 
 .grid .mix .thumbnail {
@@ -31,21 +36,22 @@
     border-radius: 0;
 }
 .grid .mix .overlay {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     position: absolute;
     opacity: 0;
+    background: #3498db;
 	top:0;
 }
-/*.grid .mix .overlay:hover {
-    opacity: .8;
+.grid .mix .overlay:hover {
+    opacity: .5;
 }
 .grid .mix .overlay i {
     font-size: 2em;
     opacity: 1;
     color: #fff;
     padding-top: 30%;
-}*/
+}
 .isotope-item {
     z-index: 2;
 }
