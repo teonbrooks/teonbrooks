@@ -12,6 +12,9 @@
 		<meta name="author" content="Teon L Brooks">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!-- [if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif] -->
+		 <!-- currently the bootstrap css adds a thin whitespace on the main page -->
+		<!-- CSS for Carousel -->
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
 		<!-- Main -->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -31,195 +34,266 @@
 				<a href="#me" class="icon fa-home active"><span>Home</span></a>
 				<a href="#portfolio" class="icon fa-folder"><span>Portfolio</span></a>
 				<a href="https://www.dropbox.com/s/26o6yzoirhbqldw/brooks_resume.pdf?dl=0" target="_blank" class="icon fa-file"><span>Resume</span></a>
-				<a href="https://github.com/teonbrooks" target="_blank" class="icon fa-laptop"><span>Code</span></a>
+				<a href="https://github.com/teonbrooks" target="_blank" class="icon fa-laptop" rel="me"><span>Code</span></a>
 				<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
 				<a href="#twitter" class="icon fa-twitter"><span>Twitter</span></a>
-				<a href="scrapbook.html#scrapbook" class="icon fa-book"><span>Scrapbook</span></a>
+				<a href="#scrapbook" class="icon fa-book"><span>Scrapbook</span></a>
 				<a href="https://medium.com/the-traveling-scientist" target="_blank" class="icon fa-pencil"><span>Blog</span></a>
 			</nav>
 
-		<!-- Main -->
-		<div id="main">
+			<!-- Main -->
+			<div id="main">
 
-			<!-- Me -->
-			<article id="me" class="panel">
-				<header>
-					<h1>Teon L Brooks, PhD</h1>
-					<p>data scientist @ mozilla</p>
-				</header>
-				<a href="#portfolio" class="jumplink pic">
-					<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
-					<img src="assets/images/home.jpg" alt="" />
-				</a>
-			</article>
+				<!-- Me -->
+				<article id="me" class="panel">
+					<header>
+						<h1>Teon L Brooks, PhD</h1>
+						<p>data scientist @ mozilla</p>
+					</header>
+					<a href="#portfolio" class="jumplink pic">
+						<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
+						<img src="assets/images/home.jpg" alt="" />
+					</a>
+				</article>
 
-			<!-- portfolio begins -->
-			<article id="portfolio" class="panel">
-				<header>
-					<h2>Portfolio</h2>
-					<p class="section-subtitle">Collection of my work </p>
-				</header>
-				<section id="page-portfolio" class="page-portfolio">
-					<div id="filters" class="button-group">
-						<button class="button is-checked" data-filter="*">show all</button>
-						<!-- <button class="button" data-filter=".interests">Interests</button> -->
-						<button class="button" data-filter=".education">Education</button>
-						<button class="button" data-filter=".fellowships">Fellowships</button>
-						<button class="button" data-filter=".orgs">Organizations</button>
-						<button class="button" data-filter=".projects">Projects</button>
-					</div>
-
-		      <div class="grid">
-						<!-- Primarily Education -->
-						<div class="mix education">
-							<div class="overlay"><i class="fa fa-search"></i></div>
-							<img src="assets/images/portfolio/unc.png" alt="">
-						</div>
-						<div class="mix education">
-							<div class="overlay"><i class="fa fa-search"></i></div>
-							<img src="assets/images/portfolio/nyu.png" alt="">
-						</div>
-						<div class="mix education">
-							<div class="overlay"><i class="fa fa-search"></i></div>
-							<img src="assets/images/portfolio/stanford.png" alt="">
+				<!-- portfolio begins -->
+				<article id="portfolio" class="panel">
+					<header>
+						<h2>Portfolio</h2>
+						<p class="section-subtitle">Collection of my work </p>
+					</header>
+					<section id="page-portfolio" class="page-portfolio">
+						<div id="filters" class="button-group">
+							<button class="button is-checked" data-filter="*">show all</button>
+							<!-- <button class="button" data-filter=".interests">Interests</button> -->
+							<button class="button" data-filter=".education">Education</button>
+							<button class="button" data-filter=".fellowships">Fellowships</button>
+							<button class="button" data-filter=".orgs">Organizations</button>
+							<button class="button" data-filter=".projects">Projects</button>
 						</div>
 
-						<!-- Primarily Fellowships -->
-						<div class="mix fellowships">
-							<!-- <a href="http://www.unc.edu/spotlight/covenant-scholar-owes-success-to-mom/" target="_blank"> -->
-							<a href="https://uncnews.unc.edu/the-carolina-covenant/" target="_blank">
+				<div class="grid">
+							<!-- Primarily Education -->
+							<div class="mix education">
 								<div class="overlay"><i class="fa fa-search"></i></div>
-								<img src="assets/images/portfolio/covenant.png" alt="">
+								<img src="assets/images/portfolio/unc.png" alt="">
+							</div>
+							<div class="mix education">
+								<div class="overlay"><i class="fa fa-search"></i></div>
+								<img src="assets/images/portfolio/nyu.png" alt="">
+							</div>
+							<div class="mix education">
+								<div class="overlay"><i class="fa fa-search"></i></div>
+								<img src="assets/images/portfolio/stanford.png" alt="">
+							</div>
+
+							<!-- Primarily Fellowships -->
+							<div class="mix fellowships">
+								<!-- <a href="http://www.unc.edu/spotlight/covenant-scholar-owes-success-to-mom/" target="_blank"> -->
+								<a href="https://uncnews.unc.edu/the-carolina-covenant/" target="_blank">
+									<div class="overlay"><i class="fa fa-search"></i></div>
+									<img src="assets/images/portfolio/covenant.png" alt="">
+								</a>
+							</div>
+							<div class="mix fellowships">
+								<a href="https://nsfgrfp.org/" target="_blank">
+									<div class="overlay"><i class="fa fa-search"></i></div>
+									<img src="assets/images/portfolio/grfp.png" alt="">
+								</a>
+							</div>
+							<div class="mix fellowships">
+								<a href="https://medium.com/the-traveling-scientist/a-scientist-studying-abroad-cf981de045b" target="_blank">
+									<div class="overlay"><i class="fa fa-search"></i></div>
+									<img src="assets/images/portfolio/chateaubriand.png" alt="">
+								</a>
+							</div>
+							<div class="mix fellowships">
+								<a href="https://science.mozilla.org/" target="_blank">
+									<div class="overlay"><i class="fa fa-search"></i></div>
+									<img src="assets/images/portfolio/msl.png" alt="">
+								</a>
+							</div>
+
+						<!-- Primarily Orgs -->
+						<div class="mix orgs">
+						<a href="https://marchforscience.com" target="_blank">
+							<div class="overlay"><i class="fa fa-search"></i></div>
+								<img src="assets/images/portfolio/mfs.png" alt="">
+						</a>
+						</div>
+						<div class="mix orgs">
+						<a href="http://sciencehackday.org" target="_blank">
+							<div class="overlay"><i class="fa fa-search"></i></div>
+								<img src="assets/images/portfolio/shd.png" alt="">
+						</a>
+						</div>
+						<div class="mix orgs">
+						<a href="https://queerhack.org" target="_blank">
+							<div class="overlay"><i class="fa fa-search"></i></div>
+								<img src="assets/images/portfolio/queer_hack.png" alt="">
+						</a>
+						</div>
+						<div class="mix orgs">
+						<a href="https://mozilla.org" target="_blank">
+							<div class="overlay"><i class="fa fa-search"><br></i></div>
+								<img src="assets/images/portfolio/firefox.png" alt="">
+						</a>
+						</div>
+						<div class="mix orgs">
+						<a href="https://cielabs.org" target="_blank">
+							<div class="overlay"><i class="fa fa-search"><br></i></div>
+								<img src="assets/images/portfolio/ciel.png" alt="">
+						</a>
+						</div>
+
+						<!-- Primarily Projects -->
+						<div class="mix projects">
+							<a href="https://mne-tools.github.io" target="_blank">
+								<div class="overlay"><i class="fa fa-search"></i></div>
+								<img src="assets/images/portfolio/mne.png" alt="">
 							</a>
 						</div>
-						<div class="mix fellowships">
-							<a href="https://nsfgrfp.org/" target="_blank">
+						<div class="mix projects">
+							<a href="https://github.com/openexp/openexp" target="_blank">
 								<div class="overlay"><i class="fa fa-search"></i></div>
-								<img src="assets/images/portfolio/grfp.png" alt="">
+								<img src="assets/images/portfolio/openexp.png" alt="">
 							</a>
 						</div>
-						<div class="mix fellowships">
-							<a href="https://medium.com/the-traveling-scientist/a-scientist-studying-abroad-cf981de045b" target="_blank">
+						<div class="mix projects">
+							<a href="https://wp.nyu.edu/brainwaves/" target="_blank">
 								<div class="overlay"><i class="fa fa-search"></i></div>
-								<img src="assets/images/portfolio/chateaubriand.png" alt="">
-							</a>
-						</div>
-						<div class="mix fellowships">
-							<a href="https://science.mozilla.org/" target="_blank">
-								<div class="overlay"><i class="fa fa-search"></i></div>
-								<img src="assets/images/portfolio/msl.png" alt="">
+								<img src="assets/images/portfolio/brainwaves.png" alt="">
 							</a>
 						</div>
 
-					<!-- Primarily Orgs -->
-					<div class="mix orgs">
-					  <a href="https://marchforscience.com" target="_blank">
-					    <div class="overlay"><i class="fa fa-search"></i></div>
-							<img src="assets/images/portfolio/mfs.png" alt="">
-					  </a>
-					</div>
-					<div class="mix orgs">
-					  <a href="http://sciencehackday.org" target="_blank">
-					    <div class="overlay"><i class="fa fa-search"></i></div>
-							<img src="assets/images/portfolio/shd.png" alt="">
-					  </a>
-					</div>
-					<div class="mix orgs">
-					  <a href="https://queerhack.org" target="_blank">
-					    <div class="overlay"><i class="fa fa-search"></i></div>
-							<img src="assets/images/portfolio/queer_hack.png" alt="">
-					  </a>
-					</div>
-					<div class="mix orgs">
-					  <a href="https://mozilla.org" target="_blank">
-					    <div class="overlay"><i class="fa fa-search"><br></i></div>
-							<img src="assets/images/portfolio/firefox.png" alt="">
-					  </a>
-					</div>
-					<div class="mix orgs">
-					  <a href="https://cielabs.org" target="_blank">
-					    <div class="overlay"><i class="fa fa-search"><br></i></div>
-							<img src="assets/images/portfolio/ciel.png" alt="">
-					  </a>
-					</div>
+						<!-- Primarily Research Interests -->
+						<!-- <div class="mix interests">
+							<a href="https://medium.com/the-traveling-scientist/why-is-the-study-of-reading-essential-1dcd700c612a" target="_blank">
+								<div class="overlay"><i class="fa fa-search"></i>
+								</div><img src="assets/images/portfolio/phase.png" alt="">
+							</a>
+						</div> -->
+						<!-- Me -->
+					</section>
+				</article>
 
-					<!-- Primarily Projects -->
-					<div class="mix projects">
-						<a href="https://mne-tools.github.io" target="_blank">
-							<div class="overlay"><i class="fa fa-search"></i></div>
-							<img src="assets/images/portfolio/mne.png" alt="">
-						</a>
-					</div>
-					<div class="mix projects">
-						<a href="https://github.com/openexp/openexp" target="_blank">
-							<div class="overlay"><i class="fa fa-search"></i></div>
-							<img src="assets/images/portfolio/openexp.png" alt="">
-						</a>
-					</div>
-					<div class="mix projects">
-						<a href="https://wp.nyu.edu/brainwaves/" target="_blank">
-							<div class="overlay"><i class="fa fa-search"></i></div>
-							<img src="assets/images/portfolio/brainwaves.png" alt="">
-						</a>
-					</div>
-
-					<!-- Primarily Research Interests -->
-					<!-- <div class="mix interests">
-						<a href="https://medium.com/the-traveling-scientist/why-is-the-study-of-reading-essential-1dcd700c612a" target="_blank">
-							<div class="overlay"><i class="fa fa-search"></i>
-							</div><img src="assets/images/portfolio/phase.png" alt="">
-						</a>
-					</div> -->
-					<!-- Me -->
-				</section>
-			</article>
-
-			<!-- Contact -->
-			<article id="contact" class="panel">
-				<header>
-					<h2>Contact Me</h2>
-				</header>
-				<form action="https://formspree.io/teon.brooks@gmail.com" method="POST">
-					<div>
-						<div class="row">
-							<div class="6u 12u$(mobile)">
-								<input type="text" name="name" placeholder="Name" />
-							</div>
-							<div class="6u$ 12u$(mobile)">
-								<input type="text" name="email" placeholder="Email" />
-							</div>
-							<div class="12u$">
-								<input type="text" name="subject" placeholder="Subject" />
-							</div>
-							<div class="12u$">
-								<textarea name="message" placeholder="Message" rows="8"></textarea>
-							</div>
-							<div class="12u$">
-								<input type="submit" value="Send Message" />
+				<!-- Contact -->
+				<article id="contact" class="panel">
+					<header>
+						<h2>Contact Me</h2>
+					</header>
+					<form action="https://formspree.io/teon.brooks@gmail.com" method="POST">
+						<div>
+							<div class="row">
+								<div class="6u 12u$(mobile)">
+									<input type="text" name="name" placeholder="Name" />
+								</div>
+								<div class="6u$ 12u$(mobile)">
+									<input type="text" name="email" placeholder="Email" />
+								</div>
+								<div class="12u$">
+									<input type="text" name="subject" placeholder="Subject" />
+								</div>
+								<div class="12u$">
+									<textarea name="message" placeholder="Message" rows="8"></textarea>
+								</div>
+								<div class="12u$">
+									<input type="submit" value="Send Message" />
+								</div>
 							</div>
 						</div>
+					</form>
+				</article>
+
+
+				<!-- Twitter -->
+				<article id="twitter" class="panel">
+					<div align="center">
+						<a class="twitter-timeline" href="https://twitter.com/teonbrooks" data-widget-id="607926748022513664">Tweets by @teon_io</a>
+						<script src="assets/js/twitter.js"></script>
 					</div>
-				</form>
-			</article>
+				</article>
+
+				<!-- Scrapbook -->
+				<article id="scrapbook" class="panel">
+					<header>
+						<h2>Scrapbook</h2>
+					</header>
+
+					<!--/.CAROUSEL START-->
+					<section id="carousel" class="text-center">
+						<div id="carousel-scrapbook" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="assets/images/pages/intro.jpg" align="center" alt="" />
+									<div class="carousel-caption" >
+										<h4 class="back-light">Welcome.</h4>
+									</div>
+								</div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_02.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_03.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_04.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_05.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_06.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_07.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_08.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_09.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_10.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_11.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_12.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_13.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_14.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_15.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_16.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_17.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_18.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_19.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_20.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_21.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_22.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_23.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_24.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_25.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_26.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_27.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_28.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_29.jpg" alt="" /></div>
+								<div class="item"><img src="assets/images/pages/scrapbook_Page_30.jpg" alt="" /></div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#carousel-scrapbook" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel-scrapbook" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</section>
+					<!--/.CAROUSEL END-->
+					<!--/.MAP START-->
+					<section id="travel-map">
+						<div class="col-xs-24 text-center">
+							<!-- Responsive iFrame -->
+							<div class="responsive-iframe-container">
+								<iframe src="https://www.google.com/maps/d/u/0/embed?mid=zZsTLjHcUH_k.ke8mpkwj2aCA&z=1" width="640" height="480"></iframe>
+							</div>
+						</div>
+					<!--/.MAP END-->
+					</section>
+				</article>
 
 
-			<!-- Twitter -->
-			<article id="twitter" class="panel">
-				<div align=center>
-					<a class="twitter-timeline" href="https://twitter.com/teonbrooks" data-widget-id="607926748022513664">Tweets by @teon_io</a>
-					<script src="assets/js/twitter.js"></script>
-				</div>
-			</article>
-
-		</div>
-
+			</div>
 			<!-- Footer -->
-				<div id="footer">
-					<ul class="copyright">
-						<li>&copy; Teon L Brooks, PhD</li>
-						<!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
-					</ul>
-				</div>
+			<div id="footer">
+				<ul class="copyright">
+					<li>&copy; Teon L Brooks, PhD</li>
+					<!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
+				</ul>
+			</div>
 
 		</div>
 
@@ -235,6 +309,10 @@
 		<!-- Portfolio-related scripts -->
 		<script src="assets/js/isotope.pkgd.min.js"></script>
 		<script src="assets/js/portfolio.js"></script>
+
+		<!-- Carousel-related scripts -->
+		<script src="assets/js/bootstrap.js"></script>
+		<script src="assets/js/carousel.js"></script>
 
 		<!-- Analytics -->
 		<script>
