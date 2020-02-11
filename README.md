@@ -29,11 +29,8 @@ Title | Date | Products
 ----- | ---- | --------
 Data Science Blog | 2019H1-2019H2 | [PRD](https://docs.google.com/document/d/1SxtWv-k-O5NLf-ClwgfV23w7ZSIiGDpNgD9QtL53wlo/edit)
 North Star metric for AwesomeBar/QuantumBar | 2019H1: March 25, 2019 | [Proposal](https://docs.google.com/document/d/1ZcOuQVg_jTd8YLtMyaxiW5ikuxvs3zAqrrEqkGC4S0Q/edit)
-Hiring Committee | 2018H2-2019H1 |  [Revamped Hiring Loop](https://github.com/mozilla/fx_data_interview/tree/master/data_science)
-.                |.              |  Responsible for grading HackerRank, revamping the hiring loops, migrating GDoc to Markdown files
-.                |.              | Contributed to updating documentation, adding new documentation
-Data Stewardship | 2019H1-Present | [Stewardship participation](https://wiki.mozilla.org/Firefox/Data_Collection)
-                 | 2019H2-2020H1 | Steering Committee
+Hiring Committee | 2018H2-2019H1 | - [Revamped Hiring Loop](https://github.com/mozilla/fx_data_interview/tree/master/data_science)<br /> - Responsible for grading HackerRank, revamping the hiring loops, migrating GDoc to Markdown files<br /> - Contributed to updating documentation, adding new documentation
+Data Stewardship | 2019H1-Present | Steering Committee <br />[Stewardship participation](https://wiki.mozilla.org/Firefox/Data_Collection)
 
 ## Teaching
 ### Instruction
