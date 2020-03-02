@@ -12,7 +12,7 @@
 Below is a collection of projects, talks, and events I have been involved since my start at Mozilla.
 
 <a href="https://mozilla.org">
-  <div style="text-align:center"><img src=./assets/images/firefox.jpg alt="Mozilla Firefox" width=400></div>
+  <p align="center"><img src=./assets/images/firefox.jpg alt="Mozilla Firefox" width=400></p>
 </a><br><br>
 
 ## Internal
@@ -91,7 +91,7 @@ As part of my 2016-2017 Mozilla Fellowship for Science, here is a map of places 
 
 
 <a href="https://www.google.com/maps/d/viewer?mid=1Hk9yLFn91cEpiqPcWKxOFvH5yhg&usp=sharing">
-  <div style="text-align:center"><img src=./assets/images/mfs.png alt="Travel Map" width=640></div>
+  <p align="center"><img src=./assets/images/mfs.png alt="Travel Map" width=640></p>
 </a><br><br>
 
 
