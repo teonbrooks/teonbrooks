@@ -90,9 +90,9 @@ Neuroinformatics | 2018H2 | August 9-10 | [Debrief](https://docs.google.com/docu
 As part of my 2016-2017 Mozilla Fellowship for Science, here is a map of places I have traveled to during my fellowship:
 
 
-<a href="https://www.google.com/maps/d/viewer?mid=1Hk9yLFn91cEpiqPcWKxOFvH5yhg&usp=sharing">
+<!-- <a href="https://www.google.com/maps/d/viewer?mid=1Hk9yLFn91cEpiqPcWKxOFvH5yhg&usp=sharing">
   <p align="center"><img src=./assets/images/mfs.png alt="Travel Map" width=640></p>
-</a><br><br>
+</a><br><br> -->
 
 
 
