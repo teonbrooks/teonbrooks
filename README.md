@@ -7,7 +7,7 @@
    * [GitHub](https://github.com/teonbrooks)
    * [LinkedIn](https://linkedin.com/in/teonbrooks)
 
-# Data Scientist, Mozilla
+# Senior Data Scientist, Mozilla
 ### Executive Summary
 Below is a collection of projects, talks, and events I have been involved since my start at Mozilla.
 
@@ -19,8 +19,9 @@ Below is a collection of projects, talks, and events I have been involved since 
 ### Experiments
 Title | Date | Products
 ----- | ---- | --------
+Separate Private Browsing Mode | 2020H1: Mar 25, 2020 | [Report](https://mozilla-private.report/separate-search-default-in-private-browsing/index.html)
 TopSites | 2020H1: Jan 16, 2020 | [Report](https://iodide.telemetry.mozilla.org/notebooks/390/?viewMode=report)
-XUL vs HTML | 2019H1: May 20, 2019 | [Report](https://iodide.telemetry.mozilla.org/notebooks/31/?viewMode=report)
+XUL vs HTML | 2019H1: May 20, 2019 | [Report](https://mozilla-private.report/xul_html/index.html)
 Narrate | 2019H1: May 22, 2019 | [Report](https://iodide.telemetry.mozilla.org/notebooks/15/?viewMode=report)
 Side View | 2019H1: January 18, 2019 | [Report](https://mozilla.report/post/testpilot/side_view/index.html)
 Cloud Storage | 2018H2: October 30, 2018 | [Report](https://mozilla.report/post/testpilot/cloud_storage_v2/index.html), [Blog Post](https://medium.com/firefox-test-pilot/understanding-users-wants-and-needs-for-linking-cloud-storage-providers-d9a300269820)
@@ -28,10 +29,12 @@ Cloud Storage | 2018H2: October 30, 2018 | [Report](https://mozilla.report/post/
 ### Projects
 Title | Year | Date | Products
 ----- | ---- | ---- | --------
+Data Stewardship | 2019H1-Present | | - [Stewardship participation](https://wiki.mozilla.org/Firefox/Data_Collection)
+Data Stewardship | 2019H1-2020H1  | | - Steering Committee
+
 Data Science Blog | 2019H1-2019H2 | | [PRD](https://docs.google.com/document/d/1SxtWv-k-O5NLf-ClwgfV23w7ZSIiGDpNgD9QtL53wlo/edit)
 North Star metric for AwesomeBar/QuantumBar | 2019H1 | March 25 | [Proposal](https://docs.google.com/document/d/1ZcOuQVg_jTd8YLtMyaxiW5ikuxvs3zAqrrEqkGC4S0Q/edit)
 Hiring Committee | 2018H2-2019H1 | | - [Revamped Hiring Loop](https://github.com/mozilla/fx_data_interview/tree/master/data_science)<br /> - Responsible for grading HackerRank, revamping the hiring loops, migrating GDoc to Markdown files<br /> - Contributed to updating documentation, adding new documentation
-Data Stewardship | 2019H1-Present | | - Steering Committee <br /> - [Stewardship participation](https://wiki.mozilla.org/Firefox/Data_Collection)
 
 ## Teaching
 ### Instruction
@@ -61,7 +64,7 @@ Bayesian Data Analysis Course | 2018H2 | Nov 14 |
 ### Invited Talks
 Venue | Title | Date | Products
 ----- | ----- | ---- | --------
-Duke | Social Neuroeconomics Summer School | 2020H1 | June 9 | [Program Information](https://www.socialneuroecon.school/2020#schedule2020)
+Duke | Social Neuroeconomics Summer School | 2021H1 | June 8 | [Program Information](https://www.socialneuroecon.school/2021#schedule2021)
 UCSD | Intro to Data Science Guest Lecture | 2020H1 | March 5 |
 csv,conf,v4 | build, empower, grow: My journey and approach to human-centered data tools | 2019H1: May 9, 2019 | [Program Information](https://csvconf.com/), [Talk](https://youtu.be/0_Ws9t9FGqA), [Slides](https://doi.org/10.5281/zenodo.2766123#.XOJYNSDeghk), [Video](https://neuronline.sfn.org/professional-development/data-sharing-principles-to-promote-open-science)
 Duke | From Cognitive Science to Data Science | 2019H1 | February 1 | [Program Information](https://dibs.duke.edu/events/teon-brooks-mozilla)
