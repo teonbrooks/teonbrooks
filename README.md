@@ -15,6 +15,8 @@ __Public Profile__
 ## [Projects](./projects.md)
 
 ## [Senior Data Scientist, Mozilla](./mozilla.md)
+*2017-Present*
+
 __Executive Summary__
 <!-- remember to update corresponding page -->
 At Mozilla, I am currently support our Revenue and Business Development teams with analytic support. Relatedly, I have been working with our product team on the Awesome Bar, our combined address bar and search product within the Firefox Browser, and currently researching how to improve the experience with finding things on the web.
@@ -22,6 +24,8 @@ At Mozilla, I am currently support our Revenue and Business Development teams wi
 Previously, I have worked with one of our product development teams, [Test Pilot](https://medium.com/firefox-test-pilot), to rapidly iterate on new features for the browser.
 
 ## [Fellow, Mozilla/Stanford](./fellowship.md)
+*2016-2017*
+
 __Executive Summary__
 <!-- remember to update corresponding page -->
 During my 2016-2017 Mozilla Fellowship for Science, I was a national co-organizer for the inaugural [March for Science](https://marchforscience.org) in Washington, D.C., which amassed 100k advocates for Science, and for evidence-based decisions in policy-making.
