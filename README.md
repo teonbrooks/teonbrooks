@@ -12,9 +12,11 @@ __Public Profile__
    * [LinkedIn](https://linkedin.com/in/teonbrooks)
    * [BlackInNeuro](https://www.blackinneuro.com/profiles/teon-brooks)
 
-## [Projects](./projects.md)
+## [Projects](https://github.com/teonbrooks/teonbrooks/blob/master/projects.md)
 
-## [Senior Data Scientist, Mozilla](./mozilla.md)
+# Employment
+
+## [Senior Data Scientist, Mozilla](https://github.com/teonbrooks/teonbrooks/blob/master/mozilla.md)
 *2017-Present*
 
 __Executive Summary__
@@ -23,7 +25,7 @@ At Mozilla, I am currently support our Revenue and Business Development teams wi
 
 Previously, I have worked with one of our product development teams, [Test Pilot](https://medium.com/firefox-test-pilot), to rapidly iterate on new features for the browser.
 
-## [Fellow, Mozilla/Stanford](./fellowship.md)
+## [Fellow, Mozilla/Stanford](https://github.com/teonbrooks/teonbrooks/blob/master/fellowship.md)
 *2016-2017*
 
 __Executive Summary__
