@@ -2,7 +2,7 @@
 *he/him/Dr.*
 
 __Public Profile__
-* [Website](https://teonian.com)
+* [Website](https://teonbrooks.com)
 * [ORCID](https://orcid.org/0000-0001-7344-3230)
 * [Google Scholar](https://scholar.google.com/citations?user=d8XsbuYAAAAJ)
 * [Mozilla](https://people.mozilla.org/p/teon)
