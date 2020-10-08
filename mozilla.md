@@ -18,6 +18,8 @@ Below is a collection of projects, talks, and events I have been involved since 
 Venue | Title | Date | Assets/Notes
 ----- | ----- | ---- | ------------
 Duke | Social Neuroeconomics Summer School | 2021-06-08 | [Program Information](https://www.socialneuroecon.school/2021#schedule2021)
+Indiana University | IU Neuroscience / Cognitive Science Joint Colloquium Series | 2021-03-29 | Program Information forthcoming
+UMichigan | Cognition & Cognitive Neuroscience Area Forum | 2020-11-13 | Program Information forthcoming
 UW DSSG | Data Science for Social Good Panel: Nonprofit | 2020-07-31 | [Program Information](https://escience.washington.edu/2020-data-science-for-social-good-projects/)
 UCSD | Intro to Data Science Guest Lecture | 2020-03-05 |
 csv,conf,v4 | build, empower, grow: My journey and approach to human-centered data tools | 2019-05-09 | [Program Information](https://csvconf.com/), [Talk](https://youtu.be/0_Ws9t9FGqA), [Slides](https://doi.org/10.5281/zenodo.2766123#.XOJYNSDeghk), [Video](https://neuronline.sfn.org/professional-development/data-sharing-principles-to-promote-open-science)
