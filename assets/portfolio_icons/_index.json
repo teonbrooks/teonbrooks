@@ -1,0 +1,83 @@
+{
+    "name": "Teon L Brooks",
+    "portfolio": [
+        {
+            "title": "Board Member",
+            "organization": "Future of Research",
+            "timespan": "2017-2018",
+            "description": "Served on the board on an nonprofit advocacy group for early-career scientist.",
+            "website": "https://futureofresearch.org/",
+            "icon": "FoR.png"
+        },
+        {
+            "title": "STEM Fellow",
+            "organization": "French Embassy to the U.S.",
+            "timespan": "2014-2015",
+            "description": "Fellowship recipient for the .",
+            "icon": "FoR.png"
+        },
+        {
+            "title": "President of Advisory Board",
+            "organization": "NYU",
+            "timespan":"2017-2020",
+            "description": "",
+            "icon": "brainwaves.png"
+        },
+        {
+            "title": "Co-Director of Partnerships",
+            "organization": "March for Science",
+            "timespan": "2017",
+            "description": "Co-led a team to build a coalition of >300 scientific societies, NGOs, science museums, and non-profits to mobilize their members to march. Organized and coordinated one of the largest science demonstration with 100k marchers in DC and over a million marchers in 610 cities worldwide.",
+            "icon": "mfs.png"
+        },
+        {
+            "title": "",
+            "organization": "",
+            "timespan": "",
+            "description": "",
+            "icon": ""
+        },
+        {
+            "title": "",
+            "organization": "",
+            "timespan": "",
+            "description": "",
+            "icon": ""
+        },
+        {
+            "title": "",
+            "organization": "",
+            "timespan": "",
+            "description": "",
+            "icon": ""
+        },
+        {
+            "title": "",
+            "organization": "",
+            "timespan": "",
+            "description": "",
+            "icon": ""
+        },
+        {
+            "title": "",
+            "organization": "",
+            "timespan": "",
+            "description": "",
+            "icon": ""
+        },
+        {
+            "title": "",
+            "organization": "",
+            "timespan": "",
+            "description": "",
+            "icon": ""
+        },
+        {
+            "title": "",
+            "organization": "",
+            "timespan": "",
+            "description": "",
+            "icon": ""
+        }
+    ]
+}
