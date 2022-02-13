@@ -1,0 +1,1 @@
+Appelhoff, Stefan, Sanderson, Matthew, Brooks, Teon L, van Vliet, Marijn, Quentin, Romain, Holdgraf, Chris, … Jas, Mainak. (2020). MNE-BIDS: MNE-Python + BIDS = easy dataset interaction (Version 1.0.1). Zenodo. http://doi.org/10.5281/zenodo.3891836
