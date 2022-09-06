@@ -1,9 +1,10 @@
-# SvelteKit static blog starter
+# Teon L Brooks, PhD
 
-This starter contains everything you need to get up and running with [SvelteKit](https://kit.svelte.dev/) as a static site generator for your Markdown (and Svelte)-powered blog. [Check out the demo here](https://sveltekit-static-starter.netlify.app/), or view the [GitHub repo here](https://github.com/josh-collinsworth/sveltekit-blog-starter).
+*he/him/Dr.*
 
-## Features
+## Public Profile
 
+<<<<<<< HEAD
 - 🎉 **Fully up-to-date with SvelteKit 2!**
 - ⚡️ **Super fast static site generation with hydration**. Every route is compiled down to static HTML and routed with (optional) JavaScript, thanks to the SvelteKit static adapter (pre-installed)
 - 📦 **Zero-config preloading** for automatic, fast background preloading of all top-level pages
@@ -19,36 +20,58 @@ This starter contains everything you need to get up and running with [SvelteKit]
 - 📰 **RSS feed** set up and ready to go (_though it could also likely benefit from some optimization_); just update `src/lib/config.js`
 - 💈 **Basic CSS ready to use, customize, or remove!** Want to use Sass or Tailwind instead? Just install them! (Directions to come in a future update; check the SvelteKit docs in the meantime.) Prefer to write your own? Delete `static/css` and add your own links in `+layout.svelte`.
 - ℹ️ **Fonts included**. (No more built-in Google tracking.)
+=======
+* [Website](https://teonbrooks.com)
+* [GitHub](https://github.com/teonbrooks)
+* [LinkedIn](https://linkedin.com/in/teonbrooks)
+* [Mastodon](https://data-folks.masto.host/@teon)
+* [Twitter](https://twitter.com/teonbrooks)
+* [ORCID](https://orcid.org/0000-0001-7344-3230)
+* [Google Scholar](https://scholar.google.com/citations?user=d8XsbuYAAAAJ)
 
-## Quick Start
+<!-- ## [Projects](./lib/cv/projects.md) -->
+>>>>>>> 499a217 (website overhaul)
 
-Clone or download [this repo](https://github.com/josh-collinsworth/sveltekit-blog-starter), then install the dependencies and run the dev server:
+## Work Experience
 
-```
-npx degit https://github.com/josh-collinsworth/sveltekit-blog-starter my-sveltekit-blog
-cd my-sveltekit-blog
-npm install
-npm run dev -- --open
-```
+### VP, Head of Research and Development | Statespace
 
-That should get a dev server up and running (assuming you have npm and Node installed already). Any saved changes to components and styles should auto-refresh blazingly fast.
+*2022*
 
-Now all you need to do is:
+<!-- ## [Product Manager, Mozilla](./lib/cv/mozilla.md) -->
+### Product Manager | Mozilla
 
+*2021-2022*
+
+<<<<<<< HEAD
 - Update the `src/lib/config.js` file
 - Drop your Markdown posts into `src/lib/posts`
 - Optionally, customize the styles in `static/css`
+=======
+<!-- __Executive Summary__ -->
+>>>>>>> 499a217 (website overhaul)
 
-GLHF! Details below. 👇
+<!-- ## [Senior Data Scientist, Mozilla](./lib/cv/mozilla.md) -->
+### Senior Data Scientist | Mozilla
 
+<<<<<<< HEAD
 (_Feel free to [open an issue](https://github.com/josh-collinsworth/sveltekit-blog-starter/issues/new) if you come across one._)
+=======
+*2017-2021*
 
-## Customization
+#### Executive Summary
+<!-- remember to update corresponding page -->
+At Mozilla, I supported our Revenue and Business Development teams with product and revenue analytics. Relatedly, I worked with the Search product team on the Awesome Bar, our combined address bar and search product within the Firefox Browser, and researched how to improve the experience with finding things on the web.
+>>>>>>> 499a217 (website overhaul)
 
-Be sure to update `src/lib/config.js` to reflect your site's domain, preferences, etc. This is also where the nav menu can be updated.
+Previously, I have worked with one of our product development teams, [Test Pilot](https://medium.com/firefox-test-pilot), to rapidly iterate on new features for the browser.
 
-**It's very important to update this file with the specific details of your site.** Info from this file is used in your RSS feed and SEO meta tags, so don't launch without updating it.
+<!-- ## [Fellow, Mozilla-Stanford](./lib/cv/fellowship.md) -->
+### Open Science Fellow | Mozilla-Stanford
 
+*2016-2017*
+
+<<<<<<< HEAD
 ## Adding new posts
 
 Adding new posts is as simple as dropping a new `.md` file into `src/lib/posts`. New posts will automatically show up on the site, be added to the posts API, and any category pages.
@@ -132,3 +155,10 @@ I assume at least a little bit of knowledge of SvelteKit and/or similar static s
 ## Contributing
 
 I've tried my best to make sure this starter is up to date with the latest SvelteKit, but I'm sure improvements can be made. Feel free to [visit the repo](https://github.com/josh-collinsworth/sveltekit-blog-starter) and submit a pull request, or [contact me directly](https://joshcollinsworth.com/contact).
+=======
+#### Executive Summary
+<!-- remember to update corresponding page -->
+During my 2016-2017 Mozilla Fellowship for Science, I was a national co-organizer for the inaugural [March for Science](https://marchforscience.org) in Washington, D.C., which amassed 100k advocates for Science, and for evidence-based decisions in policy-making.
+
+During my postdoc at Stanford, I was a core-contributor to __(1)__ the [Brain Imaging Data Structure](https://bids.neuroimaging.io/) project for the inclusion of MEG into the specification ([our paper](https://www.nature.com/articles/sdata2018110)), and to __(2)__ the [MNE-BIDS](https://github.com/mne-tools/mne-bids) project to provide a software implementation ([our paper](https://joss.theoj.org/papers/10.21105/joss.01896)).
+>>>>>>> 499a217 (website overhaul)

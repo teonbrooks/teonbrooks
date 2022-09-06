@@ -1,5 +1,6 @@
 <!-- This is the global layout file; it "wraps" every page on the site. (Or more accurately: is the parent component to every page component on the site.) -->
 <script>
+<<<<<<< HEAD
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import { currentPage, isMenuOpen } from '../lib/assets/js/store.js';
@@ -9,6 +10,19 @@
 	import { fade } from 'svelte/transition';
 	import { siteTitle, siteURL } from '$lib/config.js';
 	export let data;
+=======
+	import '$lib/assets/scss/global.scss'
+	// use default svelte-material-ui css
+	import '$lib/../../node_modules/svelte-material-ui/bare.css'
+	import Header from '$lib/components/Header.svelte'
+	import Footer from '$lib/components/Footer.svelte'
+	import { currentPage, isMenuOpen } from '$lib/assets/js/store'
+	import { navItems } from '$lib/config'
+	import { preloadCode } from '$app/navigation'
+	import { onMount } from 'svelte'
+	import { fade } from 'svelte/transition'
+	export let data
+>>>>>>> 499a217 (website overhaul)
 
 	const transitionIn = { delay: 150, duration: 150 };
 	const transitionOut = { duration: 100 };

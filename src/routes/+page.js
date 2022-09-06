@@ -1,10 +1,14 @@
-import { error } from '@sveltejs/kit'
+import { error } from '@sveltejs/kit';
+// import toml from '@iarna/toml';
+// import { readFileSync } from 'fs';
+// import { fileURLToPath } from 'url';
 
 export const load = async () => {
-	try {
-		const ReadMeFile = await import('../../README.md')
-		const ReadMe = ReadMeFile.default
+	// try {
+	// 	const file = fileURLToPath(new URL('../lib/cv/portfolio.toml', import.meta.url));
+	// 	const portfolio =  toml.parse(readFileSync(file));
 		
+<<<<<<< HEAD
 		return {
 			ReadMe
 		}
@@ -12,4 +16,13 @@ export const load = async () => {
 	catch(err) {
 		error(500, err);
 	}
+=======
+	// 	return {
+	// 		portfolio
+	// 	}
+	// }
+	// catch(err) {
+	// 	throw error(500, err)
+	// }
+>>>>>>> 499a217 (website overhaul)
 }
