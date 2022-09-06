@@ -15,10 +15,10 @@ const { title, excerpt, date, updated, coverImage, coverWidth, coverHeight, cate
 	<meta name="twitter:title" content={title} />
 	<meta property="og:description" content={excerpt} />
 	<meta name="twitter:description" content={excerpt} />
-	<!-- <meta property="og:image" content="https://yourdomain.com/image_path" /> -->
+	<meta property="og:image" content="https://teonbrooks.com/images/home.jpg" />
 	<meta property="og:image:width" content={coverWidth} />
 	<meta property="og:image:height" content={coverHeight} />
-	<!-- <meta name="twitter:image" content="https://yourdomain.com/image_path" /> -->
+	<meta name="twitter:image" content="https://teonbrooks.com/images/home.jpg" />
 </svelte:head>
 
 
@@ -28,10 +28,16 @@ const { title, excerpt, date, updated, coverImage, coverWidth, coverHeight, cate
 		class="cover-image"
 		src="{coverImage}"
 		alt=""
+	/>
+	<!-- Figure out how to images that don't conform to the aspect ratio -->
+	<!-- <img
+		class="cover-image"
+		src="{coverImage}"
+		alt=""
 		style="aspect-ratio: {coverWidth} / {coverHeight};"
 		width={coverWidth}
 		height={coverHeight}
-	/>
+	/> -->
 
 	<h1>{ title }</h1>
 	

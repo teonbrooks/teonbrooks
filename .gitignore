@@ -3,3 +3,7 @@ node_modules
 /build
 /.svelte-kit
 /package
+src/lib/_template/
+src/lib/archives/
+src/lib/posts/_drafts
+
