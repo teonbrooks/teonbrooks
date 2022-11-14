@@ -10,9 +10,8 @@ __Public Profile__
    * [Twitter](https://twitter.com/teonbrooks)
    * [GitHub](https://github.com/teonbrooks)
    * [LinkedIn](https://linkedin.com/in/teonbrooks)
-   * [BlackInNeuro](https://www.blackinneuro.com/profiles/teon-brooks)
 
-## [Projects](./projects.md)
+## [Projects](./projects)
 
 # Employment
 
