@@ -51,6 +51,14 @@
 
 	<svelte:component this={PostContent} />
 
+	<script src="https://utteranc.es/client.js"
+        repo="teonbrooks/teonbrooks"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+	</script>
+
 	{#if categories}
 		<aside class="post-footer">
 			<h2>Posted in:</h2>
