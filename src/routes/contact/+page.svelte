@@ -1,4 +1,5 @@
 <svelte:head>
+	<script defer data-domain="teonbrooks.com" src="https://plausible.io/js/script.js"></script>
 	<title>Contact</title>
 </svelte:head>
 

@@ -7,6 +7,7 @@ const items = portfolio.positions;
 </script>
 
 <svelte:head>
+	<script defer data-domain="teonbrooks.com" src="https://plausible.io/js/script.js"></script>
 	<title>Portfolio</title>
 </svelte:head>
 
