@@ -9,6 +9,7 @@
 
 <svelte:head>
 	<title>Blog</title>
+	<script defer data-domain="teonbrooks.com" src="https://plausible.io/js/script.js"></script>
 	<meta data-key="description" name="description" content={siteDescription}>
 </svelte:head>
 
