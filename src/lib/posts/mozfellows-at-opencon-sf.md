@@ -5,11 +5,11 @@ authors:
 - Teon L Brooks
 date: "2017-04-08"
 datetime: '2017-04-08T17:48:29.614Z'
-updated: "2017-04-08"
+migrated: "2022-12-12"
 keywords:
 categories:
 - "open-source"
-- "open science"
+- "open-science"
 coverImage: "/images/blog_images/mozfellows-at-opencon-sf/mozfellows.jpg"
 # coverWidth: 16
 # coverHeight: 9
@@ -51,4 +51,4 @@ It was so much fun getting to represent the Mozilla Science Lab all four fellows
 
 Thank you OpenCon San Francisco!
 
-~ The #mozfellows: [Teon](https://twitter.com/teon_io), [Danielle](https://twitter.com/daniellecrobins), [Kirstie](https://twitter.com/kirstie_j), [Bruno](https://twitter.com/bmpvieira)
+~ The #mozfellows: [Teon](https://twitter.com/teonbrooks), [Danielle](https://twitter.com/daniellecrobins), [Kirstie](https://twitter.com/kirstie_j), [Bruno](https://twitter.com/bmpvieira)

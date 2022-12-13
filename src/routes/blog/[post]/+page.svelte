@@ -1,10 +1,16 @@
 <!-- This file renders each individual blog post for reading. Be sure to update the svelte:head below -->
 <script>
+<<<<<<< HEAD
 	export let data;
 
 	const { title, excerpt, date, updated, coverImage, coverWidth, coverHeight, categories } =
 		data.meta;
 	const { PostContent } = data;
+=======
+export let data
+let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeight, categories } = data.meta
+
+>>>>>>> 40591a2 (finish migrated old blog posts)
 </script>
 
 <svelte:head>
@@ -42,15 +48,28 @@
 	<h1>{title}</h1>
 
 	<div class="meta">
+<<<<<<< HEAD
 		<b>Published:</b>
 		{date}
 		<br />
 		<b>Updated:</b>
 		{updated}
+=======
+		<b>Published:</b> {date}
+		{#if updated}
+			<br>
+			<b>Updated:</b> {updated}
+		{/if}
+		{#if migrated}
+			<br>
+			<b>Migrated:</b> {migrated}
+		{/if}
+>>>>>>> 40591a2 (finish migrated old blog posts)
 	</div>
 
 	<svelte:component this={PostContent} />
 
+	<!-- Add commenting -->
 	<script src="https://utteranc.es/client.js"
         repo="teonbrooks/teonbrooks"
         issue-term="pathname"
@@ -58,6 +77,8 @@
         crossorigin="anonymous"
         async>
 	</script>
+	<!-- Quick fix to embed tweets properly -->
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 	{#if categories}
 		<aside class="post-footer">

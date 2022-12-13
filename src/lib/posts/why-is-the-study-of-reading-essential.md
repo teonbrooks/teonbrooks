@@ -4,7 +4,7 @@ slug: why-is-the-study-of-reading-essential
 authors:
  - Teon L Brooks
 date: "2017-03-03"
-updated: "2017-03-03"
+migrated: "2022-12-12"
 keywords: cognitive science, reading
 categories:
  - "cognitive science"

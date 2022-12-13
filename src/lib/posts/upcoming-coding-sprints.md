@@ -3,7 +3,7 @@ title: "Upcoming Coding Sprints!"
 slug: upcoming-coding-sprints
 date: "2017-01-25"
 datetime: '2017-01-25T20:00:47.000Z'
-updated: "2017-01-25"
+migrated: "2022-12-12"
 keywords: []
 categories:
 - "open-source"
@@ -22,4 +22,4 @@ The second coding sprint to look out for is focused on [Supervised Neural Time S
 
 The aim of this coding sprint is to develop a clean API that seamlessly integrates different neurophysiological data (e.g. animal electrophysiology, EEG, ECoG, MEG) with [sckit-learn](http://scikit-learn.org). Several Python-based projects, [MNE](http://mne-tools.github.io), [s**py**kes](https://github.com/KordingLab/spykes), [pyRiemann](http://pythonhosted.org/pyriemann/), [py**GLM**net](http://glm-tools.github.io/pyglmnet/), will come together to exchange ideas and improve their packages.
 
-If you’re interested in contributing, participating, or donating, hit me up on Twitter: [@teon\_io](http://www.twitter.com/teon_io), or leave a comment below.
+If you’re interested in contributing, participating, or donating, hit me up on Twitter: [@teonbrooks](http://www.twitter.com/teonbrooks), or leave a comment below.

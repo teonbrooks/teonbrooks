@@ -2,11 +2,11 @@
 title: "Science March"
 slug: science-march
 date: "2017-02-20"
-updated: "2017-02-20"
+migrated: "2022-12-12"
 keywords: []
 categories:
  - "advocacy"
- - "science and society"
+ - "science-and-society"
  - "public-interest"
 coverImage: "/images/blog_images/science-march/science-march.png"
 coverWidth: 16

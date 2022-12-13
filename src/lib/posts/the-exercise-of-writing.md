@@ -3,7 +3,7 @@ title: "The exercise of writing"
 slug: the-exercise-of-writing
 date: "2018-09-21"
 datetime: '2018-09-21T12:25:45.614Z'
-updated: "2018-09-21"
+migrated: "2022-12-12"
 keywords:
 categories:
  - "writing"

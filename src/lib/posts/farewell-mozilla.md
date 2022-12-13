@@ -4,7 +4,6 @@ slug: farewell-mozilla
 authors:
     - Teon L Brooks
 date: "2022-03-14"
-updated: "2022-03-14"
 keywords: Mozilla, farewell
 categories:
  - "tech"

@@ -2,12 +2,12 @@
 title: "On organizing a national March for Science, a reflection 5 years later"
 slug: mfs-5yrs-later
 date: "2022-04-22"
-updated: "2022-04-22"
+migrated: "2022-12-12"
 keywords: science, advocacy, policy, reflections, earth day
 categories:
  - "advocacy"
  - "public-interest"
- - "science and society"
+ - "science-and-society"
 coverImage: "/images/blog_images/mfs-5yrs-later/mfs-5yrs-later.jpg"
 coverWidth: 16
 coverHeight: 9
