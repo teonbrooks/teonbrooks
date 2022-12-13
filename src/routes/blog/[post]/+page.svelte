@@ -1,8 +1,8 @@
 <!-- This file renders each individual blog post for reading. Be sure to update the svelte:head below -->
 <script>
 export let data
+let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeight, categories } = data.meta
 
-const { title, excerpt, date, updated, coverImage, coverWidth, coverHeight, categories } = data.meta
 </script>
 
 
@@ -43,12 +43,19 @@ const { title, excerpt, date, updated, coverImage, coverWidth, coverHeight, cate
 	
 	<div class="meta">
 		<b>Published:</b> {date}
-		<br>
-		<b>Updated:</b> {updated}
+		{#if updated}
+			<br>
+			<b>Updated:</b> {updated}
+		{/if}
+		{#if migrated}
+			<br>
+			<b>Migrated:</b> {migrated}
+		{/if}
 	</div>
 
 	{@html data.PostContent}
 
+	<!-- Add commenting -->
 	<script src="https://utteranc.es/client.js"
         repo="teonbrooks/teonbrooks"
         issue-term="pathname"
@@ -56,6 +63,8 @@ const { title, excerpt, date, updated, coverImage, coverWidth, coverHeight, cate
         crossorigin="anonymous"
         async>
 	</script>
+	<!-- Quick fix to embed tweets properly -->
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 	{#if categories}
 		<aside class="post-footer">
