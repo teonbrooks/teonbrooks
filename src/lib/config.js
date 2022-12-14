@@ -14,7 +14,7 @@ export const siteAuthor = '- find and change this text in src/lib/config.js'
 =======
 export const siteTitle = 'Teon L Brooks'
 export const siteDescription = 'Personal Website and Blog for Teon Brooks'
-export const siteURL = 'https://teonbrooks.com'
+export const siteURL = 'teonbrooks.com'
 export const siteLink = 'https://teonbrooks.com'
 export const siteAuthor = 'Teon L Brooks'
 export const siteImage = '/images/home.jpg'
