@@ -9,6 +9,7 @@
 =======
 export let data
 let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeight, categories } = data.meta
+import Article from "$lib/components/Article.svelte";
 
 >>>>>>> 40591a2 (finish migrated old blog posts)
 </script>
@@ -67,13 +68,26 @@ let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeig
 >>>>>>> 40591a2 (finish migrated old blog posts)
 	</div>
 
+<<<<<<< HEAD
 	<svelte:component this={PostContent} />
+=======
+	<Article content={data.PostContent} />
+>>>>>>> 991d97b (ADD svelte-blog.md plus some blog enhancements)
 
 	<!-- Add commenting -->
-	<script src="https://utteranc.es/client.js"
-        repo="teonbrooks/teonbrooks"
-        issue-term="pathname"
-        theme="github-light"
+	<script src="https://giscus.app/client.js"
+        data-repo="teonbrooks/teonbrooks"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkzNjc1NjkwOQ=="
+        data-category="Blog comments"
+        data-category-id="DIC_kwDOAjDdrc4CTFLR"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 	</script>
@@ -94,4 +108,8 @@ let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeig
 			</ul>
 		</aside>
 	{/if}
+<<<<<<< HEAD
 </article>
+=======
+</article> 
+>>>>>>> 991d97b (ADD svelte-blog.md plus some blog enhancements)
