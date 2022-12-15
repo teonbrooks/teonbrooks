@@ -50,7 +50,7 @@
     "@smui/layout-grid": "^6.1.0",
     "@smui/snackbar": "^6.1.4",
     "@sveltejs/adapter-static": "^1.0.0-next.42",
-    "@sveltejs/kit": "next",
+    "@sveltejs/kit": "^1.0.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.1",
@@ -64,7 +64,7 @@
     "svelte-material-ui": "^6.2.0",
     "svelte-preprocess": "^4.10.7",
     "typescript": "^4.7.4",
-    "vite": "^3.2.4"
+    "vite": "^4.0.1"
   }
 >>>>>>> 499a217 (website overhaul)
 }
