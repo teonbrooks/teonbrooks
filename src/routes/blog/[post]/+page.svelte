@@ -2,6 +2,7 @@
 <script>
 export let data
 let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeight, categories } = data.meta
+import Article from "$lib/components/Article.svelte";
 
 </script>
 
@@ -53,13 +54,22 @@ let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeig
 		{/if}
 	</div>
 
-	{@html data.PostContent}
+	<Article content={data.PostContent} />
 
 	<!-- Add commenting -->
-	<script src="https://utteranc.es/client.js"
-        repo="teonbrooks/teonbrooks"
-        issue-term="pathname"
-        theme="github-light"
+	<script src="https://giscus.app/client.js"
+        data-repo="teonbrooks/teonbrooks"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkzNjc1NjkwOQ=="
+        data-category="Blog comments"
+        data-category-id="DIC_kwDOAjDdrc4CTFLR"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 	</script>
