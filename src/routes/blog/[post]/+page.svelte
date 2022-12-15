@@ -10,6 +10,7 @@
 export let data
 let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeight, categories } = data.meta
 import Article from "$lib/components/Article.svelte";
+import Giscus from "@giscus/svelte";
 
 >>>>>>> 40591a2 (finish migrated old blog posts)
 </script>
@@ -75,22 +76,20 @@ import Article from "$lib/components/Article.svelte";
 >>>>>>> 991d97b (ADD svelte-blog.md plus some blog enhancements)
 
 	<!-- Add commenting -->
-	<script src="https://giscus.app/client.js"
-        data-repo="teonbrooks/teonbrooks"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkzNjc1NjkwOQ=="
-        data-category="Blog comments"
-        data-category-id="DIC_kwDOAjDdrc4CTFLR"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-	</script>
+    <Giscus
+      id="comments"
+      repo="teonbrooks/teonbrooks"
+      repoId="MDEwOlJlcG9zaXRvcnkzNjc1NjkwOQ=="
+      category="Blog comments"
+      categoryId="DIC_kwDOAjDdrc4CTFLR"
+      mapping="pathname"
+      term="Welcome to teonbrooks blog!"
+      reactionsEnabled="1"
+      emitMetadata="0"
+      inputPosition="bottom"
+      theme="preferred_color_scheme"
+      lang="en"
+    />
 	<!-- Quick fix to embed tweets properly -->
 	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
