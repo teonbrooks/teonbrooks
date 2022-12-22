@@ -73,7 +73,7 @@ All of this has been in preparation for a challenge I made to myself, one that I
 
 The plan is to publish at least one blog post a week, typically on Wednesdays. It can be on anything, it'll likely be on some personal projects I've been trying to get out the door forever. This blog migration is one of those so at least I can check that one off the list ✅
 
-Back in October, I was laid off from a startup I recently joined and found myself in a position I've never been in: I currently have no external responsibilities (no debt, no kids, no one who depends on me), I have lots free time because of the whole no job situation, I do have some savings, and I have tons of ideas. 
+Back in October, I was laid off from a startup I recently joined and found myself in a position I've never been in: I currently have no external responsibilities (no debt, no kids, no one who depends on me), I have lots free time because of the whole no job situation, I do have some savings, and I have tons of ideas.
 
 It's daunting, I've been going full-steam ahead for the last 17 years: 4 years as an undergrad, 2 years working as a research lab manager, 5 years doing a PhD, a year as a postdoc, 4.5 years at Mozilla, 5 months at the startup, all without a real break in between. I want to take advantage of this opportunity. I've wavered back and forth on how long I will give myself to do this. Maybe 6 months? maybe a year? I'm also taking this as a chance to figure out ~~exactly~~ what I want to do next.
 

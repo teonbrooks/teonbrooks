@@ -4,6 +4,7 @@ export let data
 let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeight, categories } = data.meta
 import Article from "$lib/components/Article.svelte";
 import Giscus from "@giscus/svelte";
+import { siteImage } from "$lib/config";
 
 </script>
 
@@ -17,10 +18,10 @@ import Giscus from "@giscus/svelte";
 	<meta name="twitter:title" content={title} />
 	<meta property="og:description" content={excerpt} />
 	<meta name="twitter:description" content={excerpt} />
-	<meta property="og:image" content="https://teonbrooks.com/images/home.jpg" />
+	<meta property="og:image" content={siteImage} />
 	<meta property="og:image:width" content={coverWidth} />
 	<meta property="og:image:height" content={coverHeight} />
-	<meta name="twitter:image" content="https://teonbrooks.com/images/home.jpg" />
+	<meta name="twitter:image" content={siteImage} />
 </svelte:head>
 
 
@@ -58,6 +59,7 @@ import Giscus from "@giscus/svelte";
 	<Article content={data.PostContent} />
 
 	<!-- Add commenting -->
+	<h2>Comments</h2>
     <Giscus
       id="comments"
       repo="teonbrooks/teonbrooks"

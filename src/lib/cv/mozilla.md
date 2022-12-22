@@ -8,7 +8,7 @@ Previously, I have worked with one of our product development teams, [Test Pilot
 At Mozilla, he focuses on understanding how users search and navigate the web. He also teaches data visualization and analysis techniques to inform product decisions. He also serves as a data steward to help safeguard user privacy and control over their data.
 
 <a href="https://mozilla.org">
-  <p align="center"><img src=./assets/images/firefox.jpg alt="Mozilla Firefox" width=400></p>
+  <p align="center"><img src=/images/firefox.jpg alt="Mozilla Firefox" width=400></p>
 </a><br><br>
 
 Below is a collection of projects, talks, and events I have been involved since my start at Mozilla.
