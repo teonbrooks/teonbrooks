@@ -6,7 +6,7 @@ During my 2016-2017 Mozilla Fellowship for Science, I was a national co-organize
 During my postdoc at Stanford, I was a core-contributor to __(1)__ the [Brain Imaging Data Structure](https://bids.neuroimaging.io/) project for the inclusion of MEG into the specification ([our paper](https://www.nature.com/articles/sdata2018110)), and to __(2)__ the [MNE-BIDS](https://github.com/mne-tools/mne-bids) project to provide a software implementation ([our paper](https://joss.theoj.org/papers/10.21105/joss.01896)).
 
 <a href="https://mozilla.org">
-  <p align="center"><img src=./assets/images/msl.png alt="Mozilla Science Lab" width=400></p>
+  <p align="center"><img src=/images/msl.png alt="Mozilla Science Lab" width=400></p>
 </a><br><br>
 
 __Travel Map__
@@ -47,7 +47,7 @@ Date | Event | Location | Role | Title/Descriptor | Blog (optional)
 2017 May 08    | [LGBTQ Tech Summit](https://lesbianswhotech.org/attendee-event/2017-dc-summit/) | Washington, DC | Invited Participant | A summit for queer technologists to discuss and derive ways to address specific problems facing Americans | [Attendee Feature](https://lesbianswhotech.org/attendees/teon-brooks/)
 2017 May 02-04 | [csv,conf,v3](https://csvconf.com/) | Portland, OR | Attendee |
 2017 May 01    | [Open Source Alliance for Open Science](https://www.eventbrite.com/e/open-source-alliance-for-open-science-forum-tickets-32172984262) | Portland, OR | Attendee | A summit for collaboration and open discussion between open source and open science projects
-2017 Apr 22    | [March for Science](https://www.marchforscience.com/) | Washington, DC | National Co-organizer | A march, rally, and teach-in in support of Science | [Open and Inclusive Science](https://science.mozilla.org/blog/sciencemarch)
+2017 Apr 22    | [March for Science](https://www.marchforscience.com/) | Washington, DC | National Co-organizer | A march, rally, and teach-in in support of Science | [Open and Inclusive Science](https://blog.mozilla.org/foundation-archive/mozilla-science/sciencemarch)
 2017 Apr 14-15 | Mini-WOW | Portland, OR | Co-organizer | [Working Open Workshop](https://daniellecrobinson.github.io/mini-wow-pdx/): a two-day event on the practice of working openly
 2017 Mar 27-31 | [Supervised Neural Time Series](https://kingjr.github.io/supervised_time_series/) | New York, NY | Co-organizer | A week-long coding sprint to improve supervised learning functionality across open-source packages
 2017 Mar 22-25 | [Gathering of Open Science Hardware](http://openhardware.science/) | Santiago, Chile | Invitee/Presenter | A week-long gathering to discuss development and curation of open-source hardware for scientific research
@@ -62,7 +62,7 @@ Date | Event | Location | Role | Title/Descriptor | Blog (optional)
 2016 Oct 28-30 | [Mozilla Festival](https://youtu.be/_NH63TeOE9c) | London, UK | Attendee/Lightning Talker | Annual Festivities
 2016 Oct 13    | [Dissertation Defense](https://twitter.com/hashtag/teondefends) | New York, NY | Speaker | Minding the Gap between Eyetracking and Neurophysiology in Reading
 2016 Oct 02    | [World Maker Faire](http://makerfaire.com/maker/entry/58916/) | New York, NY  | Panelist | Accessible Future of Neuroscience
-2016 Sep 12-15 | [Mozilla Fellows Onboarding](https://science.mozilla.org/blog/2016-fellows-onboarding-recap) | Toronto, ON  | Attendee | Getting to know fellow fellows ;)
+2016 Sep 12-15 | [Mozilla Fellows Onboarding](https://blog.mozilla.org/foundation-archive/mozilla-science/2016-fellows-onboarding-recap) | Toronto, ON  | Attendee | Getting to know fellow fellows ;)
 
 ## Trainings
 
@@ -77,9 +77,10 @@ Date | Event | Location | Additional Media
 
 ## Blogs
 
-### [Mozilla Science Lab](https://science.mozilla.org/blog)
-- [Introducing the 2016 Mozilla Science Fellows: Teon Brooks](https://science.mozilla.org/blog/intro-to-teon)
-- [Open and Inclusive Science at #ScienceMarch](https://science.mozilla.org/blog/sciencemarch)
+### [Mozilla Science Lab](https://blog.mozilla.org/foundation-archive/mozilla-science/)
+
+- [Introducing the 2016 Mozilla Science Fellows: Teon Brooks](https://blog.mozilla.org/foundation-archive/mozilla-science/intro-to-teon)
+- [Open and Inclusive Science at #ScienceMarch](https://blog.mozilla.org/foundation-archive/mozilla-science/sciencemarch)
 - [A Brief Share on my Mozilla Science Fellowship](https://medium.com/@teon_io/a-brief-share-on-my-mozilla-science-fellowship-9f27eae3374e)
 
 
