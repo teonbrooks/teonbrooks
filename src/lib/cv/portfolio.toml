@@ -2,8 +2,8 @@
 name = "Teon L Brooks, Ph.D"
 descriptors = ["technologist", "data scientist", "cognitive scientist"]
 title = "Director"
-organization = "Computation in Education Labs"
-website = "https://cielabs.org"
+organization = "Gotham Data Clinic"
+website = "https://gothamdataclinic.org"
 
 [[positions]]
 icon = "brainwaves.png"
@@ -28,12 +28,12 @@ category = "Fellowships"
 
 [[positions]]
 icon = "ciel.png"
-organization = "Computation in Education Labs"
+organization = "Gotham Data Clinic"
 title = "Executive Director"
 timespan = "2019-Present"
 description = """
 """
-website = "https://cielabs.org"
+website = "https://gothamdataclinic.org"
 category = "Current Orgs"
 
 [[positions]]
