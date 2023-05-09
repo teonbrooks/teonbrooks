@@ -5,12 +5,14 @@
 ## Public Profile
 
 * [Website](https://teonbrooks.com)
+* [BlueSky](https://staging.bsky.app/profile/teon.bsky.social)
+* [Mastodon](https://data-folks.masto.host/@teon)
+* [Micro.blog](https://micro.blog/teon)
 * [GitHub](https://github.com/teonbrooks)
 * [LinkedIn](https://linkedin.com/in/teonbrooks)
-* [Mastodon](https://data-folks.masto.host/@teon)
-* [Twitter](https://twitter.com/teonbrooks)
 * [ORCID](https://orcid.org/0000-0001-7344-3230)
 * [Google Scholar](https://scholar.google.com/citations?user=d8XsbuYAAAAJ)
+~~* [Twitter](https://twitter.com/teonbrooks)~~
 
 <!-- ## [Projects](./lib/cv/projects.md) -->
 
