@@ -1,23 +1,25 @@
 {
-  "subject": "acct:teon@data-folks.masto.host",
+  "subject": "acct:teon@hachyderm.io",
   "aliases": [
     "https://data-folks.masto.host/@teon",
-    "https://data-folks.masto.host/users/teon"
+    "https://data-folks.masto.host/users/teon",
+    "https://hachyderm.io/@teon",
+    "https://hachyderm.io/users/teon"
   ],
   "links": [
     {
       "rel": "http://webfinger.net/rel/profile-page",
       "type": "text/html",
-      "href": "https://data-folks.masto.host/@teon"
+      "href": "https://hachyderm.io/@teon"
     },
     {
       "rel": "self",
       "type": "application/activity+json",
-      "href": "https://data-folks.masto.host/users/teon"
+      "href": "https://hachyderm.io/users/teon"
     },
     {
       "rel": "http://ostatus.org/schema/1.0/subscribe",
-      "template": "https://data-folks.masto.host/authorize_interaction?uri={uri}"
+      "template": "https://hachyderm.io/authorize_interaction?uri={uri}"
     }
   ]
 }
