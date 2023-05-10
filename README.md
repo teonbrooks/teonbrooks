@@ -12,7 +12,7 @@
 * [LinkedIn](https://linkedin.com/in/teonbrooks)
 * [ORCID](https://orcid.org/0000-0001-7344-3230)
 * [Google Scholar](https://scholar.google.com/citations?user=d8XsbuYAAAAJ)
-~~* [Twitter](https://twitter.com/teonbrooks)~~
+* ~~ [Twitter](https://twitter.com/teonbrooks)~~
 
 <!-- ## [Projects](./lib/cv/projects.md) -->
 
