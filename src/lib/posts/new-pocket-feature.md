@@ -3,7 +3,7 @@ title: "New Pocket Feature"
 slug: new-pocket-feature
 authors:
 - Teon L Brooks
-date: "2023-05-18"
+date: "2023-05-17"
 categories:
 - tech
 coverImage: "/images/blog_images/new-pocket-feature/pocket.png"
