@@ -52,7 +52,7 @@ Today, I began setting up things to support me during RC, and simultaneously I'm
   - Figured out it was related to the fact that we were mutating the board while we were doing the neighbor check.
   - Got the program to work
 
-## Outside Recurse
+### Outside Recurse
 
 - Dinner with Joe N. at Pianoterra
   - Stumbled upon this restaurant and fortunately, they had a table even after the server told us no immediately when we arrived, he then checked and welcomed us to join.
@@ -87,8 +87,9 @@ Today, I began setting up things to support me during RC, and simultaneously I'm
 
 ## recurse-s1-w1-d4: 2023-05-17
 
+- Recurse Run 02:  complete
 
-## recurse-s1-w1-d3: 2023-05-16
+## recurse-s1-w1-d5: 2023-05-18
 
 
 ## recurse-s1-w2-d1: 2023-05-22
@@ -97,3 +98,14 @@ Today, I began setting up things to support me during RC, and simultaneously I'm
   - Set out plans to work on PyTorch this week
   - Focus on basic image segmentation with built-in tools
   - Also need to check out Keras
+
+## recurse-s1-w2-d2: 2023-05-23
+- Had lunch with Alex
+  - Discussed project idea
+  - He made the suggestion of cross-referencing my Google Maps data with it (stretch goal!)
+  - Will try to also incorporate my FourSquare check-in data
+- Tweaked my website
+- Began reading through some documentation on Keras
+
+## recurse-s1-w2-d3: 2023-05-24
+- Writing my weekly newsletter

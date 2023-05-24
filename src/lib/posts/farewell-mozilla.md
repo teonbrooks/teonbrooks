@@ -44,4 +44,4 @@ P.S. I made a [sticker book](https://photos.app.goo.gl/x4jBd4pp3LWWeoNK6) from m
 - Web: https://teonbrooks.com
 - LinkedIn: https://linkedin.com/in/teonbrooks
 - Twitter: [@teonbrooks](https://twitter.com/teonbrooks)
-- Email: <teon.brooks@gmail.com>
+- Email: `teon.brooks @ gmail.com`

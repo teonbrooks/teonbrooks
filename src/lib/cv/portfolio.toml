@@ -1,9 +1,12 @@
 [id]
 name = "Teon L Brooks, Ph.D"
-descriptors = ["technologist", "data scientist", "cognitive scientist"]
-title = "Director"
-organization = "Gotham Data Clinic"
-website = "https://gothamdataclinic.org"
+descriptors = ["technologist", "scientist"]
+title = "Recurser"
+organization = "The Recurse Center"
+website = "https://recurse.com"
+# title = "Director"
+# organization = "Gotham Data Clinic"
+# website = "https://gothamdataclinic.org"
 
 [[positions]]
 icon = "brainwaves.png"
