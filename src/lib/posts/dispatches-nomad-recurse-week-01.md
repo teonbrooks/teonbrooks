@@ -116,13 +116,13 @@ I decided to incorporate sightseeing and running with my run program while here.
 
 <!-- 01: Parc Buttes-Chaumont -->
 
-- <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9080932258"></div><script src="https://strava-embeds.com/embed.js"></script>
+- <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9080932258"></div>
 
 <!-- 02: Jardin des Plantes -->
-- <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9093762320"></div><script src="https://strava-embeds.com/embed.js"></script>
+- <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9093762320"></div>
 
 <!-- 03: Eiffel Tower -->
-- <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9106918717"></div><script src="https://strava-embeds.com/embed.js"></script>
+- <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9106918717"></div>
 
 ### Nomadic Adventures
 

@@ -75,7 +75,10 @@ import { siteImage } from "$lib/config";
       lang="en"
     />
 	<!-- Quick fix to embed tweets properly -->
+	<!-- This should be conditional on the blog post -->
 	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<script src="https://strava-embeds.com/embed.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 
 	{#if categories}
 		<aside class="post-footer">
