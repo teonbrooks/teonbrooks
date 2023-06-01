@@ -14,6 +14,8 @@ coverImage: "/images/blog_images/dispatches-nomad/recurse-week-01.jpg"
 excerpt: 
     "Recurse Center Week 01: Organized calamity of the highest regard."
 lang: en-US
+social:
+  - strava
 ---
 
 ## Intro
@@ -62,7 +64,7 @@ Same goes with social media apps including the gay ones as well. I will try to r
 3. Improving my health. I have coped with comfort foods. Pizza and burgers have been my go-to's. Also carbs. I have cut back on those and just generally trying to eat better. Food is also a contributor to both mental and physical well-being so I'm just trying to do a bit better there. Caveat, I'm in Paris so if you see me with a croissant, cut me a little slack 😅
 I'm also trying to consistently exercise more. I have committed to a running plan, 3x a week: Tuesdays, Thursdays, Saturdays; and I will explore incorporating crossfit back into my life. Also, back in March, I started a morning and evening routine of pushups to start and end my day. The goal is consistency, not perfection.
 
-4. Meditation. In addition to address the mental/emotional and physical well-being, I am also seeking some balance spiritually. I'm not particularly religious and my last nominal affilitation was Unitarian Universalist, but over the past year, I've been learning more about Buddhism and generally I try to be a force for good in the world. I've been trying to incorporate meditation into my daily routine.
+4. Meditation. In addition to address the mental/emotional and physical well-being, I am also seeking some balance spiritually. I'm not particularly religious and my last nominal affiliation was Unitarian Universalist, but over the past year, I've been learning more about Buddhism and generally I try to be a force for good in the world. I've been trying to incorporate meditation into my daily routine.
 
 ## The First Week
 
@@ -82,7 +84,7 @@ So Recurse Week 1 has been a realization of oh, I **really** need to get back on
 
 ### Organized calamity
 
-Back at Recurse, the walls of Zulip, the message board we use during the program, are plastered with introductions, invitations, study group meetups, and everything Recurse. It's a beautiful cacophancy of organized calamity. There are so many things to choose from, to learn, to be inspired by. Simultaneously as a person who has FOMO about nearly everything, it was a bit overwhelming.
+Back at Recurse, the walls of Zulip, the message board we use during the program, are plastered with introductions, invitations, study group meetups, and everything Recurse. It's a beautiful cacophony of organized calamity. There are so many things to choose from, to learn, to be inspired by. Simultaneously as a person who has FOMO about nearly everything, it was a bit overwhelming.
 
 The first day was Orientation Day and we had breakout sessions and some icebreakers to address some of these feelings of angst, which was appropriately called **Nervous and Excited**. We shared with each other what we were nervous about and what we were excited about. It was good to feel that I wasn't alone in these feelings and that I surrounded by other in a separate boat.
 
