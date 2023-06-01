@@ -8,8 +8,9 @@
 	const { PostContent } = data;
 =======
 export let data
-let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeight, categories } = data.meta
+let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeight, categories, social } = data.meta
 import Article from "$lib/components/Article.svelte";
+import MailchimpSignUp from "$lib/components/MailchimpSignUp.svelte";
 import Giscus from "@giscus/svelte";
 import { siteImage } from "$lib/config";
 
@@ -76,6 +77,10 @@ import { siteImage } from "$lib/config";
 	<Article content={data.PostContent} />
 >>>>>>> 991d97b (ADD svelte-blog.md plus some blog enhancements)
 
+	<!-- Add Signup Form -->
+	<h2>Signup</h2>
+	<MailchimpSignUp />
+	
 	<!-- Add commenting -->
 	<h2>Comments</h2>
     <Giscus
@@ -94,9 +99,17 @@ import { siteImage } from "$lib/config";
     />
 	<!-- Quick fix to embed tweets properly -->
 	<!-- This should be conditional on the blog post -->
-	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-	<script src="https://strava-embeds.com/embed.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+	{#if social}
+		{#if social.includes('twitter')}
+			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		{/if}
+		{#if social.includes('strava')}
+			<script src="https://strava-embeds.com/embed.js"></script>
+		{/if}
+		{#if social.includes('googlePhotos')}
+			<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+		{/if}
+	{/if}
 
 	{#if categories}
 		<aside class="post-footer">
