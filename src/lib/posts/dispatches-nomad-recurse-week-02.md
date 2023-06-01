@@ -31,7 +31,13 @@ Oh yeah, I was interviewed for a podcast before I set out on my adventure. If yo
 
 ## Nomadic Adventures
 
-This week, I've featuring a work-in-progress photo album I'm making for my 10-day excursion all around Switzerland that happened at the end of this past April. Feel free to follow me on PolarSteps if you would like to get the updated version once I've completed it.
+This week, I've featuring a work-in-progress photo album I'm making for my 10-day excursion all around Switzerland that happened at the end of this past April. I'm trying out this app called [Polarsteps](https://www.polarsteps.com/) and both [here](https://www.peecho.com/blog/polarsteps-success-story-interview?utm_source=pocket_saves) and below, I list the interview with its CEO as one of my favorite reads of the week; when I was on the fishing boat down in Puerto Escondido going dolphin watching back in March, I met a few Dutch travelers who raved all about this app. I decided to check it out and I kinda like it :)
+
+You do have to allow it to track you in the background so that it can automatically detects the different "steps" in your journey so that's something to keep in mind but so far, I love the product.
+
+Up until now, I've been trying to use Google Photos in a makeshift kinda way to build an experience similar to this app's intent, but it lacks the same polish that this app offers. It's pretty rigid around the concept on `Steps` and only allow you to put text per step. I intend to print some photobooks from my journeys and I think this would be a great tool to do so (and it's also their main business model). It'll allow me to both weave in journaling, the map data, and my photos.
+
+Feel free to follow me on PolarSteps if you would like to get the updated version once I've completed it.
 
 <iframe width="640" height="480" src="https://www.polarsteps.com/teon/7181855-nomadic-adventures-switzerland/embed"></iframe>
 
@@ -129,3 +135,15 @@ I decided to incorporate sightseeing and running with my run program while here.
 
 <!-- 06: Bois des Vincennes -->
 - <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9151850295"></div>
+
+## Nomadic Weekly Roundup
+
+### Favorite Reads of the Week
+
+- <https://www.peecho.com/blog/polarsteps-success-story-interview?utm_source=pocket_saves>
+- <https://www.brookings.edu/research/a-new-great-migration-is-bringing-black-americans-back-to-the-south/?utm_source=pocket_reader>
+
+### Favorite Podcasts of the Week
+
+- <https://rss.com/podcasts/educatedbutconfused/931710/>
+- <https://revisionpath.com/brandon-campbell-kearns/?utm_source=pocket_reader>
