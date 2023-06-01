@@ -26,7 +26,7 @@ import { siteImage } from "$lib/config";
 	<meta name="twitter:title" content={title} />
 	<meta property="og:description" content={excerpt} />
 	<meta name="twitter:description" content={excerpt} />
-	<meta property="og:image" content={siteImage} />
+	<meta property="og:image" content={coverImage} />
 	<meta property="og:image:width" content={coverWidth} />
 	<meta property="og:image:height" content={coverHeight} />
 	<meta name="twitter:image" content={siteImage} />
