@@ -33,6 +33,8 @@ import portfolio from "$lib/cv/portfolio.json";
 	<meta name="twitter:site" content="@teonbrooks">
 	<meta name="twitter:image" content={siteImage}>
 	<meta name="twitter:card" content="summary_large_image">
+	<!-- RSS -->
+	<link href="/api/rss.xml" type="application/atom+xml" rel="alternate" title="Teon's Blog Feed">
 	<!-- Add Plausible Analytics -->
 	<script defer data-domain="teonbrooks.com" src="https://plausible.io/js/script.js"></script>
 </svelte:head>
