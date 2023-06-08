@@ -93,6 +93,7 @@ Today, I began setting up things to support me during RC, and simultaneously I'm
 
 
 ## recurse-s1-w2-d1: 2023-05-22
+
 - Did morning meditation
 - Attended a Weekly Intentions meeting
   - Set out plans to work on PyTorch this week
@@ -100,6 +101,7 @@ Today, I began setting up things to support me during RC, and simultaneously I'm
   - Also need to check out Keras
 
 ## recurse-s1-w2-d2: 2023-05-23
+
 - Had lunch with Alex
   - Discussed project idea
   - He made the suggestion of cross-referencing my Google Maps data with it (stretch goal!)
@@ -108,4 +110,111 @@ Today, I began setting up things to support me during RC, and simultaneously I'm
 - Began reading through some documentation on Keras
 
 ## recurse-s1-w2-d3: 2023-05-24
-- Writing my weekly newsletter
+
+- Wrote my weekly newsletter. Took much longer than I expected.
+- Fixed a few things with my website
+
+## recurse-s1-w2-d3: 2023-05-24
+
+- Joined meditation
+- Wrote a new blog post about RSS-to-Email
+- Joined a second week meet-and-greet
+  - Discussed a mini-project idea: Road(ent) Kill
+    - Will announce that I will be working on it
+    - Got some interest from the group that they would like to join the pairing session
+  - Met and greeted four Recursers
+    - Katyrn, S
+- Attended a Personal Website Working Session
+- Brushing off the dust of an old project idea I had called `half_baked_data`. It's a jupyterlite instance that host a bunch of data project idea I have where I just test them out in Python. Maybe it will be further developed later, maybe it's just this notebook.
+
+## recurse-s1-w2-d4: 2023-05-25
+
+
+## recurse-s1-w2-d5: 2023-05-26
+
+## recurse-s1-w2-d6: 2023-05-27
+
+- Left the club around 7am
+- Stayed awake to meet with Austin who arrived around 8am. He needed to crash til he could check into his Airbnb
+  - Went to the bakery and got some pastries
+- Took a nap/slept for about four-ish hours
+- Went for a run, my long run of the week. 10 miles
+- Met up with Allan and his friends for a picnic on the Seine
+- Came back home and went to sleep
+
+## recurse-s1-w2-d7: 2023-05-28
+
+## recurse-s1-w3-d1: 2023-05-29
+
+- Holiday
+- Went hiking with Nico
+  - Foret de Fontainebleau
+  - Hiked 10 miles
+- Came back, got dinner at Sale Le Bec Salé
+  - Skirt steak, salad, and home fries, was ok
+
+## recurse-s1-w3-d2: 2023-05-30
+
+- Met up with Austin and friends for a day in Reims
+- Came back to do a run
+  - Sacre Coeur
+- Setting up new project `project-vie`
+  - Create venv
+  - Installing Keras
+  - Installing Tensorflow
+
+## recurse-s1-w3-d3: 2023-05-31
+
+- Bought my first fountain pen
+  - [Lamy Light Rose Special Edition](https://appelboom.com/lamy-safari-light-rose-2023-special-edition-fountain-pen/)
+- Met Zach from my cohort
+  - Both geeked out over pens and pencils
+  - He recommended [Creative Art Materials Caran D'ache Ballpoint Pen Metal Fluor Orange](https://a.co/d/dlL4hkk)
+  - Both are interested in ML
+    - Will follow up when I start working on the ML part of the project
+  - He's currently using CS fundamental and working his way through learning C
+
+## recurse-s1-w3-d4: 2023-06-01
+
+impossible day
+
+build an app: Tinder for Gender
+Looked at Svelte Native options but didn't really see anything fruitful there
+Started to consider just doing a webapp then came across this YouTube tutorial for a Tinder-style app in Flutter
+
+- I don't know Flutter
+- I guess it's time to learn Flutter for today lol
+
+<https://www.reddit.com/r/FlutterDev/comments/sj990s/tinder_style_card_swipe_flutter_tutorial/>
+
+
+## recurse-s1-w3-d5
+
+- Managed to get the data plotted on the Rat project.
+- Will figure out the best way to pull the photos in
+  - Might re-create the Google Photos album and expose the files for the download
+  - Maybe it is time to figure out how to store things on a server so that people can download it
+- Hung out with Austin who is crashing with me for a couple of days
+- Went to a really cool Atelier where the owner specializes in book-binding and art
+  - Considering going there to have my Moleskin converted in to a hardcover book
+
+## recurse-s1-w4-d1
+
+- Renamed project from `project-vie` to `projet-vie`, full French
+- Wrote some readme files for tix module of `projet-vie`
+- Began writing out the functions to abstract and wrap the libraries I'll be using for the project
+  - Working on the Python part of the project
+  - More familiar territory. Plan to get the things to work on the backend and get momentum moving on this project
+- I realized that it has taken me three week to really start coding again
+
+- Watched the Apple WWDC event - visionOS 👀🥽
+- Went to the French Open today
+
+## recurse-s1-w4-d2
+
+- Worked on the segmentation function and downloaded the SegmentAnything model. It's huge!
+- Went for my run. Ended up banking 10k
+
+## recurse-s1-w4-d3
+
+- worked on my blog piece
