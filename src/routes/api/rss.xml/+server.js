@@ -42,7 +42,9 @@ ${posts
 		(post) => `<item>
 <guid isPermaLink="true">https://${siteURL}/blog/${post.slug}</guid>
 <title>${post.title}</title>
-<image>https://${siteURL}${post.coverImage}</image>
+<image>
+	<url>https://${siteURL}${post.coverImage}</url>
+</image>
 <link>https://${siteURL}/blog/${post.slug}</link>
 <description>${post.excerpt}</description>
 <pubDate>${new Date(post.date).toUTCString()}</pubDate>
