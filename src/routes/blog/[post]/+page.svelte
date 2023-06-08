@@ -1,7 +1,7 @@
 <!-- This file renders each individual blog post for reading. Be sure to update the svelte:head below -->
 <script>
 export let data
-let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeight, categories, social } = data.meta
+let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeight, categories, social, authors } = data.meta
 import Article from "$lib/components/Article.svelte";
 import MailchimpSignUp from "$lib/components/MailchimpSignUp.svelte";
 import Giscus from "@giscus/svelte";
@@ -14,6 +14,8 @@ import { siteImage } from "$lib/config";
 	<!-- Be sure to add your image files and un-comment the lines below -->
 	<title>{title}</title>
 	<meta data-key="description" name="description" content="{excerpt}">
+	<meta property="og:author" content={authors} />
+	<meta property="og:publish_time" content={date} />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={title} />
 	<meta name="twitter:title" content={title} />
