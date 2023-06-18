@@ -162,7 +162,7 @@ Afterwards, I did some additional reading about SAM and I discovered that the mo
 
 ## Things of Note
 
-- I went to a French Open match at Roland-Garros on Monday! I spent the afternoon refreshing the page constantly to get a ticket and managed!
+- I went to a third round match of the French Open at Roland-Garros on Monday! I spent the afternoon refreshing the page constantly to get a ticket and managed!
 
 <img src="https://lh3.googleusercontent.com/pw/AJFCJaUqrA1LJlamK-VWz-L-WuiXkFb1WB--bVwfl_eb6ufxO_hFtMnMngmgx4GnOM6x1YwRnaf2uRVB3IsjRl7IJKBVziLd9K12Wc56CJqSPcolEcMGQ_NRQLl3Q0dD6PeqH-t-GM2zW1t7m_cjYfuNA2IDvw=w1750-h1312-s-no?authuser=0" width="300px">
 
@@ -176,11 +176,13 @@ Afterwards, I did some additional reading about SAM and I discovered that the mo
 
 <img src="https://lh3.googleusercontent.com/pw/AJFCJaW9Z04V5ZJZEVVJ0V1Jq7LKy6jSpsCQBQxSTgg5ZdQ2dv3TNxfaS3-bGUJOtU9TxHUyK7xNheMNW0U1T2XIMsPC1xnWL8osRj2CjTTmF0jZHo_jCWd429n4gZmHjq_Ylhs9nfwW5wM1gsR5mc7DHG8U6ku4FaTXKD5i8iIMQu3xZUF9_daSRJIeB9OMRc1Ag1y1taFANitAr6CivxIaVlVCwRv0pEwSpU7VBUnhSJUKJg9xsNcCdd_PT4WPK53a0uoVuPhjfDKTL-4fIQ9LlnY5UBpw8IxvucYfNf1fyUSiAGh0SGD-nwEXovWUVqawJyTB7wQwujWJDkWopC8ImSny5G7R_8M87ri9uHUk8VM8EEm1iO0Q5FtRwT_N03fe0kr7qD5QnPheFCWhGfaoHccVBLioGH4B2OCiKx1bcpcBku7DOWG9cmjM_s8EDbV-Cg3Hy2ti9HYkzHnLq6o0EIGD5-887N4RFh5nJzD0_YD99Qjb3MV5O24RYydgKgyOwC7wfuiQuzUStYzpP1hKiFdbxyb7fsDbWatSoxjf3iAiXTlbfe7r6KmvSUpkDf_cbqebGpO7EoFuNKeSMD9rkADTjVeDv6rCW6rX6_VyjObRYfg-SCaWwLsSyOwHlNqzssLkCMkWq2f86K_a2_gDLsIMpb_eUb7wVY-aNh0Ygt4f0arX9wMp5GvoyOH4OabtuGNBxlMRYKPVjKFKFHGdqnIuTYfkuhPWEVcRGFQO7_6-ISBeaOemsWaZcUVPQ28CYBy2_pqgyhoixQzW7abjwkpbOWA9g8A_4tr7yleE2pDJfjwUOcxoWHd2qwVWUrwWS_4vxXSG9WmnFBuE1Y_VqL20nxXJif0DUx4KkoBd6G46a-2GP0KIm7w3i7i2K-BVF6zihfzdVIbiK8HyMWCgivg4p_5T8MahAIa1jv4cR3X5O3mufw7TpIkdGjezv_jmpK_XOYLKDBOiMZVYT2t5qXKNWi7JmEtHOgmGE2PCHq2L3QlWxvWi6NjrHgT_k4wg1LY=w1024-h768-s-no?authuser=0" width=300px style="vertical-align:middle">
 
-- I went to my first Boiler Room party. It was in collaboration with La Creole. Was pretty dope.
+(More on these next week, too much content for this week lol)
+
+- I went to my first Boiler Room party. It was in collaboration with [La Creole](https://www.instagram.com/lacreole_/). Was pretty dope.
 
 - I traveled down to the south of France to spend the weekend in Marseille.
 
-  - I went to the Beyoncé concert! (More next week, too much content for this week lol)
+- I went to the Beyoncé concert!
 
 ## Nomadic Recurse Runs of the Week
 
