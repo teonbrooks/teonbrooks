@@ -18,6 +18,8 @@ social:
   - strava
 ---
 
+*The week of May 15, 2023*
+
 ## Nomadic Adventures
 
 Every week, I'll be sharing a travel blog piece related to this year of travel. For me, time is not linear 🙃 so you'll see these trips as they come to me.

@@ -18,6 +18,8 @@ social:
 - strava
 ---
 
+*The week of May 29, 2023*
+
 ## Recap
 
 Welcome to Week 3 edition of Dispatches from a Nomad 🎒
@@ -62,7 +64,6 @@ While on the tour, I learned that Madame Pommery was the one responsible for the
     <img src="https://lh3.googleusercontent.com/pw/AJFCJaWWOt5wXhZdukhN9i4JL_awTnGpPZ1m_I7_gF1r9ZhmKwWzYU5sQbB35oJR-e-wsnHAZIl9DiU1JhUZ7aVJLPtWhcI-aGze9AFI3KBcqqFQPgQpff99YwN5mxl90NW0HvtPwc76ZyqbXUWJn80Ki2iE3w=w1322-h1756-s-no?authuser=0">
     <figcaption>🍾 Champagning in Reims!</figcaption>
 </a>
-
 
 After the tour, I went for my run for the day, and afterwards, I was too wiped to work.
 
