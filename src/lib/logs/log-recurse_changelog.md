@@ -200,6 +200,7 @@ Started to consider just doing a webapp then came across this YouTube tutorial f
 
 ## recurse-s1-w4-d1
 
+- Meditation
 - Renamed project from `project-vie` to `projet-vie`, full French
 - Wrote some readme files for tix module of `projet-vie`
 - Began writing out the functions to abstract and wrap the libraries I'll be using for the project
@@ -212,9 +213,72 @@ Started to consider just doing a webapp then came across this YouTube tutorial f
 
 ## recurse-s1-w4-d2
 
+- Meditation
 - Worked on the segmentation function and downloaded the SegmentAnything model. It's huge!
 - Went for my run. Ended up banking 10k
 
 ## recurse-s1-w4-d3
 
 - worked on my blog piece
+
+## recurse-s1-w4-d4
+
+- 
+## recurse-s1-w4-d5
+
+- Meditation
+- Paired with Alan and went through his [guide](https://docs.google.com/presentation/d/1oyeFiGFbuR9veFcSrzejdnG6m8unwAfwt5bTh4ucXsY/comment#) to set up PyTorch on an M1 Mac
+  - This involved installing mamba, which is the suped up conda reimplemented in C++ for speed and parallelism
+  - We set up a conda environment for fastbook, the deep-learning course from Fast.ai
+  - It didn't include jupyterlab
+  - We also set up an environment `vie-gpu` for my project
+  - Need to figure out why ipython is defaulting to the brew install version
+    - TODO: Ensure that ipython can intelligently select the correct environment at start
+    - TODO: Ensure the correct ipython installed
+  -  Discovered even with the correct packages with correct platforms installed, Segment Anything still throws an error. MPS, which is the Metal Performance Shaders, doesn't support float64, only float32, and it seems that Segment Anything is expected float32 to work properly.
+  - Found a few threads: issue [here](https://github.com/facebookresearch/segment-anything/issues/94#), pr [here](https://github.com/facebookresearch/segment-anything/pull/122)
+
+  - Went to Boiler Room x La Creole dance party with JF
+
+## recurse-s1-w4-d6
+
+- Took the train down to Marseille
+- Completed my run: Fontaine du Palais Longchamp
+- Hung out with Jean-Remi and some of Nico's friends
+
+## recurse-s1-w4-d7
+
+- Brunch with Nico and his friends
+- Apero with Nico and his other friends before concert
+- Went to Beyoncé concert
+- Late night dinner at kebab shop
+## recurse-s1-w5-d1
+
+- No work on Recurse projects
+- Lunch with Nico and his friends
+- Checked into Airbnb
+- Dinner with Henri at Ciel Restaurnt
+
+## recurse-s1-w5-d2
+
+- No work on Recurse projects
+- Completed my run: Cathedrale La Major
+- Hung out with Victor Nunes
+  - Went to Notre Dame de la Gare
+- Had dinner with Facundo at Peron Restaurant
+
+## recurse-s1-w5-d3
+
+- Worked on newsletter
+  - Didn't have the time to finish
+  - Decided to postpone sending it until Friday
+
+## recurse-s1-w5-d4
+
+- Attended Meditation
+- Learned about Resend from mozvets slack
+
+## recurse-s1-w5-d6
+
+- Worked on newsletter
+- Completed Module 3 and 4 of the GCP course

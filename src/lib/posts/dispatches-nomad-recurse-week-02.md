@@ -19,6 +19,8 @@ social:
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
 
+*The week of May 22, 2023*
+
 ## Recap
 
 Welcome to Week 2 edition of Dispatches from a Nomad 🎒
