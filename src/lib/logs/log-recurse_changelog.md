@@ -282,3 +282,27 @@ Started to consider just doing a webapp then came across this YouTube tutorial f
 
 - Worked on newsletter
 - Completed Module 3 and 4 of the GCP course
+
+## recurse-s1-w5-d7
+
+- Published Week 04 newsletter
+- Exported the model to onnx
+- It seems that to use the webapp, you will need to first get an image encoding before it can be used
+  - Is there a way to do image encoding through onnx?
+  - The notebook example uses a car whereas the web app uses the dogs
+  - Got the web app working for the truck
+
+- to-do:
+  - get an encoder for the image
+  - make an equivalent version in Svelte
+
+## recurse-s1-w6-d1
+
+- Holiday: Juneteenth
+
+# recurse-s1-w6-d2
+
+- Had lunch with my friend Bryan
+- Started a study group on Deep Learning with fellow recurser, Chisom
+- Wrote some parts of my newsletter
+- Worked on 
