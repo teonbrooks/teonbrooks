@@ -10,7 +10,7 @@ categories:
 - nomad
 coverImage: "/images/blog_images/dispatches-nomad-recurse-week-05/beyonce.jpg"
 excerpt: 
-    "Recurse Center Week 05: Live Music and Model Serialization"
+    "Recurse Center Week 05: Live Music and Machine Learning Model Serialization"
 lang: en-US
 social:
 - strava
