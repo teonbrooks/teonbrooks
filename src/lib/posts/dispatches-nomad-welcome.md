@@ -8,7 +8,7 @@ categories:
 - travel
 - recurse
 - nomad
-coverImage: "/images/blog_images/dispatches-nomad/recurse-week-01.jpg"
+coverImage: "/images/blog_images/recurse/week-01/recurse-week-01.jpg"
 # coverWidth: 16
 # coverHeight: 9
 excerpt: 
