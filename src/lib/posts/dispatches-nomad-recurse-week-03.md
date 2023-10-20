@@ -83,13 +83,13 @@ I began looking for an entry fountain pen, you know, that gateway drug to better
 So I bought it! A Lamy Safari Special Edition Light Rose ✒️
 I was also informed that this particular Lamy is the perfect starter fountain pen. Nice entry price, super performant, it could be my daily driver. From the sticker price of some of the other models in the store, these pens just go up and to the right in a hockey-stick shape fashion for price 🏒
 
-<img src='/images/blog_images/dispatches-nomad-recurse-week-03/lamy-safari-lightrose-fountain-pen.jpg' />
+<img src='/images/blog_images/recurse/week-03/lamy-safari-lightrose-fountain-pen.jpg' />
 
 While I was leaving the shop, I talked to a woman who teaches calligraphy who had also just purchased some things from the shop, and she gave me some pointers of starting my letter movement from bottom up to evoke the ink in the pen.
 
 Later that afternoon, I had a 1-on-1 chat with Zach of my cohort, and we had a chance to do a proper meet and greet, and then we discussed the projects we were planning to work on. We also both geeked out over our favorite writing instruments. I had just showed off my new pen and he showed me his, a [Caran D'Ache](https://www.carandache.com/fr/fr/stylo-bille/stylo-bille-849-popline-orange-fluo-avec-etui-p-10215.htm?nosto=searchpage-nosto-1).
 
-<img src='/images/blog_images/dispatches-nomad-recurse-week-03/caran-d-ache.png' />
+<img src='/images/blog_images/recurse/week-03/caran-d-ache.png' />
 
 It's really in moments like these that I remember that these quirky things like a favorite pen brand, finding good stationery, all these analog tools that makes us uniquely human, give us shape and dimensionality that gets lost in the digital world.
 
