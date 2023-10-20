@@ -6,4 +6,5 @@ node_modules
 src/lib/_template/
 src/lib/archives/
 src/lib/posts/_drafts
-src/lib/wip/_drafts
+src/lib/wip/
+src/lib/press/

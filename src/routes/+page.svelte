@@ -36,7 +36,18 @@ import portfolio from "$lib/cv/portfolio.json";
 	<!-- RSS -->
 	<link href="/api/rss.xml" type="application/atom+xml" rel="alternate" title="Teon's Blog Feed">
 	<!-- Add Plausible Analytics -->
-	<script defer data-domain="teonbrooks.com" src="https://plausible.io/js/script.js"></script>
+	<!-- <script defer data-domain="teonbrooks.com" src="https://plausible.io/js/script.js"></script> -->
+	<!-- Add Google Analytics -->
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GREYXSYBVM"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-GREYXSYBVM');
+	</script>
+
 </svelte:head>
 
 <BusinessCard {...portfolio.id} src={'images/home.jpg'} />
