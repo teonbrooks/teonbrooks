@@ -5,10 +5,9 @@ authors:
 - Teon L Brooks
 date: "2023-05-24 12:00:00 EDT"
 categories:
-- travel
 - recurse
 - nomad
-coverImage: "/images/blog_images/dispatches-nomad/recurse-week-01.jpg"
+coverImage: "/images/blog_images/recurse/week-01/recurse-week-01.jpg"
 # coverWidth: 16
 # coverHeight: 9
 excerpt: 

@@ -5,10 +5,9 @@ authors:
 - Teon L Brooks
 date: "2023-06-21 12:00:00 EDT"
 categories:
-- travel
 - recurse
 - nomad
-coverImage: "/images/blog_images/dispatches-nomad-recurse-week-05/beyonce.jpg"
+coverImage: "/images/blog_images/recurse/week-05/beyonce.jpg"
 excerpt: 
     "Recurse Center Week 05: Live Music and Machine Learning Model Serialization"
 lang: en-US
@@ -135,7 +134,7 @@ Here's a collection of my runs for the week. Monuments featured below are Cathé
 <!-- 14: Garden des Tuileries -->
 - <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9269823494"></div>
 
-<!-- 12: République -->
+<!-- 15: République -->
 - <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9284103900"></div>
 
 ## Nomadic Weekly Roundup

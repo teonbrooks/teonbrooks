@@ -5,10 +5,9 @@ authors:
 - Teon L Brooks
 date: "2023-06-07 12:00:00 EDT"
 categories:
-- travel
 - recurse
 - nomad
-coverImage: "/images/blog_images/dispatches-nomad-recurse-week-03/dispatches-nomad-recurse-week-03.jpg"
+coverImage: "/images/blog_images/recurse/week-03/dispatches-nomad-recurse-week-03.jpg"
 coverWidth: 16
 coverHeight: 9
 excerpt: 
@@ -22,7 +21,7 @@ social:
 
 ## Recap
 
-Welcome to Week 3 edition of Dispatches from a Nomad 🎒
+Welcome to Week 3 edition of the Dispatches from a Nomad 🎒: the Recurse collection 💻
 
 In case you missed last week's edition, you can find it [HERE](./dispatches-nomad-recurse-week-02).
 

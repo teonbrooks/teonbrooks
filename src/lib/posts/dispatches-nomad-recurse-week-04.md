@@ -5,10 +5,9 @@ authors:
 - Teon L Brooks
 date: "2023-06-14 12:00:00 EDT"
 categories:
-- travel
 - recurse
 - nomad
-coverImage: "/images/blog_images/dispatches-nomad-recurse-week-04/nadal.jpg"
+coverImage: "/images/blog_images/recurse/week-04/nadal.jpg"
 excerpt: 
     "Recurse Center Week 04: King of Clay, français, Sacré, Beyoncé"
 lang: en-US
@@ -21,7 +20,7 @@ social:
 
 ## Recap
 
-Welcome to Week 4 edition of Dispatches from a Nomad 🎒
+Welcome to Week 4 edition of the Dispatches from a Nomad 🎒: the Recurse collection 💻
 
 In case you missed last week's edition, you can find it [HERE](./dispatches-nomad-recurse-week-03).
 
