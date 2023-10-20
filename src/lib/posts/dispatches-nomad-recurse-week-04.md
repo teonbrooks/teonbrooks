@@ -116,7 +116,7 @@ When I first ran the model on a page from my scrapbook, I started it right befor
 Once we finished, I re-ran it, and it still required the same amount of resources, but it did finish 🎉 I got a list of dictionaries containing individual masks generated from my scrapbook page. I'll say it took about 5 minutes. I realized that all the processing was taking place on the CPU, no real use of the GPU. It was a good first step getting this part working and now it was time for me to start chipping away on more parts of the project.
 
 <figure>
-    <img src="/images/blog_images/dispatches-nomad-recurse-week-04/segmented.png" />
+    <img src="/images/blog_images/recurse/week-04/segmented.png" />
     <figcaption>Segmented page from scrapbook</figcaption>
 </figure>
 
