@@ -7,7 +7,7 @@ date: "2023-10-20 12:01:00 EDT"
 categories:
 - recurse
 - nomad
-coverImage: "/images/blog_images/recurse/dispatches-nomad-recurse-week-epilogue.jpg"
+coverImage: "/images/blog_images/recurse/epilogue/dispatches-nomad-recurse-week-epilogue.jpg"
 excerpt:
    "Recurse Center Week 07: Last week of the first half batch"
 lang: en-US
