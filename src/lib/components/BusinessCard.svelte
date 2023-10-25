@@ -13,7 +13,7 @@
     <Card padded>
         <Content>
             <h1>{name}</h1>
-            <h2>{title}, <a href="{website}">{organization}</a></h2>
+            <!-- <h2>{title}, <a href="{website}">{organization}</a></h2> -->
             <p>{descriptors.join(' | ')}</p>
         </Content>
         <Media>
