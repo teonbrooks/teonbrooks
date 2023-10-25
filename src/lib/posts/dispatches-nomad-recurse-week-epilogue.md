@@ -9,7 +9,7 @@ categories:
 - nomad
 coverImage: "/images/blog_images/recurse/epilogue/dispatches-nomad-recurse-week-epilogue.jpg"
 excerpt:
-   "Recurse Center Week 07: Last week of the first half batch"
+   "Recurse Center Epilogue: Some lessons learned"
 lang: en-US
 social:
 - strava
