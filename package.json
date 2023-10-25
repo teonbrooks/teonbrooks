@@ -38,13 +38,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "just-throttle": "^4.0.1"
+    "just-throttle": "^4.2.0"
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
     "@giscus/svelte": "^2.2.4",
-    "@iarna/toml": "^2.2.5",
     "@mdi/js": "^7.0.96",
     "@smui/card": "^6.1.4",
     "@smui/icon-button": "^6.1.4",
