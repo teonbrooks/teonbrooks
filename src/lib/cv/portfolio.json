@@ -2,12 +2,9 @@
  "id": {
   "name": "Teon L Brooks, Ph.D",
   "descriptors": [
-    "technologist",
-    "scientist"
-  ],
-  "title": "Recurser",
-  "organization": "The Recurse Center",
-  "website": "https://recurse.com"
+   "technologist",
+   "cognitive scientist"
+  ]
  },
  "positions": [
   {
@@ -42,7 +39,7 @@
    "organization": "Carolina Covenant",
    "title": "Scholar",
    "timespan": "2006-2009",
-   "description": "Funding initiative for low-income students to graduate\nfrom college debt-free through grants, scholarships, and work-study.\n",
+   "description": "Funding initiative for low-income students to graduate \nfrom college debt-free through grants, scholarships, and work-study.\n",
    "website": "https://www.unc.edu/story/carolina-covenant/",
    "category": "Fellowships"
   },
@@ -51,7 +48,7 @@
    "organization": "Mozilla",
    "title": "Sr. Data Scientist/Technical Lead; Product Manager",
    "timespan": "2017-2022",
-   "description": "Led the Revenue Data science team.\nLater expanded my work scope into product management.\n",
+   "description": "Led the Revenue Data science team. \nLater expanded my work scope into product management.\n",
    "website": "https://mozilla.org",
    "category": "Past Orgs"
   },
@@ -60,7 +57,7 @@
    "organization": "Future of Research",
    "title": "Board Member",
    "timespan": "2017-2018",
-   "description": "Served on the board of a nonprofit advocacy group\nfor early-career scientists.\n",
+   "description": "Served on the board of a nonprofit advocacy group \nfor early-career scientists.\n",
    "website": "https://futureofresearch.org",
    "category": "Past Orgs"
   },
@@ -69,7 +66,7 @@
    "organization": "National Science Foundation Graduate Research Fellowship Program",
    "title": "NSF Graduate Research Fellow",
    "timespan": "2011-2016",
-   "description": "Fellowship recipient in prestigious national competition\nfor graduate-level STEM Research.\n",
+   "description": "Fellowship recipient in prestigious national competition \nfor graduate-level STEM Research.\n",
    "website": "https://nsfgrfp.org",
    "category": "Fellowships"
   },
@@ -137,10 +134,19 @@
    "category": "Past Orgs"
   },
   {
+   "icon": "recurse.png",
+   "organization": "The Recurse Center",
+   "title": "Recurser",
+   "timespan": "2023",
+   "description": "Summer 1 Half-Batch.\nProjet Vie.\n",
+   "website": "https://recurse.com",
+   "category": "Past Orgs"
+  },
+  {
    "icon": "shd.png",
    "organization": "Science Hack Day",
-   "title": "",
-   "timespan": "",
+   "title": "Co-Organizer",
+   "timespan": "2017",
    "description": "",
    "website": "",
    "category": "Past Orgs"
@@ -148,10 +154,10 @@
   {
    "icon": "stanford.png",
    "organization": "Stanford University",
-   "title": "",
-   "timespan": "",
-   "description": "",
-   "website": "",
+   "title": "Mozilla Fellow/Postdoctoral Scholar",
+   "timespan": "2016-2017",
+   "description": "Co-organizer for the March for Science.\nBIDS-MEG extension.\nMNE-BIDS development.\n",
+   "website": "https://stanford.edu",
    "category": "Education"
   },
   {

@@ -1,9 +1,6 @@
 [id]
 name = "Teon L Brooks, Ph.D"
-descriptors = ["technologist", "scientist"]
-title = "Recurser"
-organization = "The Recurse Center"
-website = "https://recurse.com"
+descriptors = ["technologist", "cognitive scientist"]
 # title = "Director"
 # organization = "Gotham Data Clinic"
 # website = "https://gothamdataclinic.org"
@@ -165,10 +162,22 @@ website = ""
 category = "Past Orgs"
 
 [[positions]]
+icon = "recurse.png"
+organization = "The Recurse Center"
+title = "Recurser"
+timespan = "2023"
+description = """
+Summer 1 Half-Batch.
+Projet Vie.
+"""
+website = "https://recurse.com"
+category = "Past Orgs"
+
+[[positions]]
 icon = "shd.png"
 organization = "Science Hack Day"
-title = ""
-timespan = ""
+title = "Co-Organizer"
+timespan = "2017"
 description = """
 """
 website = ""
@@ -177,18 +186,21 @@ category = "Past Orgs"
 [[positions]]
 icon = "stanford.png"
 organization = "Stanford University"
-title = ""
-timespan = ""
+title = "Mozilla Fellow/Postdoctoral Scholar"
+timespan = "2016-2017"
 description = """
+Co-organizer for the March for Science.
+BIDS-MEG extension.
+MNE-BIDS development.
 """
-website = ""
+website = "https://stanford.edu"
 category = "Education"
 
 [[positions]]
 icon = "telecom.png"
 organization = "Telecom ParisTech"
-title = ""
-timespan = ""
+title = "Chateaubriand STEM Fellow"
+timespan = "2014-2015"
 description = """
 """
 website = ""
@@ -210,6 +222,7 @@ organization = "University of North Carolina"
 title = "Bachelor of Science"
 timespan = "2005-2009"
 description = """
+Psychology and Linguistics
 """
 website = "https://unc.edu"
 category = "Education"
