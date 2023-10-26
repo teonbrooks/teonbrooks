@@ -31,6 +31,9 @@ export const navItems = [
 		title: 'Blog',
 		route: '/blog'
 	}, {
+		title: 'Travel (wip)',
+		route: '/travel'
+	}, {
 		title: 'Portfolio',
 		route: '/portfolio'
 	}, {		
