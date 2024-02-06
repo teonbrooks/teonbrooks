@@ -25,6 +25,7 @@ import portfolio from "$lib/cv/portfolio.json";
 	<!-- Indieweb -->
 	<link rel="openid.delegate" href="https://teonbrooks.com/" />
 	<link rel="openid.server" href="https://openid.indieauth.com/openid" />
+	<link href="https://github.com/teonbrooks" rel="me">
 	<!-- Mastodon -->
 	<link href="https://hachyderm.io/@teon" rel="me">
 	<!-- Twitter -->
