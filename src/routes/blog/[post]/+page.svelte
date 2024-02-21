@@ -9,6 +9,7 @@ import { siteImage } from "$lib/config";
 
 </script>
 
+
 <svelte:head>
 	<!-- Be sure to add your image files and un-comment the lines below -->
 	<title>{title}</title>
@@ -26,11 +27,12 @@ import { siteImage } from "$lib/config";
 	<meta name="twitter:image" content={siteImage} />
 </svelte:head>
 
+
 <article class="post">
 	<!-- You might want to add an alt frontmatter attribute. If not, leaving alt blank here works, too. -->
 	<img
 		class="cover-image"
-		src={coverImage}
+		src="{coverImage}"
 		alt=""
 	/>
 	<!-- Figure out how to images that don't conform to the aspect ratio -->
@@ -43,8 +45,8 @@ import { siteImage } from "$lib/config";
 		height={coverHeight}
 	/> -->
 
-	<h1>{title}</h1>
-
+	<h1>{ title }</h1>
+	
 	<div class="meta">
 		<b>Published:</b> {date}
 		{#if updated}
@@ -95,12 +97,12 @@ import { siteImage } from "$lib/config";
 
 	{#if categories}
 		<aside class="post-footer">
-			<h2>Posted in:</h2>
-			<ul class="post-footer__categories">
+			<h2>Posted in: </h2>
+			<ul>
 				{#each categories as category}
 					<li>
 						<a href="/blog/category/{category}/">
-							{category}
+							{ category }
 						</a>
 					</li>
 				{/each}
