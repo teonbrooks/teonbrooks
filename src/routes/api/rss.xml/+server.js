@@ -6,9 +6,11 @@ export const prerender = true
 export const GET = async () => {	
 	const data = await Promise.all(
 		Object.entries(import.meta.glob('$lib/posts/*.md')).map(async ([path, page]) => {
-			const { metadata } = await page()
+			const blogPost = await page()
+			const blogContent = blogPost.default.render().html
+			const metadata = blogPost.metadata
 			const slug = path.split('/').pop().split('.').shift()
-			return { ...metadata, slug }
+			return { ...metadata, slug, blogContent }
 		})
 	)
 	.then(posts => {
@@ -48,6 +50,7 @@ ${posts
 </image>
 <link>https://${siteURL}/blog/${post.slug}</link>
 <description>${post.excerpt}</description>
+<content type="html">${post.blogContent}</content>
 <pubDate>${new Date(post.date).toUTCString()}</pubDate>
 </item>`
 	)

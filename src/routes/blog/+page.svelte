@@ -12,7 +12,6 @@
 	<title>Blog</title>
 	<!-- RSS -->
 	<link href="/api/rss.xml" type="application/atom+xml" rel="alternate" title="Teon's Blog Feed">
-	<script defer data-domain="teonbrooks.com" src="https://plausible.io/js/script.js"></script>
 	<meta data-key="description" name="description" content={siteDescription}>
 </svelte:head>
 
@@ -21,5 +20,7 @@
 <PostsList posts={data.posts} />
 
 <Pagination currentPage={1} totalPosts={data.total} />
+
+<!-- Add a mailto button option -->
 
 <MailchimpSignUp />

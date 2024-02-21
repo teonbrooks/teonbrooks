@@ -8,3 +8,9 @@ src/lib/archives/
 src/lib/posts/_drafts
 src/lib/wip/
 src/lib/press/
+static/images/blog_images/nomadic-notes-pretrip-planning/
+static/images/blog_images/nomadic-notes-initial-departure/
+static/content/archives
+static/content/press
+static/content/wip
+

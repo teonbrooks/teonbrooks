@@ -1,0 +1,116 @@
+[[publications]]
+date = "May 2017"
+authors = "Brooks, T. L."
+title = "Minding the gap between eye-tracking and neurophysiology in reading"
+link = "https://proxy.library.nyu.edu/login?url=https://search-proquest-com.proxy.library.nyu.edu/docview/1937901914?accountid=12768"
+publisher = "ProQuest Dissertations & Theses Global. (1937901914)"
+type = "dissertation"
+project = "co-registration"
+
+[[publications]]
+date = "August 2017"
+authors = """
+Niso, G.; Gorgolewski, K. J.; Bock, E.; Brooks, T. L.; Flandin, G.; 
+Gramfort, A.; Henson, R. N.; Jas, M.; Litvak, V.; Moreau, J.; 
+Oostenveld, R.; Schoffelen, J.-M.; Tadel, F.; Wexler, J.; & Baillet, S.
+"""	
+title = "MEG-BIDS: an extension to the Brain Imaging Data Structure for magnetoencephalography"
+link = "https://doi.org/10.1101/172684"
+publisher = "bioRxiv"
+type = "preprint"
+project = "neuroinformatics"
+
+[[publications]]
+date = "April 2018"
+authors = "Brooks, T. L.; & Gordon, P. C."
+title = """
+Dissociating Morpheme Form and Meaning: Evidence for Morphological 
+Decomposition of Compound Words during Reading
+"""
+link = "https://doi.org/10.31234/osf.io/fcdtj"
+publisher = "PsyArxiv"
+type = "preprint"
+project = "compound words"
+
+[[publications]]
+date = "September 2023"
+authors = """
+Poldrack, R.A.; Markiewicz, C.J.; Appelhoff, S.; Ashar, Y.K.; Auer, T.; 
+Baillet, S.; Bansal, S.; Beltrachini, L.; Bénar, C.G.; Bertazzoli, G.; 
+Bhogawar, S.; Blair, R.W.; Bortoletto, M.; Boudreau, M.; Brooks, T.L.; 
+Calhoun, V.D.; Castelli, F.M.; Clement, P.; Cohen, A.L.; Cohen-Adad, J.; 
+D'Ambrosio, S.; Hollander, G.D.; iglesia-Vay'a, M.D.; Vega, A.D.; 
+Delorme, A.; Devinsky, O.; Draschkow, D.; Duff, E.P.; Dupre, E.; Earl, E.; 
+Esteban, O.; Feingold, F.W.; Flandin, G.; Galassi, A.; Gallitto, G.; Ganz, M.; 
+Gau, R.; Gholam, J.; Ghosh, S.D.; Giacomel, A.; Gillman, A.G.; Gleeson, P.; 
+Gramfort, A.; Guay, S.; Guidali, G.; Halchenko, Y.O.; Handwerker, D.A.; 
+Hardcastle, N.; Herholz, P.; Hermes, D.; Honey, C.J.; Innis, R.B.; Ioanas, H.; 
+Jahn, A.; Karakuzu, A.; Keator, D.B.; Kiar, G.; Kincses, B.; Laird, A.R.; 
+Lau, J.C.; Lazari, A.; Legarreta, J.; Li, A.; Li, X.; Love, B.C.; Lu, H.; 
+Maumet, C.; Mazzamuto, G.; Meisler, S.L.; Mikkelsen, M.; Mutsaerts, H.; 
+Nichols, T.E.; Nikolaidis, A.; Nilsonne, G.; Niso, G.; Nørgaard, M.; 
+Okell, T.W.; Oostenveld, R.; Ort, E.; Park, P.J.; Pawlik, M.; Pernet, C.R.; 
+Pestilli, F.; Petr, J.; Phillips, C.; Poline, J.B.; Pollonini, L.; 
+Raamana, P.R.; Ritter, P.; Rizzo, G.; Robbins, K.A.; Rockhill, A.P.; 
+Rogers, C.; Rokem, A.S.; Rorden, C.; Routier, A.; Saborit-Torres, J.M.; 
+Salo, T.; Schirner, M.; Smith, R.E.; Spisák, T.; Sprenger, J.; Swann, N.C.; 
+Szinte, M.; Takerkart, S.; Thirion, B.; Thomas, A.G.; Torabian, S.; 
+Varoquaux, G.; Voytek, B.; Welzel, J.; Wilson, M.; Yarkoni, T.; 
+& Gorgolewski, K.J.
+"""
+title = "The Past, Present, and Future of the Brain Imaging Data Structure (BIDS)"
+link = "https://doi.org/10.48550/arXiv.2309.05768"
+publisher = "arXiv"
+type = "preprint"
+project = "neuroinformatics"
+
+[[publications]]
+date = "December 2013"	
+authors = """
+Gramfort, A.; Luessi, M.; Larson, E.; Engemann, D. A.; Strohmeier, D.; 
+Brodbeck, C.; Goj, R.; Jas, M.; Brooks, T.; Parkkonen, L.; Hämäläinen, M.
+"""	
+title = "MEG and EEG data analysis with MNE-Python" 
+publisher = "Frontiers"
+journal = "Frontiers in Neuroscience"
+volume = 7
+link = "https://doi.org/10.3389/fnins.2013.00267"
+date = "April 2015"
+authors = "Brooks, T.L.; and Cid de Garcia, D."	
+title = "Evidence for Morphological Recomposition in Compound Words using MEG"	
+publisher = "Frontiers" 
+journal = "Frontiers in Human Neuroscience"	
+volume = 9
+page = 215
+link = "https://doi.org/10.3389/fnhum.2015.00215"
+
+[[publications]]
+date = "June 2018"
+authors = """
+Niso, G.; Gorgolewski, K. J.; Bock, E.; Brooks, T. L.; Flandin, G.; 
+Gramfort, A.; Henson, R. N.; Jas, M.; Litvak, V.; T. Moreau, J.; 
+Oostenveld, R.; Schoffelen, J.-M.; Tadel, F.; Wexler, J.; Baillet, S.
+"""
+title = "MEG-BIDS, the brain imaging data structure extended to magnetoencephalography"
+publisher = "Nature"
+journal = "Scientific Data"
+volume = 5
+article_no = 180110
+link = "https://doi.org/10.1038/sdata.2018.110"
+
+[[publications]]
+date = "2019"
+authors = """
+Appelhoff, S.; Sanderson, M.; Brooks, T.; van Vliet, M.; Quentin, R.; 
+Holdgraf, C.; Chaumon, M.; Mikulan, E.; Tavabi, K.; Höchenberger, R.; 
+Welke, D.; Brunner, C.; Rockhill, A.; Larson, E.; Gramfort, A.; Jas, M.
+"""
+title = """
+MNE-BIDS: Organizing electrophysiological data into the BIDS format and 
+facilitating their analysis
+"""
+publisher = "Open Journals"
+journal = "Journal of Open Source Software"
+volume = "4(44)"
+page = 1896
+link = "https://doi.org/10.21105/joss.01896"

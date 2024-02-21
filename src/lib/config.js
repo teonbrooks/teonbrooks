@@ -5,13 +5,6 @@
  * PLEASE BE SURE TO UPDATE THEM ALL! Thank you!
  **/ 
 
-<<<<<<< HEAD
-export const siteTitle = 'My Awesome Blog'
-export const siteDescription = 'Built with the SvelteKit Static Blog Starter'
-export const siteURL = 'example.com'
-export const siteLink = 'https://github.com/josh-collinsworth/sveltekit-blog-starter'
-export const siteAuthor = '- find and change this text in src/lib/config.js'
-=======
 export const siteTitle = 'Teon L Brooks'
 export const siteDescription = 'Personal Website and Blog for Teon Brooks'
 export const siteURL = 'teonbrooks.com'
@@ -20,7 +13,6 @@ export const siteAuthor = 'Teon L Brooks'
 export const siteImage = '/images/home.jpg'
 export const siteImageWidth = '300px'
 export const faviconImage = '/images/avatar.png'
->>>>>>> 499a217 (website overhaul)
 
 // Controls how many posts are shown per page on the main blog index pages
 export const postsPerPage = 5

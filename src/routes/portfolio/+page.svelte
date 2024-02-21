@@ -1,15 +1,17 @@
 <script>
 import Portfolio from "$lib/components/Portfolio.svelte";
-import portfolio from "$lib/cv/portfolio.json";
+// import portfolio from "$lib/content/portfolio.json";
+export let data;
+console.log(data.portfolio.positions[0])
 
-const items = portfolio.positions;
+const items = data.portfolio.positions;
 
 </script>
 
 <svelte:head>
-	<script defer data-domain="teonbrooks.com" src="https://plausible.io/js/script.js"></script>
 	<title>Portfolio</title>
 </svelte:head>
 
-<h1>Portfolio</h1>    
+<h1>Portfolio</h1>   
+
 <Portfolio {items} />

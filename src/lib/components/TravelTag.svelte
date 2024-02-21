@@ -104,10 +104,10 @@
     flex-grow: 1;
     }
 
-    .block img {
+    /* .block img {
     display: block;
     margin: auto;
-    }
+    } */
 
     .top .block p {
     color: #E02F2C;

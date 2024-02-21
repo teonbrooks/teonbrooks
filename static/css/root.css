@@ -12,8 +12,7 @@ body {
 	min-height: 100vh;
 	color: var(--ink);
 	font-family: var(--primaryFont);
-	background-image: url("/images/bg.jpg");
-	background-size: cover;
+	background: var(--paper);
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }

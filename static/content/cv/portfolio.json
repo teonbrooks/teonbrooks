@@ -1,0 +1,191 @@
+{
+ "id": {
+  "name": "Teon L Brooks, Ph.D",
+  "descriptors": [
+   "technologist",
+   "cognitive scientist"
+  ]
+ },
+ "positions": [
+  {
+   "icon": "brainwaves.png",
+   "organization": "BrainWaves",
+   "title": "President of Advisory Board",
+   "timespan": "2017-2022",
+   "description": "",
+   "website": "https://wp.nyu.edu/brainwaves/",
+   "category": "Past Projects"
+  },
+  {
+   "icon": "chateaubriand.png",
+   "organization": "French Embassy to the U.S.",
+   "title": "STEM Fellow",
+   "timespan": "2017-2018",
+   "description": "Served on the board of a nonprofit advocacy group for early-career scientists.\n",
+   "website": "https://futureofresearch.org",
+   "category": "Fellowships"
+  },
+  {
+   "icon": "ciel.png",
+   "organization": "Gotham Data Clinic",
+   "title": "Executive Director",
+   "timespan": "2019-Present",
+   "description": "",
+   "website": "https://gothamdataclinic.org",
+   "category": "Current Orgs"
+  },
+  {
+   "icon": "covenant.png",
+   "organization": "Carolina Covenant",
+   "title": "Scholar",
+   "timespan": "2006-2009",
+   "description": "Funding initiative for low-income students to graduate \nfrom college debt-free through grants, scholarships, and work-study.\n",
+   "website": "https://www.unc.edu/story/carolina-covenant/",
+   "category": "Fellowships"
+  },
+  {
+   "icon": "firefox.png",
+   "organization": "Mozilla",
+   "title": "Sr. Data Scientist/Technical Lead; Product Manager",
+   "timespan": "2017-2022",
+   "description": "Led the Revenue Data science team. \nLater expanded my work scope into product management.\n",
+   "website": "https://mozilla.org",
+   "category": "Past Orgs"
+  },
+  {
+   "icon": "FoR.png",
+   "organization": "Future of Research",
+   "title": "Board Member",
+   "timespan": "2017-2018",
+   "description": "Served on the board of a nonprofit advocacy group \nfor early-career scientists.\n",
+   "website": "https://futureofresearch.org",
+   "category": "Past Orgs"
+  },
+  {
+   "icon": "grfp.png",
+   "organization": "National Science Foundation Graduate Research Fellowship Program",
+   "title": "NSF Graduate Research Fellow",
+   "timespan": "2011-2016",
+   "description": "Fellowship recipient in prestigious national competition \nfor graduate-level STEM Research.\n",
+   "website": "https://nsfgrfp.org",
+   "category": "Fellowships"
+  },
+  {
+   "icon": "mfs.png",
+   "organization": "March for Science",
+   "title": "Co-Director of Partnerships",
+   "timespan": "2017",
+   "description": "Co-led a team to build a coalition of >300 scientific\nsocieties, NGOs, science museums, and non-profits to mobilize their\nmembers to march. Organized and coordinated one of the largest science\ndemonstration with 100k marchers in DC and over a million marchers in\n610 cities worldwide.\n",
+   "website": "https://marchforscience.org",
+   "category": "Past Orgs"
+  },
+  {
+   "icon": "msl.png",
+   "organization": "Mozilla Science Lab",
+   "title": "Fellow for Open Science",
+   "timespan": "2016-2017",
+   "description": "10-month fellowship\n",
+   "website": "https://wiki.mozilla.org/ScienceLab",
+   "category": "Fellowships"
+  },
+  {
+   "icon": "mne.png",
+   "organization": "MNE-tools",
+   "title": "Core Contributor",
+   "timespan": "2013-2017",
+   "description": "",
+   "website": "https://mne.tools",
+   "category": "Past Projects"
+  },
+  {
+   "icon": "nyu.png",
+   "organization": "New York University",
+   "title": "PhD Student",
+   "timespan": "2011-2017",
+   "description": "",
+   "website": "https://as.nyu.edu/psychology.html",
+   "category": "Education"
+  },
+  {
+   "icon": "openbci.png",
+   "organization": "OpenBCI",
+   "title": "Research Scientist Consultant",
+   "timespan": "",
+   "description": "Research consultant for EEG data analysis and software design.\n",
+   "website": "https://openbci.com",
+   "category": "Past Orgs"
+  },
+  {
+   "icon": "openexp.png",
+   "organization": "OpenEXP",
+   "title": "EEG Experimentation Platform",
+   "timespan": "2015-2016",
+   "description": "",
+   "website": "https://github.com/OpenEXP/OpenEXP",
+   "category": "Past Projects"
+  },
+  {
+   "icon": "queerhack.png",
+   "organization": "QueerHack",
+   "title": "",
+   "timespan": "",
+   "description": "",
+   "website": "",
+   "category": "Past Orgs"
+  },
+  {
+   "icon": "recurse.png",
+   "organization": "The Recurse Center",
+   "title": "Recurser",
+   "timespan": "2023",
+   "description": "Summer 1 Half-Batch.\nProjet Vie.\n",
+   "website": "https://recurse.com",
+   "category": "Past Orgs"
+  },
+  {
+   "icon": "shd.png",
+   "organization": "Science Hack Day",
+   "title": "Co-Organizer",
+   "timespan": "2017",
+   "description": "",
+   "website": "",
+   "category": "Past Orgs"
+  },
+  {
+   "icon": "stanford.png",
+   "organization": "Stanford University",
+   "title": "Mozilla Fellow/Postdoctoral Scholar",
+   "timespan": "2016-2017",
+   "description": "Co-organizer for the March for Science.\nBIDS-MEG extension.\nMNE-BIDS development.\n",
+   "website": "https://stanford.edu",
+   "category": "Education"
+  },
+  {
+   "icon": "telecom.png",
+   "organization": "Telecom ParisTech",
+   "title": "",
+   "timespan": "",
+   "description": "",
+   "website": "",
+   "category": "Education"
+  },
+  {
+   "icon": "trainer-hex.png",
+   "organization": "RStudio",
+   "title": "Certified Trainer",
+   "timespan": "",
+   "description": "",
+   "website": "https://education.rstudio.com/trainers/",
+   "category": "Education"
+  },
+  {
+   "icon": "unc.png",
+   "organization": "University of North Carolina",
+   "title": "Bachelor of Science",
+   "timespan": "2005-2009",
+   "description": "",
+   "website": "https://unc.edu",
+   "category": "Education"
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+[[poster]]
+date = "2010 March"
+authors = "Brooks, T., Kim, J.; Gordon, P."
+title = "Transparent Effects of Partial Priming on Compounds"
+conference = "23rd Annual CUNY conference on Human Sentence Processing"
+location = "New York, NY"
+
+[[poster]]
+date = "2011 March"
+authors = "Brooks, T.; Gordon, P."
+title = "Sentential Support for Morpho-Orthographic Decomposition during Visual Word Recognition"
+conference = "24th Annual CUNY conference on Human Sentence Processing"
+location = "Stanford, CA"
+
+[[poster]]
+date = "2013 April"
+authors = "Brooks, T., Garcia; D., Marantz, A.; Pylkkänen, L."
+title = "Combinatorial Effects within Compound Words during Visual Word Recognition"
+conference = "20th Annual Cognitive Neuroscience Society Meeting"
+location = "San Francisco, CA"
+
+[[poster]]
+date = "2015 June"
+authors = """
+Gramfort, A.; Engemann, D.A.; Larson, E.; Luessi, M.; Brodbeck, C.; Jas, M.; 
+Brooks, T.; Strohmeier, D.; Goj, R.; Vliet, M.; Leggitt, A.; Billinger, M.; 
+Bharadwaj, H.; Parkkonen, L.; Hamalainen, M
+"""
+title = "Trends in MEG and EEG data processing using MNE"
+conference = "21th Annual Meeting of the Organization for Human Brain Mapping"
+location = "Honolulu, Hawaii"
+
+[[poster]]
+date = "2016 May"
+authors = "A.C. Heusser; T. Brooks; L. Davachi"
+title = "OpenEXP: An open-source platform for running EEG and behavioral experiments in the wild"
+conference = "2016 Context and Episodic Memory Symposium"
+location = "Philadelphia, PA"
+
+[[poster]]
+date = "2016 June"
+authors = """
+A. Gramfort; D. Engemann; E. Larson; M. Jas; T. Brooks; J. Leppäkangas;
+M. van Vliet; C. Brodbeck; M. Wronkiewicz; D. Strohmeier; J. Sassenhagen;
+J.-R. King; C. Holdgraf; R. Trachel; Y. Bekhti; F. Raimondo; L. Parkkonen;
+M. Hämäläinen
+"""	
+title = "MEG and EEG data processing using MNE: News from the trenches"
+conference = "22th Annual Meeting of the Organization for Human Brain Mapping"
+location = "Geneva, Switzerland"
+
+[[poster]]
+date = "2018 August"
+authors = " Brooks, Teon L; Jas, Mainak; Holdgraf, Chris; Appelhoff, Stefan; Sanderson, Matt; Gramfort, Alexandre"	
+title = "MNE-BIDS: Making MEG BIDS compatible datasets easily"
+conference = "OHBM"
+location = "Montreal, Canada"
+asset = "https://doi.org/10.5281/zenodo.3245427"
+
+[[poster]]
+date = "2020 June"
+authors = """
+Appelhoff, Stefan; Sanderson, Matthew; Brooks, Teon L; van Vliet, Marijn;
+Quentin, Romain; Holdgraf, Chris; Chaumon, Maximilien; Mikulan, Ezequiel;
+Tavabi, Kambiz; Richard Höchenberger; Welke, Dominik; Brunner, Clemens;
+Rockhill, Alexander P; Larson, Eric; Herbst, Sophie K; Luke, Robert; Li, Adam;
+Gramfort, Alexandre; Jas, Mainak
+"""	
+title = "MNE-BIDS: MNE-Python + BIDS = easy dataset interaction"
+conference = "OHBM"
+location = "Virtual"
+asset = "http://doi.org/10.5281/zenodo.3891836"

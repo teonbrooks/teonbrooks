@@ -8,21 +8,11 @@ export const load = async () => {
 	// 	const file = fileURLToPath(new URL('../lib/cv/portfolio.toml', import.meta.url));
 	// 	const portfolio =  toml.parse(readFileSync(file));
 		
-<<<<<<< HEAD
-		return {
-			ReadMe
-		}
-	}
-	catch(err) {
-		error(500, err);
-	}
-=======
 	// 	return {
 	// 		portfolio
 	// 	}
 	// }
 	// catch(err) {
-	// 	throw error(500, err)
+	// 	error(500, err)
 	// }
->>>>>>> 499a217 (website overhaul)
 }

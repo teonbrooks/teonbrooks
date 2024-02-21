@@ -3,6 +3,7 @@ import { postsPerPage } from '$lib/config'
 const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = {}) => {
 
 	const posts = await Promise.all(
+		// why doesn't this allow folders within posts to be included. see the details of glob
 		Object.entries(import.meta.glob('/src/lib/posts/*.md')).map(async ([path, resolver]) => {
 			const { metadata } = await resolver()
 			const slug = path.split('/').pop().slice(0, -3)

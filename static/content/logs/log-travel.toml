@@ -1,0 +1,1092 @@
+[id]
+name = "Teon's Travel Log"
+
+[[trip]]
+destination = "Research Triangle"
+description = "alt-ac talks"
+startDate = "2019-01-30"
+endDate = "2019-02-02"
+link = ""
+
+[[trip.stay]]
+origin = "New York City"
+oriCountry = "USA"
+oriTravelCode = "LGA"
+destination = "Durham"
+desCountry = "USA"
+desTravelCode = "RDU"
+transportation = "✈️"
+carrier = "DEL"
+description = ""
+startDate = "2019-01-30"
+endDate = "2022-02-02"
+link = ""
+
+[[trip.stay]]
+origin = "Durham"
+oriCountry = "USA"
+oriTravelCode = "DNC"
+destination = "Chapel Hill"
+desCountry = "USA"
+desTravelCode = "CHL"
+transportation = "🚖"
+carrier = ""
+description = ""
+startDate = "2019-01-31"
+endDate = "2019-01-31"
+link = ""
+
+[[trip]]
+destination = "Australia"
+description = "Sydney Pride! 🏳️‍🌈"
+startDate = "2019-01-30"
+endDate = "2019-02-02"
+link = ""
+
+[[trip]]
+destination = "Australia"
+description = "Sydney Pride! 🏳️‍🌈"
+startDate = "2019-02-23"
+endDate = "2019-03-10"
+link = ""
+
+[[trip]]
+destination = "Paris"
+description = "MNE Coding Sprint"
+startDate = "2019-03-19"
+endDate = "2019-03-27"
+link = ""
+
+[[trip]]
+destination = "Portland"
+description = "csv,conf,v4"
+startDate = "2019-05-07"
+endDate = "2019-05-10"
+link = ""
+
+[[trip]]
+destination = "Durham"
+description = "Nephew's Graduation"
+startDate = "2019-02-23"
+endDate = "2019-03-10"
+link = ""
+
+[[trip]]
+destination = "Spain"
+description = "James' 30th Birthday"
+startDate = "2019-05-23"
+endDate = "2019-06-04"
+link = ""
+
+[[trip]]
+destination = "British Columbia: Vancouver + Whistler"
+description = "Mozilla All-Hands"
+startDate = "2019-06-14"
+endDate = "2019-06-22"
+link = ""
+
+[[trip]]
+destination = "Montreal"
+description = "Cognitive Science Society"
+startDate = "2019-07-23"
+endDate = "2019-07-28"
+link = ""
+
+[[trip]]
+destination = "Provincetown"
+description = "Carnival! 🏳️‍🌈"
+startDate = "2019-08-15"
+endDate = "2019-08-18"
+link = ""
+
+[[trip]]
+destination = "SF"
+description = "Mozilla socialization"
+startDate = "2019-09-26"
+endDate = "2019-10-04"
+link = ""
+
+[[trip]]
+destination = "Atlanta"
+description = "RStudio Workshop Co-Teaching"
+startDate = "2019-09-13"
+endDate = "2019-09-15"
+link = ""
+
+[[trip]]
+destination = "Australia"
+description = "Sydney Pride! 🏳️‍🌈"
+startDate = "2019-02-23"
+endDate = "2019-03-10"
+link = ""
+
+[[trip]]
+destination = "Berlin + Zurich + Paris"
+description = ""
+startDate = "2020-01-24"
+endDate = "2020-02-08"
+link = ""
+
+
+[[trip]]
+destination = "Berlin + Zurich + Paris"
+description = ""
+startDate = "2020-01-24"
+endDate = "2020-02-08"
+link = ""
+
+[[trip]]
+destination = "San Diego + San Francisco"
+description = ""
+startDate = "2020-03-04"
+endDate = "2020-03-12"
+link = ""
+
+[[trip]]
+destination = "San Francisco + Palm Desert"
+description = ""
+startDate = "2020-07-27"
+endDate = "2020-08-10"
+link = ""
+
+[[trip]]
+destination = "The Yucatan Trip"
+description = ""
+startDate = "2021-01-04"
+endDate = "2021-01-25"
+link = ""
+
+[[trip]]
+destination = "Paris + Sète"
+description = "Disneyland Paris and Sète"
+startDate = "2022-08-14"
+endDate = "2023-08-28"
+link = ""
+
+[[trip]]
+destination = "Puerto Vallarta + Mexico City"
+description = "New Year's on the beach and the New Year in the CDMX"
+startDate = "2021-12-28"
+endDate = "2023-01-10"
+link = ""
+
+[[trip]]
+destination = "Alaska + Seattle"
+description = "Flew up to Anchorage to hang with some friends then headed down to Seattle to teach at Neurohackademy"
+startDate = "2022-07-22"
+endDate = "2022-08-05"
+link = ""
+
+[[trip]]
+destination = "Lakeshore Limited + California Zephyr"
+description = "NYC > Chicago > Denver > Austin > Denver > Glenwood Springs > Salt Lake City > Park City > SF"
+startDate = "2022-10-06"
+endDate = "2023-10-30"
+link = ""
+
+[[trip.stay]]
+origin = "New York City"
+oriCountry = "USA"
+oriTravelCode = "NYP"
+destination = "Chicago"
+desCountry = "USA"
+desTravelCode = "CHI"
+transportation = "🚂"
+carrier = "AMT"
+description = ""
+startDate = "2022-10-06"
+endDate = "2022-10-10"
+link = ""
+
+[[trip.stay]]
+origin = "Chicago"
+oriCountry = "USA"
+oriTravelCode = "CHI"
+destination = "Denver"
+desCountry = "USA"
+desTravelCode = "DEN"
+transportation = "🚂"
+carrier = "AMT"
+description = ""
+startDate = "2022-10-11"
+endDate = "2022-10-11"
+link = ""
+
+[[trip.stay]]
+origin = "Denver"
+oriCountry = "USA"
+oriTravelCode = "DEN"
+destination = "Austin"
+desCountry = "USA"
+desTravelCode = "AUS"
+transportation = "✈️"
+carrier = "UAL"
+description = "Detour for Austin's birthday"
+startDate = "2022-10-12"
+endDate = "2022-10-16"
+link = ""
+
+[[trip.stay]]
+origin = "Austin"
+oriCountry = "USA"
+oriTravelCode = "AUS"
+destination = "Denver"
+desCountry = "USA"
+desTravelCode = "DEN"
+transportation = "✈️"
+carrier = "UAL"
+description = ""
+startDate = "2022-10-17"
+endDate = "2022-10-18"
+link = ""
+
+[[trip.stay]]
+origin = "Denver"
+oriCountry = "USA"
+oriTravelCode = "DEN"
+destination = "Glenwood Springs"
+desCountry = "USA"
+desTravelCode = "GSC"
+transportation = "🚂"
+carrier = "AMT"
+description = ""
+startDate = "2022-10-19"
+endDate = "2022-10-20"
+link = ""
+
+[[trip.stay]]
+origin = "Glenwood Springs"
+oriCountry = "USA"
+oriTravelCode = "GSC"
+destination = "Salt Lake City"
+desCountry = "USA"
+desTravelCode = "SLC"
+transportation = "🚂"
+carrier = "AMT"
+description = ""
+startDate = "2023-10-21"
+endDate = "2023-04-22"
+link = ""
+
+[[trip.stay]]
+origin = "Salt Lake City"
+oriCountry = "USA"
+oriTravelCode = "SLC"
+destination = "Park City"
+desCountry = "USA"
+desTravelCode = "PCU"
+transportation = "🚗"
+description = ""
+startDate = "2023-10-23"
+endDate = "2023-04-23"
+link = ""
+
+[[trip.stay]]
+origin = "Park City"
+oriCountry = "USA"
+oriTravelCode = "PCU"
+destination = "Salt Lake City"
+desCountry = "USA"
+desTravelCode = "SLC"
+transportation = "🚗"
+description = ""
+startDate = "2022-10-24"
+endDate = "2022-10-24"
+link = ""
+
+[[trip.stay]]
+origin = "Salt Lake City"
+oriCountry = "USA"
+oriTravelCode = "SLC"
+destination = "San Francisco"
+desCountry = "USA"
+desTravelCode = "SFC"
+transportation = "🚂"
+carrier = "AMT"
+description = ""
+startDate = "2022-10-25"
+endDate = "2022-10-30"
+link = ""
+
+[[trip]]
+destination = "Los Angeles + San Diego"
+description = """Was supposed to be a 🚂 adventure as well but 
+Amtrak's Pacific Surfliner got effed up in a storm before going.
+"""
+startDate = "2022-10-31"
+endDate = "2023-11-09"
+link = ""
+
+[[trip.stay]]
+origin = "San Francisco"
+oriCountry = "USA"
+oriTravelCode = "SFO"
+destination = "Los Angeles"
+desCountry = "USA"
+desTravelCode = "LAX"
+transportation = "🚗"
+description = """
+Pacific Surfliner was out of commission so I accepted  
+Martin's offer to ride down with him from SF to LA.
+"""
+startDate = "2022-10-31"
+endDate = "2023-11-05"
+link = ""
+
+[[trip.stay]]
+origin = "Los Angeles"
+oriCountry = "USA"
+oriTravelCode = "LAX"
+destination = "San Diego"
+desCountry = "USA"
+desTravelCode = "SAN"
+transportation = "🚌"
+description = "Pacific Surfliner was out of commission so I ended up taking the bus from LA to SD."
+startDate = "2022-11-06"
+endDate = "2022-11-09"
+link = ""
+
+[[trip]]
+destination = "Brazil"
+description = "Rio, Salvador, and São Paulo"
+startDate = "2022-12-29"
+endDate = "2023-01-13"
+link = ""
+
+[[trip.stay]]
+origin = "New York City"
+oriCountry = "USA"
+oriTravelCode = "JFK"
+destination = "Rio de Janeiro"
+desCountry = "Brazil"
+desTravelCode = "GIG"
+transportation = "✈️"
+carrier = "AA"
+description = "New Year's Eve"
+startDate = "2022-12-29"
+endDate = "2023-01-04"
+link = ""
+
+[[trip.stay]]
+origin = "Rio de Janeiro"
+oriCountry = "Brazil"
+oriTravelCode = "GIG"
+destination = "Salvador da Bahia"
+desCountry = "Brazil"
+desTravelCode = "SSA"
+transportation = "✈️"
+carrier = "LAN"
+description = "Anita and Cortejo Afro"
+startDate = "2023-01-05"
+endDate = "2023-01-09"
+link = ""
+
+[[trip.stay]]
+origin = "Salvador da Bahia"
+oriCountry = "Brazil"
+oriTravelCode = "SSA"
+destination = "São Paulo"
+desCountry = "Brazil"
+desTravelCode = "CGH"
+transportation = "✈️"
+carrier = "LAN"
+description = ""
+startDate = "2022-01-10"
+endDate = "2023-01-13"
+link = ""
+
+
+
+[[trip]]
+destination = "Crescent Line + Sunset Limited + Pacific Surfliner"
+description = """
+NYC > Charlotte > Atlanta > New Orleans > Houston > 
+San Antonio > Tucson > LA > San Diego
+"""
+startDate = "2023-03-03"
+endDate = "2023-03-28"
+link = ""
+
+[[trip.stay]]
+origin = "New York City"
+oriCountry = "USA"
+oriTravelCode = "NYP"
+destination = "Charlotte"
+desCountry = "USA"
+desTravelCode = "CLT"
+transportation = "🚂"
+carrier = "AMT"
+description = ""
+startDate = "2023-03-03"
+endDate = "2023-03-07"
+link = ""
+
+[[trip.stay]]
+origin = "Charlotte"
+oriCountry = "USA"
+oriTravelCode = "CLT"
+destination = "Atlanta"
+desCountry = "USA"
+desTravelCode = "ATL"
+transportation = "🚂"
+carrier = "AMT"
+description = ""
+startDate = "2023-03-08"
+endDate = "2023-03-12"
+link = ""
+
+[[trip.stay]]
+origin = "Atlanta"
+oriCountry = "USA"
+oriTravelCode = "ATL"
+destination = "New Orleans"
+desCountry = "USA"
+desTravelCode = "NOL"
+transportation = "🚂"
+carrier = "AMT"
+description = ""
+startDate = "2023-03-13"
+endDate = "2023-03-19"
+link = ""
+
+[[trip.stay]]
+origin = "New Orleans"
+oriCountry = "USA"
+oriTravelCode = "NOL"
+destination = "Houston"
+desCountry = "USA"
+desTravelCode = "HOS"
+transportation = "🚂"
+carrier = "AMT"
+description = ""
+startDate = "2023-03-20"
+endDate = "2023-03-22"
+link = ""
+
+[[trip.stay]]
+origin = "Houston"
+oriCountry = "USA"
+oriTravelCode = "HOS"
+destination = "San Antonio"
+desCountry = "USA"
+desTravelCode = "SAS"
+transportation = "🚂"
+carrier = "AMT"
+description = "4-hour 🚂 stopover"
+startDate = "2023-03-23"
+endDate = "2023-03-23"
+link = ""
+
+[[trip.stay]]
+origin = "San Antonio"
+oriCountry = "USA"
+oriTravelCode = "SAS"
+destination = "Tucson"
+desCountry = "USA"
+desTravelCode = "TUS"
+transportation = "🚂"
+carrier = "AMT"
+description = ""
+startDate = "2023-03-23"
+endDate = "2023-03-24"
+link = ""
+
+[[trip.stay]]
+origin = "Tucson"
+oriCountry = "USA"
+oriTravelCode = "TUS"
+destination = "Los Angeles"
+desCountry = "USA"
+desTravelCode = "LAX"
+transportation = "✈️"
+carrier = "SWA"
+description = """
+Amtrak had a system-wide error and canceled all the long-haul 🚂s. 
+I need to be in LA by March 28 so I ended up flying from Tucson to LA.
+"""
+startDate = "2023-03-25"
+endDate = "2023-03-28"
+link = ""
+
+[[trip.stay]]
+origin = "Los Angeles"
+oriCountry = "USA"
+oriTravelCode = "LAX"
+destination = "San Diego"
+desCountry = "USA"
+desTravelCode = "SAN"
+transportation = "🚂"
+carrier = "AMT"
+description = """
+Pacific Surfliner was nearly back to its full capacity. 
+Had to get off the 🚂 at XX, take a bus to XX, 
+then continue on the 🚂 the rest of the way.
+"""
+startDate = "2023-03-29"
+endDate = "2023-03-29"
+link = ""
+
+[[trip]]
+destination = "Oaxaca beaches"
+description = "San Diego, Mexico City, Puerto Escondido, and Zipolite"
+startDate = "2023-03-30"
+endDate = "2023-04-11"
+link = ""
+
+[[trip.stay]]
+origin = "Tijuana"
+oriCountry = "Mexico"
+oriTravelCode = "TIJ"
+destination = "Mexico City"
+desCountry = "Mexico"
+desTravelCode = "MEX"
+transportation = "✈️"
+carrier = "AMX"
+description = ""
+startDate = "2023-03-30"
+endDate = "2023-04-01"
+link = ""
+linkRec = "https://maps.app.goo.gl/4zLTgSfqRr8CecZv7"
+
+[[trip.stay]]
+origin = "Mexico City"
+oriCountry = "Mexico"
+oriTravelCode = "MEX"
+destination = "Puerto Escondido"
+desCountry = "Mexico"
+desTravelCode = "PXM"
+transportation = "✈️"
+carrier = "AMX"
+description = ""
+startDate = "2022-04-02"
+endDate = "2023-04-05"
+link = ""
+
+[[trip.stay]]
+origin = "Puerto Escondido"
+oriCountry = "Mexico"
+oriTravelCode = "PXM"
+destination = "Zipolite"
+desCountry = "Mexico"
+desTravelCode = "ZIP"
+transportation = "🚗"
+description = ""
+startDate = "2023-04-06"
+endDate = "2023-04-09"
+link = ""
+
+[[trip.stay]]
+origin = "Zipolite"
+oriCountry = "Mexico"
+oriTravelCode = "HUX"
+destination = "Mexico City"
+desCountry = "Mexico"
+desTravelCode = "MEX"
+transportation = "✈️"
+carrier = "VOI"
+description = ""
+startDate = "2023-04-10"
+endDate = "2023-04-11"
+link = ""
+
+[[trip]]
+destination = "European Stay"
+description = "Switzerland, France, Spain, Germany, Poland, and Hungary"
+startDate = "2023-04-28"
+endDate = "2023-08-18"
+link = ""
+
+[[trip.stay]]
+origin = "New York City"
+oriCountry = "USA"
+oriTravelCode = "EWR"
+destination = "Zurich"
+desCountry = "Switzerland"
+desTravelCode = "ZRH"
+transportation = "✈️"
+carrier = "AFR"
+description = ""
+startDate = "2023-04-28"
+endDate = "2023-05-05"
+link = ""
+
+[[trip.stay]]
+origin = "Zurich"
+oriCountry = "Switzerland"
+oriTravelCode = "ZRH"
+destination = "Paris"
+desCountry = "France"
+desTravelCode = "PAR"
+transportation = "🚂"
+carrier = 'SNCF'
+description = ""
+startDate = "2023-05-06"
+endDate = "2023-06-27"
+link = ""
+
+[[trip.stay]]
+origin = "Paris"
+oriCountry = "France"
+oriTravelCode = "ORY"
+destination = "Madrid"
+desCountry = "Spain"
+desTravelCode = "MAD"
+transportation = "✈️"
+carrier = "VLG"
+description = ""
+startDate = "2023-06-28"
+endDate = "2023-07-02"
+link = ""
+
+[[trip.stay]]
+origin = "Madrid"
+oriCountry = "Spain"
+oriTravelCode = "MAD"
+destination = "San Sebastian"
+desCountry = "Spain"
+desTravelCode = "EAS"
+transportation = "🚂"
+carrier = 'Renfe'
+description = ""
+startDate = "2023-07-03"
+endDate = "2023-07-04"
+link = ""
+
+[[trip.stay]]
+origin = "San Sebastian"
+oriCountry = "Spain"
+oriTravelCode = "EAS"
+destination = "Bilbao"
+desCountry = "Spain"
+desTravelCode = "BIO"
+transportation = "🚌"
+description = ""
+startDate = "2023-07-05"
+endDate = "2023-07-06"
+link = ""
+
+[[trip.stay]]
+origin = "Bilbao"
+oriCountry = "Spain"
+oriTravelCode = "BIO"
+destination = "Barcelona"
+desCountry = "Spain"
+desTravelCode = "BCN"
+transportation = "✈️"
+carrier = "VLG"
+description = ""
+startDate = "2023-07-07"
+endDate = "2023-07-10"
+link = ""
+
+[[trip.stay]]
+origin = "Barcelona"
+oriCountry = "Spain"
+oriTravelCode = "BCN"
+destination = "Paris"
+desCountry = "France"
+desTravelCode = "ORY"
+transportation = "✈️"
+carrier = "VLG"
+description = ""
+startDate = "2023-07-11"
+endDate = "2023-07-16"
+link = ""
+
+[[trip.stay]]
+origin = "Paris"
+oriCountry = "France"
+oriTravelCode = "ORY"
+destination = "Hamburg"
+desCountry = "Germany"
+desTravelCode = "HAM"
+transportation = "✈️"
+carrier = "VLG"
+description = ""
+startDate = "2023-07-17"
+endDate = "2023-07-20"
+link = ""
+
+[[trip.stay]]
+origin = "Hamburg"
+oriCountry = "Germany"
+oriTravelCode = "HAM"
+destination = "Berlin"
+desCountry = "Germany"
+desTravelCode = "BER"
+transportation = "🚂"
+carrier = 'DB'
+description = ""
+startDate = "2023-07-21"
+endDate = "2023-07-24"
+link = ""
+
+[[trip.stay]]
+origin = "Berlin"
+oriCountry = "Germany"
+oriTravelCode = "BER"
+destination = "Warsaw"
+desCountry = "Poland"
+desTravelCode = "WAW"
+transportation = "DB"
+carrier = "AMT"
+description = ""
+startDate = "2023-07-25"
+endDate = "2023-07-27"
+link = ""
+
+[[trip.stay]]
+origin = "Warsaw"
+oriCountry = "Poland"
+oriTravelCode = "WAW"
+destination = "Budapest"
+desCountry = "Hungary"
+desTravelCode = "BUD"
+transportation = "✈️"
+carrier = "WZZ"
+description = ""
+startDate = "2023-07-28"
+endDate = "2023-07-30"
+link = ""
+
+[[trip.stay]]
+origin = "Budapest"
+oriCountry = "Hungary"
+oriTravelCode = "BUD"
+destination = "Paris"
+desCountry = "France"
+desTravelCode = "ORY"
+transportation = "✈️"
+carrier = "WZZ"
+description = ""
+startDate = "2023-07-31"
+endDate = "2023-07-31"
+link = ""
+
+[[trip.stay]]
+origin = "Paris"
+oriCountry = "France"
+oriTravelCode = "PAR"
+destination = "Batz-Sur-Mer"
+desCountry = "France"
+desTravelCode = "BSM"
+transportation = "🚂"
+carrier = 'SNCF'
+description = ""
+startDate = "2023-07-31"
+endDate = "2023-08-11"
+link = ""
+
+[[trip.stay]]
+origin = "Batz-Sur-Mer"
+oriCountry = "France"
+oriTravelCode = "BSM"
+destination = "Nantes"
+desCountry = "France"
+desTravelCode = "NTE"
+transportation = "🚂"
+carrier = 'SNCF'
+description = ""
+startDate = "2023-08-12"
+endDate = "2023-08-14"
+link = ""
+
+[[trip.stay]]
+origin = "Nantes"
+oriCountry = "France"
+oriTravelCode = "NTE"
+destination = "Pontorson"
+desCountry = "France"
+desTravelCode = "PON"
+transportation = "🚂"
+carrier = 'SNCF'
+description = ""
+startDate = "2023-08-15"
+endDate = "2023-08-15"
+link = ""
+
+[[trip.stay]]
+origin = "Pontorson"
+oriCountry = "France"
+oriTravelCode = "PON"
+destination = "Mont-Saint-Michel"
+desCountry = "France"
+desTravelCode = "MSM"
+transportation = "🚲"
+description = ""
+startDate = "2023-08-16"
+endDate = "2023-08-16"
+link = ""
+
+[[trip.stay]]
+origin = "Mont-Saint-Michel"
+oriCountry = "France"
+oriTravelCode = "MSM"
+destination = "Pontorson"
+desCountry = "France"
+desTravelCode = "PON"
+transportation = "🚲"
+description = ""
+startDate = "2023-08-16"
+endDate = "2023-08-16"
+link = ""
+
+[[trip.stay]]
+origin = "Pontorson"
+oriCountry = "France"
+oriTravelCode = "PON"
+destination = "Paris"
+desCountry = "France"
+desTravelCode = "PAR"
+transportation = "🚂"
+carrier = 'NOMAD'
+description = ""
+startDate = "2023-08-16"
+endDate = "2023-08-17"
+link = ""
+
+[[trip.stay]]
+origin = "Paris"
+oriCountry = "France"
+oriTravelCode = "CDG"
+destination = "New York City"
+desTravelCode = "JFK"
+desCountry = "USA"
+transportation = "✈️"
+carrier = "NBT"
+description = ""
+startDate = "2023-08-18"
+endDate = "2023-08-18"
+link = ""
+
+[[trip]]
+destination = "Puerto Rico"
+description = "San Juan, El Yunque, Ponce, and the Cavern"
+startDate = "2023-10-03"
+endDate = "2023-10-11"
+link = ""
+
+[[trip]]
+destination = "New Mexico"
+description = "Alburquerque, and Santa Fe"
+startDate = "2023-10-12"
+endDate = "2023-04-16"
+link = ""
+
+
+[[trip]]
+destination = "California"
+description = "Los Angeles, San Francisco, Napa, and the Redwoods"
+startDate = "2023-11-04"
+endDate = "2023-04-11"
+link = ""
+
+[[trip.stay]]
+origin = "Los Angeles"
+oriCountry = "USA"
+oriTravelCode = "LAX"
+destination = "San Francisco"
+desTravelCode = "SFO"
+desCountry = "USA"
+transportation = "✈️"
+carrier = "AS"
+description = ""
+startDate = "2023-11-15"
+endDate = "2023-11-16"
+link = ""
+linkRec = "https://maps.app.goo.gl/c5pGRp32c4gxp4AZ9"
+
+[[trip.stay]]
+origin = "San Francisco"
+oriCountry = "USA"
+oriTravelCode = "SFO"
+destination = "Napa"
+desTravelCode = ""
+desCountry = "USA"
+transportation = "🚗"
+carrier = ""
+description = ""
+startDate = "2023-11-17"
+endDate = "2023-11-18"
+link = ""
+linkRec = ""
+
+[[trip.stay]]
+origin = "Napa"
+oriCountry = "USA"
+oriTravelCode = ""
+destination = "Humboldt"
+desTravelCode = ""
+desCountry = "USA"
+transportation = "🚗"
+carrier = ""
+description = "The Redwoods"
+startDate = "2023-11-19"
+endDate = "2023-11-20"
+link = ""
+linkRec = ""
+
+[[trip.stay]]
+origin = "Humboldt"
+oriCountry = "USA"
+oriTravelCode = ""
+destination = "San Francisco"
+desTravelCode = ""
+desCountry = "USA"
+transportation = "🚗"
+carrier = ""
+description = "Thanksgiving"
+startDate = "2023-11-21"
+endDate = "2023-11-27"
+link = ""
+linkRec = ""
+
+[[trip.stay]]
+origin = "Oakland"
+oriCountry = "USA"
+oriTravelCode = "OAK"
+destination = "Los Angeles"
+desTravelCode = "LAX"
+desCountry = "USA"
+transportation = "🚂"
+carrier = "AMT"
+description = ""
+startDate = "2023-11-29"
+endDate = "2023-12-04"
+link = ""
+linkRec = "https://maps.app.goo.gl/63gxKczdaAFnFCfc7"
+
+[[trip.stay]]
+origin = "Los Angeles"
+oriCountry = "USA"
+oriTravelCode = "LAX"
+destination = "Mexico City"
+desTravelCode = "MEX"
+desCountry = "Mexico"
+transportation = "✈️"
+carrier = "VB"
+description = ""
+startDate = "2023-12-04"
+endDate = "2023-12-10"
+link = ""
+linkRec = "https://maps.app.goo.gl/4zLTgSfqRr8CecZv7"
+
+[[trip.stay]]
+origin = "Mexico City"
+oriCountry = "Mexico"
+oriTravelCode = "MEX"
+destination = "Playa del Carmen"
+desTravelCode = "CUN"
+desCountry = "Mexico"
+transportation = "✈️"
+carrier = "AMX"
+description = ""
+startDate = "2023-12-11"
+endDate = "2023-12-20"
+link = ""
+linkRec = "https://maps.app.goo.gl/FMcae52NRGUfr61ZA"
+
+# WKT,name,description
+# "POINT (-80.84312669999997 35.2270869)",Charlotte,1987-2005
+# "POINT (-79.05584450000003 35.9131996)",Chapel Hill,2005-2010
+# "POINT (1.4442090000000007 43.604652)",Toulouse,2014
+# "POINT (3.876715999999987 43.610769)",Montpellier,2014
+# "POINT (-0.2151730000000498 42.956415)",Arrens-Marsous,2014
+# "POINT (2.1486413000000084 43.9250853)",Albi,2014
+# "POINT (4.895167899999933 52.3702157)",Amsterdam,2014, 2015
+# "POINT (9.67893330000004 47.5797815)",Lindau,2014
+# "POINT (16.37381890000006 48.2081743)",Vienna,2014
+# "POINT (4.351710300000036 50.8503396)",Brussels,2015
+# "POINT (4.5463889999999765 52.270019)",Keukenhof,2015
+# "POINT (4.835658999999964 45.764043)",Lyon,2014
+# "POINT (6.869432999999958 45.923697)",Chamonix,2014
+# "POINT (6.129383999999959 45.899247)",Annecy,2014
+# "POINT (-0.5791799999999512 44.837789)",Bordeaux,2015
+# "POINT (4.031696000000011 49.258329)",Reims,2015
+# "POINT (11.974559999999997 57.70887)",Gothenburg,2015
+# "POINT (12.568337100000008 55.67609680000001)",Copenhagen,2015
+# "POINT (18.068580800000063 59.32932349999998)",Stockholm,2015
+# "POINT (-5.930119999999988 54.59728500000001)",Belfast,2014
+# "POINT (-21.933332999999948 64.133333)",Reykjavík,2015
+# "POINT (-77.03646409999999 38.90723089999999)",Washington,often
+# "POINT (-74.0059731 40.7143528)",New York,often
+# "POINT (-71.0597732 42.3584308)",Boston,often
+# "POINT (-71.41283429999999 41.8239891)",Providence,2014
+# "POINT (-75.16378900000001 39.952335)",Philadelphia,often
+# "POINT (-76.7074571 37.2707022)",Williamsburg,2010
+# "POINT (-82.55148689999999 35.5950581)",Asheville,often
+# "POINT (-77.94471020000003 34.2257255)",Wilmington,2007
+# "POINT (-80.75260800000001 32.216316)",Hilton Head Island,2008
+# "POINT (-95.23525010000003 38.9716689)",Lawrence,2013
+# "POINT (-122.41941550000001 37.7749295)",San Francisco,2010, 2013, 2014
+# "POINT (-117.1572551 32.7153292)",San Diego,2013
+# "POINT (-84.3879824 33.7489954)",Atlanta,2003, 2010
+# "POINT (-79.93092159999998 32.7765656)",Charleston,2005
+# "POINT (-80.1336478 25.7848988)",South Beach,2010
+# "POINT (-81.3792365 28.5383355)",Orlando,2004
+# "POINT (-81.03481440000002 34.0007104)",Columbia,2013
+# "POINT (-78.63817870000003 35.7795897)",Raleigh,often
+# "POINT (-78.898619 35.9940329)",Durham,often
+# "POINT (-79.79197540000001 36.0726354)",Greensboro,often
+# "POINT (-87.62979819999998 41.8781136)",Chicago,2009
+# "POINT (-79.2902133 43.6689775)",Toronto Division,2013, 2016-10
+# "POINT (-73.55399249999999 45.5086699)",Montreal,2013, 2017-03, 2017-07
+# "POINT (8.466039499999965 49.4874592)",Mannheim,2007
+# "POINT (8.672433500000011 49.3987524)",Heidelberg,2007
+# "POINT (2.3522219000000177 48.856614)",Paris,2007, 2014, 2015, 2016, 2017
+# "POINT (7.26559199999997 43.696036)",Nice,2007-05, 2017-07
+# "POINT (11.248000600000069 43.7710332)",Florence,2007
+# "POINT (14.268124400000033 40.8517746)",Naples,2007
+# "POINT (14.498934400000053 40.7461572)",Pompei,2007
+# "POINT (10.401688799999988 43.7228386)",Pisa,2007
+# "POINT (12.482519899999943 41.8929163)",Rome,2007, 2011-07
+# "POINT (12.107668999999987 42.4206766)",Viterbo,2011
+# "POINT (12.058816999999976 42.318861)",Vetralla,2011
+# "POINT (-0.11982439999997041 51.51121389999999)",London,2011
+# "POINT (8.539182500000038 47.3686498)",Zurich,2011
+# "POINT (13.404953999999975 52.52000659999999)",Berlin,2011
+# "POINT (2.1734034999999494 41.3850639)",Barcelona,2011
+# "POINT (2.821426400000064 41.9794005)",Girona,2011
+# "POINT (-46.6388182 -23.5489433)",São Paulo,2010, 2014, 2017
+# "POINT (-43.20958689999998 -22.9035393)",Rio de Janeiro,2010, 2013, 2014, 2017
+# "POINT (-38.512382 -12.9703817)",Salvador,2010
+# "POINT (-58.38159310000003 -34.603723200000005)",Buenos Aires,2013
+# "POINT (-71.3102778 -41.1334722)",San Carlos de Bariloche,2013
+# "POINT (-56.18194440000002 -34.8836111)",Montevideo,2013
+# "POINT (-57.4627259 -34.1498616)",Colonia,2013
+# "POINT (34.77781900000002 32.066158)",Tel Aviv,2013, 2015
+# "POINT (35.21370999999999 31.768319)",Jerusalem,2013
+# "POINT (54.366666699999996 24.466666700000005)",Abu Dhabi,2012, 2015
+# "POINT (55.30748500000004 25.271139)",Dubai,2012, 2015
+# "POINT (56.125384800000006 24.8061691)",Hatta,2012
+# "POINT (55.74472220000007 24.2075)",Al Ain,2012
+# "POINT (18.424055299999964 -33.9248685)",Cape Town,2017-06
+# "POINT (-9.139336599999979 38.7222524)",Lisbon,2017-07
+# "POINT (10.752245399999993 59.9138688)",Oslo,2017-08
+# "POINT (5.927999999999997 43.124228)",Toulon,2017-07
+# "POINT (5.369779999999992 43.296482)",Marseille,2017-07
+# "POINT (6.57288589999996 43.72979099999999)",Bargème,2017-07
+# "POINT (6.577291999999943 43.777959)",Châteauvieux,2017-07
+# "POINT (7.332508999999959 43.990704)",La Bollène-Vésubie,2017-07
+# "POINT (5.121420100000023 52.09073739999999)",Utrecht,2017-08
+# "POINT (-9.381658900000048 38.80286869999999)",Sintra,2017-07
+# "POINT (14.43780049999998 50.0755381)",Prague,2017-07
+# "POINT (100.50176510000006 13.7563309)",Bangkok,2016-06
+# "POINT (98.98171630000002 18.7060641)",Chiang Mai,2016-06
+# "POINT (98.3020123 7.8969151)",Patong,2016-06
+# "POINT (139.69170639999993 35.6894875)",Tokyo,2016-06
+# "POINT (-70.65044920000003 -33.4378305)",Santiago,2017-03
+# "POINT (-71.61268849999999 -33.04723799999999)",Valparaíso,2017-03
+# "POINT (8.672433500000011 49.3987524)",Heidelberg,2007-05
+# "POINT (12.453389000000016 41.90291599999999)",Vatican City,2007
+# "POINT (-122.67648159999999 45.52306220000001)",Portland,2017-03, 2017-05
+# "POINT (-122.14301949999998 37.4418834)",Palo Alto,
+# "POINT (-121.88632860000001 37.3382082)",San Jose,
+# "POINT (18.473988200000008 -34.3568425)",Cape of Good Hope,2017-06
+# "POINT (-112.1129972 36.1069652)",Grand Canyon National Park,2017-05
+# "POINT (-115.13982959999998 36.1699412)",Las Vegas,2017-05
+# "POINT (-112.07403729999999 33.4483771)",Phoenix,2017-05
+# "POINT (-122.28686500000003 38.2975381)",Napa,2016-12
+# "POINT (-122.2711137 37.8043637)",Oakland,
+# "POINT (-122.27274699999998 37.8715926)",Berkeley,
+# "POINT (-118.2436849 34.0522342)",Los Angeles,2016-11
