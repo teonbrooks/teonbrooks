@@ -15,4 +15,4 @@
 ### No Longer in Use
 
 * ~~[Micro.blog](https://micro.blog/teon)~~
-* ~~ [Twitter](https://twitter.com/teonbrooks)~~
+* ~~[Twitter](https://twitter.com/teonbrooks)~~

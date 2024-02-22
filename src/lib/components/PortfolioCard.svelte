@@ -1,20 +1,18 @@
 <script>
     export let path_icons;
     export let item;
-    import { mdiLink, mdiCloseCircle } from '@mdi/js';
+    import { mdiLink, mdiClose } from '@mdi/js';
     import { Svg } from '@smui/common/elements';
     import Card, {
             Content,
-            PrimaryAction,
             Actions,
             ActionButtons,
             ActionIcons,
         } from '@smui/card';
-    import Snackbar, {Actions as SBActions, Label as SBLabel} from '@smui/snackbar';
     import Button, { Label } from '@smui/button';
     import IconButton, { Icon } from '@smui/icon-button';
-
-    let snackbarWithClose;
+  import Dialog, { Content as DContent } from '@smui/dialog';
+  let open = false;
 
 </script>
 
@@ -27,9 +25,9 @@
     </Content>
     <Actions>
         <ActionButtons>
-            <Button on:click={() => snackbarWithClose.open()}>
+            <Button on:click={() => (open = true)}>
                 <Label>Details</Label>
-            </Button>
+              </Button>
         </ActionButtons>
         <ActionIcons>    
             <IconButton 
@@ -41,14 +39,21 @@
             </IconButton>
         </ActionIcons>
     </Actions>
-    <Snackbar bind:this={snackbarWithClose} labelText={item.description}>
-        <SBLabel />
-        <SBActions>
-            <IconButton title="Dismiss">
+    <Dialog bind:open sheet aria-describedby="sheet-content">
+        <DContent id="sheet-content">
+            <IconButton action="close" class="material-icons">
                 <Icon component={Svg} viewBox="0 0 24 24">
-                    <path fill="currentColor" d={mdiCloseCircle} />
+                    <path fill="currentColor" d={mdiClose} />
                 </Icon>
             </IconButton>
-        </SBActions>
-    </Snackbar>
+            <div>
+                {#if item.icon}
+                    <img src="{path_icons}/{item.icon}" alt={item.organization} class={item.categories} width="100" height="100">    
+                {/if}
+                <p>
+                    {item.description}
+                </p>
+            </div>
+        </DContent>
+      </Dialog>
 </Card>

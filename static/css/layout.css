@@ -20,11 +20,11 @@ main {
 	min-height: 100vh;
 }
 
-img {
+/* img {
 	width: 100%;
 	max-width: 100%;
 	height: auto;
-}
+} */
 
 .post {
 	h1 {
