@@ -8,7 +8,6 @@
 <div id="mc_embed_signup" align="center">
     <form action="https://teonbrooks.us8.list-manage.com/subscribe/post?u=00ed65513cf7398495ff625bc&amp;id=59d53d9d72&amp;f_id=00976de0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
         <div id="mc_embed_signup_scroll">
-        <h2>Subscribe</h2>
         <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
 	<label for="mce-FNAME">First Name </label>

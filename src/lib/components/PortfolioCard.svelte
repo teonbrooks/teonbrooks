@@ -33,7 +33,7 @@
             <IconButton 
                 on:click={() => window.open(item.website)}
                 title="Open Link">
-                <Icon component={Svg} viewBox="0 0 24 24">
+                <Icon tag="svg" viewBox="0 0 24 24">
                     <path fill="currentColor" d={mdiLink} />
                 </Icon>
             </IconButton>
@@ -42,7 +42,7 @@
     <Dialog bind:open sheet aria-describedby="sheet-content">
         <DContent id="sheet-content">
             <IconButton action="close" class="material-icons">
-                <Icon component={Svg} viewBox="0 0 24 24">
+                <Icon tag="svg" viewBox="0 0 24 24">
                     <path fill="currentColor" d={mdiClose} />
                 </Icon>
             </IconButton>

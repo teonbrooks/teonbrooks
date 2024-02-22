@@ -1,3 +1,6 @@
+# Future Routes
+
+## logs
 // Add the ability to pull feeds here
 // - Letterboxd
 // - Strava
@@ -8,3 +11,10 @@
 // - Discogs
 // - Pocket
 
+## reads
+
+## library
+<!-- This should contain my:
+- Pocket list
+- Goodreads
+- Zotero -->
