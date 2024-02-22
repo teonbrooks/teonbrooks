@@ -1,8 +1,7 @@
 <script>
     import TravelTag from '$lib/components/TravelTag.svelte'
     import logTravel from '$lib/content/log-travel.json';
-    
-    export let data;
+
 </script>
 
 <!-- // 1. this will be a page that pulls from the posts using the api for all the travel tagged posts

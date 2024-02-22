@@ -1,7 +1,6 @@
 <script>
     import LayoutGrid, { Cell } from '@smui/layout-grid';
     import Snackbar, {Actions as SBActions, Label as SBLabel} from '@smui/snackbar';
-    import { Svg } from '@smui/common/elements';
     import { mdiLink, mdiCloseCircle } from '@mdi/js';
 
     import Card, {

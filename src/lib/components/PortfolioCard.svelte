@@ -2,7 +2,6 @@
     export let path_icons;
     export let item;
     import { mdiLink, mdiClose } from '@mdi/js';
-    import { Svg } from '@smui/common/elements';
     import Card, {
             Content,
             Actions,

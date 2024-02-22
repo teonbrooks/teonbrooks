@@ -51,7 +51,7 @@
 		rel="alternate"
 		type="application/rss+xml"
 		title={siteTitle}
-		href="http://{siteURL}/api/rss.xml"
+		href="https://{siteURL}/api/rss.xml"
 	/>
 </svelte:head>
 
