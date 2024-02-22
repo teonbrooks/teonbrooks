@@ -7,7 +7,6 @@
 <!-- // 1. this will be a page that pulls from the posts using the api for all the travel tagged posts
 // 2. will store a private md file for each album that contains the album link and the narrative 
 <svelte:head>
-    <script defer data-domain="teonbrooks.com" src="https://plausible.io/js/script.js"></script>
 	<title>Travel</title>
 </svelte:head>
 
