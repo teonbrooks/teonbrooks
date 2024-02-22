@@ -1,22 +1,8 @@
-import { error } from '@sveltejs/kit'
-// import TOML from '@iarna/toml';
-// import logTravel from `$lib/logs/log-travel.toml?raw`;
+export const prerender = true
 
+export const load = async ({ url, fetch }) => {
+    const travelRes = await fetch(`${url.origin}/api/log-travel.json`)
+    const travel = await travelRes.json()
 
-let travelLog;
-
-export const load = async ({ fetch}) => {
-	try {
-        let logTravelFile = `/content/logs/log-travel.json`;
-        let res = await fetch(logTravelFile);
-        const travelLog = await res.json();
-        // const travelLog = TOML.parse(logTravel);
-
-		// return {
-		// 	TravelLog: travelLog,
-		// }
-        return { travelLog }
-	} catch(err) {
-		throw error(404, err)
-	}
+    return { travel }
 }

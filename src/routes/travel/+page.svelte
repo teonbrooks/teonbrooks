@@ -1,6 +1,9 @@
 <script>
     import TravelTag from '$lib/components/TravelTag.svelte'
-    import logTravel from '$lib/content/log-travel.json';
+    // import logTravel from '$lib/content/log-travel.json';
+
+    export let data;
+    let logTravel = data.travel;
 
 </script>
 
