@@ -93,6 +93,10 @@
 		{#if social.includes('googlePhotos')}
 			<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 		{/if}
+		<!-- {#if social.includes('bsky')}
+			<script src="https://assets.bluesky.lol/js/b1.js" async></script>
+		{/if} -->
+		
 	{/if}
 
 	{#if categories}

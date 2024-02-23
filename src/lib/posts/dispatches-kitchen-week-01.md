@@ -26,9 +26,10 @@ social:
 <https://cooking.nytimes.com/recipes/1019152-salted-chocolate-chunk-shortbread-cookies>
 
 ## Social
-
-<span id="teonbrooks.com-3kigz6p7q532p"></span>
-<script src="https://assets.bluesky.lol/js/b1.js" data-handle="teonbrooks.com" data-skeet="3kigz6p7q532p"></script>
+<div>
+    <span id="teonbrooks.com-3kigz6p7q532p"></span>
+    <script  async src="https://assets.bluesky.lol/js/b1.js" data-handle="teonbrooks.com" data-skeet="3kigz6p7q532p"></script>
+</div>
 
 ## Commentary
 

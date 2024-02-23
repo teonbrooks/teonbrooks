@@ -27,8 +27,10 @@ social:
 
 ## Social
 
-<span id="teonbrooks.com-3kk4ymvjb7m23"></span>
-<script async src="https://assets.bluesky.lol/js/b1.js" data-handle="teonbrooks.com" data-skeet="3kk4ymvjb7m23" ></script>
+<div>
+  <span id="teonbrooks.com-3kk4ymvjb7m23"></span>
+  <script async src="https://assets.bluesky.lol/js/b1.js" data-handle="teonbrooks.com" data-skeet="3kk4ymvjb7m23" ></script>
+</div>
 
 ## Commentary
 
