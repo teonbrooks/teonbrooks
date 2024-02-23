@@ -3,7 +3,7 @@
     // import logTravel from '$lib/content/log-travel.json';
 
     export let data;
-    let logTravel = data.travel;
+    let { logTravel } = data;
 
 </script>
 

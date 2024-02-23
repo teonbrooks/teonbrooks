@@ -2,14 +2,14 @@
 <script>
 	import { siteTitle, siteURL } from '$lib/config.js';
 	// use default svelte-material-ui css
-	import '$lib/../../node_modules/svelte-material-ui/bare.css'
-	import Header from '$lib/components/Header.svelte'
-	import Footer from '$lib/components/Footer.svelte'
-	import { currentPage, isMenuOpen } from '$lib/assets/js/store'
-	import { navItems } from '$lib/config'
-	import { preloadCode } from '$app/navigation'
-	import { onMount } from 'svelte'
-	import { fade } from 'svelte/transition'
+	import '$lib/../../node_modules/svelte-material-ui/bare.css';
+	import Header from '$lib/components/Header.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	import { currentPage, isMenuOpen } from '$lib/assets/js/store';
+	import { navItems } from '$lib/config';
+	import { preloadCode } from '$app/navigation';
+	import { onMount } from 'svelte';
+	import { fade } from 'svelte/transition';
 	export let data
 
 	const transitionIn = { delay: 150, duration: 150 }
@@ -51,7 +51,7 @@
 		rel="alternate"
 		type="application/rss+xml"
 		title={siteTitle}
-		href="https://{siteURL}/api/rss.xml"
+		href="{siteURL}/api/rss.xml"
 	/>
 </svelte:head>
 

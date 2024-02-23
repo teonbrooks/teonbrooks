@@ -8,7 +8,6 @@
 export const siteTitle = 'Teon L Brooks'
 export const siteDescription = 'Personal Website and Blog for Teon Brooks'
 export const siteURL = 'https://teonbrooks.com'
-export const siteLink = 'https://teonbrooks.com'
 export const siteAuthor = 'Teon L Brooks'
 export const siteImage = '/images/home.jpg'
 export const siteImageWidth = '300px'
