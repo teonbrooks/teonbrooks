@@ -1,9 +1,10 @@
 <script>
 import { siteTitle, siteDescription, siteImage, siteImageWidth, siteAuthor, siteURL, faviconImage } from '$lib/config';
 import BusinessCard from '$lib/components/BusinessCard.svelte';
-import portfolio from "$lib/content/portfolio.json";
+export let data;
 
-// export let data;
+let { portfolio } = data;
+
 </script>
 
 <svelte:head>
@@ -54,4 +55,4 @@ import portfolio from "$lib/content/portfolio.json";
 
 </svelte:head>
 
-<BusinessCard {...portfolio.id} src={'images/home.jpg'} />
+<BusinessCard {...portfolio.id} src={portfolio.id.imageURL} />

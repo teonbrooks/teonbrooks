@@ -1,9 +1,11 @@
 [id]
 name = "Teon L Brooks, Ph.D"
-descriptors = ["technologist", "cognitive scientist"]
-# title = "Director"
-# organization = "Gotham Data Clinic"
-# website = "https://gothamdataclinic.org"
+descriptors = ["scientist", "technologist"]
+title = "Staff Data Scientist"
+organization = "Mozilla"
+website = "https://mozilla.org"
+imageURL = "https://0.gravatar.com/avatar/8179ec2a3461f51e568637a913b4061ebc7d6d31d7a1aad43d0e251b1fe42c0b?size=1000"
+# imageURL = "images/home.jpg"
 
 [[positions]]
 icon = "bids.png"
@@ -30,9 +32,14 @@ category = ["Past Projects", "volunteer", "education", "democratizing cogsci"]
 # correct the icon
 icon = "openbci.png"
 organization = "DIYSciThai"
-title = "Co-organizer"
+title = "Workshop Creator; Co-organizer"
 timespan = "2016"
 description = """
+DIYSciThai was an Open Science workshop taught in Bangkok, Thailand in June 2016. 
+This two-day workshop is the basis of an open science initiative to provide an 
+integrative curriculum to teach cognitive science through experiential learning.
+
+<a href="https://github.com/teonbrooks/DIYSciThai">Project Summary</a>
 """
 website = "https://github.com/teonbrooks/DIYSciThai"
 category = ["Past Projects", "education", "democratizing cogsci"]
@@ -306,7 +313,7 @@ organization = "University of North Carolina"
 title = "Bachelor of Science"
 timespan = "2005-2009"
 description = """
-Psychology and Linguistics
+Double Major in Psychology and Linguistics
 """
 website = "https://unc.edu"
 category = "Education"

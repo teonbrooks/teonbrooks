@@ -46,9 +46,6 @@
 </article>
 
 <style>
-    img {
-        height: 150px;
-    }
     .demo-cell {
         height: 60px;
         display: flex;

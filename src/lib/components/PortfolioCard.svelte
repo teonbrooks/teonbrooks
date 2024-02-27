@@ -49,10 +49,19 @@
                 {#if item.icon}
                     <img src="{path_icons}/{item.icon}" alt={item.organization} class={item.categories} width="100" height="100">    
                 {/if}
+                <h3>{item.title}</h3>
+                <p><em>{item.timespan}</em></p>
                 <p>
-                    {item.description}
+                    {@html item.description}
                 </p>
             </div>
         </DContent>
       </Dialog>
 </Card>
+
+<style>
+    img {
+        width: 150px;
+        height: 150px;
+    }
+</style>

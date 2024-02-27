@@ -1,15 +1,15 @@
-// import { error } from '@sveltejs/kit'
+import { error } from '@sveltejs/kit'
 
-// export const load = async () => {
-// 	try {
-// 		const MdFile = await import('$lib/content/about/brooks_bio.md');
-// 		const Md = MdFile.default.render().html
+export const load = async () => {
+	try {
+		const MdFile = await import('$lib/content/about/brooks_bio.md');
+		const Md = MdFile.default.render().html
 		
-// 		return {
-// 			Md
-// 		}
-// 	}
-// 	catch(err) {
-// 		error(500, err)
-// 	}
-// }
+		return {
+			Md
+		}
+	}
+	catch(err) {
+		error(500, err)
+	}
+}
