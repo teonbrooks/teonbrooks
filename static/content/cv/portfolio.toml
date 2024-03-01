@@ -7,6 +7,11 @@ website = "https://mozilla.org"
 imageURL = "https://0.gravatar.com/avatar/8179ec2a3461f51e568637a913b4061ebc7d6d31d7a1aad43d0e251b1fe42c0b?size=1000"
 # imageURL = "images/home.jpg"
 
+[skills]
+
+natural_languages =	["English (native)", "French (B2)", "Portuguese (B1)"]
+programming_languages =	["Python (adv.)", "R (adv.)", "JavaScript (int.)"]
+
 [[positions]]
 icon = "bids.png"
 organization = "Brain Imaging Data Structure"
@@ -93,24 +98,45 @@ category = "Fellowships"
 [[positions]]
 icon = "firefox.png"
 organization = "Mozilla"
-title = "Sr. Data Scientist/Technical Lead; Product Manager"
-timespan = "2017-2022"
+title = "Staff Data Scientist"
+timespan = "2017-2022, 2024-Present"
 description = """
-Led the Revenue Data science team. 
-Later expanded my work scope into product management.
-"""
-website = "https://mozilla.org"
-category = "Past Orgs"
+*Revenue Intelligence (2024-Present)*
 
-[[positions]]
-icon = "firefox.png"
-organization = "Mozilla"
-title = "Product Manager"
-timespan = "2021-2022"
-description = """
+- Conduct experimentation for new machine-learning-powered experiences in 
+address bar in the Firefox browser.
+
+- Conduct large-scale data analyses across hundreds of millions of users for our 
+revenue-producing products and our advertising business.
+
+*Product Management, ML (2021-2022)*
+
+- Led new product development to incorporate on-device machine learning in applications.
+
+- Enabled robust telemetry instrumentation to enable contextual recommendation within Firefox.
+
+- Mentored students at the AUC Data Science Initiative on responsible and trustworthy AI within product development and design.
+
+
+*Product Data Science (2017-2021)*
+
+- Conducted experimentation for new product development for the address bar in the Firefox browser.
+
+- Conducted large-scale data analysis, and modeling across hundreds of millions of users using non-parametric methods.
+
+- Used mixed methods of browser telemetry data and user surveys to surface user insights for product recommendations.
+
+- Mentored two data scientist interns on exploratory data analysis and data science practices.
+
+- Launched and managed the [Data@Mozilla blog](https://blog.mozilla.org/data).
+
 """
 website = "https://mozilla.org"
-category = "Past Orgs"
+category = "Current Orgs"
+# from Ben's LinkedIn
+# Technical lead of the Revenue and Search data science team. 
+# Partnered with Product, Business Development and Finance teams to create alignment around revenue+search metrics. 
+# Oversaw dozens of experiments & extensively researched the relationship between revenue and user behavior.
 
 [[positions]]
 icon = "FoR.png"
@@ -142,10 +168,12 @@ organization = "March for Science"
 title = "National Co-Organizer: Co-Director of Partnerships"
 timespan = "2017"
 description = """
-Co-led a team to build a coalition of >300 scientific
+- Co-led a team to build a coalition of >300 scientific
 societies, NGOs, science museums, and non-profits to mobilize their
-members to march. Organized and coordinated one of the largest science
-demonstration with 100k marchers in DC and over a million marchers in
+members to march. 
+
+- Organized and coordinated one of the largest science
+demonstration with 100k marchers in Washington, DC and over a million marchers in
 610 cities worldwide.
 """
 website = "https://marchforscience.org"
@@ -363,10 +391,18 @@ category = ""
 
 [[positions]]
 icon = "aimlabs.png"
-organization = "Aimlabs"
+organization = "State Space Labs"
 title = "VP, Head of Research and Development"
 timespan = "2022"
 description = """
+- Delivered and launched a mouse sensitivity finder for first-person shooter gaming 
+in a joint product venture between the core product team and R&D based on my team’s research.
+
+- Led a team of five research scientists to incorporate innovative research into Aim Lab, 
+the flagship aim trainer product. 
+
+- Led and coordinated digital health initiatives to create cognitive assessments for 
+altered states of consciousness such as concussion.
 """
 website = "aimlabs.com"
 category = "Past Orgs"
