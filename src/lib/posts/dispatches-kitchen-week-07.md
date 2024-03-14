@@ -5,7 +5,7 @@ authors:
 - Teon L Brooks
 date: "2024-02-19"
 categories:
-- "52 cookies"
+- "52-cookies"
 - kitchen
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-07.jpg"
 # coverWidth: 16
@@ -16,11 +16,13 @@ social:
 - googlePhotos
 ---
 
-<aside>
+<script> import Callout from '$lib/components/Callout.svelte'; </script>
+
+<Callout>
 <h2>Full Cookie Album</h2>
 
 <https://photos.app.goo.gl/AVKBACdGkAVAmM1t6>
-</aside>
+</Callout>
 
 ## Recipe
 

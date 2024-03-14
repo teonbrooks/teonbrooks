@@ -44,7 +44,8 @@ DIYSciThai was an Open Science workshop taught in Bangkok, Thailand in June 2016
 This two-day workshop is the basis of an open science initiative to provide an 
 integrative curriculum to teach cognitive science through experiential learning.
 
-<a href="https://github.com/teonbrooks/DIYSciThai">Project Summary</a>
+[Photos](https://photos.app.goo.gl/4zGBCM5C634B4nf9A)
+[Project Summary](https://github.com/teonbrooks/DIYSciThai)
 """
 website = "https://github.com/teonbrooks/DIYSciThai"
 category = ["Past Projects", "education", "democratizing cogsci"]
@@ -247,6 +248,17 @@ Experimental Psychology: Cognition and Perception
 website = "https://as.nyu.edu/psychology.html"
 category = "Education"
 
+[[positions]]
+icon = "nyu.png"
+organization = "NYU Cog Collective"
+title = "President"
+timespan = "2015-2017"
+description = """
+Cofounder of student organization representing the Cognition and Perception program.
+We thought workshops and hosted socials.
+"""
+website = "https://github.com/nyu-cogcollective"
+category = ["Education", "Past Orgs"]
 
 [[positions]]
 icon = "openbci.png"
@@ -374,6 +386,9 @@ organization = "New York City Community Board (BKCB1)"
 title = "Board Member"
 timespan = "2020-2022"
 description = """
+I served on the Capital Budget Committee, the Board Budget Committee, the Education committee, and the Outreach Committee.
+
+I created and managed the community board Twitter account (@BrooklynCB1).
 """
 website = ""
 category = ["volunteer", "civic engagement"]

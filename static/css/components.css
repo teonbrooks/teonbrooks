@@ -1,16 +1,16 @@
 .callout {
-	background: var(--lightAccent);
+	background: lightblue;
 	padding: 2rem 1rem;
-  width: calc(100% + 2rem);
+  width: calc(50% + 2rem);
 	max-width: unset;
-  margin: 2rem 0 2rem -1rem;
+  margin: 2rem -2rem 2rem 0rem;
 	font-style: italic;
 	border-radius: 0.125rem;
 
   @media (min-width: 48rem) {
-    width: calc(100% + 4rem);
-    margin: 2rem 0 2rem -2rem;
-    padding: 2rem;
+    width: calc(50% + 4rem);
+    margin: 0rem 0 0rem 0rem;
+    padding: .25rem;
   }
 }
 
