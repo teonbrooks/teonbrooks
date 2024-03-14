@@ -3,7 +3,7 @@ title: "Dispatches from a kitchen: Old-fashioned Peanut Butter Cookie"
 slug: dispatches-kitchen-week-10
 authors:
 - Teon L Brooks
-date: "2024-03-04"
+date: "2024-03-11"
 categories:
 - "52-cookies"
 - kitchen

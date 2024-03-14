@@ -1,7 +1,7 @@
 <script>
 	import PostsList from '$lib/components/PostsList.svelte'
 	import Pagination from '$lib/components/Pagination.svelte'
-	import { siteDescription } from '$lib/config'
+	import { postsPerPage, siteDescription } from '$lib/config'
 	import MailchimpSignUp from '$lib/components/MailchimpSignUp.svelte';
 
 	export let data
@@ -17,7 +17,7 @@
 
 <h1>Blog</h1>
 
-<PostsList posts={data.posts} />
+<PostsList posts={data.posts.slice(0, postsPerPage)} />
 
 <Pagination currentPage={1} totalPosts={data.total} />
 
