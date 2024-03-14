@@ -6,7 +6,7 @@ export const prerender = true
 
 export const GET = async () => {
   const options = {
-    limit: postsPerPage
+    limit: -1
   }
 
   const { posts } = await fetchPosts(options)

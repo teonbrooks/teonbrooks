@@ -12,10 +12,13 @@ const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = 
 	)
 
 	let sortedPosts = posts.sort((a, b) => new Date(b.date) - new Date(a.date))
+	let categoryTotal;
 	
 	if (category) {
     sortedPosts = sortedPosts.filter(post => post.categories.includes(category))
+	categoryTotal = sortedPosts.length
 	}
+	
   
 	if (offset) {
 		sortedPosts = sortedPosts.slice(offset)
@@ -37,7 +40,8 @@ const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = 
 	}))
 
 	return {
-		posts: sortedPosts
+		posts: sortedPosts,
+		categoryTotal: categoryTotal
 	}
 }
 

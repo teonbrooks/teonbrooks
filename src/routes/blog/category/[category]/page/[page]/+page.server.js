@@ -12,15 +12,14 @@ export const load = async ({ url, params, fetch }) => {
 	}
 	
 	let offset = (page * postsPerPage) - postsPerPage
-
-	const totalPostsRes = await fetch(`${url.origin}/api/posts/count`)
-	const total = await totalPostsRes.json()
-	const { posts } = await fetchPosts({ offset, page })
+	
+	const options = { offset, category, limit: -1 }
+	const { posts, categoryTotal } = await fetchPosts(options)
 
 	return {
 		posts,
 		page,
 		category,
-		totalPosts: total 
+		totalPosts: categoryTotal 
 	}
 }
