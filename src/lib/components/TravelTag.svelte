@@ -6,7 +6,7 @@
 
   export let startDate = '01 Jan 1970';
   export let transportation = '✈️';
-  export let carrier = '  ';
+  export let carrier = '';
   export let destination = 'New York';
   export let desTravelCode = 'JFK';
   export let linkRec = '';
@@ -16,49 +16,34 @@
 </script>
 
 <button on:click={() => (open = true)}>
-<article>
-  <div class="top">
-    <p>Start of Travel:</p>
-    <h2>{startDate}</h2>
-    <div class="row">
-      <div class="block">
+  <article>
+    <div class="top">
+      <p class='start'>Start of Travel:</p>
+      <h2>{startDate}</h2>
+    </div>
+    <div class="block">
+      <div class="punch-hole"></div>
+    </div>
+
+    <div class="middle">
+      <p>To:</p> 
+      <div class="IATA">{desTravelCode}</div>
+      <h2><div class="destination">{destination}</div></h2>
+    </div>
+
+    <div class="bottom">
         <!-- make larger with a circle around it -->
+      <div>
         <p>{transportation}</p>
       </div>
-      <div class="block">
-        <div class="punch-hole">
-        </div>
-      </div>
-      <div class="block">
+      <div class="carrier">
         <!-- uniform three letter -->
         <p>{carrier}</p>
       </div>
     </div>
-    </div>
-  <!-- <div class="main"> -->
-    <!-- <h3>Baggage tag</h3> -->
-    <!-- <div class="row center"> -->
-      <!-- <div class="box marks">AA</div> -->
-      <!-- <div class="box"></div> -->
-    <!-- </div> -->
-    <div class="row">
-      <!-- <h3>To:</h3> -->
-      <div class="IATA">{desTravelCode}</div>
-      <h2>{destination}</h2>
-    </div>
-    <!-- <div class="row">
-      <div class="box"><h3>Flight no</h3></div>
-      <div class="box center"><span class="numbers">N<sup>o</sup> {flightNo}</span></div>
-    </div>
-    <div class="row">
-      <div class="box"><h3>From</h3></div>
-      <div class="box">
-          <h4>{origin}</h4>
-          <p>{originIATA}</p>
-      </div>
-    </div>
-  </div> -->
-</article>
+      
+  
+  </article>
 </button>
 <Dialog bind:open sheet aria-describedby="sheet-content">
   <Content id="sheet-content">
@@ -68,10 +53,10 @@
           </Icon>
       </IconButton>
       <div>
-          <h3>{destination}</h3>
-          {#if linkRec}
-            <p><a href={linkRec} target="_blank">Teon's Nomadic Note: {destination}</a></p>
-          {/if}
+        <h1>{destination}</h1>
+        {#if linkRec}
+          <p><a href={linkRec} target="_blank">Teon's Nomadic Note: {destination}</a></p>
+        {/if}
       </div>
   </Content>
 </Dialog>
@@ -80,63 +65,28 @@
 <style>
     @import url('https://fonts.googleapis.com/css?family=Squada+One&display=swap');
 
-    *, *:after, *:before {
-    box-sizing: inherit;
-    }
-
-    /* body {
-    width: 720px; 
-    margin: 0 auto;
-    font-family: sans-serif;
-    font-size: 16px;
-    background-color: #062B60;
-    } */
-
-    .block {
+    /* .block {
       display: flex;
       justify-content: center;
       align-items: center;
-    }
+    } */
 
     article {
     width: 150px;
-    height: 200px;
+    height: 300px;
     margin: 1rem auto;
-    display: flex;
+    /* display: flex; */
+    display: block;
+    justify-content: space-between;
     flex-flow: column;
     background-color: #DBD2B2;
     clip-path: polygon(15% 0, 85% 0, 100% 10%, 100% 100%, 0 100%, 0 10%);
     padding: 1rem 20px;
     }
 
-    .row {
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: center;
-    margin-top: -10px;
+    p {
+      color: #343E6F;
     }
-
-    .top {
-    /* margin-bottom: 2rem; */
-    /* margin-top: 1rem; */
-    }
-
-    .top .row .block {
-    flex-grow: 1;
-    }
-
-    /* .block img {
-    display: block;
-    margin: auto;
-    } */
-
-    .top .block p {
-    color: #E02F2C;
-    font-size: 1rem;
-    font-family: 'Open Sans Condensed', sans-serif;
-    }
-
     .top p {
     text-transform: uppercase;
     font-size: .5rem;
@@ -148,9 +98,16 @@
     margin-bottom: 1rem;
     }
 
-    .top .punch-hole {
-    height: 20px;
-    width: 20px;
+    .middle p {
+      text-align: left;
+      color: #343E6F;
+      font-family: 'Open Sans', sans-serif;
+      font-size: .75rem;
+    }
+
+    .punch-hole {
+    height: 40px;
+    width: 40px;
     background-color: #906B39;
     border-radius: 100px;
     display: flex;
@@ -158,10 +115,10 @@
     margin: auto;
     }
 
-    .top .punch-hole:before {
+    .punch-hole:before {
     content: "";
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     background-color: #062B60;
     border-radius: 100px;
     display: inline-block;
@@ -169,15 +126,9 @@
     box-shadow: 2px 2px 4px rgba(255, 255, 255, .5);
     }
 
-    .row:nth-of-type(2) {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-
 
     h2 {
-    margin-top: -10px;
+    margin-top: 0px;
     font-family: 'Squada One', cursive;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -188,14 +139,18 @@
     }
 
     .IATA {
-    margin-top: -20px;
+    margin-top: -10px;
     font-family: 'Squada One', cursive;
     text-transform: uppercase;
     letter-spacing: -1px;
     color: #343E6F;
     width: 100%;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
+    }
+
+    .carrier {
+      font-family: 'Squada One', cursive;
     }
 
     button {
