@@ -25,46 +25,45 @@
             <img src="{path_icons}/{item.icon}" alt={item.organization} class={item.categories}>    
         {/if}
     </Content>
-    <Actions>
+    <Actions style=align-items:end>
         <ActionButtons>
             <Button on:click={() => (open = true)}>
                 <Label>Details</Label>
-              </Button>
+            </Button>
         </ActionButtons>
         <ActionIcons>    
-            <IconButton 
-                on:click={() => window.open(item.website)}
-                title="Open Link">
+            <IconButton on:click={() => window.open(item.website)} title="Open Link">
                 <Icon tag="svg" viewBox="0 0 24 24">
                     <path fill="currentColor" d={mdiLink} />
                 </Icon>
             </IconButton>
         </ActionIcons>
     </Actions>
-    <Dialog bind:open sheet aria-describedby="sheet-content">
-        <DContent id="sheet-content">
-            <IconButton action="close" class="material-icons">
-                <Icon tag="svg" viewBox="0 0 24 24">
-                    <path fill="currentColor" d={mdiClose} />
-                </Icon>
-            </IconButton>
-            <div>
-                {#if item.icon}
-                    <img src="{path_icons}/{item.icon}" alt={item.organization} class={item.categories} width="100" height="100">    
-                {/if}
-                <h3>{item.title}</h3>
-                <p><em>{item.timespan}</em></p>
-                <p>
-                    {@html md.render(item.description)}
-                </p>
-            </div>
-        </DContent>
-      </Dialog>
 </Card>
+<Dialog bind:open sheet aria-describedby="sheet-content">
+    <DContent id="sheet-content">
+        <IconButton action="close" class="material-icons">
+            <Icon tag="svg" viewBox="0 0 24 24">
+                <path fill="currentColor" d={mdiClose} />
+            </Icon>
+        </IconButton>
+        <div>
+            {#if item.icon}
+                <img src="{path_icons}/{item.icon}" alt={item.organization} class={item.categories} width="100" height="100">    
+            {/if}
+            <h3>{item.title}</h3>
+            <p><em>{item.timespan}</em></p>
+            <p>
+                {@html md.render(item.description)}
+            </p>
+        </div>
+    </DContent>
+</Dialog>
 
 <style>
     img {
         width: 150px;
         height: 150px;
     }
+
 </style>

@@ -28,7 +28,7 @@
     <div class="middle">
       <p>To:</p> 
       <div class="IATA">{desTravelCode}</div>
-      <h2><div class="destination">{destination}</div></h2>
+      <div class="destination"><h2>{destination}</h2></div>
     </div>
 
     <div class="bottom">
@@ -52,7 +52,7 @@
               <path fill="currentColor" d={mdiClose} />
           </Icon>
       </IconButton>
-      <div>
+      <div class="dialog">
         <h1>{destination}</h1>
         {#if linkRec}
           <p><a href={linkRec} target="_blank">Teon's Nomadic Note: {destination}</a></p>
@@ -160,6 +160,11 @@
 
     button:hover {
       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    .dialog h1 {
+      font-size: xx-large;
+      color: #343E6F;
     }
 
 </style>
