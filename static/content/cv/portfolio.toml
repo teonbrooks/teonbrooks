@@ -20,7 +20,7 @@ timespan = "2017-2020"
 description = """
 """
 website = "https://bids.neuroimaging.io"
-category = ["Past Projects", "open-source"]
+category = ["Past Projects", "Open Source"]
 
 [[positions]]
 icon = "brainwaves.png"
@@ -31,7 +31,7 @@ description = """
 Democratizing Cognitive Science
 """
 website = "https://wp.nyu.edu/brainwaves/"
-category = ["Past Projects", "volunteer", "education", "democratizing cogsci"]
+category = ["Past Projects", "Volunteer", "Education"]
 
 [[positions]]
 # correct the icon
@@ -48,7 +48,7 @@ integrative curriculum to teach cognitive science through experiential learning.
 [Project Summary](https://github.com/teonbrooks/DIYSciThai)
 """
 website = "https://github.com/teonbrooks/DIYSciThai"
-category = ["Past Projects", "education", "democratizing cogsci"]
+category = ["Past Projects", "Education"]
 
 
 
@@ -61,7 +61,7 @@ timespan = "2017-2022"
 description = """
 """
 website = "https://wp.nyu.edu/brainwaves/"
-category = ["Past Projects", "open-source"]
+category = ["Past Projects", "Open Source"]
 
 [[positions]]
 icon = "chateaubriand.png"
@@ -149,7 +149,7 @@ Served on the board of a nonprofit advocacy group
 for early-career scientists.
 """
 website = "https://futureofresearch.org"
-category = ["Past Orgs", "volunteer"]
+category = ["Past Orgs", "Volunteer"]
 
 [[positions]]
 icon = "grfp.png"
@@ -178,7 +178,7 @@ demonstration with 100k marchers in Washington, DC and over a million marchers i
 610 cities worldwide.
 """
 website = "https://marchforscience.org"
-category = ["Past Orgs", "volunteer"]
+category = ["Past Orgs", "Volunteer"]
 
 [[positions]]
 icon = "msl.png"
@@ -193,19 +193,19 @@ category = "Fellowships"
 
 [[positions]]
 icon = "mne.png"
-organization = "MNE-Python"
-title = "Core Contributor"
+organization = "MNE-tools"
+title = "MNE-Python: Core Contributor"
 timespan = "2012-2017"
 description = """
 MEG and EEG Data Processing and Analysis Package in Python.
 """
 website = "https://mne.tools"
-category = ["Past Projects", "volunteer"]
+category = ["Past Projects", "Volunteer"]
 
 [[positions]]
 icon = "mne.png"
-organization = "MNE-Realtime"
-title = "Maintainer"
+organization = "MNE-tools"
+title = "MNE-Realtime: Maintainer"
 timespan = "2019-2023"
 description = """
 Supported realtime data analysis with support for LSL and FieldTrip clients.
@@ -213,18 +213,18 @@ This project has been deprecated and superseded by
 [mne-lsl](https://mne.tools/mne-lsl/).
 """
 website = "https://mne.tools"
-category = ["Past Projects", "volunteer", "open-source"]
+category = ["Past Projects", "Volunteer", "Open Source"]
 
 [[positions]]
 icon = "mne.png"
-organization = "MNE-BIDS"
-title = "core contributor"
+organization = "MNE-tools"
+title = "MNE-BIDS: Core Contributor"
 timespan = "2017-2020"
 description = """
 Read and write BIDS-compatible datasets with the help of MNE-Python in Python.
 """
 website = "https://mne.tools"
-category = ["Past Projects", "volunteer", "open-source"]
+category = ["Past Projects", "Volunteer", "Open Source"]
 
 [[positions]]
 icon = "nyu.png"
@@ -280,7 +280,7 @@ description = """
 EEG Experimentation Platform
 """
 website = "https://github.com/OpenEXP/OpenEXP"
-category = ["Past Projects", "volunteer"]
+category = ["Past Projects", "Volunteer"]
 
 [[positions]]
 icon = "queerhack.png"
@@ -312,7 +312,7 @@ timespan = "2017"
 description = """
 """
 website = ""
-category = ["Past Orgs", "volunteer"]
+category = ["Past Orgs", "Volunteer"]
 
 [[positions]]
 icon = "stanford.png"
@@ -367,7 +367,7 @@ description = """
 Intern in the Science Department.
 """
 website = ""
-category = ""
+category = ["Volunteer"]
 
 [[positions]]
 # correct the icon
@@ -378,7 +378,7 @@ timespan = "2015-2016"
 description = """
 """
 website = ""
-category = ["volunteer"]
+category = ["Volunteer"]
 
 [[positions]]
 icon = "bkcb1.png"
@@ -391,7 +391,7 @@ I served on the Capital Budget Committee, the Board Budget Committee, the Educat
 I created and managed the community board Twitter account (@BrooklynCB1).
 """
 website = ""
-category = ["volunteer", "civic engagement"]
+category = ["Volunteer", "Civic Engagement"]
 
 [[positions]]
 icon = "american.png"
@@ -402,7 +402,7 @@ description = """
 Statistical Programming: R + Tidyverse
 """
 website = ""
-category = ""
+category = ["Past Orgs"]
 
 [[positions]]
 icon = "aimlabs.png"
