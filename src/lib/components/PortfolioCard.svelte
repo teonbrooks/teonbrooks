@@ -15,7 +15,9 @@
 <Card>
 	<Content>
 		{#if item.icon}
-			<img src="{path_icons}/{item.icon}" alt={item.organization} class={item.categories} />
+			<div class="image">
+				<img src="{path_icons}/{item.icon}" alt='icon for {item.organization}' />
+			</div>
 		{/if}
 	</Content>
 	<Actions style="align-items:end">
@@ -44,8 +46,7 @@
 			{#if item.icon}
 				<img
 					src="{path_icons}/{item.icon}"
-					alt={item.organization}
-					class={item.categories}
+					alt='icon for {item.organization}'
 					width="100"
 					height="100"
 				/>
@@ -63,6 +64,11 @@
 	img {
 		width: 150px;
 		height: 150px;
+	}
+
+	.image {
+		display: grid;
+		place-items: center;
 	}
 
 	h1 {

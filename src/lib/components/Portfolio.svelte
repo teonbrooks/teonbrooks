@@ -25,22 +25,20 @@
 	<div style="display: flex; align-items: center;">
 		<section id="page-portfolio" class="page-portfolio">
 			<h3 class="section-subtitle">Collection of my work</h3>
-			<div id="filters" class="button-group">
-				<LayoutGrid>
-					<Cell span={4}><button on:click={() => (isClicked = '')}>Show All</button></Cell>
-					{#each categories as category}
-						<Cell
-							><button
-								class="button"
-								data-filter=".{category}"
-								on:click={() => {
-									isClicked = category;
-								}}>{category}</button
-							></Cell
-						>
-					{/each}
-				</LayoutGrid>
-			</div>
+			<LayoutGrid>
+				<Cell span={4}><button on:click={() => (isClicked = '')}>Show All</button></Cell>
+				{#each categories as category}
+					<Cell
+						><button
+							class="button"
+							data-filter=".{category}"
+							on:click={() => {
+								isClicked = category;
+							}}>{category}</button
+						></Cell
+					>
+				{/each}
+			</LayoutGrid>
 			<LayoutGrid>
 				{#each items.filter(matches) as item}
 					<Cell>
