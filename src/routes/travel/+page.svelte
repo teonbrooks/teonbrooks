@@ -1,9 +1,20 @@
 <script>
     import TravelTag from '$lib/components/TravelTag.svelte'
-    // import logTravel from '$lib/content/log-travel.json';
 
     export let data;
-    let { logTravel } = data;
+    let { logTravel, recs } = data;
+
+    let { recommendations } = recs;
+    
+    logTravel.trips.forEach((trip, idx) => {
+        if (trip.stays) {
+            trip.stays.forEach((stay, idy) => {
+                recommendations.filter(rec => stay.destination == stay.destination).pop()
+                let rec = recommendations.filter(r => r.destination == stay.destination)[0];
+                logTravel.trips[idx].stays[idy].linkRec = typeof rec === 'undefined' ? '' : rec['linkRec'];
+            })
+        }
+    });
 
 </script>
 
@@ -17,9 +28,9 @@
 
 <h1>Places Visited</h1>
 <div class="tags">
-{#each logTravel['trip'] as trip}
-    {#if trip['stay']}
-        {#each trip['stay'] as stay}
+{#each logTravel['trips'] as trip}
+    {#if trip['stays']}
+        {#each trip['stays'] as stay}
         <TravelTag {...stay}/>
         {/each}
     {/if}

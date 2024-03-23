@@ -1,15 +1,21 @@
 <!-- https://codepen.io/nabilkaz/pen/xvKzXZ -->
 <script>
-    export let startDate = '01 Jan 1970';
-    // export let airlineLogoURL = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/25555/turk.png';
-    export let transportation = '✈️';
-    export let carrier = '  ';
-    export let destination = 'New York';
-    export let desTravelCode = 'JFK';
+	import Dialog, { Content } from "@smui/dialog";
+	import IconButton, { Icon } from "@smui/icon-button";
+  import { mdiClose } from '@mdi/js';
+
+  export let startDate = '01 Jan 1970';
+  export let transportation = '✈️';
+  export let carrier = '  ';
+  export let destination = 'New York';
+  export let desTravelCode = 'JFK';
+  export let linkRec = '';
+
+  let open = false;
 
 </script>
 
-
+<button on:click={() => (open = true)}>
 <article>
   <div class="top">
     <p>Start of Travel:</p>
@@ -53,6 +59,22 @@
     </div>
   </div> -->
 </article>
+</button>
+<Dialog bind:open sheet aria-describedby="sheet-content">
+  <Content id="sheet-content">
+      <IconButton action="close" class="material-icons">
+          <Icon tag="svg" viewBox="0 0 24 24">
+              <path fill="currentColor" d={mdiClose} />
+          </Icon>
+      </IconButton>
+      <div>
+          <h3>{destination}</h3>
+          {#if linkRec}
+            <p><a href={linkRec} target="_blank">Teon's Nomadic Note: {destination}</a></p>
+          {/if}
+      </div>
+  </Content>
+</Dialog>
 
 
 <style>
@@ -174,6 +196,15 @@
     width: 100%;
     font-size: 3rem;
     text-align: center;
+    }
+
+    button {
+      background-color: rgba(0,0,0,0);
+      border: 0; 
+    }
+
+    button:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     }
 
 </style>

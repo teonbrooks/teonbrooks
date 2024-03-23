@@ -1,8 +1,11 @@
 export const prerender = true
 
 export const load = async ({ url, fetch }) => {
-    const travelRes = await fetch(`${url.origin}/api/log-travel.json`)
-    const logTravel = await travelRes.json()
+    const travelRes = await fetch(`${url.origin}/api/logs/log-travel.toml`)
+    const recsRes = await fetch(`${url.origin}/api/logs/log-recommendations.toml`)
 
-    return { logTravel }
+    const logTravel = await travelRes.json()
+    const recs = await recsRes.json()
+
+    return { logTravel, recs }
 }

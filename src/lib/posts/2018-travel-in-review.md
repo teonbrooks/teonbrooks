@@ -25,23 +25,23 @@ L) Jan 20, NYC — Visiting the Cloisters for the first time
 
 R) Jan 28, Mountain View — Onboarding with my cohort
 
-<img src='/images/blog_images/2018-travel-in-review/cloisers.jpeg' />
+<img src='/images/blog_images/2018-travel-in-review/cloisers.jpeg' alt='Sunset at the Cloisters'>
 
 ### February
 
 L) Feb 5, Bethesda/DC — Attending a workshop on Academic Publishing at HHMI
-<img src='/images/blog_images/2018-travel-in-review/hhmi.jpeg' />
+<img src='/images/blog_images/2018-travel-in-review/hhmi.jpeg' alt='An auditorium with a slide about scientific publishing'>
 
 R) Feb 23, Lake Tahoe — Ski weekend in Tahoe for a friend’s birthday
-<img src='/images/blog_images/2018-travel-in-review/tahoe.jpeg' />
+<img src='/images/blog_images/2018-travel-in-review/tahoe.jpeg' alt='Selfie of me with a helmet on about to ski'>
 
 ### March
 
 L) Mar 10, Big Sur — Camping trip
-<img src='/images/blog_images/2018-travel-in-review/big-sur.jpeg' />
+<img src='/images/blog_images/2018-travel-in-review/big-sur.jpeg' alt='Me in the distance overlooking a cliff at Big Sur'>
 
 R) Mar 24, Toronto — Design sprint workweek
-<img src='/images/blog_images/2018-travel-in-review/toronto-design-sprint.jpeg' />
+<img src='/images/blog_images/2018-travel-in-review/toronto-design-sprint.jpeg' alt='Sketches on a dry-erase board'>
 
 Mar 31, NYC — My move back to NYC!
 
