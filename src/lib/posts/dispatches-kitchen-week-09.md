@@ -6,6 +6,8 @@ authors:
 date: "2024-03-04"
 categories:
 - "52-cookies"
+collections:
+- kitchen
 - kitchen
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-09.jpg"
 excerpt: Triple the chocolate, triple the fun

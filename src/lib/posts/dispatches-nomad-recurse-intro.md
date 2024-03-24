@@ -7,6 +7,8 @@ date: "2023-05-24 11:59:00 EDT"
 categories:
 - recurse
 - nomad
+collections:
+- "nomad: Recurse"
 coverImage: "/images/blog_images/recurse/week-01/recurse-week-01.jpg"
 # coverWidth: 16
 # coverHeight: 9

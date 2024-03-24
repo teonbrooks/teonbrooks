@@ -8,6 +8,8 @@ categories:
 - travel
 - recurse
 - nomad
+collections:
+- "nomad: Recurse"
 coverImage: "/images/blog_images/recurse/week-01/recurse-week-01.jpg"
 # coverWidth: 16
 # coverHeight: 9

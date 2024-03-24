@@ -7,6 +7,8 @@ date: "2023-10-20 12:01:00 EDT"
 categories:
 - recurse
 - nomad
+collections:
+- "nomad: Recurse"
 coverImage: "/images/blog_images/recurse/epilogue/dispatches-nomad-recurse-week-epilogue.jpg"
 excerpt:
    "Recurse Center Epilogue: Some lessons learned"

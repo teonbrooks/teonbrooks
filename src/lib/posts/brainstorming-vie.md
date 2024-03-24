@@ -9,8 +9,9 @@ keywords:
   - web development
   - markdown
 categories:
- - "svelte"
- - "indieweb"
+ - "tech"
+collection:
+- "coder: Vie"
 coverImage: "/images/blog_images/brainstorming-vie/brainstorming-vie.png"
 # coverWidth: 16
 # coverHeight: 9

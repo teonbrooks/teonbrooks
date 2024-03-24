@@ -7,6 +7,8 @@ date: "2023-06-21 12:00:00 EDT"
 categories:
 - recurse
 - nomad
+collections:
+- "nomad: Recurse"
 coverImage: "/images/blog_images/recurse/week-05/beyonce.jpg"
 excerpt: 
     "Recurse Center Week 05: Live Music and Machine Learning Model Serialization"

@@ -7,6 +7,8 @@ date: "2023-06-14 12:00:00 EDT"
 categories:
 - recurse
 - nomad
+collections:
+- "nomad: Recurse"
 coverImage: "/images/blog_images/recurse/week-04/nadal.jpg"
 excerpt: 
     "Recurse Center Week 04: King of Clay, français, Sacré, Beyoncé"
