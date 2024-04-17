@@ -32,7 +32,7 @@ export const navItems = [
 		route: '/about'
 	}, {
 		title: 'Résumé',
-		route: 'https://drive.google.com/file/d/19TksI7L3gvYQmi_UN_SSuuz6I0LqTDDk/view?usp=sharing'
+		route: 'https://drive.google.com/file/d/1jHgGELq1I5MbYd6w8EAmbp1eyX5dHWqJ/view?usp=sharing'
 	}, {
 		title: 'Readme',
 		route: '/readme'

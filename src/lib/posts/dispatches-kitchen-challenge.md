@@ -6,6 +6,7 @@ authors:
 date: "2024-01-01"
 categories:
 - "52-cookies"
+- kitchen
 collections:
 - kitchen
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen.jpg"

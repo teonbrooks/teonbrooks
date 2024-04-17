@@ -6,8 +6,8 @@ authors:
 date: "2024-02-05"
 categories:
 - "52-cookies"
-collections:
 - kitchen
+collections:
 - kitchen
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-05.jpg"
 # coverWidth: 16

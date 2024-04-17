@@ -40,6 +40,8 @@ let { portfolio } = data;
 	<link rel="webmention" href="https://webmention.io/teonbrooks.com/webmention" />
 	<!-- Mastodon -->
 	<link href="https://hachyderm.io/@teon" rel="me">
+	<!-- GitHub -->
+	<link href="https://github.com/teonbrooks" rel="me">
 	<!-- RSS -->
 	<link href="/api/rss.xml" type="application/atom+xml" rel="alternate" title="Teon's Blog Feed">
 	<!-- Add Google Analytics -->

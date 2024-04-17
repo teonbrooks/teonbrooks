@@ -6,8 +6,8 @@ authors:
 date: "2024-03-11"
 categories:
 - "52-cookies"
-collections:
 - kitchen
+collections:
 - kitchen
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-10.jpg"
 excerpt: Sometimes you want a no-fuss, basic-ass classic
