@@ -10,7 +10,7 @@ categories:
 collections:
   - kitchen
 coverImage: /images/blog_images/dispatches-kitchen/dispatches-kitchen-week-14.jpg
-excerpt: An inventive island delight
+excerpt: "I made a cookie from cookie. It's so wrong, it's right 🤤"
 lang: en-US
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
