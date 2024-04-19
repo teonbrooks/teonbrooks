@@ -17,9 +17,11 @@ lang: en-US
 social:
 - googlePhotos
 ---
+<script> import Callout from '$lib/components/Callout.svelte'; </script>
+
 ## Original Recipe
 
-<https://cooking.nytimes.com/recipes/1023675-gochujang-caramel-cookies />
+<https://cooking.nytimes.com/recipes/1023675-gochujang-caramel-cookies/>
 
 ### Ingredients
 
@@ -50,12 +52,10 @@ Yield: About 8 large cookies
 
 ## Photos
 
-<script> import Callout from '$lib/components/Callout.svelte'; </script>
-
 <Callout>
-<h2>Full Cookie Album</h2>
+   <h2>Full Cookie Album</h2>
 
-<https://photos.app.goo.gl/AVKBACdGkAVAmM1t6>
+   <https://photos.app.goo.gl/AVKBACdGkAVAmM1t6>
 </Callout>
 
 ### Album
@@ -63,7 +63,7 @@ Yield: About 8 large cookies
 <div class="pa-carousel-widget" style="width:100%; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/AVKBACdGkAVAmM1t6"
   data-title="Dispatches from the kitchen: 52 Week Cookie Challenge 🍪"
-  data-description="Chewy Chocolate Chip Cookies">
+  data-description="Gochujang Caramel Cookie">
     <object data="https://lh3.googleusercontent.com/pw/ABLVV87dRCJAEk83qG2TlL37HWcYb-8Iwvmnr2aFjx-v71gswdTMxA-4kIBCM2wAtPjD5mTePdiNKF1LgDcud6o1H7M_oOQgjChEMCwvOFgsaTBHBghxDfB1=w640-h480"></object>
   <object data="https://lh3.googleusercontent.com/pw/ABLVV85SlJusG-XYXk0pxyB5HClDxSgAjLx88eEUe4nbdzqewMfz-VP7OwyT12n8-cZIoG-r1IgEwrLxIdQP6FYPXkorGh7T3qIdyU9ybhPKi_FkOZ1G4D4j=w640-h480"></object>
   <object data="https://lh3.googleusercontent.com/pw/ABLVV84xm3Ou_-YNdjv-eLITo9JxHj-27XJe4rFnIY6jImOnj8BelRyQXFgPxfvjtlKtlSCCPB5B5TCZkcVlSXwgVMxkzV9p7nC3aOteWQxISJHQS9XKIfJe=w640-h480"></object>

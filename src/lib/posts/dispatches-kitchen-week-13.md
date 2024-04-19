@@ -29,13 +29,6 @@ lang: en-US
 
 To be completed.
 
-## Social
-
-<div>
-    <span id="teonbrooks.com-"></span>
-    <script src="https://assets.bluesky.lol/js/b1.js" data-handle="teonbrooks.com" data-skeet=""></script>
-</div>
-
 ## Commentary
 
 I used a teaspoon of rum since we didn't have vanilla extract.

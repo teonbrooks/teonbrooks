@@ -9,7 +9,7 @@ categories:
   - kitchen
 collections:
   - kitchen
-coverImage: /images/blog_images/dispatches-kitchen/dispatches-kitchen-week-15.jpg
+coverImage: /images/blog_images/dispatches-kitchen/dispatches-kitchen-week-14.jpg
 excerpt: An inventive island delight
 lang: en-US
 ---
