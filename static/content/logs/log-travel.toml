@@ -41,8 +41,8 @@ transportation = "✈️"
 carrier = "AA"
 carrierCode = ""
 description = ""
-startDate = ""
-endDate = ""
+startDate = "2007-05-14"
+endDate = "2007-05-14"
 linkAlbum = ""
 
 [[trips.stays]]
@@ -56,8 +56,8 @@ transportation = "🚗"
 carrier = ""
 carrierCode = ""
 description = ""
-startDate = ""
-endDate = ""
+startDate = "2007-05-XX"
+endDate = "2007-05-XX"
 linkAlbum = ""
 
 [[trips.stays]]
@@ -71,8 +71,8 @@ transportation = "✈️"
 carrier = "AA"
 carrierCode = ""
 description = ""
-startDate = ""
-endDate = ""
+startDate = "2007-05-XX"
+endDate = "2007-05-XX"
 linkAlbum = ""
 
 [[trips.stays]]
