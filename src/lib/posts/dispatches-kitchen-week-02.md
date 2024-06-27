@@ -5,10 +5,9 @@ authors:
   - Teon L Brooks
 datetime: "2024-01-15"
 categories:
-  - 52-cookies
   - kitchen
 collections:
-  - kitchen
+  - cookies
 coverImage: /images/blog_images/dispatches-kitchen/dispatches-kitchen-week-02.jpg
 excerpt: Salt and butter, FTW
 lang: en-US

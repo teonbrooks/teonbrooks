@@ -5,10 +5,9 @@ authors:
 - Teon L Brooks
 date: "2024-02-26"
 categories:
-- "52-cookies"
-- kitchen
+  - kitchen
 collections:
-- kitchen
+  - cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-08.jpg"
 excerpt: Cream of Tartar otherwise it's just a sugar cookie
 lang: en-US

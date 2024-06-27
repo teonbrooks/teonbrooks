@@ -5,10 +5,9 @@ authors:
 - Teon L Brooks
 date: "2024-02-05"
 categories:
-- "52-cookies"
-- kitchen
+  - kitchen
 collections:
-- kitchen
+  - cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-05.jpg"
 # coverWidth: 16
 # coverHeight: 9

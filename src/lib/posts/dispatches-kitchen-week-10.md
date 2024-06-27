@@ -5,10 +5,9 @@ authors:
 - Teon L Brooks
 date: "2024-03-11"
 categories:
-- "52-cookies"
-- kitchen
+  - kitchen
 collections:
-- kitchen
+  - cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-10.jpg"
 excerpt: Sometimes you want a no-fuss, basic-ass classic
 lang: en-US

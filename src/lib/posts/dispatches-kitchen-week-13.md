@@ -5,10 +5,9 @@ authors:
   - Teon L Brooks
 date: "2024-04-02"
 categories:
-  - 52-cookies
   - kitchen
 collections:
-  - kitchen
+  - cookies
 coverImage: /images/blog_images/dispatches-kitchen/dispatches-kitchen-week-13.jpg
 excerpt: An inventive island delight
 lang: en-US
