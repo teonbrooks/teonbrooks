@@ -12,6 +12,10 @@
                 recommendations.filter(rec => stay.destination == stay.destination).pop()
                 let rec = recommendations.filter(r => r.destination == stay.destination)[0];
                 logTravel.trips[idx].stays[idy].linkRec = typeof rec === 'undefined' ? '' : rec['linkRec'];
+
+                if (trip.linkAlbum) {
+                    logTravel.trips[idx].stays[idy].linkAlbum = trip.linkAlbum
+                }
             })
         }
     });

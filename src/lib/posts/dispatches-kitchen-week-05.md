@@ -17,7 +17,28 @@ lang: en-US
 social:
 - googlePhotos
 ---
-<script> import Callout from '$lib/components/Callout.svelte'; </script>
+<script> 
+  import Callout from '$lib/components/Callout.svelte';
+  import RecipeList from '$lib/components/RecipeList.svelte';
+
+  let ingredients = [
+    "½ cup (8 tablespoons)/115 grams unsalted butter, very soft",
+    "2 packed tablespoons dark brown sugar",
+    "1 heaping tablespoon gochujang",
+    "1 cup/200 grams granulated sugar",
+    "1 large egg, at room temperature",
+    "½ teaspoon coarse kosher salt or ¾ teaspoon kosher salt (such as Diamond Crystal)",
+    "¼ teaspoon ground cinnamon",
+    "1 teaspoon vanilla extract",
+    "½ teaspoon baking soda",
+    "1½ cups/185 grams all-purpose flour"
+    ];
+  
+  ingredients.forEach((ingredient, idx) => {
+    ingredients[idx] = { name: ingredient, used: false}
+  })
+
+</script>
 
 ## Original Recipe
 
@@ -27,16 +48,7 @@ social:
 
 Yield: About 8 large cookies
 
-- ½cup (8 tablespoons)/115 grams unsalted butter, very soft
-- 2packed tablespoons dark brown sugar
-- 1heaping tablespoon gochujang
-- 1cup/200 grams granulated sugar
-- 1large egg, at room temperature
-- ½teaspoon coarse kosher salt or ¾ teaspoon kosher salt (such as Diamond Crystal)
-- ¼teaspoon ground cinnamon
-- 1teaspoon vanilla extract
-- ½teaspoon baking soda
-- 1½cups/185 grams all-purpose flour
+<RecipeList {ingredients} />
 
 ### Preparation
 

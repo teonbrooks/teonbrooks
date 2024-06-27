@@ -51,7 +51,8 @@
 					height="100"
 				/>
 			{/if}
-			<h1>{item.title}</h1>
+			<h1>{item.organization}</h1>
+			<h2>{item.title}</h2>
 			<p><em>{item.timespan}</em></p>
 			<p>
 				{@html md.render(item.description)}
@@ -73,5 +74,8 @@
 
 	h1 {
 		font-size: x-large;
+	}
+	h2 {
+		font-size: large;
 	}
 </style>

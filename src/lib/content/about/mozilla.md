@@ -5,6 +5,7 @@
 </a><br><br>
 
 ## Senior Data Scientist, Mozilla
+
 __Executive Summary__
 
 At Mozilla, I supported our Revenue and Business Development teams with analytic support. Relatedly, I worked with our product team on the Awesome Bar, our combined address bar and search product within the Firefox Browser, and researched how to improve the user experience with finding things on the web.

@@ -1,6 +1,6 @@
 [id]
 name = "Teon L Brooks, Ph.D"
-descriptors = ["scientist", "technologist"]
+descriptors = ["scientist + technologist"]
 title = "Staff Data Scientist"
 organization = "Mozilla"
 website = "https://mozilla.org"
@@ -28,6 +28,10 @@ organization = "BrainWaves"
 title = "President of Advisory Board"
 timespan = "2017-2022"
 description = """
+*President of Advisory Board*
+
+*Product Manager*
+
 Democratizing Cognitive Science
 """
 website = "https://wp.nyu.edu/brainwaves/"
@@ -44,24 +48,16 @@ DIYSciThai was an Open Science workshop taught in Bangkok, Thailand in June 2016
 This two-day workshop is the basis of an open science initiative to provide an 
 integrative curriculum to teach cognitive science through experiential learning.
 
+This DIY workshop featured building research electronics (eye-tracker and EEG) from open-source hardware, and low-cost electronics.
+
+This workshop was supported by grants from Fulbright Thailand, the Open and Collaborative Science in Development Network (OCSDnet), 
+and NYU. 
+
 [Photos](https://photos.app.goo.gl/4zGBCM5C634B4nf9A)
 [Project Summary](https://github.com/teonbrooks/DIYSciThai)
 """
 website = "https://github.com/teonbrooks/DIYSciThai"
 category = ["Past Projects", "Education"]
-
-
-
-
-[[positions]]
-icon = "brainwaves.png"
-organization = "BrainWaves"
-title = "Product Manager"
-timespan = "2017-2022"
-description = """
-"""
-website = "https://wp.nyu.edu/brainwaves/"
-category = ["Past Projects", "Open Source"]
 
 [[positions]]
 icon = "chateaubriand.png"
@@ -194,33 +190,20 @@ category = "Fellowships"
 [[positions]]
 icon = "mne.png"
 organization = "MNE-tools"
-title = "MNE-Python: Core Contributor"
+title = "Core Contributor"
 timespan = "2012-2017"
 description = """
-MEG and EEG Data Processing and Analysis Package in Python.
-"""
-website = "https://mne.tools"
-category = ["Past Projects", "Volunteer"]
+*MNE-Python: Core Contributor (2012-2017)*
 
-[[positions]]
-icon = "mne.png"
-organization = "MNE-tools"
-title = "MNE-Realtime: Maintainer"
-timespan = "2019-2023"
-description = """
+MEG and EEG Data Processing and Analysis Package in Python.
+
+*MNE-Realtime: Maintainer (2019-2023)*
+
 Supported realtime data analysis with support for LSL and FieldTrip clients.
 This project has been deprecated and superseded by 
 [mne-lsl](https://mne.tools/mne-lsl/).
-"""
-website = "https://mne.tools"
-category = ["Past Projects", "Volunteer", "Open Source"]
 
-[[positions]]
-icon = "mne.png"
-organization = "MNE-tools"
-title = "MNE-BIDS: Core Contributor"
-timespan = "2017-2020"
-description = """
+*MNE-BIDS: Core Contributor (2017-2020)*
 Read and write BIDS-compatible datasets with the help of MNE-Python in Python.
 """
 website = "https://mne.tools"
@@ -232,33 +215,19 @@ organization = "New York University"
 title = "PhD"
 timespan = "2011-2017"
 description = """
-Experimental Psychology: Cognition and Perception
-"""
-website = "https://as.nyu.edu/psychology.html"
-category = "Education"
+*PhD (2011-2017)*
 
-[[positions]]
-icon = "nyu.png"
-organization = "New York University"
-title = "Master of Arts"
-timespan = "2011-2013"
-description = """
 Experimental Psychology: Cognition and Perception
-"""
-website = "https://as.nyu.edu/psychology.html"
-category = "Education"
 
-[[positions]]
-icon = "nyu.png"
-organization = "NYU Cog Collective"
-title = "President"
-timespan = "2015-2017"
-description = """
+*President, NYU Cog Collective (2015-2017)*
 Cofounder of student organization representing the Cognition and Perception program.
-We thought workshops and hosted socials.
+We thought workshops and hosted socials [link](https://github.com/nyu-cogcollective).
+
+*Master of Arts (2011-2013)
+Experimental Psychology: Cognition and Perception
 """
-website = "https://github.com/nyu-cogcollective"
-category = ["Education", "Past Orgs"]
+website = "https://as.nyu.edu/psychology.html"
+category = "Education"
 
 [[positions]]
 icon = "openbci.png"
@@ -371,7 +340,7 @@ category = ["Volunteer"]
 
 [[positions]]
 # correct the icon
-icon = "brainwaves.png"
+icon = "braiNY-SFN.png"
 organization = "Greater NYC Chapter of Society for Neuroscience"
 title = "Co-Chair"
 timespan = "2015-2016"

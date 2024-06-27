@@ -10,6 +10,7 @@
   export let destination = 'New York';
   export let desTravelCode = 'JFK';
   export let linkRec = '';
+  export let linkAlbum = '';
 
   let open = false;
 
@@ -55,7 +56,10 @@
       <div class="dialog">
         <h1>{destination}</h1>
         {#if linkRec}
-          <p><a href={linkRec} target="_blank">Teon's Nomadic Note: {destination}</a></p>
+          <p>📝 <a href={linkRec} target="_blank">Teon's Nomadic Note: Recs</a></p>
+        {/if}
+        {#if linkAlbum}
+          <p>📸 <a href={linkAlbum} target="_blank">Teon's Nomadic Note: Album</a></p>
         {/if}
       </div>
   </Content>
