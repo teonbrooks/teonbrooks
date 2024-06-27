@@ -5,7 +5,9 @@
 	import MailchimpSignUp from '$lib/components/MailchimpSignUp.svelte';
 
 	export let data
-	export let selectedCollections = [['nomad', '🎒'], ['techie', '👨🏾‍💻'], ['baker', '👨🏾‍🍳']];
+	export let selectedCollections = [['nomad', 'nomad', '🎒'],
+									  ['tech', 'techie', '👨🏾‍💻'],
+									  ['kitchen', 'baker', '👨🏾‍🍳']];
 </script>
 
 
@@ -20,7 +22,7 @@
 
 <div id='collection'>
 	{#each selectedCollections as collection}
-		<button on:click={() => window.open(`./blog/category/${collection[0]}`, '_self')}>[{collection[0]} {collection[1]}]</button>
+		<button on:click={() => window.open(`./blog/category/${collection[0]}`, '_self')}>[{collection[1]} {collection[2]}]</button>
 	{/each}
 </div>
 <div style="display: flex; align-items=center; justify-content: center">
