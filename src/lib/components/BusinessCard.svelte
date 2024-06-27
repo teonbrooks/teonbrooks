@@ -13,12 +13,13 @@
     <Card padded>
         <Content>
             <h1>{name}</h1>
-            <div class="descriptors">
+            <h3>{descriptors.join(' | ')}</h3>
+            <!-- <div class="descriptors">
                 {#each descriptors as descriptor}
                     <h3>{descriptor}</h3>
                 {/each}
-            </div>
-            <!-- <p>{title}, <a href="{website}">{organization}</a></p> -->
+            </div> -->
+            <p>{title}, <a href="{website}">{organization}</a></p>
         </Content>
         <Media>
             <img {src} alt='Teon' />
