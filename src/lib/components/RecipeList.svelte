@@ -18,6 +18,19 @@
     </article>
 {/if}
 
+<!-- {#if preparation}
+    <article>
+        <h3>Ingredients:</h3>
+        <ul>
+            {#each ingredients as ingredient}
+            <li>
+                <Ingredient name={ingredient.name} bind:used={ingredient.used} />
+            </li>
+            {/each}
+        </ul>
+    </article>
+{/if} -->
+
 <style>
     ul {
         list-style-type: none !important;

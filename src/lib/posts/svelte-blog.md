@@ -7,8 +7,6 @@ date: "2022-12-14"
 categories:
 - tech
 coverImage: "/images/blog_images/svelte-blog/svelte.png"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: I'm now hosting my own blog, powered by Sveltekit 🎉
 lang: en-US
 ---

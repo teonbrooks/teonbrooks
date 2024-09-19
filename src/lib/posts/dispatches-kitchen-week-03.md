@@ -9,8 +9,6 @@ categories:
 collections:
   - cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-03.jpg"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: A very fancy peanut cookie
 lang: en-US
 social:

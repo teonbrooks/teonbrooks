@@ -7,8 +7,6 @@ date: "2023-05-17"
 categories:
 - tech
 coverImage: "/images/blog_images/new-pocket-feature/pocket.png"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: Pocket just announced a new feature, Lists.
 lang: en-US
 ---

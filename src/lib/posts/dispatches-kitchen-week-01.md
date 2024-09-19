@@ -9,13 +9,12 @@ categories:
 collections:
   - cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-01.jpg"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: "A crowd favorite!"
 lang: en-US
 social:
 - googlePhotos
 ---
+%% salted_chocolate_chunk_shortbread_cookie.md %%
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
 
 <Callout>
@@ -26,7 +25,7 @@ social:
 
 ## Recipe
 
-<https://cooking.nytimes.com/recipes/1019152-salted-chocolate-chunk-shortbread-cookies>
+[Soft and Chewy Ginger Molasses Cookies | Mel's Kitchen Cafe](https://www.melskitchencafe.com/soft-and-chewy-ginger-molasses-cookies/)
 
 ## Social
 <div>

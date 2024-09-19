@@ -9,8 +9,6 @@ categories:
 collections:
   - cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-06.jpg"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: "My go-to chocolate chip cookie recipe"
 lang: en-US
 social:
@@ -26,7 +24,7 @@ social:
 
 ## Recipe
 
-<https://www.quakeroats.com/cooking-and-recipes/vanishing-oatmeal-raisin-cookies>
+[Vanishing Oatmeal Raisin Cookies Recipe | Quaker Oats](https://www.quakeroats.com/cooking-and-recipes/vanishing-oatmeal-raisin-cookies)
 
 ## Social
 

@@ -24,7 +24,7 @@ social:
 
 ## Recipe
 
-<https://cooking.nytimes.com/recipes/1019152-salted-chocolate-chunk-shortbread-cookies>
+[Salted Chocolate Chunk Shortbread Cookies Recipe](https://cooking.nytimes.com/recipes/1019152-salted-chocolate-chunk-shortbread-cookies)
 
 ## Social
 

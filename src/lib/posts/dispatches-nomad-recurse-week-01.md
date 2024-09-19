@@ -10,8 +10,6 @@ categories:
 collections:
 - "nomad: Recurse"
 coverImage: "/images/blog_images/recurse/week-01/recurse-week-01.jpg"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: 
     "Recurse Center Week 01: Organized calamity of the highest regard."
 lang: en-US

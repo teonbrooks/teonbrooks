@@ -10,8 +10,6 @@ categories:
  - "open-science"
  - "neurotech"
 coverImage: "/images/blog_images/science-hack-day-2016/lightning-talk.png"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: Thinking through a new indieweb app called Vie based on Svelte.
 lang: en-US
 ---

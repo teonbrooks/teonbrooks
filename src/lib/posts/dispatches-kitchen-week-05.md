@@ -9,13 +9,12 @@ categories:
 collections:
   - cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-05.jpg"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: "Sweet and spicy, a great combo 😋"
 lang: en-US
 social:
 - googlePhotos
 ---
+%% gochuchang_cookie.md %%
 <script> 
   import Callout from '$lib/components/Callout.svelte';
   import RecipeList from '$lib/components/RecipeList.svelte';
@@ -42,8 +41,6 @@ social:
 ## Original Recipe
 
 <https://cooking.nytimes.com/recipes/1023675-gochujang-caramel-cookies/>
-
-### Ingredients
 
 Yield: About 8 large cookies
 

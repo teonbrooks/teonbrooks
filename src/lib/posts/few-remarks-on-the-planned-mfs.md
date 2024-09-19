@@ -10,8 +10,6 @@ keywords:
 categories:
 - "advocacy"
 coverImage: "/images/blog_images/few-remarks-on-planned-mfs/few-remarks-on-planned-mfs.png"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: When I heard that there were talks about a March for Science, I immediately threw myself at all the opportunities to get involved.
 lang: en-US
 ---

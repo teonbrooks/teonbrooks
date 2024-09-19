@@ -10,8 +10,6 @@ categories:
  - "traveling"
  - "open-science"
 coverImage: "/images/blog_images/a-scientist-studying-abroad/me-in-the-pyrenees.png"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: I studied abroad the fourth year of my PhD program.
 lang: en-US
 ---

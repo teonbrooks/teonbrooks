@@ -9,8 +9,6 @@ categories:
 collections:
   - cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen.jpg"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: A public declaration of a 52-week cookie challenge
 lang: en-US
 ---

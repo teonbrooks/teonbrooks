@@ -13,8 +13,6 @@ categories:
 collection:
 - "coder: Vie"
 coverImage: "/images/blog_images/brainstorming-vie/brainstorming-vie.png"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: Thinking through a new indieweb app called Vie based on Svelte.
 lang: en-US
 ---

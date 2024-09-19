@@ -9,8 +9,6 @@ categories:
 collections:
   - cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-04.jpg"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: "One of my favorite chocolate chip cookie recipes 😋"
 lang: en-US
 social:

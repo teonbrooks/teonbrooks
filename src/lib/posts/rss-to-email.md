@@ -7,8 +7,6 @@ date: "2023-05-25"
 categories:
 - tech
 coverImage: "/images/blog_images/rss-to-email/rss-to-email.png"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: "Yesterday, I wrote my newsletter! Then I realized something very frustrating"
 lang: en-US
 ---

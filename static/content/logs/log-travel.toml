@@ -56,8 +56,8 @@ transportation = "🚗"
 carrier = ""
 carrierCode = ""
 description = ""
-startDate = "2007-05-XX"
-endDate = "2007-05-XX"
+startDate = "2007-05-15"
+endDate = "2007-05-16"
 linkAlbum = ""
 
 [[trips.stays]]
@@ -71,8 +71,8 @@ transportation = "✈️"
 carrier = "AA"
 carrierCode = ""
 description = ""
-startDate = "2007-05-XX"
-endDate = "2007-05-XX"
+startDate = "2007-05-16"
+endDate = "2007-05-16"
 linkAlbum = ""
 
 [[trips.stays]]
@@ -86,8 +86,8 @@ transportation = "🚂"
 carrier = "AA"
 carrierCode = ""
 description = ""
-startDate = "2007-05-XX"
-endDate = "2007-05-XX"
+startDate = "2007-05-17"
+endDate = "2007-05-20"
 linkAlbum = ""
 
 [[trips.stays]]
@@ -101,8 +101,8 @@ transportation = "🚂"
 carrier = "AA"
 carrierCode = ""
 description = ""
-startDate = "2007-05-XX"
-endDate = "2007-05-XX"
+startDate = "2007-05-20"
+endDate = "2007-05-21"
 linkAlbum = ""
 
 [[trips.stays]]
@@ -162,7 +162,7 @@ carrier = ""
 carrierCode = ""
 description = ""
 startDate = "2007-05-XX"
-endDate = "2007-05-XX"
+endDate = "2007-05-30"
 linkAlbum = ""
 
 [[trips.stays]]

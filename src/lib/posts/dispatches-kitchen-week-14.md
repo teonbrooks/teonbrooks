@@ -5,10 +5,9 @@ authors:
   - Teon L Brooks
 date: "2024-04-12"
 categories:
-  - 52-cookies
   - kitchen
 collections:
-  - kitchen
+  - cookies
 coverImage: /images/blog_images/dispatches-kitchen/dispatches-kitchen-week-14.jpg
 excerpt: "I made a cookie from cookie. It's so wrong, it's right 🤤"
 lang: en-US
@@ -28,6 +27,7 @@ lang: en-US
 ## Recipe
 
 To be completed.
+- 145 g cookie butter
 
 ## Commentary
 

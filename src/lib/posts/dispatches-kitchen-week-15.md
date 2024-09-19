@@ -3,7 +3,7 @@ title: "Dispatches from a kitchen: World Peace Cookie"
 slug: dispatches-kitchen-week-15
 authors:
   - Teon L Brooks
-date: "2024-05-28"
+date: "2024-05-29"
 categories:
   - kitchen
 collections:

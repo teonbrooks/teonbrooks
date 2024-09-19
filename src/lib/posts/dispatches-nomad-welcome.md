@@ -11,8 +11,6 @@ categories:
 collections:
 - "nomad: Recurse"
 coverImage: "/images/blog_images/recurse/week-01/recurse-week-01.jpg"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: 
     "Dear friends and family, I'm starting a newsletter 🎉"
 lang: en-US

@@ -10,8 +10,6 @@ categories:
 collections:
 - "nomad: Recurse"
 coverImage: "/images/blog_images/recurse/week-01/recurse-week-01.jpg"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: 
     "Recurse Center Week 02: Easing into the work, Questioning life in general"
 lang: en-US

@@ -36,6 +36,7 @@ let { portfolio } = data;
 	<link href="https://github.com/teonbrooks" rel="me">
 	<!-- h-card -->
 	<link href="https://teonbrooks.com/" class="h-card" rel="me" />
+	<link href="https://web.brid.gy/r/https://teonbrooks.com" rel="me" />
 	<!-- Web Mentions -->
 	<link rel="webmention" href="https://webmention.io/teonbrooks.com/webmention" />
 	<!-- Mastodon -->

@@ -12,8 +12,6 @@ categories:
  - "open-science"
  - "science-and-society"
 coverImage: "/images/blog_images/speaking-engagements-following-mfs/capitol-building.jpeg"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: The March actually happened! We managed pulled it off 🎉, which was no small feat.
 lang: en-US
 ---

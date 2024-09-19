@@ -9,8 +9,6 @@ categories:
 collections:
   - cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-07.jpg"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: Sweet, tangy, and spicy
 lang: en-US
 social:

@@ -7,8 +7,6 @@ date: "2022-12-22"
 categories:
 - tech
 coverImage: "/images/blog_images/ipados16-upgrade-woe/IPadOS_16_icon.webp"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: For the life of me, I couldn't figure out why it wouldn't upgrade.
 lang: en-US
 ---

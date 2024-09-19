@@ -10,8 +10,6 @@ categories:
  - "travel"
  - "open-science"
 coverImage: "/images/blog_images/a-brief-share-on-msf/me-and-comma-llama.jpeg"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: I know that this will sound epicly cheesy and cliché but this fellowship has truly been a once in an lifetime opportunity, especially after spending a lifetime in the academy.
 lang: en-US
 ---

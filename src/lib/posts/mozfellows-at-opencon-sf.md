@@ -11,8 +11,6 @@ categories:
 - "open-source"
 - "open-science"
 coverImage: "/images/blog_images/mozfellows-at-opencon-sf/mozfellows.jpg"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: Fellows of Mozilla Science Lab are no over halfway through their Fellowship so we all came together for a workweek in San Francisco.
 lang: en-US
 ---

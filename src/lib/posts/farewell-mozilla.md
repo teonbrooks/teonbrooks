@@ -9,8 +9,6 @@ categories:
  - "tech"
  - "career"
 coverImage: "/images/blog_images/farewell-mozilla/farewell-mozilla.jpg"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: After nearly 6 years contributing to the Mozilla project, today is my last day.
 lang: en-US
 ---

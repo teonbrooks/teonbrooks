@@ -9,8 +9,6 @@ migrated: "2022-12-12"
 categories:
 - travel
 coverImage: "/images/blog_images/2018-travel-in-review/2018-travel-in-review.png"
-# coverWidth: 16
-# coverHeight: 9
 excerpt: 2018 was a very busy year for me.
 lang: en-US
 ---
