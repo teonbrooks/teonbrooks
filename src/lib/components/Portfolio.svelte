@@ -3,12 +3,13 @@
 	import PortfolioCard from './PortfolioCard.svelte';
 
 	export let items = [];
+	export let path;
+
 	export let categories = items
 		.map((x) => x.category)
 		.flat(Infinity)
 		.filter((v, i, a) => a.indexOf(v) === i);
-
-	export let path_icons = '/images/portfolio_icons';
+	
 	$: isClicked = '';
 	$: matches = (item) => {
 		if (!Array.isArray(item.category)) {
@@ -42,7 +43,7 @@
 			<LayoutGrid>
 				{#each items.filter(matches) as item}
 					<Cell>
-						<PortfolioCard {item} {path_icons} />
+						<PortfolioCard {item} {path} />
 					</Cell>
 				{/each}
 			</LayoutGrid>

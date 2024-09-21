@@ -1,6 +1,4 @@
 <script>
-	export let path_icons;
-	export let item;
 	import { mdiLink, mdiClose } from '@mdi/js';
 	import Card, { Content, Actions, ActionButtons, ActionIcons } from '@smui/card';
 	import Button, { Label } from '@smui/button';
@@ -8,15 +6,17 @@
 	import Dialog, { Content as DContent } from '@smui/dialog';
 	import markdownit from 'markdown-it';
 
+	export let path;
+	export let item;
 	const md = markdownit();
 	let open = false;
 </script>
 
 <Card>
 	<Content>
-		{#if item.icon}
+		{#if item.filename}
 			<div class="image">
-				<img src="{path_icons}/{item.icon}" alt='icon for {item.organization}' />
+				<img src="{path}/{item.filename}" alt='icon for {item.organization}' />
 			</div>
 		{/if}
 	</Content>
@@ -43,9 +43,9 @@
 			</Icon>
 		</IconButton>
 		<div>
-			{#if item.icon}
+			{#if item.filename}
 				<img
-					src="{path_icons}/{item.icon}"
+					src="{path}/{item.filename}"
 					alt='icon for {item.organization}'
 					width="100"
 					height="100"

@@ -2,7 +2,8 @@
 import Portfolio from "$lib/components/Portfolio.svelte";
 export let data;
 
-const items = data.portfolio.positions;
+const items = data.collection.positions;
+const path = data.path;
 
 </script>
 
@@ -12,4 +13,4 @@ const items = data.portfolio.positions;
 
 <h1>Portfolio</h1>   
 
-<Portfolio {items} />
+<Portfolio {path} {items} />

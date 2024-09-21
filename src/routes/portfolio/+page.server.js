@@ -1,8 +1,10 @@
 export const prerender = true
 
 export const load = async ({ url, fetch }) => {
-    const portfolioRes = await fetch(`${url.origin}/api/cv/portfolio.toml`)
-    const portfolio = await portfolioRes.json()
+    const resp = await fetch(`${url.origin}/api/cv/portfolio.toml`)
+    const collection = await resp.json()
 
-    return { portfolio }
+    const path = '/images/portfolio_icons';
+
+    return { collection, path }
 }

@@ -1,6 +1,14 @@
 # Bio
 
-Teon L. Brooks Ph.D is a staff data scientist for [Mozilla](https://mozilla.org) and the co-founder of Gotham Data Clinic ([GDC](https://gothamdataclinic.org)).
+## Short Bio
+
+> *Here's a summarized version of my bio.*
+
+Teon L. Brooks Ph.D is the co-founder of [Gotham Data Clinic](https://gothamdataclinic.org). Dr. Brooks has extensive expertise in product data science, experimental design, and research methodology. His research background in psycholinguistics, cognitive science, and machine learning. He posts on Bluesky 🦋 at [@teonbrooks.com](https://bsky.app/profile/teonbrooks.com).
+
+## Longer Bio
+
+Teon L. Brooks Ph.D is the co-founder of [Gotham Data Clinic](https://gothamdataclinic.org).
 
 Dr. Brooks completed his doctoral studies in cognition and perception at New York University's [Psychology Department](https://as.nyu.edu/psychology.html). There, he received several awards and fellowships to support his research including the National Science Foundation (NSF) Graduate Research Fellowship (2011-2014), the French Embassy to the U.S's STEM Chateaubriand Fellowship (2014-2015), and the NSF Graduate Research Opportunities Worldwide (2014-15). His dissertation focused on developing new techniques to understanding the brain-behavior dynamics of word recognition during reading.
 
@@ -10,12 +18,6 @@ Teon has served as a core contributor to the MNE Project, a collection of open-s
 
 Dr. Brooks has served as the technical advisor and President of [BrainWaves](https://wp.nyu.edu/brainwaves), an NIH-funded project to teach experimentation and cognitive neuroscience to high school students in NYC, and has co-founded the Gotham Data Clinic ([GDC](https://gothamdataclinic.org)), a nonprofit that aims to further the mission of the BrainWaves project while focusing on data science, computational thinking, and understanding computations in both humans and machines.
 
-Recently, Dr. Brooks led the Research and Development team at [Aimlabs](https://aimlabs.com), the makers of [Aim Lab](https://aimlab.gg), a first-person-shooter aim trainer. Prior to Aimlabs, Dr. Brooks worked primarily as a senior product data scientist at Mozilla.
+Recently, Dr. Brooks led the Research and Development team at [Aimlabs](https://aimlabs.com), the makers of [Aim Lab](https://aimlab.gg), a first-person-shooter aim trainer. Prior to Aimlabs, Dr. Brooks worked primarily as a staff product data scientist at Mozilla.
 
-He skeets at [@teonbrooks.com](https://bsky.app/profile/teonbrooks.com) and toots at [@teon](https://data-folks.masto.host/@teon).
-
-## Short Bio
-
-> *Here's a summarized version of my bio.*
-
-Teon L. Brooks Ph.D is a staff data scientist for [Mozilla](https://mozilla.org) and the co-founder of Gotham Data Clinic ([GDC](https://gothamdataclinic.org)). Dr. Brooks has extensive expertise in product data science, experimental design, and research methodology. His research background in psycholinguistics, cognitive science, and machine learning. He skeets at [@teonbrooks.com](https://bsky.app/profile/teonbrooks.com) and toots at [@teon](https://data-folks.masto.host/@teon).
+He posts on Bluesky 🦋 at [@teonbrooks.com](https://bsky.app/profile/teonbrooks.com).
