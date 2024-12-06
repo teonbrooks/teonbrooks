@@ -1,11 +1,17 @@
 [id]
 name = "Teon L Brooks, Ph.D"
 descriptors = ["Researcher", "Scientist", "Technologist"]
-title = "Cofounder"
-organization = "Gotham Data Clinic"
-website = "https://gothamdataclinic.org"
 imageURL = "https://0.gravatar.com/avatar/8179ec2a3461f51e568637a913b4061ebc7d6d31d7a1aad43d0e251b1fe42c0b?size=1000"
 # imageURL = "images/home.jpg"
+[[id.occupations]]
+title = 'Cofounder'
+organization = 'Gotham Data Clinic'
+website = "https://gothamdataclinic.org"
+
+[[id.occupations]]
+title = 'Principal Consultant'
+organization = 'datalus'
+website = ""
 
 [skills]
 
@@ -143,6 +149,8 @@ timespan = "2017-2018"
 description = """
 Served on the board of a nonprofit advocacy group 
 for early-career scientists.
+
+[Board Alumni](https://www.futureofresearch.org/boardalumnae/)
 """
 website = "https://futureofresearch.org"
 category = ["Past Orgs", "Volunteer"]

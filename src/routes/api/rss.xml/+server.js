@@ -49,7 +49,6 @@ ${posts
 </image>
 <link>${siteURL}/blog/${post.slug}</link>
 <description>${post.excerpt}</description>
-<content type="html">${post.blogContent}</content>
 <pubDate>${new Date(post.date).toUTCString()}</pubDate>
 </item>`
 	)

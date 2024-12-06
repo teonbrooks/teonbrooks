@@ -33,14 +33,16 @@ let { portfolio } = data;
 	<!-- Indieweb -->
 	<link rel="openid.delegate" href="https://teonbrooks.com/" />
 	<link rel="openid.server" href="https://openid.indieauth.com/openid" />
+	<!-- GitHub -->
 	<link href="https://github.com/teonbrooks" rel="me">
 	<!-- h-card -->
 	<link href="https://teonbrooks.com/" class="h-card" rel="me" />
-	<link href="https://web.brid.gy/r/https://teonbrooks.com" rel="me" />
-	<!-- Web Mentions -->
-	<link rel="webmention" href="https://webmention.io/teonbrooks.com/webmention" />
+	<!-- Bluesky -->
+	<link href="https://fed.brid.gy/bsky/teonbrooks.com" rel="me" />
 	<!-- Mastodon -->
 	<link href="https://hachyderm.io/@teon" rel="me">
+	<!-- Web Mentions -->
+	<link rel="webmention" href="https://webmention.io/teonbrooks.com/webmention" />
 	<!-- GitHub -->
 	<link href="https://github.com/teonbrooks" rel="me">
 	<!-- RSS -->

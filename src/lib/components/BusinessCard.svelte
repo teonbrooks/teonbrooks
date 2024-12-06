@@ -2,11 +2,9 @@
     import Card, { Content, Media } from '@smui/card';
 
     export let name;
-    export let title;
-    export let organization;
+    export let occupations;
     export let descriptors;
     export let src;
-    export let website;
 </script>
 
 <article>
@@ -19,7 +17,9 @@
                     <h3>{descriptor}</h3>
                 {/each}
             </div> -->
-            <p>{title}, <a href="{website}">{organization}</a></p>
+            {#each occupations as occupation}
+                <p>{occupation.title}, {#if occupation.website}<a href="{occupation.website}">{occupation.organization}</a>{:else}{occupation.organization}{/if}</p>
+            {/each}
         </Content>
         <Media>
             <img {src} alt='Teon' />
