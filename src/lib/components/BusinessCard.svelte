@@ -2,11 +2,13 @@
     import Card, { Content, Media } from '@smui/card';
     import md from 'markdown-it';
 
-    export let name;
-    export let occupations;
-    export let descriptors;
-    export let src;
-    export let short_bio;
+    let {
+        name,
+        occupations,
+        descriptors,
+        src,
+        short_bio
+    } = $props();
 
 </script>
 

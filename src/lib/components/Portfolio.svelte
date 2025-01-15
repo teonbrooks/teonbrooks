@@ -2,16 +2,16 @@
 	import LayoutGrid, { Cell } from '@smui/layout-grid';
 	import PortfolioCard from './PortfolioCard.svelte';
 
-	export let items = [];
-	export let path;
+	let {items = [], path } = $props();
 
-	export let categories = items
+	let categories = items
 		.map((x) => x.category)
 		.flat(Infinity)
-		.filter((v, i, a) => a.indexOf(v) === i);
+		.filter((v, i, a) => a.indexOf(v) === i)
 	
-	$: isClicked = '';
-	$: matches = (item) => {
+	let isClicked = $state(false);
+	
+	let matches = $derived((item) => {
 		if (!Array.isArray(item.category)) {
 			item.category = [item.category];
 		}
@@ -19,7 +19,7 @@
 			return item;
 		}
 		return item.category.includes(isClicked) ? item : false;
-	};
+	});
 </script>
 
 <article id="portfolio" class="panel">
@@ -27,13 +27,13 @@
 		<section id="page-portfolio" class="page-portfolio">
 			<h3 class="section-subtitle">Collection of my work</h3>
 			<LayoutGrid>
-				<Cell span={4}><button on:click={() => (isClicked = '')}>Show All</button></Cell>
+				<Cell span={4}><button onclick={() => (isClicked = false)}>Show All</button></Cell>
 				{#each categories as category}
 					<Cell
 						><button
 							class="button"
 							data-filter=".{category}"
-							on:click={() => {
+							onclick={() => {
 								isClicked = category;
 							}}>{category}</button
 						></Cell

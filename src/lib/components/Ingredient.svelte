@@ -1,6 +1,12 @@
 <script>
-    export let name;
-    export let used = true;
+    /**
+     * @typedef {Object} Props
+     * @property {any} name
+     * @property {boolean} [used]
+     */
+
+    /** @type {Props} */
+    let { name, used = $bindable(true) } = $props();
 
 </script>
 

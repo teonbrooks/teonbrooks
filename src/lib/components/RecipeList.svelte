@@ -1,7 +1,7 @@
 <script>
     import Ingredient from './Ingredient.svelte';
 
-    export let ingredients;
+    let { ingredients } = $props();
 </script>
 
 <!-- <h2>Recipe Name</h2> -->

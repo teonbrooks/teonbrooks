@@ -4,10 +4,9 @@
 	import { postsPerPage, siteDescription } from '$lib/config'
 	import ButtonDownSignUp from '$lib/components/ButtonDownSignUp.svelte';
 
-	export let data
-	export let selectedCollections = [['travel', '🎒'],
+	let { data, selectedCollections = [['travel', '🎒'],
 									  ['tech', '👨🏾‍💻'],
-									  ['kitchen', '👨🏾‍🍳']];
+									  ['kitchen', '👨🏾‍🍳']] } = $props();
 </script>
 
 
@@ -22,13 +21,13 @@
 
 <div id='collection'>
 	{#each selectedCollections as collection}
-		<button on:click={() => window.open(`./blog/category/${collection[0]}`, '_self')}>
+		<button onclick={() => window.open(`./blog/category/${collection[0]}`, '_self')}>
 			{`{${collection[1]} ${collection[0]} edition}`}
 		</button>
 	{/each}
 </div>
 <div style="display: flex; align-items=center; justify-content: center">
-	<button on:click={() => window.open(`./blog/category`, '_self')}>[All the categories]</button>
+	<button onclick={() => window.open(`./blog/category`, '_self')}>[All the categories]</button>
 </div>
 
 <h2>The Firehose 🚰</h2>
