@@ -1,29 +1,40 @@
 <script>
     import Card, { Content, Media } from '@smui/card';
+    import md from 'markdown-it';
 
     export let name;
     export let occupations;
     export let descriptors;
     export let src;
+    export let short_bio;
+
 </script>
 
 <article>
     <Card padded>
         <Content>
             <h1>{name}</h1>
-            <h3>{descriptors.join(' | ')}</h3>
+            <p>
+                {#each descriptors as descriptor}
+                    <a href={descriptor.website}>{descriptor.title}</a>{` | `}
+                {/each}
+                R+D
+            </p>
             <!-- <div class="descriptors">
                 {#each descriptors as descriptor}
                     <h3>{descriptor}</h3>
                 {/each}
             </div> -->
-            {#each occupations as occupation}
-                <p>{occupation.title}, {#if occupation.website}<a href="{occupation.website}">{occupation.organization}</a>{:else}{occupation.organization}{/if}</p>
-            {/each}
         </Content>
         <Media>
             <img {src} alt='Teon' />
         </Media>
+        <p>
+            {#each occupations as occupation}
+                {occupation.title}, {#if occupation.website}<a href="{occupation.website}">{occupation.organization}</a>{:else}{occupation.organization}{/if}<br>
+            {/each}
+        </p>
+        <p>{@html md().render(short_bio)}</p>
     </Card>
 </article>
 

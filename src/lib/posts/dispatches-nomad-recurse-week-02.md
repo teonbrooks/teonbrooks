@@ -7,8 +7,9 @@ date: "2023-05-31 12:00:00 EDT"
 categories:
 - recurse
 - nomad
+- travel
 collections:
-- "nomad: Recurse"
+- "Recurse"
 coverImage: "/images/blog_images/recurse/week-01/recurse-week-01.jpg"
 excerpt: 
     "Recurse Center Week 02: Easing into the work, Questioning life in general"

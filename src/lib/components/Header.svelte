@@ -2,7 +2,8 @@
 	import MainNav from './MainNav.svelte'
 	import HamburgerMenuButton from './HamburgerMenuButton.svelte'
 	import { siteTitle } from '$lib/config'
-	import SocialMedia from './SocialMedia.svelte';
+	// TODO: fix social media icons
+	// import SocialMedia from './SocialMedia.svelte';
 
 	const focusMain = () => {
 		const main = document.querySelector('main');

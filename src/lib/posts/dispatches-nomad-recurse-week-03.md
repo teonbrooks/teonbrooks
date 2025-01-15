@@ -7,8 +7,9 @@ date: "2023-06-07 12:00:00 EDT"
 categories:
 - recurse
 - nomad
+- travel
 collections:
-- "nomad: Recurse"
+- "Recurse"
 coverImage: "/images/blog_images/recurse/week-03/dispatches-nomad-recurse-week-03.jpg"
 coverWidth: 16
 coverHeight: 9

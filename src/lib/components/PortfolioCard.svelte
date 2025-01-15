@@ -4,11 +4,11 @@
 	import Button, { Label } from '@smui/button';
 	import IconButton, { Icon } from '@smui/icon-button';
 	import Dialog, { Content as DContent } from '@smui/dialog';
-	import markdownit from 'markdown-it';
+	import md from 'markdown-it';
 
 	export let path;
 	export let item;
-	const md = markdownit();
+	// const md = markdownit();
 	let open = false;
 </script>
 
@@ -55,7 +55,7 @@
 			<h2>{item.title}</h2>
 			<p><em>{item.timespan}</em></p>
 			<p>
-				{@html md.render(item.description)}
+				{@html md().render(item.description)}
 			</p>
 		</div>
 	</DContent>

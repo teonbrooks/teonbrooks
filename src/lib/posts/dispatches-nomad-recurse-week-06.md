@@ -7,8 +7,9 @@ date: "2023-10-20 12:00:00 EDT"
 categories:
 - recurse
 - nomad
+- travel
 collections:
-- "nomad: Recurse"
+- "Recurse"
 coverImage: "/images/blog_images/recurse/week-06/dispatches-nomad-recurse-week-06.jpg"
 excerpt:
    "Recurse Center Week 06: Last week of my half-batch"

@@ -3,7 +3,7 @@
 	export let data
 	let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeight, categories, social, authors } = data.meta
 	import Article from "$lib/components/Article.svelte";
-	import MailchimpSignUp from "$lib/components/MailchimpSignUp.svelte";
+	import ButtonDownSignUp from "$lib/components/ButtonDownSignUp.svelte"
 	import Giscus from "@giscus/svelte";
 	import { siteImage } from "$lib/config";
 
@@ -63,7 +63,7 @@
 
 	<!-- Add Signup Form -->
 	<h2>Signup</h2>
-	<MailchimpSignUp />
+	<ButtonDownSignUp />
 	
 	<!-- Add commenting -->
 	<h2>Comments</h2>

@@ -1,15 +1,5 @@
 # Fellow, Mozilla/Stanford
 
-__Executive Summary__
-
-During my 2016-2017 Mozilla Fellowship for Science, I was a national co-organizer for the inaugural [March for Science](https://marchforscience.org) in Washington, D.C., which amassed 100k advocates for Science, and for evidence-based decisions in policy-making.
-
-During my postdoc at Stanford, I was a core-contributor to __(1)__ the [Brain Imaging Data Structure](https://bids.neuroimaging.io/) project for the inclusion of MEG into the specification ([our paper](https://www.nature.com/articles/sdata2018110)), and to __(2)__ the [MNE-BIDS](https://github.com/mne-tools/mne-bids) project to provide a software implementation ([our paper](https://joss.theoj.org/papers/10.21105/joss.01896)).
-
-<a href="https://mozilla.org">
-  <p align="center"><img src=/images/msl.png alt="Mozilla Science Lab" width=400></p>
-</a><br><br>
-
 __Travel Map__
 
 As part of my fellowship, here is a map of places I have traveled to during my fellowship:
