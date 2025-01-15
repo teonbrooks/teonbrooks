@@ -6,10 +6,8 @@
 	import Dialog, { Content as DContent } from '@smui/dialog';
 	import md from 'markdown-it';
 
-	export let path;
-	export let item;
-	// const md = markdownit();
-	let open = false;
+	let { path, item } = $props();
+	let open = $state(false);
 </script>
 
 <Card>
@@ -22,12 +20,12 @@
 	</Content>
 	<Actions style="align-items:end">
 		<ActionButtons>
-			<Button on:click={() => (open = true)}>
+			<Button onclick={() => (open = true)}>
 				<Label>Details</Label>
 			</Button>
 		</ActionButtons>
 		<ActionIcons>
-			<IconButton on:click={() => window.open(item.website)} title="Open Link">
+			<IconButton onclick={() => window.open(item.website)} title="Open Link">
 				<Icon tag="svg" viewBox="0 0 24 24">
 					<path fill="currentColor" d={mdiLink} />
 				</Icon>

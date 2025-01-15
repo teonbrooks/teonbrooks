@@ -1,15 +1,17 @@
 import { error } from '@sveltejs/kit'
 
-export const load = async () => {
-	try {
-		const MdFile = await import('$lib/content/about/brooks_bio.md');
-		const Md = MdFile.default.render().html
+// export const load = async () => {
+// 	try {
+// 		const MdFile = await import('$lib/content/about/brooks_bio.md');
+// 		// const Md = MdFile.default.render().html
+
+// 		console.log(MdFile.default.render)
 		
-		return {
-			Md
-		}
-	}
-	catch(err) {
-		error(500, err)
-	}
-}
+// 		return {
+// 			MdFile
+// 		}
+// 	}
+// 	catch(err) {
+// 		error(500, err)
+// 	}
+// }

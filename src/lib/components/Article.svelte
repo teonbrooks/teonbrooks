@@ -1,13 +1,14 @@
 <script>
     import Card, { Content } from '@smui/card';
+    import md from 'markdown-it';
 
-    export let content;
+    let { content } = $props();
 </script>
 
 <article>
     <Card padded>
         <Content>
-            {@html content}
+            {@html md().render(content)}
         </Content>
     </Card>
 </article>

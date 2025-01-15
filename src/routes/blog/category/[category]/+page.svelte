@@ -5,12 +5,12 @@
   	import { postsPerPage } from '$lib/config'
 	import ButtonDownSignUp from '$lib/components/ButtonDownSignUp.svelte';
 
-	export let data
+	let { data } = $props();
 
   const { page, posts, category, categoryTotal } = data
 
-	$: lowerBound = (page * postsPerPage) - (postsPerPage - 1) || 1
-	$: upperBound = Math.min(page * postsPerPage, categoryTotal)
+	let lowerBound = $derived((page * postsPerPage) - (postsPerPage - 1) || 1)
+	let upperBound = $derived(Math.min(page * postsPerPage, categoryTotal))
 </script>
 
 

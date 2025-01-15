@@ -1,7 +1,7 @@
 <script>
 import { siteTitle, siteDescription, siteImage, siteImageWidth, siteAuthor, siteURL, faviconImage } from '$lib/config';
 import BusinessCard from '$lib/components/BusinessCard.svelte';
-export let data;
+	let { data } = $props();
 
 let { portfolio } = data;
 

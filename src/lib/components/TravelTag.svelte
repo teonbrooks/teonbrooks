@@ -4,19 +4,33 @@
 	import IconButton, { Icon } from "@smui/icon-button";
   import { mdiClose } from '@mdi/js';
 
-  export let startDate = '01 Jan 1970';
-  export let transportation = '✈️';
-  export let carrier = '';
-  export let destination = 'New York';
-  export let desTravelCode = 'JFK';
-  export let linkRec = '';
-  export let linkAlbum = '';
+  /**
+   * @typedef {Object} Props
+   * @property {string} [startDate]
+   * @property {string} [transportation]
+   * @property {string} [carrier]
+   * @property {string} [destination]
+   * @property {string} [desTravelCode]
+   * @property {string} [linkRec]
+   * @property {string} [linkAlbum]
+   */
 
-  let open = false;
+  /** @type {Props} */
+  let {
+    startDate = '01 Jan 1970',
+    transportation = '✈️',
+    carrier = '',
+    destination = 'New York',
+    desTravelCode = 'JFK',
+    linkRec = '',
+    linkAlbum = ''
+  } = $props();
+
+  let open = $state(false);
 
 </script>
 
-<button on:click={() => (open = true)}>
+<button onclick={() => (open = true)}>
   <article>
     <div class="top">
       <p class='start'>Start of Travel:</p>

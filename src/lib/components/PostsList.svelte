@@ -1,7 +1,7 @@
 <script>
 	import Card, { Content } from '@smui/card';
 
-	export let posts = []
+	let { posts = [] } = $props();
 </script>
 
 

@@ -1,8 +1,8 @@
 <script>
     import TravelTag from '$lib/components/TravelTag.svelte'
 
-    export let data;
-    let { logTravel, recs } = data;
+    let { data } = $props();
+    let { logTravel, recs } = $state(data);
 
     let { recommendations } = recs;
     

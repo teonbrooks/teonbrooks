@@ -7,10 +7,11 @@ export const GET = async () => {
 	const data = await Promise.all(
 		Object.entries(import.meta.glob('$lib/posts/*.md')).map(async ([path, page]) => {
 			const blogPost = await page()
-			const blogContent = blogPost.default.render().html
+			// TODO: add blog content to the rss feed. Consider atom format
+			// const blogContent = blogPost.default.render().html
 			const metadata = blogPost.metadata
 			const slug = path.split('/').pop().split('.').shift()
-			return { ...metadata, slug, blogContent }
+			return { ...metadata, slug }
 		})
 	)
 	.then(posts => {

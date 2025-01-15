@@ -1,10 +1,10 @@
 <script>
 import Article from "$lib/components/Article.svelte";
+import MdRaw from "$lib/../../README.md?raw";
 
-    export let data;
 </script>
 
 <svelte:head>
 	<title>Readme</title>
 </svelte:head>
-<Article content={data.ReadMe}/>
+<Article content={MdRaw}/>
