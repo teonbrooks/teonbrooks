@@ -6,9 +6,6 @@
 <h1>Contact</h1>
 
 <article id="contact" class="panel">
-	<header>
-		<h2>Contact Me</h2>
-	</header>
 	<form action="https://formspree.io/f/xjvpopgr" method="POST">
 		<div class="form-section">
 			<label for="name">Name</label>
@@ -35,8 +32,9 @@
 </article>
 
 <style>
-	.field {
-		background-color: var(--paper);
+	form {
+		background-color: white;
+		padding: 25px;
 	}
 	textarea {
 		display: block;

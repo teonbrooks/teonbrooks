@@ -1,8 +1,8 @@
 <script>
 import Portfolio from "$lib/components/Portfolio.svelte";
-export let data;
+	let { data } = $props();
 
-const items = data.collection.positions;
+const items = data.portfolio.positions;
 const path = data.path;
 
 </script>

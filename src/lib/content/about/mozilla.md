@@ -1,21 +1,5 @@
 # Mozilla
 
-<a href="https://mozilla.org">
-  <p align="center"><img src=/images/firefox.jpg alt="Mozilla Firefox" width=400></p>
-</a><br><br>
-
-## Senior Data Scientist, Mozilla
-
-__Executive Summary__
-
-At Mozilla, I supported our Revenue and Business Development teams with analytic support. Relatedly, I worked with our product team on the Awesome Bar, our combined address bar and search product within the Firefox Browser, and researched how to improve the user experience with finding things on the web.
-
-Previously, I have worked with one of our product development teams, [Test Pilot](https://medium.com/firefox-test-pilot), to rapidly iterate on new features for the browser. Within the company, I taught introductory courses in data visualization and data analysis to build product intuition and inform product decisions. I also served as a data steward to help safeguard user privacy and control over their data.
-
-<a href="https://mozilla.org">
-  <p align="center"><img src=/images/firefox.jpg alt="Mozilla Firefox" width=400></p>
-</a><br><br>
-
 Below is a collection of projects, talks, and events I have been involved since my start at Mozilla.
 
 ### External

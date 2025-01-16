@@ -1,8 +1,11 @@
 <script>
+	import { preventDefault } from 'svelte/legacy';
+
 	import MainNav from './MainNav.svelte'
 	import HamburgerMenuButton from './HamburgerMenuButton.svelte'
 	import { siteTitle } from '$lib/config'
-	import SocialMedia from './SocialMedia.svelte';
+	// TODO: fix social media icons
+	// import SocialMedia from './SocialMedia.svelte';
 
 	const focusMain = () => {
 		const main = document.querySelector('main');
@@ -12,7 +15,7 @@
 
 
 <header>
-	<a on:click|preventDefault={focusMain} class="skip-to-content-link" href="#main">
+	<a onclick={preventDefault(focusMain)} class="skip-to-content-link" href="#main">
 		Skip to main content
 	</a>
 	

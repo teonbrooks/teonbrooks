@@ -1,11 +1,21 @@
 <!-- This file renders each individual blog post for reading. Be sure to update the svelte:head below -->
 <script>
-	export let data
-	let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeight, categories, social, authors } = data.meta
+	import { run } from 'svelte/legacy';
 	import Article from "$lib/components/Article.svelte";
-	import MailchimpSignUp from "$lib/components/MailchimpSignUp.svelte";
+	import ButtonDownSignUp from "$lib/components/ButtonDownSignUp.svelte"
 	import Giscus from "@giscus/svelte";
 	import { siteImage } from "$lib/config";
+	import Card, { Content } from '@smui/card';
+	
+	let PostContent = $state();
+	let meta = $state();
+	let { data } = $props();
+
+	run(() => {
+		({ PostContent, meta } = data)
+	});
+
+	let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeight, categories, social, authors } = meta
 
 </script>
 
@@ -58,12 +68,18 @@
 			<b>Migrated:</b> {migrated}
 		{/if}
 	</div>
-
-	<Article content={data.PostContent} />
+	
+	<article>
+		<Card padded>
+			<Content>
+				<PostContent />
+			</Content>
+		</Card>
+	</article>
 
 	<!-- Add Signup Form -->
 	<h2>Signup</h2>
-	<MailchimpSignUp />
+	<ButtonDownSignUp />
 	
 	<!-- Add commenting -->
 	<h2>Comments</h2>
@@ -114,3 +130,9 @@
 		</aside>
 	{/if}
 </article> 
+
+<style>
+	article {
+		display: inline-block
+	}
+</style>

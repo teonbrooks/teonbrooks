@@ -7,8 +7,9 @@ date: "2023-05-24 12:00:00 EDT"
 categories:
 - recurse
 - nomad
+- travel
 collections:
-- "nomad: Recurse"
+- "Recurse"
 coverImage: "/images/blog_images/recurse/week-01/recurse-week-01.jpg"
 excerpt: 
     "Recurse Center Week 01: Organized calamity of the highest regard."
