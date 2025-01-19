@@ -1,13 +1,13 @@
 ---
 title: "Science March"
 slug: science-march
+authors:
+- Teon L Brooks
 date: "2017-02-20"
-migrated: "2022-12-12"
-keywords: []
 categories:
- - "advocacy"
- - "science-and-society"
- - "public-interest"
+- advocacy
+- open-science
+- science-and-society
 coverImage: "/images/blog_images/science-march/science-march.png"
 coverWidth: 16
 coverHeight: 9

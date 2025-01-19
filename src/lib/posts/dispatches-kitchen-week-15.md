@@ -2,12 +2,12 @@
 title: "Dispatches from a kitchen: World Peace Cookie"
 slug: dispatches-kitchen-week-15
 authors:
-  - Teon L Brooks
+- Teon L Brooks
 date: "2024-05-29"
 categories:
-  - kitchen
+- kitchen
 collections:
-  - cookies
+- cookies
 coverImage: /images/blog_images/dispatches-kitchen/dispatches-kitchen-week-15.jpg
 excerpt: "It's described as a cross between the French sable and American chocolate chip. With a pinch of salt, I call it delicious 😋"
 lang: en-US

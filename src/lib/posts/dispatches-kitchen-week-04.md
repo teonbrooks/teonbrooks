@@ -5,9 +5,9 @@ authors:
 - Teon L Brooks
 date: "2024-01-29"
 categories:
-  - kitchen
+- kitchen
 collections:
-  - cookies
+- cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-04.jpg"
 excerpt: "One of my favorite chocolate chip cookie recipes 😋"
 lang: en-US

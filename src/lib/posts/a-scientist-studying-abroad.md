@@ -2,13 +2,11 @@
 title: "A scientist studying abroad"
 slug: a-scientist-studying-abroad
 authors:
- - Teon L Brooks
+- Teon L Brooks
 date: "2017-01-06"
-migrated: "2022-12-12"
-keywords:
 categories:
- - "traveling"
- - "open-science"
+- travel
+- open-science
 coverImage: "/images/blog_images/a-scientist-studying-abroad/me-in-the-pyrenees.png"
 excerpt: I studied abroad the fourth year of my PhD program.
 lang: en-US
@@ -33,5 +31,6 @@ Below, I wrote up a [blurb](https://www.chateaubriand-fellowship.org/Teon-Brooks
     In addition to being a great place to learn, Paris is perfectly positioned [for] a researcher who likes to explore in their free time. Throughout my fellowship year, I would take the train on the weekends to explore France: I went champagning in Reims, I traveled to Chamonix to see Montblanc, I went down to Toulouse to go hike the Pyreenes with a friend, just to name a few. There are plenty of countries close by to visit too. The flights are quick and can be really cheap. Here’s a list of countries I visited: Austria, Belgium, Denmark, Germany, the Netherlands, Northern Ireland, Spain, Sweden, Switzerland.
 
     Working toward a PhD is super hard. The Chateaubriand fellowship helped me be productive and master new skills all the while having some fun along the way.
-
-<img src="/images/blog_images/a-scientist-studying-abroad/me-and-my-lab-mates.jpg" alt="Me and my lab mates" />
+<figure style:text-align="center">
+    <img src="/images/blog_images/a-scientist-studying-abroad/me-and-my-lab-mates.jpg" alt="Me and my lab mates" />
+</figure>

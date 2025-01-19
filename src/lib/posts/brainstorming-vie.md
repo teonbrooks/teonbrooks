@@ -2,16 +2,12 @@
 title: "Brainstorming Vie"
 slug: brainstorming-vie
 authors:
- - Teon L Brooks
+- Teon L Brooks
 date: "2022-02-22"
-migrated: "2022-12-12"
-keywords: 
-  - web development
-  - markdown
 categories:
- - "tech"
+- tech
 collection:
-- "coder: Vie"
+- cestlavie
 coverImage: "/images/blog_images/brainstorming-vie/brainstorming-vie.png"
 excerpt: Thinking through a new indieweb app called Vie based on Svelte.
 lang: en-US

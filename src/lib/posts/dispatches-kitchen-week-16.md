@@ -2,12 +2,12 @@
 title: "Dispatches from a kitchen: Lace Cookie"
 slug: dispatches-kitchen-week-16
 authors:
-  - Teon L Brooks
+- Teon L Brooks
 date: "2024-06-28"
 categories:
-  - kitchen
+- kitchen
 collections:
-  - cookies
+- cookies
 coverImage: /images/blog_images/dispatches-kitchen/dispatches-kitchen-week-16.jpg
 excerpt: "Simple and delicious 😋"
 lang: en-US

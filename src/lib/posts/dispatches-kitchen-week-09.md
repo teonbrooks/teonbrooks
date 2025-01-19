@@ -5,9 +5,9 @@ authors:
 - Teon L Brooks
 date: "2024-03-04"
 categories:
-  - kitchen
+- kitchen
 collections:
-  - cookies
+- cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-09.jpg"
 excerpt: Triple the chocolate, triple the fun
 lang: en-US

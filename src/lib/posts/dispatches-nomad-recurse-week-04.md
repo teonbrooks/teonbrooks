@@ -3,13 +3,14 @@ title: "Dispatches from a Nomad: Recurse Week 04"
 slug: dispatches-nomad-recurse-week-04
 authors:
 - Teon L Brooks
-date: "2023-06-14 12:00:00 EDT"
+date: "2023-06-14"
 categories:
 - recurse
 - nomad
 - travel
 collections:
-- "Recurse"
+- recurse-2023s1
+- cestlavie
 coverImage: "/images/blog_images/recurse/week-04/nadal.jpg"
 excerpt: 
     "Recurse Center Week 04: King of Clay, français, Sacré, Beyoncé"
@@ -17,7 +18,10 @@ lang: en-US
 social:
 - strava
 ---
-<script> import Callout from '$lib/components/Callout.svelte'; </script>
+<script> 
+    import Callout from '$lib/components/Callout.svelte';
+    import Album from '$lib/components/Album.svelte';
+</script>
 
 *The week of June 5, 2023*
 
@@ -40,18 +44,12 @@ Since I wasn't going to be in town for the anniversary of her passing, which was
 
 Last year, I had come down for Thanksgiving and for her birthday, which was November 29. We were hoping that her headstone would arrive by her birthday, but we were informed when buying it that there was more than a six month delay for headstones due to supply chain issues; this was both from the demand side and bottleneck in acquiring raw material, which is pretty fucking grim. Also I just stumbled upon this article that highlights the issues [here](https://edition.cnn.com/2022/02/21/politics/headstone-supply-chain-granite-shortage/index.html). The headstone did finally arrive a few days after her birthday, but I had already flown back home before I would have a chance to see it.
 
-<a href="https://photos.app.goo.gl/RUZYiTevLo7FKtg36">
-    <figure>
-        <img src="https://lh3.googleusercontent.com/pw/AJFCJaXF_2voq6wvg2ATYw4KTNGTiuefmnAysr3RbBArAlH2mko4OvP14ghScvQ3dU2_VislFwSgW-7C8AZ4MZr1gtXZSea0YfKWQmT5d1xnE7R-Nz4a-j9tT090ecgPH_nmJMfhM0jPQRsNNcLoSRtjNh2A_Q=w1322-h1756-s-no?authuser=0" />
-        <figcaption>🎒 Nomadic Adventures: Crescent Line</figcaption>
-    </figure>
-</a>
-
-<style>
-figcaption {
-    text-align: center;
-}
-</style>
+<Album 
+    albumHref = "https://photos.app.goo.gl/iqGQCPB6YjrPPgVa9"
+    imageHref = "/images/blog_images/recurse/week-04/PXL_20230314_175047149~2.jpg"
+    alt = "Me wearing a jean jacket sitting on a trolley with a leather satchel"
+    caption = "🎒 Nomadic Adventures: Crescent Line"
+/>
 
 ## Nomadic Note
 
@@ -119,8 +117,8 @@ When I first ran the model on a page from my scrapbook, I started it right befor
 Once we finished, I re-ran it, and it still required the same amount of resources, but it did finish 🎉 I got a list of dictionaries containing individual masks generated from my scrapbook page. I'll say it took about 5 minutes. I realized that all the processing was taking place on the CPU, no real use of the GPU. It was a good first step getting this part working and now it was time for me to start chipping away on more parts of the project.
 
 <figure>
-    <img src="/images/blog_images/recurse/week-04/segmented.png" />
-    <figcaption>Segmented page from scrapbook</figcaption>
+    <img src="/images/blog_images/recurse/week-04/segmented.png" alt="Segmented page from scrapbook"/>
+    <figcaption style:text-align="center">Segmented page from scrapbook</figcaption>
 </figure>
 
 ### GCP Gen AI
@@ -132,7 +130,9 @@ On the first day, it was just me. I realized that I didn't do much advertisement
 <!-- At a very high level, machine learning is a subfield of artificial intelligence that focuses on training models from input data. Within machine learning   deep learning, which is a subset of machine learning. Deep learning models use artificial neural networks to process input data to generate an output, and within deep learning, generative AI uses transformers, which encodes and decodes information -->
 
 <!-- kind an image to convey point -->
-<img src="https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_EEK2CuV.max-900x900.png" />
+<figure style:text-align="center">
+    <img src="https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_EEK2CuV.max-900x900.png" alt= "Plot depicting the subfields of machine learning" />
+</figure>
 
 Later in the week, I was joined by two Recursers, and we briefly discussed the GCP learning path. The topic at hand was Introduction to Large Language Models, and how best to go about watching the videos in discussion. We decided to watch them individually and to come back afterwards for the quiz and have a discussion. 
 
@@ -166,7 +166,9 @@ Afterwards, I did some additional reading about SAM and I discovered that the mo
 
 - I went to a third round match of the French Open at Roland-Garros on Monday! I spent the afternoon refreshing the page constantly to get a ticket and managed!
 
-<img src="https://lh3.googleusercontent.com/pw/AJFCJaUqrA1LJlamK-VWz-L-WuiXkFb1WB--bVwfl_eb6ufxO_hFtMnMngmgx4GnOM6x1YwRnaf2uRVB3IsjRl7IJKBVziLd9K12Wc56CJqSPcolEcMGQ_NRQLl3Q0dD6PeqH-t-GM2zW1t7m_cjYfuNA2IDvw=w1750-h1312-s-no?authuser=0" width="300px" />
+<figure style:text-align="center">
+    <img src="/images/blog_images/recurse/week-04/PXL_20230605_211036856.jpg" width="300px" alt="Me holding the peace sign at Roland Garros" />
+</figure>
 
 - Micro.blog. I spent some time exploring different microblogging solutions and I decided to setup a micro.blog page at <https://teon.micro.blog> for now. There were easy plugins to import my old tweets and my Swarm data.
 
@@ -176,7 +178,9 @@ Afterwards, I did some additional reading about SAM and I discovered that the mo
 
 - Had drinks and dinner with my friends Remy and Roman. A long wait but we had an awesome seat for the evening in front of the Sacré-Cœur.
 
-<img src="https://lh3.googleusercontent.com/pw/AJFCJaW9Z04V5ZJZEVVJ0V1Jq7LKy6jSpsCQBQxSTgg5ZdQ2dv3TNxfaS3-bGUJOtU9TxHUyK7xNheMNW0U1T2XIMsPC1xnWL8osRj2CjTTmF0jZHo_jCWd429n4gZmHjq_Ylhs9nfwW5wM1gsR5mc7DHG8U6ku4FaTXKD5i8iIMQu3xZUF9_daSRJIeB9OMRc1Ag1y1taFANitAr6CivxIaVlVCwRv0pEwSpU7VBUnhSJUKJg9xsNcCdd_PT4WPK53a0uoVuPhjfDKTL-4fIQ9LlnY5UBpw8IxvucYfNf1fyUSiAGh0SGD-nwEXovWUVqawJyTB7wQwujWJDkWopC8ImSny5G7R_8M87ri9uHUk8VM8EEm1iO0Q5FtRwT_N03fe0kr7qD5QnPheFCWhGfaoHccVBLioGH4B2OCiKx1bcpcBku7DOWG9cmjM_s8EDbV-Cg3Hy2ti9HYkzHnLq6o0EIGD5-887N4RFh5nJzD0_YD99Qjb3MV5O24RYydgKgyOwC7wfuiQuzUStYzpP1hKiFdbxyb7fsDbWatSoxjf3iAiXTlbfe7r6KmvSUpkDf_cbqebGpO7EoFuNKeSMD9rkADTjVeDv6rCW6rX6_VyjObRYfg-SCaWwLsSyOwHlNqzssLkCMkWq2f86K_a2_gDLsIMpb_eUb7wVY-aNh0Ygt4f0arX9wMp5GvoyOH4OabtuGNBxlMRYKPVjKFKFHGdqnIuTYfkuhPWEVcRGFQO7_6-ISBeaOemsWaZcUVPQ28CYBy2_pqgyhoixQzW7abjwkpbOWA9g8A_4tr7yleE2pDJfjwUOcxoWHd2qwVWUrwWS_4vxXSG9WmnFBuE1Y_VqL20nxXJif0DUx4KkoBd6G46a-2GP0KIm7w3i7i2K-BVF6zihfzdVIbiK8HyMWCgivg4p_5T8MahAIa1jv4cR3X5O3mufw7TpIkdGjezv_jmpK_XOYLKDBOiMZVYT2t5qXKNWi7JmEtHOgmGE2PCHq2L3QlWxvWi6NjrHgT_k4wg1LY=w1024-h768-s-no?authuser=0" width=300px style="vertical-align:middle" />
+<figure style:text-align="center">
+    <img src="/images/blog_images/recurse/week-04/IMG-20230608-WA0004.jpg" alt="Me and two friends on a rooftop bar with the view of the Sacré-Cœur" width=300px style:text-align="center" />
+</figure>
 
 (More on these next week, too much content for this week lol)
 

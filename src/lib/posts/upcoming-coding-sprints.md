@@ -1,12 +1,11 @@
 ---
 title: "Upcoming Coding Sprints!"
 slug: upcoming-coding-sprints
+authors:
+- Teon L Brooks
 date: "2017-01-25"
-datetime: '2017-01-25T20:00:47.000Z'
-migrated: "2022-12-12"
-keywords: []
 categories:
-- "open-source"
+- open-source
 coverImage: "/images/blog_images/upcoming-coding-sprints/upcoming-coding-sprints.png"
 coverWidth: 16
 coverHeight: 9

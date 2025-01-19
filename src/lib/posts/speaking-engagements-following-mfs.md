@@ -2,22 +2,22 @@
 title: "Speaking engagements following the March for Science event"
 slug: speaking-engagements-following-mfs
 authors:
- - Teon L Brooks
+- Teon L Brooks
 date: "2018-01-18"
-migrated: "2022-12-12"
-keywords: 
-- "Mozilla Science"
 categories:
- - "advocacy"
- - "open-science"
- - "science-and-society"
+- advocacy
+- open-science
+- science-and-society
 coverImage: "/images/blog_images/speaking-engagements-following-mfs/capitol-building.jpeg"
 excerpt: The March actually happened! We managed pulled it off 🎉, which was no small feat.
 lang: en-US
 ---
 
 The March actually [happened](https://www.youtube.com/watch?v=nNz8GO-d9wI)! We managed pulled it off 🎉, which was no small feat. Things operated at a frenetic pace from late January til the summer, supported wholly on volunteers. With respect to the DC march, we had around [50 people](https://en.wikipedia.org/wiki/March_for_Science#Planning_and_participants) who really dropped pretty much everything they were doing and working on to orchestrate an event that was larger in size than we could have imagined. That same story was echoed all around the world with volunteers stepping up and organizing over 600 marches worldwide, mobilizing over a million people to stand up for Science. With much gratitude, I thank everyone involved. There’s no way any part of this could have been done without every volunteer, partner org, each and every marcher out there.
-<img src="/images/blog_images/speaking-engagements-following-mfs/infographic.png" alt="Copy of infographic from March for Science website in 2017." />
+
+<figure style:text-align="center">
+    <img src="/images/blog_images/speaking-engagements-following-mfs/infographic.png" alt="Copy of infographic from March for Science website in 2017." />
+</figure>
 
 ---
 
@@ -72,6 +72,10 @@ and she discussed how the lack of hierarchical structure in how the March was de
 
 And then we got to hear from one of the march speakers, [Dr. Jessica Ware](https://twitter.com/JessicaLWareLab), who gave such a compelling, personal account as a speaker and an entomologist at the DC March. Because we had such an incredible but numerous collection of speakers, we were cursed with having to strictly enforce a cap of two minutes per speaker. She discussed growing up in a military family and how precise timing had also been a central theme. She conveyed to us why she studies bugs, how integral bugs are to our society, and how they affect the economy, agriculture, and our ecosystem, finishing with clockwork precision.
 
-<img src="/images/blog_images/speaking-engagements-following-mfs/photo_with_professor_ware.jpeg" alt="Me with Professor Ware courtesy of Stephanie Mafla-Mills (https://twitter.com/EcoEvoMestiza)" />
+<figure style:text-align="center">
+    <img src="/images/blog_images/speaking-engagements-following-mfs/photo_with_professor_ware.jpeg" alt="Me with Professor Ware courtesy of Stephanie Mafla-Mills (https://twitter.com/EcoEvoMestiza)" />
+</figure>
 
-<img src="/images/blog_images/speaking-engagements-following-mfs/photo_with_ware_lab.jpeg" alt="Me with the Ware Lab courtesy of Stephanie Mafla-Mills (https://twitter.com/EcoEvoMestiza)" />
+<figure style:text-align="center">
+    <img src="/images/blog_images/speaking-engagements-following-mfs/photo_with_ware_lab.jpeg" alt="Me with the Ware Lab courtesy of Stephanie Mafla-Mills (https://twitter.com/EcoEvoMestiza)" />
+</figure>

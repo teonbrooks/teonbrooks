@@ -2,13 +2,11 @@
 title: "A Brief Share on my Mozilla Science Fellowship"
 slug: a-brief-share-on-msf
 authors:
- - Teon L Brooks
+- Teon L Brooks
 date: "2017-05-11"
-migrated: "2022-12-12"
-keywords:
 categories:
- - "travel"
- - "open-science"
+- travel
+- open-science
 coverImage: "/images/blog_images/a-brief-share-on-msf/me-and-comma-llama.jpeg"
 excerpt: I know that this will sound epicly cheesy and cliché but this fellowship has truly been a once in an lifetime opportunity, especially after spending a lifetime in the academy.
 lang: en-US

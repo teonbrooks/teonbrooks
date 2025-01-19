@@ -1,13 +1,13 @@
 ---
 title: "On organizing a national March for Science, a reflection 5 years later"
 slug: mfs-5yrs-later
+authors:
+- Teon L Brooks
 date: "2022-04-22"
-migrated: "2022-12-12"
 keywords: science, advocacy, policy, reflections, earth day
 categories:
- - "advocacy"
- - "public-interest"
- - "science-and-society"
+- advocacy
+- science-and-society
 coverImage: "/images/blog_images/mfs-5yrs-later/mfs-5yrs-later.jpg"
 coverWidth: 16
 coverHeight: 9
@@ -21,19 +21,23 @@ Five years ago to this day, I was standing backstage watching 100k people united
 
 Sparked by the actions from the Trump administration including gag orders on the EPA and the withdrawal from the Paris Climate Agreement, inspired by the Women’s March, and suggested in a random Reddit thread to do the same but for Science, a bunch of random strangers from across the US, brought together by Twitter and Facebook, were then hurled into Slack for four straight months, and ignited a new generation of science advocates and activists.
 
-<img src='/images/blog_images/mfs-5yrs-later/science-for-the-common-good.png' alt='Me on holding a sign that reads “Science for the common good”' />
-
+<figure style:text-align="center">
+    <img src='/images/blog_images/mfs-5yrs-later/science-for-the-common-good.png' alt='Me on holding a sign that reads “Science for the common good”' />
+</figure>
 
 The day of the March was a surreal experience. Like, we actually pulled it off. Many times, we all felt that everything could implode on itself at any time given the level of planning, organizing, and strategizing needed. Also, we were a bunch of scientists, most of us new to organizing, and we were tasked with orchestrating a protest march like no other kind. Working with a fully decentralized team, completely orchestrated on the web in the pre-Covid era was unique, challenging, yet super rewarding.
 
 The day started with a rally were scientists, advocates, and organizers took to the stage to talk about the state of science education and funding, environmental concerns, and climate change. We kicked off the March with performances by QuestLove, Jon Batiste and Stay Human as they [performed](https://youtu.be/nNz8GO-d9wI?t=18943) an original “I March for Science”.
 
-<img src='/images/blog_images/mfs-5yrs-later/on-stage.jpg' alt='Me on stage with fellow March for Science Organizers as well as Bill Nye and QuestLove' />
+<figure style:text-align="center">
+    <img src='/images/blog_images/mfs-5yrs-later/on-stage.jpg' alt='Me on stage with fellow March for Science Organizers as well as Bill Nye and QuestLove' />
+</figure>
 
 After the Rally at the closing celebration party, I met the former US CTO, Megan Smith, and she presented the DC organizers each with a Challenge coin from her office for our organizing efforts. On the Challenge coin is inscribed President Obama’s acceptance speech written in binary with a image of George Washington Carver at the center.
 
-<img src='/images/blog_images/mfs-5yrs-later/challenge-coin.jpg' alt='Me receiving a Challenge Coin from the 3rd US CTO' />
-
+<figure style:text-align="center">
+    <img src='/images/blog_images/mfs-5yrs-later/challenge-coin.jpg' alt='Me receiving a Challenge Coin from the 3rd US CTO' />
+</figure>
 
 I stayed on with the team for a few more months after the rally to help with the transition, and also to [speak](https://teonbrooks.medium.com/speaking-engagements-following-the-march-for-science-event-c3334db9500d) at a handful of conferences.
 After the March

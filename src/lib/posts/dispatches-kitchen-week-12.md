@@ -2,12 +2,12 @@
 title: "Dispatches from a kitchen: Dark Chocolate Chunk Oatmeal Cookie"
 slug: dispatches-kitchen-week-12
 authors:
-  - Teon L Brooks
+- Teon L Brooks
 date: "2024-04-02"
 categories:
-  - kitchen
+- kitchen
 collections:
-  - cookies
+- cookies
 coverImage: /images/blog_images/dispatches-kitchen/dispatches-kitchen-week-12.jpg
 excerpt: Very similar to the Vanishing Oatmeal recipe
 lang: en-US

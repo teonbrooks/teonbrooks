@@ -2,14 +2,12 @@
 title: "Why Open Science?"
 slug: why-open-science
 authors:
- - Sarah Bakanosky
- - Teon L Brooks
+- Sarah Bakanosky
+- Teon L Brooks
 date: "2017-03-04"
-migrated: "2022-12-12"
-keywords:
 categories:
- - "open-source"
- - "open-science"
+- open-source
+- open-science
 coverImage: "/images/blog_images/why-open-science/why-open-science-wordcloud.png"
 excerpt: A few days ago we reached out to our network of friends and colleagues and we asked them “Why Open Science?
 lang: en-US
@@ -128,7 +126,7 @@ Open Science expands legacy. Newton said, “If I have seen further, it is by st
 
 Be open. Crouch down. Let people stand on your shoulders. They will see further.
 
-[Tomás Vega](http://openbci.com/community/people/tomas/) | Computer & Cognitive Science Student @ UC Berkeley | Co-Founder of the [Cognitive Technology Group](http://cogtech.net/)
+[Tomás Vega](http://openbci.com/community/people/tomas/) | Computer & cogsci Student @ UC Berkeley | Co-Founder of the [Cognitive Technology Group](http://cogtech.net/)
 
 — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —
 
@@ -191,6 +189,9 @@ A special thanks to [Sarah Bakanosky](https://www.linkedin.com/in/sarah-bakanosk
 This might very well be the most epic post we’ve ever put together.
 
 The OpenBCI Team
-<img src='/images/blog_images/why-open-science/openbci.png' />
+
+<figure style:text-align="center">
+    <img src='/images/blog_images/why-open-science/openbci.png' alt="OpenBCI logo" />
+</figure>
 
 > Originally published at neurotechnews.com on December 23, 2015.

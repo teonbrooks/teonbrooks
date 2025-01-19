@@ -5,9 +5,9 @@ authors:
 - Teon L Brooks
 date: "2024-01-01"
 categories:
-  - kitchen
+- kitchen
 collections:
-  - cookies
+- cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen.jpg"
 excerpt: A public declaration of a 52-week cookie challenge
 lang: en-US

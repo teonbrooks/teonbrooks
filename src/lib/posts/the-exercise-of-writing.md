@@ -1,12 +1,11 @@
 ---
 title: "The exercise of writing"
 slug: the-exercise-of-writing
+authors:
+- Teon L Brooks
 date: "2018-09-21"
-datetime: '2018-09-21T12:25:45.614Z'
-migrated: "2022-12-12"
-keywords:
 categories:
- - "writing"
+- me
 coverImage: "/images/blog_images/the-exercise-of-writing/writing-dissertation.jpg"
 coverWidth: 16
 coverHeight: 9

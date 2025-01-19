@@ -2,18 +2,15 @@
 title: "#ScienceHackDay"
 slug: science-hack-day-2016
 authors:
- - Teon L Brooks
+- Teon L Brooks
 date: "2016-11-16"
-migrated: "2022-12-12"
-keywords: 
 categories:
- - "open-science"
- - "neurotech"
+- open-science
+- cogsci
 coverImage: "/images/blog_images/science-hack-day-2016/lightning-talk.png"
 excerpt: Thinking through a new indieweb app called Vie based on Svelte.
 lang: en-US
 ---
-
 
 Me giving a lightning talk at #ScienceHackDay, Nov 12, 2016
 This weekend I attended my first #ScienceHackDay ever! I really loved it. I actually didn’t know what to expect going into it. I assumed it was a thing oriented to kids, like a science outreach thing and teaching them about science experiments. Last week, I went to the first-ever [EmojiCon](http://2016.emojicon.co/) and I snagged all the leftover #ACSChemoji decals to give out to the participants.

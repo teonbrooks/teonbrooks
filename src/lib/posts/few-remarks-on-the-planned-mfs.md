@@ -4,11 +4,8 @@ slug: few-remarks-on-planned-mfs
 authors:
 - Teon L Brooks
 date: "2017-01-29"
-datetime: '2017-01-29T22:00:36.000Z'
-migrated: "2022-12-12"
-keywords:
 categories:
-- "advocacy"
+- advocacy
 coverImage: "/images/blog_images/few-remarks-on-planned-mfs/few-remarks-on-planned-mfs.png"
 excerpt: When I heard that there were talks about a March for Science, I immediately threw myself at all the opportunities to get involved.
 lang: en-US

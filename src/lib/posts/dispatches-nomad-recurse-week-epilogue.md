@@ -3,13 +3,14 @@ title: "Dispatches from a Nomad: Recurse Epilogue"
 slug: dispatches-nomad-recurse-epilogue
 authors:
 - Teon L Brooks
-date: "2023-10-20 12:01:00 EDT"
+date: "2023-10-20"
 categories:
 - recurse
 - nomad
 - travel
 collections:
-- "Recurse"
+- recurse-2023s1
+- cestlavie
 coverImage: "/images/blog_images/recurse/epilogue/dispatches-nomad-recurse-week-epilogue.jpg"
 excerpt:
    "Recurse Center Epilogue: Some lessons learned"

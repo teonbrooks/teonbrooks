@@ -22,8 +22,8 @@ I read through many blogs including Apple's (paraphrasing) [So Your Device Won't
 I kept getting this error message. For the life of me, I couldn't figure out why it wouldn't upgrade.
 
 <figure>
-<img src='/images/blog_images/ipados16-upgrade-woe/ipados16_act2.PNG' alt="iPad failing to update. Says there's no wifi but clearly I'm connected to the wifi" />
-<figcaption>Why won't you cooperate??</figcaption>
+    <img style:text-align="center" src='/images/blog_images/ipados16-upgrade-woe/ipados16_act2.PNG' alt="iPad failing to update. Says there's no wifi but clearly I'm connected to the wifi" />
+    <figcaption style:text-align="center">Why won't you cooperate??</figcaption>
 </figure>
 
 I've uninstalled it the 15.7.2 update, reinstalled it, plugged it into my Mac to see if I can do an installation from it per the instructions.
@@ -34,7 +34,9 @@ It told me I had the latest version, **it's lying**.
 
 Back to the drawing board.
 
-<img src='/images/blog_images/ipados16-upgrade-woe/ipados16_act1.PNG' alt="Settings screen only displaying iPadOS 15.7.2 as an upgrade option" />
+<figure style:text-align="center">
+    <img src='/images/blog_images/ipados16-upgrade-woe/ipados16_act1.PNG' alt="Settings screen only displaying iPadOS 15.7.2 as an upgrade option" />
+</figure>
 
 I'm sitting here flustered, frustrated! I'm a techie, why is this happening to me? I've checked countless times to see if my iPad is [eligible](ttps://support.apple.com/guide/ipad/supported-models-ipad213a25b2/ipados) for an upgrade, short answer: **it is**.
 
@@ -47,16 +49,20 @@ Then I remembered something...I *AM* a techie **AND** an early adopter. I was re
 So I began searching for the profile configuration in the settings that lets you know whether you're enrolled or not. This is tucked away from prying eyes. Apple keeps this profile configuration in the same location as the VPN (I found it through exhaustive searching).
 
 <figure>
-<img src='/images/blog_images/ipados16-upgrade-woe/ipados16_act3.PNG' alt="Finding the beta testing configuration file. It's hidden under the VPN settings" />
-<figcaption>There you are!</figcaption>
+    <img src='/images/blog_images/ipados16-upgrade-woe/ipados16_act3.PNG' alt="Finding the beta testing configuration file. It's hidden under the VPN settings" />
+    <figcaption style:text-align="center">There you are!</figcaption>
 </figure>
 
 The next thing I needed to do was delete the configuration file and pray that it would work.
 
-<img src='/images/blog_images/ipados16-upgrade-woe/ipados16_act4.PNG' alt="Me deleting the configuration file" />
+<figure style:text-align="center">
+    <img src='/images/blog_images/ipados16-upgrade-woe/ipados16_act4.PNG' alt="Me deleting the configuration file" />
+</figure>
 
 Huzzah! Success!! I'm now prompted with access to download iPadOS16. This took me a lot longer to figure out than it should have. I understand that the pool of people who do beta testing is smaller than the general population. And perhaps those beta testers would have already jumped into beta testing iPadOS 16 before the general release.
 
 This is definitely one of those aha! *gotcha* moments. I couldn't find it anywhere on the web so I figured I would blog about it in case someone else came across the same problem and was tired of beating their head against the wall.
 
-<img src='/images/blog_images/ipados16-upgrade-woe/ipados16_act5.PNG' alt="Settings now reveal that iPadOS16 is in fact now available" />
+<figure style:text-align="center">
+    <img src='/images/blog_images/ipados16-upgrade-woe/ipados16_act5.PNG' alt="Settings now reveal that iPadOS16 is in fact now available" />
+</figure>

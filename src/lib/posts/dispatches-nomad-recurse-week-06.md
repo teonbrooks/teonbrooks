@@ -3,13 +3,14 @@ title: "Dispatches from a Nomad: Recurse Week 06"
 slug: dispatches-nomad-recurse-week-06
 authors:
 - Teon L Brooks
-date: "2023-10-20 12:00:00 EDT"
+date: "2023-10-20"
 categories:
 - recurse
 - nomad
 - travel
 collections:
-- "Recurse"
+- recurse-2023s1
+- cestlavie
 coverImage: "/images/blog_images/recurse/week-06/dispatches-nomad-recurse-week-06.jpg"
 excerpt:
    "Recurse Center Week 06: Last week of my half-batch"
@@ -17,7 +18,10 @@ lang: en-US
 social:
 - strava
 ---
-<script> import Callout from '$lib/components/Callout.svelte'; </script>
+<script> 
+    import Callout from '$lib/components/Callout.svelte';
+    import Album from '$lib/components/Album.svelte';
+</script>
 
 *The week of June 19, 2023*
 
@@ -44,12 +48,12 @@ After our study session, I was inspired to extend my stay at Recurse. My goals f
 
 ## Things of Note
 
-<a href="https://photos.app.goo.gl/itX8WBWvwMZHdbFx7">
-   <figure>
-       <img src="https://lh3.googleusercontent.com/pw/ADCreHeYJcCEPL08nS50ZL1unxiV02syqtHw3YqYu9xEXlbH287_unyzOUo4D6wOrub628SAcgaQyCRyfOHS21CBSwaOk0gEf9ztxv0J1U28ZSfOTpyFxsFqvIQHnSrNZ25O_zPb7HWDJ6f6O9jiRroLu6lBGg=w1264-h1680-s-no?authuser=0" />
-       <figcaption>Last Week in Paris</figcaption>
-   </figure>
-</a>
+<Album 
+    albumHref = "https://photos.app.goo.gl/itX8WBWvwMZHdbFx7"
+    imageHref = "/images/blog_images/recurse/week-06/PXL_20230620_115129679.jpg"
+    alt = "Me wearing a red cap eating a pistachio roll"
+    caption = "Last Week in Paris"
+/>
 
 I got a chance to hang out twice with my friend Bryan who was visiting Paris. First we hung out along the canal, had a nice lunch, and got delicious pastries. Then we met up again over lunch then took a nice stroll along Coulée Verte.
 

@@ -5,9 +5,9 @@ authors:
 - Teon L Brooks
 date: "2024-02-05"
 categories:
-  - kitchen
+- kitchen
 collections:
-  - cookies
+- cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-05.jpg"
 excerpt: "Sweet and spicy, a great combo 😋"
 lang: en-US

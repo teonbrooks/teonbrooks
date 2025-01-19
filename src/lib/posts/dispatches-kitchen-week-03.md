@@ -5,9 +5,9 @@ authors:
 - Teon L Brooks
 date: "2024-01-22"
 categories:
-  - kitchen
+- kitchen
 collections:
-  - cookies
+- cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-03.jpg"
 excerpt: A very fancy peanut cookie
 lang: en-US

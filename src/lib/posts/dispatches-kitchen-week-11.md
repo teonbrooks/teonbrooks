@@ -2,12 +2,12 @@
 title: "Dispatches from a kitchen: Peanut Butter Oatmeal Chocolate Chip Cookie"
 slug: dispatches-kitchen-week-11
 authors:
-  - Teon L Brooks
+- Teon L Brooks
 date: "2024-03-22"
 categories:
-  - kitchen
+- kitchen
 collections:
-  - cookies
+- cookies
 coverImage: /images/blog_images/dispatches-kitchen/dispatches-kitchen-week-11.jpg
 excerpt: This cookie reminds me of the chocolate chip cookie from Chick-Fil-A
 lang: en-US

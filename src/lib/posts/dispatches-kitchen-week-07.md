@@ -5,9 +5,9 @@ authors:
 - Teon L Brooks
 date: "2024-02-19"
 categories:
-  - kitchen
+- kitchen
 collections:
-  - cookies
+- cookies
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-07.jpg"
 excerpt: Sweet, tangy, and spicy
 lang: en-US

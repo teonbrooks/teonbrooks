@@ -3,13 +3,14 @@ title: "Dispatches from a Nomad: Recurse Week 05"
 slug: dispatches-nomad-recurse-week-05
 authors:
 - Teon L Brooks
-date: "2023-06-21 12:00:00 EDT"
+date: "2023-06-21"
 categories:
 - recurse
 - nomad
 - travel
 collections:
-- "Recurse"
+- recurse-2023s1
+- cestlavie
 coverImage: "/images/blog_images/recurse/week-05/beyonce.jpg"
 excerpt: 
     "Recurse Center Week 05: Live Music and Machine Learning Model Serialization"
@@ -17,6 +18,7 @@ lang: en-US
 social:
 - strava
 ---
+<script>import Album from '$lib/components/Album.svelte'</script>
 
 *The week of June 12, 2023*
 
@@ -32,13 +34,12 @@ In case you missed last week's edition, you can find it [HERE](./dispatches-noma
 
 This week I'm featuring my trip down to Marseille and the Beyoncé concert. Please note that Beyoncé was so important, she got her own section and photo album below.
 
-<!-- link -->
-<a href="https://photos.app.goo.gl/y9WmsyHdKhqvNQgWA">
-    <figure>
-        <img src="https://lh3.googleusercontent.com/pw/AJFCJaVkjXs_CsgnzzogBgfLPNQr2lZbBGI1ReZbqDHv9ARgRm1nhd7naOhMoXeheyvbYk0Q5s4hl_LfOtww7iFlU8SWt4-oQHNzCwaDFMkrs5YABoQgofoS-w9dY_yIJXyoaLR8W57sP0hSIo3fVvyRztokgQ=w988-h1312-s-no?authuser=0" />
-        <figcaption>Marseille</figcaption>
-    </figure>
-</a>
+<Album
+    albumHref="https://photos.app.goo.gl/y9WmsyHdKhqvNQgWA"
+    imageHref="/images/blog_images/recurse/week-05/PXL_20230613_104251680.jpg"
+    alt="Cathédrale La Major"
+    caption="🎒 Nomadic Adventures: Marseille"
+/>
 
 ## Nomadic Note
 
@@ -59,12 +60,12 @@ My friend JF happened to hit me up the day of the event and asked me what I was 
 We got there and the energy was already palpable. You could feel both the bass of music and the warmth of bodies in motion. We entered the room and front in center we saw a group of dancers voguing on the stage in front of the dj set. It was magical ✨ We witnessed some fun dance showcases, more like a cypher for dancers, and the crowd was vibing with the whole experience.
 
 <!-- album -->
-<a href="https://photos.app.goo.gl/iboVHz6c1FgkBw6r6">
-    <figure>
-        <img src="https://lh3.googleusercontent.com/pw/AJFCJaVNtfLSuaKujM_pHWVB6nFvceaWfh694E_PRJNgMSKPR4o5W16kXtr9K9WDIg-uq3lFK6enp3oyO45Cw7mjGG1D627g39kRtHNUqQu9T6M8uk0pax7ZQmeo4uSwR4gttb5dqgv3vawoCrxKZqKjvyLaaQ=w988-h1312-s-no?authuser=0" />
-        <figcaption>Boiler Room x La Creole</figcaption>
-    </figure>
-</a>
+<Album
+    albumHref="https://photos.app.goo.gl/iboVHz6c1FgkBw6r6"
+    imageHref="/images/blog_images/recurse/week-05/PXL_20230609_234322190.jpg"
+    alt="A display projecting Boiler Room x La Creole"
+    caption="Boiler Room x La Creole"
+/>
 
 Throughout the night, they cycled through three different dj sets all featuring different music from the African Diaspora. I ended my night early at a reasonable 4am so I could get some sleep before traveling down to Marseille Saturday afternoon. JF and I managed to find some somewhat functional Velib's and we both biked back home.
 
@@ -80,12 +81,12 @@ Beyoncé emerged with the rain coming down and started the show with some ballad
 
 The sheer dedication and talent she exhibited was truly exceptional. This made my third time seeing her live: the On the Run tour in Paris back in 2014, at ~~Coachella~~ Beychella in 2018, and now down in Marseille in 2023. She's hands down the BEST performer I have ever seen live.
 
-<a href="https://photos.app.goo.gl/E2UuLiXmMQEDPXea8">
-    <figure>
-        <img src="https://lh3.googleusercontent.com/pw/AJFCJaXcxjwrMGX8xNkrm99xgq5MKMW8wjuq5uZEZp-diDezy6AVL1OGvUhmlHsELn6OtI_cJbRcvarWKY9yf2P3EQeLlQD3lA3HUjrglWdzzsB5eb2qsIzO3aF1pka3YgvBE0JQ2wcpi4RZO_B-8tn1l261Tw=w1742-h1312-s-no?authuser=0" />
-        <figcaption>Beyoncé in Marseille 💃🏽</figcaption>
-    </figure>
-</a>
+<Album
+    albumHref="https://photos.app.goo.gl/E2UuLiXmMQEDPXea8"
+    imageHref="/images/blog_images/recurse/week-05/beyonce.jpg"
+    alt="A huge screen illuminate with an image of Beyonce reclined"
+    caption="Beyoncé in Marseille 💃🏽"
+/>
 
 ### Recurse Work
 

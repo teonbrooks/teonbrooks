@@ -14,3 +14,4 @@ static/content/archives
 static/content/press
 static/content/wip
 **/.obsidian
+.yarn/install-state.gz

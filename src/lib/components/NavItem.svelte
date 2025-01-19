@@ -2,7 +2,6 @@
 	import { currentPage, isMenuOpen } from '$lib/assets/js/store'
 
 	let { href, children } = $props();
-
 	let isCurrentPage = $derived($currentPage.startsWith(href))
 
 	const maybeCloseMenu = () => {

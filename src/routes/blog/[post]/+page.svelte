@@ -8,7 +8,7 @@
 	import Card, { Content } from '@smui/card';
 	
 	let PostContent = $state();
-	let meta = $state();
+	let meta; 
 	let { data } = $props();
 
 	run(() => {

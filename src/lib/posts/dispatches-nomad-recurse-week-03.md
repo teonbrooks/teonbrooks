@@ -3,13 +3,14 @@ title: "Dispatches from a Nomad: Recurse Week 03"
 slug: dispatches-nomad-recurse-week-03
 authors:
 - Teon L Brooks
-date: "2023-06-07 12:00:00 EDT"
+date: "2023-06-07"
 categories:
 - recurse
 - nomad
 - travel
 collections:
-- "Recurse"
+- recurse-2023s1
+- cestlavie
 coverImage: "/images/blog_images/recurse/week-03/dispatches-nomad-recurse-week-03.jpg"
 coverWidth: 16
 coverHeight: 9
@@ -19,6 +20,7 @@ lang: en-US
 social:
 - strava
 ---
+<script>import Album from '$lib/components/Album.svelte'</script>
 
 *The week of May 29, 2023*
 
@@ -35,16 +37,12 @@ Flew back to Denver to continue trip westward with stops in Glenwood Springs, Sa
 
 The album is a bit sparse on details of the train travels right now because I did my journaling with pen and paper and haven't had the time to type a summary up. However, I wanted to share some of the photos from the trip and I'll follow up with some proper travel blogging in the near future.
 
-<a href="https://photos.app.goo.gl/8oZxrNwx2YYDBCPu9">
-    <img src="https://lh3.googleusercontent.com/pw/AJFCJaUbC4EeXIwNb6uiclFf0LNYHUGvaTsOjM1HpFaEWh6MotuM6bkHjogCS5CqS6R08Tu5r_S7sYDdJJEKobjUUyge6EqINbsmUtF8Xc8zYr10gs2bqr3scw9X8h0_mITiSLm9BYPYcQu4D0nsPAJJDb6zEA=w2342-h1756-s-no?authuser=0" />
-    <figcaption>🎒 Nomadic Adventures: Lakeshore Limited and California Zephyr</figcaption>
-</a>
-
-<style>
-figcaption {
-    text-align: center;
-}
-</style>
+<Album
+    albumHref="https://photos.app.goo.gl/8oZxrNwx2YYDBCPu9"
+    imageHref="/images/blog_images/recurse/week-03/nomadic_adventures_california_zephyr.jpg"
+    alt="Me wearing a NPR shirt with a journal front of me staring out a window of a train as I ride through Colorado"
+    caption="🎒 Nomadic Adventures: Lakeshore Limited and California"
+/>
 
 ## Nomadic Note
 
@@ -52,7 +50,7 @@ figcaption {
 
 This week, my project updates will be rather short because of holidays and friends! Monday was a public holiday both here in France observing Pentecost, and in the US for [Memorial Day](https://www.va.gov/opa/publications/celebrate/memday.pdf). I spent the day on a 10-mile hike with my friend, Nico. We went hiking through the [Forêt Fontainebleau](https://www.fontainebleau-tourisme.com/en/the-forest/the-forest-2/), to the small village of Barbizon and rewarded ourselves with ice cream. This was all just two days after doing a 10-mile run 😅. So my body was a bit pooped afterwards.
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9164478362"></div><script src="https://strava-embeds.com/embed.js"></script>
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9164478362"></div>
 
 Tuesday, I went champagning! 🍾 
 I spent the day with Austin and some of his friends who were all in town to celebrate their friend's birthday. We went to Reims and visited two different champagne houses: Taittinger and Pommery. It's pretty amazing that in 50 minutes, you can be whisked to the heart of the champagne region 🥂
@@ -62,10 +60,12 @@ We also visited the champagne of Pommery and it was a visually decadent affair. 
 
 While on the tour, I learned that Madame Pommery was the one responsible for the brut champagne 👸🏻🍾 Before her innovation, champagne were served very sweet, likely because the poor dégorgement (expelling of the yeast) practices back in the day.
 
-<a href="https://photos.app.goo.gl/usYAGrv4PN6vREnw8">
-    <img src="https://lh3.googleusercontent.com/pw/AJFCJaWWOt5wXhZdukhN9i4JL_awTnGpPZ1m_I7_gF1r9ZhmKwWzYU5sQbB35oJR-e-wsnHAZIl9DiU1JhUZ7aVJLPtWhcI-aGze9AFI3KBcqqFQPgQpff99YwN5mxl90NW0HvtPwc76ZyqbXUWJn80Ki2iE3w=w1322-h1756-s-no?authuser=0" />
-    <figcaption>🍾 Champagning in Reims!</figcaption>
-</a>
+<Album
+    albumHref="https://photos.app.goo.gl/usYAGrv4PN6vREnw8"
+    imageHref="/images/blog_images/recurse/week-03/taittinger.jpg"
+    alt="A bottle of Taittinger champagne, vintage 2015"
+    caption="🍾 Champagning in Reims!"
+/>
 
 After the tour, I went for my run for the day, and afterwards, I was too wiped to work.
 
@@ -75,7 +75,9 @@ Wednesday, I finally got around to buying a nice writing pen for a new project I
 
 I'm a leftie, both the political kind and the one of the southpaw persuasion, and for me, writing is hard. Ink just doesn't flow with ease when I write because the biomechanics are different. I write with a "hook", and in cursory search I found websites both [scolding](https://thelefthandedstore.com/writing-left-handed) it as a bad habit and communities giving [comfort](https://www.reddit.com/r/southpaws/comments/c60bta/i_hook_my_hand_when_writing_left_handed_is_this/) and solidarity to our approach. But hey, Obama is a leftie, too!
 
-<img src="https://ca-times.brightspotcdn.com/dims4/default/4d0c7e6/2147483647/strip/true/crop/2048x1391+0+0/resize/1200x815!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff6%2Fa0%2Fa3af8891d2e4cee93e3829edcf35%2Fla-fi-mh-antilefty-discrimination-20141212-001" />
+<figure style:text-align="center">
+    <img src="https://ca-times.brightspotcdn.com/dims4/default/4d0c7e6/2147483647/strip/true/crop/2048x1391+0+0/resize/1200x815!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff6%2Fa0%2Fa3af8891d2e4cee93e3829edcf35%2Fla-fi-mh-antilefty-discrimination-20141212-001" alt="President Barack Obama signing a document with his left hand"/>
+</figure>
 
 I began looking for an entry fountain pen, you know, that gateway drug to better writing. I stumbled upon Lamy and it was love at first write. I really liked the striking design, the palette of colors, and the fact that it had a fine point nib. I also learned that Lamy has created a left-handed nib for the pen, but the problems I found with it is that:
 
@@ -86,13 +88,17 @@ I began looking for an entry fountain pen, you know, that gateway drug to better
 So I bought it! A Lamy Safari Special Edition Light Rose ✒️
 I was also informed that this particular Lamy is the perfect starter fountain pen. Nice entry price, super performant, it could be my daily driver. From the sticker price of some of the other models in the store, these pens just go up and to the right in a hockey-stick shape fashion for price 🏒
 
-<img src='/images/blog_images/recurse/week-03/lamy-safari-lightrose-fountain-pen.jpg' />
+<figure style:text-align="center">
+    <img src='/images/blog_images/recurse/week-03/lamy-safari-lightrose-fountain-pen.jpg' alt="A rose pink Lamy fountain pen" />
+</figure>
 
 While I was leaving the shop, I talked to a woman who teaches calligraphy who had also just purchased some things from the shop, and she gave me some pointers of starting my letter movement from bottom up to evoke the ink in the pen.
 
 Later that afternoon, I had a 1-on-1 chat with Zach of my cohort, and we had a chance to do a proper meet and greet, and then we discussed the projects we were planning to work on. We also both geeked out over our favorite writing instruments. I had just showed off my new pen and he showed me his, a [Caran D'Ache](https://www.carandache.com/fr/fr/stylo-bille/stylo-bille-849-popline-orange-fluo-avec-etui-p-10215.htm?nosto=searchpage-nosto-1).
 
-<img src='/images/blog_images/recurse/week-03/caran-d-ache.png' />
+<figure style:text-align="center">
+    <img src='/images/blog_images/recurse/week-03/caran-d-ache.png' alt="An orange Caran d'Ache pen" />
+</figure>
 
 It's really in moments like these that I remember that these quirky things like a favorite pen brand, finding good stationery, all these analog tools that makes us uniquely human, give us shape and dimensionality that gets lost in the digital world.
 
