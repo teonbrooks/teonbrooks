@@ -4,19 +4,22 @@ slug: farewell-mozilla
 authors:
 - Teon L Brooks
 date: "2022-03-14"
+modified: "2025-01-21"
 keywords: Mozilla, farewell
 categories:
 - tech
 coverImage: "/images/blog_images/farewell-mozilla/farewell-mozilla.jpg"
 excerpt: After nearly 6 years contributing to the Mozilla project, today is my last day.
 lang: en-US
+social:
+- bluesky
 ---
 
-## Twitter
+## Twitter (now Bluesky)
 
-After nearly 6 years contributing to the Mozilla project, today is my last day.
-First joined as a MoFo Sci Fellow & shortly after joined MoCo newly formed data sci team. What a ride it has been! And what better way to commemorate than a sticker book
-🔥🦊
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:yl7wcldipsfnjdww2jg5mnrv/app.bsky.feed.post/3lbjwcuqkzs2k" data-bluesky-cid="bafyreigknclcv74cn45v7flhdesx3baswxgrbp2hbpuvhfu2ig2jyppxxe"><p lang="">After nearly 6 years contributing to the Mozilla project, today is my last day.
+First joined as a MoFo Sci Fellow &amp; shortly after joined MoCo newly formed data sci team. What a ride it has been! And what better way to commemorate than a sticker book
+🔥🦊...</p>&mdash; Teon (<a href="https://bsky.app/profile/did:plc:yl7wcldipsfnjdww2jg5mnrv?ref_src=embed">@teon.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:yl7wcldipsfnjdww2jg5mnrv/post/3lbjwcuqkzs2k?ref_src=embed">November 22, 2024 at 6:56 AM</a></blockquote>
 
 ## Email
 
@@ -40,5 +43,5 @@ P.S. I made a [sticker book](https://photos.app.goo.gl/x4jBd4pp3LWWeoNK6) from m
 
 - Web: https://teonbrooks.com
 - LinkedIn: https://linkedin.com/in/teonbrooks
-- Twitter: [@teonbrooks](https://twitter.com/teonbrooks)
-- Email: `teon.brooks @ gmail.com`
+- Bluesky: [@teon](https://teon.bsky.social)
+- Email: `[firstname].[lastname] @ gmail.com`

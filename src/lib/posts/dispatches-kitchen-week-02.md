@@ -3,7 +3,7 @@ title: "Dispatches from a kitchen: Salted Chocolate Chunk Shortbread Cookie"
 slug: dispatches-kitchen-week-02
 authors:
 - Teon L Brooks
-datetime: "2024-01-15"
+date: "2024-01-15"
 categories:
 - kitchen
 collections:

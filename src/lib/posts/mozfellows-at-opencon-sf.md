@@ -7,6 +7,7 @@ date: "2017-04-08"
 categories:
 - open-source
 - open-science
+- msf
 coverImage: "/images/blog_images/mozfellows-at-opencon-sf/mozfellows.jpg"
 excerpt: Fellows of Mozilla Science Lab are no over halfway through their Fellowship so we all came together for a workweek in San Francisco.
 lang: en-US
