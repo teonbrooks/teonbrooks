@@ -1,12 +1,12 @@
 <script>
 	import PostsList from '$lib/components/PostsList.svelte'
 	import Pagination from '$lib/components/Pagination.svelte'
-	import { postsPerPage, siteDescription } from '$lib/config'
+	import { postsPerPage, siteDescription, categoryEmoji } from '$lib/config'
 	import ButtonDownSignUp from '$lib/components/ButtonDownSignUp.svelte';
 
-	let { data, selectedCollections = [['travel', '🎒'],
-									  ['tech', '👨🏾‍💻'],
-									  ['kitchen', '👨🏾‍🍳']] } = $props();
+	let { data } = $props();
+	const selectCategories = ['travel', 'tech', 'kitchen'];
+
 </script>
 
 
@@ -19,10 +19,10 @@
 
 <h1 align='center'>Dispatches from a [🤓 blerd]</h1>
 
-<div id='collection'>
-	{#each selectedCollections as collection}
-		<button onclick={() => window.open(`./blog/category/${collection[0]}`, '_self')}>
-			{`{${collection[1]} ${collection[0]} edition}`}
+<div id='selectCategories'>
+	{#each selectCategories as category}
+		<button onclick={() => window.open(`./blog/category/${category}`, '_self')}>
+			{`{${categoryEmoji[category]} ${category} edition}`}
 		</button>
 	{/each}
 </div>
@@ -30,7 +30,7 @@
 	<button onclick={() => window.open(`./blog/category`, '_self')}>[All the categories]</button>
 </div>
 
-<h2>The Firehose 🚰</h2>
+<h2>🚰 The Firehose</h2>
 <PostsList posts={data.posts.slice(0, postsPerPage)} />
 
 <Pagination currentPage={1} totalPosts={data.total} />
@@ -41,7 +41,7 @@
 
 
 <style>
-	#collection {
+	#selectCategories {
 		flex-flow: row wrap;
 		display: flex;
 		justify-content: space-between;

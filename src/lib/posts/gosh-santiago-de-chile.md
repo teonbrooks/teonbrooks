@@ -3,6 +3,8 @@ title: GOSH @ Santiago de Chile
 date: "2017-05-30T17:24:18.986Z"
 categories:
 - travel
+- open-science
+collections:
 - msf
 keywords:
 coverImage: "/images/blog_images/gosh-santiago-de-chile/santiago_aerial.jpeg"

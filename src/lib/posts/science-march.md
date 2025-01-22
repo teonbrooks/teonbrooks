@@ -8,6 +8,7 @@ categories:
 - advocacy
 - open-science
 - science-and-society
+collections:
 - msf
 coverImage: "/images/blog_images/science-march/science-march.png"
 coverWidth: 16

@@ -5,7 +5,8 @@ authors:
 - Teon L Brooks
 date: "2017-01-25"
 categories:
-- open-source
+- open-science
+- tech
 coverImage: "/images/blog_images/upcoming-coding-sprints/upcoming-coding-sprints.png"
 coverWidth: 16
 coverHeight: 9

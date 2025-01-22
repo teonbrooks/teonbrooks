@@ -41,3 +41,14 @@ export const navItems = [
 		route: '/contact' 
 	},
 ]
+
+export const categoryEmoji = {
+	'advocacy': '📢',
+	'cogsci': '🧠',
+	'kitchen': '👨🏾‍🍳',
+	'recurse': '👨🏾‍💻',
+	'nomad': '🎒',
+	'open-science': '🧪',
+	'tech': '👨🏾‍💻',
+	'travel': '🎒',
+}

@@ -6,6 +6,8 @@ authors:
 date: "2017-01-29"
 categories:
 - advocacy
+- open-science
+collections:
 - msf
 coverImage: "/images/blog_images/few-remarks-on-planned-mfs/few-remarks-on-planned-mfs.png"
 excerpt: When I heard that there were talks about a March for Science, I immediately threw myself at all the opportunities to get involved.

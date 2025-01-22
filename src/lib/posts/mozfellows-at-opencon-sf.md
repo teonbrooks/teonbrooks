@@ -5,7 +5,6 @@ authors:
 - Teon L Brooks
 date: "2017-04-08"
 categories:
-- open-source
 - open-science
 - msf
 coverImage: "/images/blog_images/mozfellows-at-opencon-sf/mozfellows.jpg"

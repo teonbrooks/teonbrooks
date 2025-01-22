@@ -6,7 +6,7 @@ authors:
 date: "2022-02-22"
 categories:
 - tech
-collection:
+collections:
 - cestlavie
 coverImage: "/images/blog_images/brainstorming-vie/brainstorming-vie.png"
 excerpt: Thinking through a new indieweb app called Vie based on Svelte.
