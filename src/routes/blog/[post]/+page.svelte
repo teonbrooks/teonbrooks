@@ -7,9 +7,10 @@
 	import { siteImage } from "$lib/config";
 	import Card, { Content } from '@smui/card';
 	
-	let PostContent = $state();
-	let meta; 
+	let meta;
 	let { data } = $props();
+	let { toml = {} } = data;
+	let PostContent = $state();
 
 	run(() => {
 		({ PostContent, meta } = data)
@@ -72,7 +73,7 @@
 	<article>
 		<Card padded>
 			<Content>
-				<PostContent />
+				<PostContent {toml} />
 			</Content>
 		</Card>
 	</article>
