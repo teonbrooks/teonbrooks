@@ -11,6 +11,8 @@ collections:
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-09.jpg"
 excerpt: Triple the chocolate, triple the fun
 lang: en-US
+social:
+- bluesky
 ---
 
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
@@ -27,10 +29,7 @@ lang: en-US
 
 ## Social
 
-<div>
-    <span id="teonbrooks.com-3kn5b5q5qpu2n"></span>
-    <script src="https://assets.bluesky.lol/js/b1.js" data-handle="teonbrooks.com" data-skeet="3kn5b5q5qpu2n"></script>
-</div>
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:yl7wcldipsfnjdww2jg5mnrv/app.bsky.feed.post/3kn5b5q5qpu2n" data-bluesky-cid="bafyreihyyqtfjik2ackiwk3itcrbys2odpz3j2of4i56hujmp5i4feg75i"><a href="https://bsky.app/profile/did:plc:yl7wcldipsfnjdww2jg5mnrv/post/3kn5b5q5qpu2n?ref_src=embed">Mar 7, 2024 at 5:41 PM</a></blockquote>
 
 ## Commentary
 

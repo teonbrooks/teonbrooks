@@ -11,6 +11,8 @@ collections:
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-08.jpg"
 excerpt: Cream of Tartar otherwise it's just a sugar cookie
 lang: en-US
+social:
+- bluesky
 ---
 
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
@@ -27,10 +29,7 @@ lang: en-US
 
 ## Social
 
-<div>
-    <span id="teonbrooks.com-3kmdapeb2q624"></span>
-    <script src="https://assets.bluesky.lol/js/b1.js" data-handle="teonbrooks.com" data-skeet="3kmdapeb2q624"></script>
-</div>
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:yl7wcldipsfnjdww2jg5mnrv/app.bsky.feed.post/3kmdapeb2q624" data-bluesky-cid="bafyreiaekih3t54y23efeej5rqmgoynfvs2huocm6wtuk57evgzyyxvtmu"><a href="https://bsky.app/profile/did:plc:yl7wcldipsfnjdww2jg5mnrv/post/3kmdapeb2q624?ref_src=embed">Feb 26, 2024 at 9:24 AM</a></blockquote>
 
 ## Commentary
 

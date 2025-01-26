@@ -12,7 +12,7 @@ coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-07.j
 excerpt: Sweet, tangy, and spicy
 lang: en-US
 social:
-- googlePhotos
+- bluesky
 ---
 
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
@@ -29,10 +29,7 @@ social:
 
 ## Social
 
-<div>
-    <span id="teonbrooks.com-3klubsgql2b2h"></span>
-    <script src="https://assets.bluesky.lol/js/b1.js" data-handle="teonbrooks.com" data-skeet="3klubsgql2b2h"></script>
-</div>
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:yl7wcldipsfnjdww2jg5mnrv/app.bsky.feed.post/3klubsgql2b2h" data-bluesky-cid="bafyreibqqpzfqg3p7ygiqyuc45r6em7fhzazye5y6dfonj3fkwc3srgqmu"><a href="https://bsky.app/profile/did:plc:yl7wcldipsfnjdww2jg5mnrv/post/3klubsgql2b2h?ref_src=embed">Feb 20, 2024 at 10:34 AM</a></blockquote>
 
 ## Commentary
 

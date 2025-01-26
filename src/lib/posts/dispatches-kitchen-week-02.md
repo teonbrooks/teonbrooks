@@ -12,7 +12,7 @@ coverImage: /images/blog_images/dispatches-kitchen/dispatches-kitchen-week-02.jp
 excerpt: Salt and butter, FTW
 lang: en-US
 social:
-- googlePhotos
+- bluesky
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
 
@@ -28,10 +28,7 @@ social:
 
 ## Social
 
-<div>
-    <span id="teonbrooks.com-3kiyndjcofe2m"></span>
-    <script src="https://assets.bluesky.lol/js/b1.js" data-handle="teonbrooks.com" data-skeet="3kiyndjcofe2m"></script>
-</div>
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:yl7wcldipsfnjdww2jg5mnrv/app.bsky.feed.post/3kiyndjcofe2m" data-bluesky-cid="bafyreihoh6zinjfhp363kyz2t5rsl5ckgaqks3u437dhikqncly2lkjd6e"><a href="https://bsky.app/profile/did:plc:yl7wcldipsfnjdww2jg5mnrv/post/3kiyndjcofe2m?ref_src=embed">January 14, 2024 at 11:55 PM</a></blockquote>
 
 ## Commentary
 

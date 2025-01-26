@@ -11,6 +11,8 @@ collections:
 coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-10.jpg"
 excerpt: Sometimes you want a no-fuss, basic-ass classic
 lang: en-US
+social:
+- bluesky
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
 
@@ -26,10 +28,7 @@ lang: en-US
 
 ## Social
 
-<div>
-    <span id="teonbrooks.com-"></span>
-    <script src="https://assets.bluesky.lol/js/b1.js" data-handle="teonbrooks.com" data-skeet=""></script>
-</div>
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:yl7wcldipsfnjdww2jg5mnrv/app.bsky.feed.post/3knqrxrqo5s2m" data-bluesky-cid="bafyreibb3vtdg7refslns5rermxrjumxij3ej45mcz2tcyniujtoutov5i"><a href="https://bsky.app/profile/did:plc:yl7wcldipsfnjdww2jg5mnrv/post/3knqrxrqo5s2m?ref_src=embed">March 15, 2024 at 1:03 PM</a></blockquote>
 
 ## Commentary
 

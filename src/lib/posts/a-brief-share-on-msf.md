@@ -24,7 +24,7 @@ With this fellowship, I have done a pretty decent amount of travel while advocat
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What a whirlwind experience this has been so far! Thanks for the incredible outpour of support for &amp; in defense of science <a href="https://twitter.com/hashtag/marchforscience?src=hash&amp;ref_src=twsrc%5Etfw">#marchforscience</a> <a href="https://t.co/oFuL6EIga9">pic.twitter.com/oFuL6EIga9</a></p>&mdash; Teon is on Mastodon @teon@data-folks.masto.host (@teonbrooks) <a href="https://twitter.com/teonbrooks/status/855805586033848321?ref_src=twsrc%5Etfw">April 22, 2017</a></blockquote>
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1Hk9yLFn91cEpiqPcWKxOFvH5yhg&hl=en_US&ehbc=2E312F" width="640" height="480"></iframe>
+<!-- <iframe src="https://www.google.com/maps/d/embed?mid=1Hk9yLFn91cEpiqPcWKxOFvH5yhg&hl=en_US&ehbc=2E312F" width="640" height="480"></iframe> -->
 
 My Mozilla Science Fellowship was exactly what I needed to rekindle my passion for research, development, outreach, and education in Science. Here’s a [complete list of events](https://github.com/teonbrooks/fellows-class-2016/blob/master/teon/resume.md) I was able to do through the Science Lab support.
 

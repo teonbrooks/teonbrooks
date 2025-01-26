@@ -42,7 +42,7 @@ Up until now, I've been trying to use Google Photos in a makeshift kinda way to 
 
 Feel free to follow me on PolarSteps if you would like to get the updated version once I've completed it.
 
-<iframe width="640" height="480" src="https://www.polarsteps.com/teon/7181855-nomadic-adventures-switzerland/embed"></iframe>
+<iframe width="640" height="480" src="https://www.polarsteps.com/teon/7181855-nomadic-adventures-switzerland/embed" title="Nomadic Adventures Switzerland"></iframe>
 
 ## Nomadic Note
 

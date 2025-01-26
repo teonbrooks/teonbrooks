@@ -11,6 +11,8 @@ collections:
 coverImage: /images/blog_images/dispatches-kitchen/dispatches-kitchen-week-11.jpg
 excerpt: This cookie reminds me of the chocolate chip cookie from Chick-Fil-A
 lang: en-US
+social:
+- bluesky
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
 
@@ -33,3 +35,7 @@ As written.
 ## Commentary
 
 I used a mix of semi-sweet and dark chocolate chips.
+
+## Social
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:yl7wcldipsfnjdww2jg5mnrv/app.bsky.feed.post/3kocecpt2nm2g" data-bluesky-cid="bafyreiaxez4fguoerncwirgydpzxsergeei7aj2qnn44ud6747jsefs2ne"><a href="https://bsky.app/profile/did:plc:yl7wcldipsfnjdww2jg5mnrv/post/3kocecpt2nm2g?ref_src=embed">March 22, 2024 at 12:46 PM</a></blockquote>

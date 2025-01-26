@@ -12,7 +12,7 @@ coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-06.j
 excerpt: "My go-to chocolate chip cookie recipe"
 lang: en-US
 social:
-- googlePhotos
+- bluesky
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
 
@@ -28,10 +28,9 @@ social:
 
 ## Social
 
-<div>
-    <span id="teonbrooks.com-3klafjqpur526"></span>
-    <script src="https://assets.bluesky.lol/js/b1.js" data-handle="teonbrooks.com" data-skeet="3klafjqpur526"></script>
-</div>
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:yl7wcldipsfnjdww2jg5mnrv/app.bsky.feed.post/3klafjqpur526" data-bluesky-cid="bafyreiaszuwvcdcxlri5slxzzsf7meclxmt73kpn6id3ocnnrqeacgo65m"><a href="https://bsky.app/profile/did:plc:yl7wcldipsfnjdww2jg5mnrv/post/3klafjqpur526?ref_src=embed">Feb 12, 2024 at 12:47 PM</a></blockquote>
+
+
 
 ## Commentary
 

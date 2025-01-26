@@ -34,9 +34,6 @@ export const navItems = [
 		title: 'Résumé',
 		route: 'https://drive.google.com/file/d/1jHgGELq1I5MbYd6w8EAmbp1eyX5dHWqJ/view?usp=sharing'
 	}, {
-		title: 'Readme',
-		route: '/readme'
-	}, {
 		title: 'Contact',
 		route: '/contact' 
 	},

@@ -1,7 +1,10 @@
+<script>
+	import ButtonDownSignUp from "$lib/components/ButtonDownSignUp.svelte";
+</script>
+
 <svelte:head>
 	<title>Contact</title>
 </svelte:head>
-
 
 <h1>Contact</h1>
 
@@ -30,6 +33,9 @@
 		<input type="submit" value="Send Message">
 	</form>
 </article>
+
+<h1>Subscribe</h1>
+<ButtonDownSignUp />
 
 <style>
 	form {

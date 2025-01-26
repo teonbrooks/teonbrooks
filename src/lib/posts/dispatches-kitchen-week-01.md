@@ -12,7 +12,7 @@ coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-01.j
 excerpt: "A crowd favorite!"
 lang: en-US
 social:
-- googlePhotos
+- bluesky
 ---
 %% salted_chocolate_chunk_shortbread_cookie.md %%
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
@@ -28,10 +28,8 @@ social:
 [Soft and Chewy Ginger Molasses Cookies | Mel's Kitchen Cafe](https://www.melskitchencafe.com/soft-and-chewy-ginger-molasses-cookies/)
 
 ## Social
-<div>
-    <span id="teonbrooks.com-3kigz6p7q532p"></span>
-    <script  async src="https://assets.bluesky.lol/js/b1.js" data-handle="teonbrooks.com" data-skeet="3kigz6p7q532p"></script>
-</div>
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:yl7wcldipsfnjdww2jg5mnrv/app.bsky.feed.post/3kigz6p7q532p" data-bluesky-cid="bafyreih5ukczcxbsesp27zphhywzutx5m24e7a776s6jyjeseomgohjibu"><a href="https://bsky.app/profile/did:plc:yl7wcldipsfnjdww2jg5mnrv/post/3kigz6p7q532p?ref_src=embed">January 7, 2024 at 11:39 PM</a></blockquote>
 
 ## Commentary
 

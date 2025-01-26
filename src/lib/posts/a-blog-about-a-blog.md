@@ -12,7 +12,6 @@ lang: en-US
 ---
 <script>
     let { toml } = $props();
-    console.log('toml', toml)
     import Timeline from '$lib/components/Timeline.svelte'
 </script>
 

@@ -7,16 +7,20 @@
 	import { siteImage } from "$lib/config";
 	import Card, { Content } from '@smui/card';
 	
-	let meta;
+	// let meta;
 	let { data } = $props();
 	let { toml = {} } = data;
-	let PostContent = $state();
+	// let PostContent = $state();
 
-	run(() => {
-		({ PostContent, meta } = data)
-	});
+	// $effect.pre(() => {
+	// 	({ PostContent, meta } = data)
+	// });
 
-	let { title, excerpt, date, updated, migrated, coverImage, coverWidth, coverHeight, categories, social, authors } = meta
+	let { PostContent, meta } = data;
+
+	let { title, excerpt, date, updated, migrated, 
+		  coverImage, coverWidth, coverHeight, 
+		  categories, social, authors } = meta;
 
 </script>
 
