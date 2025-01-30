@@ -1,6 +1,6 @@
 ---
 title: "Dispatches from a kitchen: Tahini Peanut Cookie"
-slug: dispatches-kitchen-week-03
+slug: cookie-challenge-week-03
 authors:
 - Teon L Brooks
 date: "2024-01-22"
@@ -8,7 +8,7 @@ categories:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-03.jpg"
+coverImage: "/images/blog_images/cookie-challenge/cookie-challenge-week-03.jpg"
 excerpt: A very fancy peanut cookie
 lang: en-US
 social:

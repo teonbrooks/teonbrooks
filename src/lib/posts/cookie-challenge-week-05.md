@@ -1,6 +1,6 @@
 ---
 title: "Dispatches from a kitchen: Gochujang Caramel Cookie"
-slug: dispatches-kitchen-week-05
+slug: cookie-challenge-week-05
 authors:
 - Teon L Brooks
 date: "2024-02-05"
@@ -8,7 +8,7 @@ categories:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-05.jpg"
+coverImage: "/images/blog_images/cookie-challenge/cookie-challenge-week-05.jpg"
 excerpt: "Sweet and spicy, a great combo 😋"
 lang: en-US
 social:
@@ -71,14 +71,14 @@ Yield: About 8 large cookies
 
 <Album
     albumHref="https://photos.app.goo.gl/AVKBACdGkAVAmM1t6"
-    imageHref="/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-04.jpg"
+    imageHref="/images/blog_images/cookie-challenge/cookie-challenge-week-04.jpg"
     alt="Me wearing a NPR shirt with a journal front of me staring out a window of a train as I ride through Colorado"
     caption="👨🏾‍🍳 Dispatches from the kitchen: 52 Week Cookie Challenge 🍪"
 />
 
 <Album
     albumHref="https://photos.app.goo.gl/AVKBACdGkAVAmM1t6"
-    imageHref="/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-05.jpg"
+    imageHref="/images/blog_images/cookie-challenge/cookie-challenge-week-05.jpg"
     alt="Gochujang Caramel Cookie"
     caption="👨🏾‍🍳 Dispatches from the kitchen: 52 Week Cookie Challenge 🍪"
 />

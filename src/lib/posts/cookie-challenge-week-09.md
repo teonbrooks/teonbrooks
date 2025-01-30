@@ -1,6 +1,6 @@
 ---
 title: "Dispatches from a kitchen: Triple Chocolate Chip Cookie"
-slug: dispatches-kitchen-week-09
+slug: cookie-challenge-week-09
 authors:
 - Teon L Brooks
 date: "2024-03-04"
@@ -8,7 +8,7 @@ categories:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-09.jpg"
+coverImage: "/images/blog_images/cookie-challenge/cookie-challenge-week-09.jpg"
 excerpt: Triple the chocolate, triple the fun
 lang: en-US
 social:

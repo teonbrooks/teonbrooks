@@ -1,6 +1,6 @@
 ---
 title: "Dispatches from a kitchen: Oatmeal Chocolate Chunk Cookie"
-slug: dispatches-kitchen-week-06
+slug: cookie-challenge-week-06
 authors:
 - Teon L Brooks
 date: "2024-02-12"
@@ -8,7 +8,7 @@ categories:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-06.jpg"
+coverImage: "/images/blog_images/cookie-challenge/cookie-challenge-week-06.jpg"
 excerpt: "My go-to chocolate chip cookie recipe"
 lang: en-US
 social:

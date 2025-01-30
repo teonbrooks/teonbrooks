@@ -1,6 +1,6 @@
 ---
 title: "Dispatches from a kitchen: Passionfruit Rum Cookie"
-slug: dispatches-kitchen-week-13
+slug: cookie-challenge-week-13
 authors:
 - Teon L Brooks
 date: "2024-04-02"
@@ -8,7 +8,7 @@ categories:
 - kitchen
 collections:
 - cookies
-coverImage: /images/blog_images/dispatches-kitchen/dispatches-kitchen-week-13.jpg
+coverImage: /images/blog_images/cookie-challenge/cookie-challenge-week-13.jpg
 excerpt: An inventive island delight
 lang: en-US
 ---

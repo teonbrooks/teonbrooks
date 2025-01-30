@@ -1,6 +1,6 @@
 ---
 title: "Dispatches from a kitchen: Oatmeal Cookie Butter Cookie"
-slug: dispatches-kitchen-week-14
+slug: cookie-challenge-week-14
 authors:
 - Teon L Brooks
 date: "2024-04-12"
@@ -8,7 +8,7 @@ categories:
 - kitchen
 collections:
 - cookies
-coverImage: /images/blog_images/dispatches-kitchen/dispatches-kitchen-week-14.jpg
+coverImage: /images/blog_images/cookie-challenge/cookie-challenge-week-14.jpg
 excerpt: "I made a cookie from cookie. It's so wrong, it's right 🤤"
 lang: en-US
 ---

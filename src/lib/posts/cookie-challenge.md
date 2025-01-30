@@ -1,6 +1,6 @@
 ---
 title: "Dispatches from a kitchen: A 52-Week Cookie Challenge"
-slug: dispatches-kitchen-52-cookies
+slug: cookie-challenge-52-cookies
 authors:
 - Teon L Brooks
 date: "2024-01-01"
@@ -8,7 +8,7 @@ categories:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen.jpg"
+coverImage: "/images/blog_images/cookie-challenge/cookie-challenge.jpg"
 excerpt: A public declaration of a 52-week cookie challenge
 lang: en-US
 ---

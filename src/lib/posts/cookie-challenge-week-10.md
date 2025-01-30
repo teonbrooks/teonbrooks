@@ -1,6 +1,6 @@
 ---
 title: "Dispatches from a kitchen: Old-fashioned Peanut Butter Cookie"
-slug: dispatches-kitchen-week-10
+slug: cookie-challenge-week-10
 authors:
 - Teon L Brooks
 date: "2024-03-11"
@@ -8,7 +8,7 @@ categories:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-10.jpg"
+coverImage: "/images/blog_images/cookie-challenge/cookie-challenge-week-10.jpg"
 excerpt: Sometimes you want a no-fuss, basic-ass classic
 lang: en-US
 social:

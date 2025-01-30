@@ -1,6 +1,6 @@
 ---
 title: "Dispatches from a kitchen: Ginger Molasses Cookie"
-slug: dispatches-kitchen-week-01
+slug: cookie-challenge-week-01
 authors:
 - Teon L Brooks
 date: "2024-01-08"
@@ -8,7 +8,7 @@ categories:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-01.jpg"
+coverImage: "/images/blog_images/cookie-challenge/cookie-challenge-week-01.jpg"
 excerpt: "A crowd favorite!"
 lang: en-US
 social:

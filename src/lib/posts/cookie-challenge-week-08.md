@@ -1,6 +1,6 @@
 ---
 title: "Dispatches from a kitchen: Snickerdoodle Cookie"
-slug: dispatches-kitchen-week-08
+slug: cookie-challenge-week-08
 authors:
 - Teon L Brooks
 date: "2024-02-26"
@@ -8,7 +8,7 @@ categories:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-08.jpg"
+coverImage: "/images/blog_images/cookie-challenge/cookie-challenge-week-08.jpg"
 excerpt: Cream of Tartar otherwise it's just a sugar cookie
 lang: en-US
 social:

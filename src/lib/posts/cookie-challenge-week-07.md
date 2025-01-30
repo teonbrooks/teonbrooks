@@ -1,6 +1,6 @@
 ---
 title: "Dispatches from a kitchen: Lemon Glazed Gingerbread Cookie"
-slug: dispatches-kitchen-week-07
+slug: cookie-challenge-week-07
 authors:
 - Teon L Brooks
 date: "2024-02-19"
@@ -8,7 +8,7 @@ categories:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/dispatches-kitchen/dispatches-kitchen-week-07.jpg"
+coverImage: "/images/blog_images/cookie-challenge/cookie-challenge-week-07.jpg"
 excerpt: Sweet, tangy, and spicy
 lang: en-US
 social:
