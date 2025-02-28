@@ -4,7 +4,7 @@ slug: brainstorming-vie
 authors:
 - Teon L Brooks
 date: "2022-02-22"
-categories:
+tags:
 - tech
 collections:
 - cestlavie

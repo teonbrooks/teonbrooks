@@ -1,4 +1,4 @@
-<!-- Renders posts listed by category -->
+<!-- Renders posts listed by tag -->
 <script>
 	import PostsList from '$lib/components/PostsList.svelte'
 	import Pagination from '$lib/components/Pagination.svelte'
@@ -13,7 +13,7 @@
 
 
 <svelte:head>
-	<title>Blog category - page {page}</title>
+	<title>Blog tags - page {page}</title>
 	<meta data-key="description" name={siteDescription}>
 </svelte:head>
 

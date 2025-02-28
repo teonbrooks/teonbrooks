@@ -1,22 +1,21 @@
 ---
 title: "Dispatches from a Nomad: Recurse Epilogue"
-slug: dispatches-nomad-recurse-epilogue
+slug: nomad-recurse-epilogue
 authors:
-- Teon L Brooks
-date: "2023-10-20"
-categories:
-- recurse
-- nomad
-- travel
+  - Teon L Brooks
+date: 2023-10-20
+tags:
+  - recurse
+  - nomad
+  - travel
 collections:
-- recurse-2023s1
-- cestlavie
-coverImage: "/images/blog_images/recurse/epilogue/dispatches-nomad-recurse-week-epilogue.jpg"
-excerpt:
-   "Recurse Center Epilogue: Some lessons learned"
+  - recurse-2023s1
+  - cestlavie
+coverImage: /images/blog_images/recurse/epilogue/dispatches-nomad-recurse-week-epilogue.jpg
+excerpt: "Recurse Center Epilogue: Some lessons learned"
 lang: en-US
 social:
-- strava
+  - strava
 ---
 
 ## Recap

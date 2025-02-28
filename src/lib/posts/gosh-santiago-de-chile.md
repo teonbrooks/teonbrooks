@@ -1,7 +1,7 @@
 ---
 title: GOSH @ Santiago de Chile
 date: "2017-05-30T17:24:18.986Z"
-categories:
+tags:
 - travel
 - open-science
 collections:

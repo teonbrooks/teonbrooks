@@ -4,7 +4,7 @@ slug: speaking-engagements-following-mfs
 authors:
 - Teon L Brooks
 date: "2018-01-18"
-categories:
+tags:
 - advocacy
 - open-science
 - science-and-society

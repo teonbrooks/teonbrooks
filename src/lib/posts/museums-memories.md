@@ -1,7 +1,7 @@
 ---
 title: Museums + Memories
 date: "2017-12-26T14:18:44.111Z"
-categories:
+tags:
 - travel
 keywords: 
 slug: museums-memories

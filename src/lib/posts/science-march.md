@@ -4,7 +4,7 @@ slug: science-march
 authors:
 - Teon L Brooks
 date: "2017-02-20"
-categories:
+tags:
 - advocacy
 - open-science
 - science-and-society

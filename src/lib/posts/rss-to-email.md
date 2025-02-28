@@ -4,7 +4,7 @@ slug: rss-to-email
 authors:
 - Teon L Brooks
 date: "2023-05-25"
-categories:
+tags:
 - tech
 coverImage: "/images/blog_images/rss-to-email/rss-to-email.png"
 excerpt: "Yesterday, I wrote my newsletter! Then I realized something very frustrating"

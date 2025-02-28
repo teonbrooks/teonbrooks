@@ -1,24 +1,23 @@
 ---
 title: "Dispatches from a Nomad: Recurse Week 03"
-slug: dispatches-nomad-recurse-week-03
+slug: nomad-recurse-week-03
 authors:
-- Teon L Brooks
-date: "2023-06-07"
-categories:
-- recurse
-- nomad
-- travel
+  - Teon L Brooks
+date: 2023-06-07
+tags:
+  - recurse
+  - nomad
+  - travel
 collections:
-- recurse-2023s1
-- cestlavie
-coverImage: "/images/blog_images/recurse/week-03/dispatches-nomad-recurse-week-03.jpg"
+  - recurse-2023s1
+  - cestlavie
+coverImage: /images/blog_images/recurse/week-03/dispatches-nomad-recurse-week-03.jpg
 coverWidth: 16
 coverHeight: 9
-excerpt: 
-    "Recurse Center Week 03: Poppin' bottles, and making ink flow"
+excerpt: "Recurse Center Week 03: Poppin' bottles, and making ink flow"
 lang: en-US
 social:
-- strava
+  - strava
 ---
 <script>import Album from '$lib/components/Album.svelte'</script>
 

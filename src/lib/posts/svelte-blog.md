@@ -4,7 +4,7 @@ slug: svelte-blog
 authors:
 - Teon L Brooks
 date: "2022-12-14"
-categories:
+tags:
 - tech
 coverImage: "/images/blog_images/svelte-blog/svelte.png"
 excerpt: I'm now hosting my own blog, powered by Sveltekit 🎉

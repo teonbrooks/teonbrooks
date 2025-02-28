@@ -1,8 +1,8 @@
 <!-- @migration-task Error while migrating Svelte code: Event attribute must be a JavaScript expression, not a string
 https://svelte.dev/e/attribute_invalid_event_handler -->
 <script>
-  export let category;
-  let formCategories = {
+  let { tag } = $props();
+  let formTags = {
     'life': '{👨🏾 life edition}',
     'travel': '{🎒 travel edition}',
     'tech': '{👨🏾‍💻 tech edition}'
@@ -31,13 +31,13 @@ https://svelte.dev/e/attribute_invalid_event_handler -->
   <input type="email" name="email" id="bd-email" />
   <p>
     <!-- TODO: add binding to have tags default on on categoy page -->
-    {#each Object.entries(formCategories) as [formCategory, label]}
-      {#if category == formCategory}
-        <input type="checkbox" id="{formCategory}" name="tag" value={formCategory} checked>
+    {#each Object.entries(formTags) as [formTag, label]}
+      {#if tag == formTag}
+        <input type="checkbox" id="{formTag}" name="tag" value={formTag} checked>
       {:else}
-        <input type="checkbox" id="{formCategory}" name="tag" value={formCategory}>
+        <input type="checkbox" id="{formTag}" name="tag" value={formTag}>
       {/if}
-      <label for={formCategory}>{label}</label><br>
+      <label for={formTag}>{label}</label><br>
     {/each}
   </p>
   <p>

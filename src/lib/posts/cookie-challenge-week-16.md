@@ -4,7 +4,7 @@ slug: cookie-challenge-week-16
 authors:
 - Teon L Brooks
 date: "2024-06-28"
-categories:
+tags:
 - kitchen
 collections:
 - cookies

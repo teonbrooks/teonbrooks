@@ -1,22 +1,21 @@
 ---
 title: "Dispatches from a Nomad: Recurse Week 05"
-slug: dispatches-nomad-recurse-week-05
+slug: nomad-recurse-week-05
 authors:
-- Teon L Brooks
-date: "2023-06-21"
-categories:
-- recurse
-- nomad
-- travel
+  - Teon L Brooks
+date: 2023-06-21
+tags:
+  - recurse
+  - nomad
+  - travel
 collections:
-- recurse-2023s1
-- cestlavie
-coverImage: "/images/blog_images/recurse/week-05/beyonce.jpg"
-excerpt: 
-    "Recurse Center Week 05: Live Music and Machine Learning Model Serialization"
+  - recurse-2023s1
+  - cestlavie
+coverImage: /images/blog_images/recurse/week-05/beyonce.jpg
+excerpt: "Recurse Center Week 05: Live Music and Machine Learning Model Serialization"
 lang: en-US
 social:
-- strava
+  - strava
 ---
 <script>import Album from '$lib/components/Album.svelte'</script>
 

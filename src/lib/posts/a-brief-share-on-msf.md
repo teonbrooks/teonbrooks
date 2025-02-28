@@ -4,7 +4,7 @@ slug: a-brief-share-on-msf
 authors:
 - Teon L Brooks
 date: "2017-05-11"
-categories:
+tags:
 - travel
 - open-science
 coverImage: "/images/blog_images/a-brief-share-on-msf/me-and-comma-llama.jpeg"

@@ -4,7 +4,7 @@ slug: new-pocket-feature
 authors:
 - Teon L Brooks
 date: "2023-05-17"
-categories:
+tags:
 - tech
 coverImage: "/images/blog_images/new-pocket-feature/pocket.png"
 excerpt: Pocket just announced a new feature, Lists.

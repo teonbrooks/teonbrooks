@@ -4,7 +4,7 @@ slug: the-exercise-of-writing
 authors:
 - Teon L Brooks
 date: "2018-09-21"
-categories:
+tags:
 - me
 coverImage: "/images/blog_images/the-exercise-of-writing/writing-dissertation.jpg"
 coverWidth: 16

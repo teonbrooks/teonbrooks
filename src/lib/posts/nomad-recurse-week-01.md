@@ -1,22 +1,21 @@
 ---
 title: "Dispatches from a Nomad: Recurse Week 01"
-slug: dispatches-nomad-recurse-week-01
+slug: nomad-recurse-week-01
 authors:
-- Teon L Brooks
-date: "2023-05-24"
-categories:
-- recurse
-- nomad
-- travel
+  - Teon L Brooks
+date: 2023-05-24
+tags:
+  - recurse
+  - nomad
+  - travel
 collections:
-- recurse-2023s1
-- cestlavie
-coverImage: "/images/blog_images/recurse/week-01/recurse-week-01.jpg"
-excerpt: 
-    "Recurse Center Week 01: Organized calamity of the highest regard."
+  - recurse-2023s1
+  - cestlavie
+coverImage: /images/blog_images/recurse/week-01/recurse-week-01.jpg
+excerpt: "Recurse Center Week 01: Organized calamity of the highest regard."
 lang: en-US
 social:
-- strava
+  - strava
 ---
 
 *The week of May 15, 2023*

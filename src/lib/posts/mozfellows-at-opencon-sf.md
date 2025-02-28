@@ -4,7 +4,7 @@ slug: mozfellows-at-opencon-sf
 authors:
 - Teon L Brooks
 date: "2017-04-08"
-categories:
+tags:
 - open-science
 - msf
 coverImage: "/images/blog_images/mozfellows-at-opencon-sf/mozfellows.jpg"

@@ -4,7 +4,7 @@ slug: ipados16-upgrade-woe
 authors:
 - Teon L Brooks
 date: "2022-12-22"
-categories:
+tags:
 - tech
 coverImage: "/images/blog_images/ipados16-upgrade-woe/IPadOS_16_icon.webp"
 excerpt: For the life of me, I couldn't figure out why it wouldn't upgrade.
