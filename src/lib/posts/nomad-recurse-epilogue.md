@@ -3,7 +3,7 @@ title: "Dispatches from a Nomad: Recurse Epilogue"
 slug: nomad-recurse-epilogue
 authors:
   - Teon L Brooks
-date: 2023-10-20
+date: "2023-10-20"
 tags:
   - recurse
   - nomad

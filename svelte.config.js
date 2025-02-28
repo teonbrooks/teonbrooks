@@ -29,13 +29,14 @@ const config = {
 			entries: [
 				'*',
 				'/api/posts/page/*',
-				'/blog/category/*/page/',
-				'/blog/category/*/page/*',
-				'/blog/category/page/',
-				'/blog/category/page/*',
+				'/blog/tag/*/page/',
+				'/blog/tag/*/page/*',
+				'/blog/tags/page/',
+				'/blog/tags/page/*',
 				'/blog/page/',
 				'/blog/page/*',
-			]
+			],
+			handleHttpError: 'ignore',
 		}
 	}
 };

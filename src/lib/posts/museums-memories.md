@@ -1,6 +1,7 @@
 ---
 title: Museums + Memories
-date: "2017-12-26T14:18:44.111Z"
+date: "2017-12-26"
+datetime: "2017-12-26T14:18:44.111Z"
 tags:
 - travel
 keywords: 

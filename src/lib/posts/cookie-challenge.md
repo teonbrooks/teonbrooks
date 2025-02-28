@@ -3,7 +3,7 @@ title: "Dispatches from a kitchen: A 52-Week Cookie Challenge"
 slug: cookie-challenge
 authors:
   - Teon L Brooks
-date: 2024-01-01
+date: "2024-01-01"
 tags:
   - kitchen
 collections:
