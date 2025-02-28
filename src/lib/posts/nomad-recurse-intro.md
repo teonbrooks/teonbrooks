@@ -3,7 +3,7 @@ title: "Dispatches from a Nomad: Intro"
 slug: nomad-recurse-intro
 authors:
   - Teon L Brooks
-date: 2023-05-24
+date: "2023-05-24"
 tags:
   - recurse
   - nomad

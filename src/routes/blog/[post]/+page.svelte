@@ -21,6 +21,10 @@
 	let { title, excerpt, date, updated, 
 		  coverImage, coverWidth, coverHeight, 
 		  tags, social, authors } = meta;
+	// TODO: Currently if date is not presented as string, it becomes datetime
+	// 		 For now, we will just wrap it as a string in the post
+	//       Consider parsing it as a datetime and returning YYYY-MM-DD
+
 
 </script>
 

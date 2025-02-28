@@ -3,7 +3,7 @@ title: "Dispatches from a Nomad: Recurse Week 05"
 slug: nomad-recurse-week-05
 authors:
   - Teon L Brooks
-date: 2023-06-21
+date: "2023-06-21"
 tags:
   - recurse
   - nomad
