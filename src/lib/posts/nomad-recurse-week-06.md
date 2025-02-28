@@ -1,22 +1,21 @@
 ---
 title: "Dispatches from a Nomad: Recurse Week 06"
-slug: dispatches-nomad-recurse-week-06
+slug: nomad-recurse-week-06
 authors:
-- Teon L Brooks
-date: "2023-10-20"
-categories:
-- recurse
-- nomad
-- travel
+  - Teon L Brooks
+date: 2023-10-20
+tags:
+  - recurse
+  - nomad
+  - travel
 collections:
-- recurse-2023s1
-- cestlavie
-coverImage: "/images/blog_images/recurse/week-06/dispatches-nomad-recurse-week-06.jpg"
-excerpt:
-   "Recurse Center Week 06: Last week of my half-batch"
+  - recurse-2023s1
+  - cestlavie
+coverImage: /images/blog_images/recurse/week-06/dispatches-nomad-recurse-week-06.jpg
+excerpt: "Recurse Center Week 06: Last week of my half-batch"
 lang: en-US
 social:
-- strava
+  - strava
 ---
 <script> 
     import Callout from '$lib/components/Callout.svelte';

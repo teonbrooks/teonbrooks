@@ -4,7 +4,7 @@ slug: cookie-challenge-week-01
 authors:
 - Teon L Brooks
 date: "2024-01-08"
-categories:
+tags:
 - kitchen
 collections:
 - cookies

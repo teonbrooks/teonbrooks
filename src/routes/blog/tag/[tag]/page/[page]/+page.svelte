@@ -5,7 +5,7 @@
 	import { siteDescription, postsPerPage } from '$lib/config'
 
 	let { data } = $props();
-	const { page, category, totalPosts, posts } = data 
+	const { page, tag, totalPosts, posts } = data 
 
 	let lowerBound = $derived((page * postsPerPage) - (postsPerPage - 1) || 1)
 	let upperBound = $derived(Math.min(page * postsPerPage, totalPosts))
@@ -13,7 +13,7 @@
 
 
 <svelte:head>
-	<title>Blog category {category} - page {page}</title>
+	<title>Blog tag {tag} - page {page}</title>
 	<meta data-key="description" name={siteDescription}>
 </svelte:head>
 
@@ -21,15 +21,15 @@
 <!-- TODO: this is duplicated across multiple `+page.svelte` files -->
 {#if posts && posts.length}
 	<h1>
-		Category: {category}
+		Tag: {tag}
 		<br />
 		<small>Posts {lowerBound}–{upperBound} of {totalPosts}</small>
 	</h1>
-	<Pagination currentPage={page} {totalPosts} path="/blog/category/{category}/page" />
+	<Pagination currentPage={page} {totalPosts} path="/blog/tag/{tag}/page" />
 
 	<PostsList {posts} />
 
-	<Pagination currentPage={page} {totalPosts} path="/blog/category/{category}/page" />
+	<Pagination currentPage={page} {totalPosts} path="/blog/tag/{tag}/page" />
 {:else}
 	<h1>Oops!</h1>
 

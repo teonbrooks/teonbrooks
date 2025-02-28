@@ -4,7 +4,7 @@ slug: a-scientist-studying-abroad
 authors:
 - Teon L Brooks
 date: "2017-01-06"
-categories:
+tags:
 - travel
 - open-science
 coverImage: "/images/blog_images/a-scientist-studying-abroad/me-in-the-pyrenees.png"

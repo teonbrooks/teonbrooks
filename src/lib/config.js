@@ -39,7 +39,7 @@ export const navItems = [
 	},
 ]
 
-export const categoryEmoji = {
+export const tagsEmoji = {
 	'advocacy': '📢',
 	'cogsci': '🧠',
 	'kitchen': '👨🏾‍🍳',

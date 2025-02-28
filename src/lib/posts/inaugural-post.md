@@ -4,7 +4,7 @@ slug: inaugural-post
 authors:
 - Teon L Brooks
 date: "2016-11-15"
-categories:
+tags:
 - me
 coverImage: "/images/blog_images/inaugural-post/inaugural-post.png"
 coverWidth: 16

@@ -5,7 +5,7 @@ authors:
 - Teon L Brooks
 date: "2017-03-03"
 keywords: cogsci, reading
-categories:
+tags:
 - cogsci
 - advocacy
 coverImage: "/images/blog_images/why-is-the-study-of-reading-essential/why-is-the-study-of-reading-essential.jpg"

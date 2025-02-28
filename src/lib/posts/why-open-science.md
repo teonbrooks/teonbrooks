@@ -5,7 +5,7 @@ authors:
 - Sarah Bakanosky
 - Teon L Brooks
 date: "2017-03-04"
-categories:
+tags:
 - open-science
 coverImage: "/images/blog_images/why-open-science/why-open-science-wordcloud.png"
 excerpt: A few days ago we reached out to our network of friends and colleagues and we asked them “Why Open Science?

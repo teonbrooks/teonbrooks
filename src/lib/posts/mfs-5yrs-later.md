@@ -5,7 +5,7 @@ authors:
 - Teon L Brooks
 date: "2022-04-22"
 keywords: science, advocacy, policy, reflections, earth day
-categories:
+tags:
 - advocacy
 - science-and-society
 coverImage: "/images/blog_images/mfs-5yrs-later/mfs-5yrs-later.jpg"

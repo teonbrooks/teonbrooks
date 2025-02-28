@@ -1,6 +1,6 @@
 import { postsPerPage } from '$lib/config'
 
-const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = {}) => {
+const fetchPosts = async ({ offset = 0, limit = postsPerPage, tag = '' } = {}) => {
 
 	const posts = await Promise.all(
 		// why doesn't this allow folders within posts to be included. see the details of glob
@@ -12,13 +12,12 @@ const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = 
 	)
 
 	let sortedPosts = posts.sort((a, b) => new Date(b.date) - new Date(a.date))
-	let categoryTotal;
+	let tagsTotal;
 	
-	if (category) {
-    sortedPosts = sortedPosts.filter(post => post.categories.includes(category))
-	categoryTotal = sortedPosts.length
+	if (tag) {
+		sortedPosts = sortedPosts.filter(post => post.tags.includes(tag))
+		tagsTotal = sortedPosts.length
 	}
-	
   
 	if (offset) {
 		sortedPosts = sortedPosts.slice(offset)
@@ -28,22 +27,21 @@ const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = 
 		sortedPosts = sortedPosts.slice(0, limit)
 	}
 
-	sortedPosts = sortedPosts.map(post => ({
-		title: post.title,
-		slug: post.slug,
-		excerpt: post.excerpt,
-		coverImage: post.coverImage,
-		coverWidth: post.coverWidth, 
-		coverHeight: post.coverHeight,
-		date: post.date,
-		categories: post.categories,
-		collections: post.collections
-	}))
-	
+	// sortedPosts = sortedPosts.map(post => ({
+	// 	title: post.title,
+	// 	slug: post.slug,
+	// 	excerpt: post.excerpt,
+	// 	coverImage: post.coverImage,
+	// 	coverWidth: post.coverWidth, 
+	// 	coverHeight: post.coverHeight,
+	// 	date: post.date,
+	// 	tags: post.tags,
+	// 	collections: post.collections
+	// }))
 
 	return {
 		posts: sortedPosts,
-		categoryTotal: categoryTotal
+		tagsTotal
 	}
 }
 

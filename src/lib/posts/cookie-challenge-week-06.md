@@ -4,7 +4,7 @@ slug: cookie-challenge-week-06
 authors:
 - Teon L Brooks
 date: "2024-02-12"
-categories:
+tags:
 - kitchen
 collections:
 - cookies

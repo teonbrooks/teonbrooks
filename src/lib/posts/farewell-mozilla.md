@@ -6,7 +6,7 @@ authors:
 date: "2022-03-14"
 modified: "2025-01-21"
 keywords: Mozilla, farewell
-categories:
+tags:
 - tech
 coverImage: "/images/blog_images/farewell-mozilla/farewell-mozilla.jpg"
 excerpt: After nearly 6 years contributing to the Mozilla project, today is my last day.

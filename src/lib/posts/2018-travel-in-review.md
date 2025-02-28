@@ -4,7 +4,7 @@ slug: 2018-travel-in-review
 authors:
 - Teon L Brooks
 date: "2019-01-06"
-categories:
+tags:
 - travel
 coverImage: "/images/blog_images/2018-travel-in-review/2018-travel-in-review.png"
 excerpt: 2018 was a very busy year for me.

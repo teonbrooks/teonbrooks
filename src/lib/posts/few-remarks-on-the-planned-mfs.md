@@ -4,7 +4,7 @@ slug: few-remarks-on-planned-mfs
 authors:
 - Teon L Brooks
 date: "2017-01-29"
-categories:
+tags:
 - advocacy
 - open-science
 collections:

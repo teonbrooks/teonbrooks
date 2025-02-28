@@ -18,9 +18,9 @@
 
 	let { PostContent, meta } = data;
 
-	let { title, excerpt, date, updated, migrated, 
+	let { title, excerpt, date, updated, 
 		  coverImage, coverWidth, coverHeight, 
-		  categories, social, authors } = meta;
+		  tags, social, authors } = meta;
 
 </script>
 
@@ -68,10 +68,6 @@
 			<br>
 			<b>Updated:</b> {updated}
 		{/if}
-		{#if migrated}
-			<br>
-			<b>Migrated:</b> {migrated}
-		{/if}
 	</div>
 	
 	<article>
@@ -105,9 +101,6 @@
 	<!-- Quick fix to embed tweets properly -->
 	<!-- This should be conditional on the blog post -->
 	{#if social}
-		{#if social.includes('twitter')}
-			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		{/if}
 		{#if social.includes('strava')}
 			<script src="https://strava-embeds.com/embed.js"></script>
 		{/if}
@@ -119,14 +112,14 @@
 		{/if}		
 	{/if}
 
-	{#if categories}
+	{#if tags}
 		<aside class="post-footer">
 			<h2>Posted in: </h2>
-			<ul class="post-footer__categories">
-				{#each categories as category}
+			<ul class="post-footer__tags">
+				{#each tags as tag}
 					<li>
-						<a href="/blog/category/{category}/">
-							{ category }
+						<a href="/blog/tag/{tag}/">
+							{ tag }
 						</a>
 					</li>
 				{/each}

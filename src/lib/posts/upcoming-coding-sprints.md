@@ -4,7 +4,7 @@ slug: upcoming-coding-sprints
 authors:
 - Teon L Brooks
 date: "2017-01-25"
-categories:
+tags:
 - open-science
 - tech
 coverImage: "/images/blog_images/upcoming-coding-sprints/upcoming-coding-sprints.png"

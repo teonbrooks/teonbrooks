@@ -1,19 +1,18 @@
 ---
 title: "Dispatches from a Nomad: Intro"
-slug: dispatches-nomad-recurse-week-01
+slug: nomad-recurse-intro
 authors:
-- Teon L Brooks
-date: "2023-05-24"
-categories:
-- recurse
-- nomad
-- travel
+  - Teon L Brooks
+date: 2023-05-24
+tags:
+  - recurse
+  - nomad
+  - travel
 collections:
-- recurse-2023s1
-- cestlavie
-coverImage: "/images/blog_images/recurse/week-01/recurse-week-01.jpg"
-excerpt: 
-    "Dear friends and family, I'm starting a newsletter..."
+  - recurse-2023s1
+  - cestlavie
+coverImage: /images/blog_images/recurse/week-01/recurse-week-01.jpg
+excerpt: Dear friends and family, I'm starting a newsletter...
 lang: en-US
 ---
 

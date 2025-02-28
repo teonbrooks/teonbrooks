@@ -4,7 +4,7 @@ slug: cookie-challenge-week-10
 authors:
 - Teon L Brooks
 date: "2024-03-11"
-categories:
+tags:
 - kitchen
 collections:
 - cookies

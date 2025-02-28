@@ -4,7 +4,7 @@ slug: science-hack-day-2016
 authors:
 - Teon L Brooks
 date: "2016-11-16"
-categories:
+tags:
 - open-science
 - cogsci
 coverImage: "/images/blog_images/science-hack-day-2016/lightning-talk.png"

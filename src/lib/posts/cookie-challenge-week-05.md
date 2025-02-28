@@ -4,7 +4,7 @@ slug: cookie-challenge-week-05
 authors:
 - Teon L Brooks
 date: "2024-02-05"
-categories:
+tags:
 - kitchen
 collections:
 - cookies
