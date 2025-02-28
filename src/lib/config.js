@@ -48,4 +48,5 @@ export const tagsEmoji = {
 	'open-science': '🧪',
 	'tech': '👨🏾‍💻',
 	'travel': '🎒',
+	'life': '👨🏾'
 }

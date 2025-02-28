@@ -4,6 +4,7 @@
 	import Pagination from '$lib/components/Pagination.svelte'
   	import { postsPerPage } from '$lib/config'
 	import ButtonDownSignUp from '$lib/components/ButtonDownSignUp.svelte';
+	import { tagsEmoji } from '$lib/config';
 
 	let { data } = $props();
 
@@ -19,7 +20,7 @@
 </svelte:head>
 
 
-<h1>{`{${tag} edition}`}</h1>
+<h1>{`{${tagsEmoji[tag]} ${tag} edition}`}</h1>
 
 {#if posts.length}
 	<PostsList posts={posts.slice(0, postsPerPage)} />

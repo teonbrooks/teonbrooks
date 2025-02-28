@@ -300,13 +300,16 @@ category = "Past Orgs"
 filename = "recurse.png"
 organization = "The Recurse Center"
 title = "Recurser"
-timespan = "2023"
+timespan = "2023, 2024"
 description = """
 Summer 1 Half-Batch.
-Projet Vie.
+
+Winter 1 Full-Batch.
+
+[Projet Vie](https://cestlavie.app).
 """
 website = "https://recurse.com"
-category = "Past Orgs"
+category = "Education"
 
 [[positions]]
 filename = "shd.png"

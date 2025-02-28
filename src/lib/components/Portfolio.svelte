@@ -1,16 +1,15 @@
 <script>
-	import LayoutGrid, { Cell } from '@smui/layout-grid';
 	import PortfolioCard from './PortfolioCard.svelte';
 
-	let {items = [], path } = $props();
+	let { items = [], path } = $props();
 
 	let categories = items
 		.map((x) => x.category)
 		.flat(Infinity)
-		.filter((v, i, a) => a.indexOf(v) === i)
-	
+		.filter((v, i, a) => a.indexOf(v) === i);
+
 	let isClicked = $state(false);
-	
+
 	let matches = $derived((item) => {
 		if (!Array.isArray(item.category)) {
 			item.category = [item.category];
@@ -23,30 +22,42 @@
 </script>
 
 <article id="portfolio" class="panel">
-	<div style="display: flex; align-items: center;">
-		<section id="page-portfolio" class="page-portfolio">
-			<h3 class="section-subtitle">Collection of my work</h3>
-			<LayoutGrid>
-				<Cell span={4}><button onclick={() => (isClicked = false)}>Show All</button></Cell>
+	<section id="page-portfolio" class="page-portfolio">
+		<h3 class="section-subtitle">Collection of my work</h3>
+		<div class="grid">
+			<div id="filters">
+				<button onclick={() => (isClicked = false)}>Show All</button>
 				{#each categories as category}
-					<Cell
-						><button
+					<button
 							class="button"
 							data-filter=".{category}"
 							onclick={() => {
 								isClicked = category;
 							}}>{category}</button
-						></Cell
-					>
+						>
 				{/each}
-			</LayoutGrid>
-			<LayoutGrid>
+			</div>
+			<div id="grid">
 				{#each items.filter(matches) as item}
-					<Cell>
-						<PortfolioCard {item} {path} />
-					</Cell>
+					<PortfolioCard {item} {path} />
 				{/each}
-			</LayoutGrid>
-		</section>
-	</div>
+			</div>
+		</div>
+	</section>
 </article>
+
+<style>
+	#filters {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		padding: 2rem;
+	}
+
+	#grid {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+</style>
