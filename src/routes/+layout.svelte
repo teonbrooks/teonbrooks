@@ -2,7 +2,7 @@
 <script>
 	import { run } from 'svelte/legacy';
 
-	import { siteTitle, siteURL } from '$lib/config.js';
+	import { siteTitle, siteDescription, siteImage, siteImageWidth, siteAuthor, siteURL, faviconImage } from '$lib/config';
 	// use default svelte-material-ui css
 	import '$lib/../../node_modules/svelte-material-ui/bare.css';
 	import Header from '$lib/components/Header.svelte';
@@ -39,6 +39,9 @@
 </script>
 
 <svelte:head>
+	<meta data-key="description" name="description" content={siteDescription} />
+	<meta name="author" content={siteAuthor}>
+	<!-- WIP: clean up and consolidate CSS  -->
 	<link rel="stylesheet" href="/css/vars.css" />
 	<link rel="stylesheet" href="/css/root.css" />
 	<link rel="stylesheet" href="/css/fonts.css" />
@@ -57,6 +60,48 @@
 		title={siteTitle}
 		href="{siteURL}/api/rss.xml"
 	/>
+	<!-- Open Graph -->
+	<meta property="og:type" content="profile" />
+	<meta property="og:url" content={siteURL}>
+	<meta property="og:title" content={siteTitle} />
+	<meta property="og:description" content={siteDescription} />
+	<meta property="og:image" content={faviconImage} />
+	<meta property="og:image:width" content={siteImageWidth} />
+	<meta property="og:image:height" content={siteImageWidth} />
+	<!-- Twitter -->
+	<meta name="twitter:title" content={siteTitle}>
+	<meta name="twitter:description" content={siteDescription}>
+	<meta name="twitter:site" content="@teonbrooks">
+	<meta name="twitter:image" content={faviconImage}>
+	<meta name="twitter:card" content="summary_large_image">
+	<!-- Identity -->
+	<!-- Indieweb -->
+	<link rel="openid.delegate" href="https://teonbrooks.com/" />
+	<link rel="openid.server" href="https://openid.indieauth.com/openid" />
+	<!-- GitHub -->
+	<link href="https://github.com/teonbrooks" rel="me">
+	<!-- h-card -->
+	<link href="https://teonbrooks.com/" class="h-card" rel="me" />
+	<!-- Bluesky -->
+	<link href="https://fed.brid.gy/bsky/teon.bsky.social" rel="me" />
+	<!-- Mastodon -->
+	<link href="https://hachyderm.io/@teon" rel="me">
+	<!-- Web Mentions -->
+	<link rel="webmention" href="https://webmention.io/teonbrooks.com/webmention" />
+	<!-- GitHub -->
+	<link href="https://github.com/teonbrooks" rel="me">
+	<!-- RSS -->
+	<link href="/api/rss.xml" type="application/atom+xml" rel="alternate" title="Teon's Blog Feed">
+	<!-- Add Google Analytics -->
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GREYXSYBVM"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-GREYXSYBVM');
+	</script>
 </svelte:head>
 
 <!--

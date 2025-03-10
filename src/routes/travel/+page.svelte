@@ -23,12 +23,12 @@
 </script>
 
 <!-- // 1. this will be a page that pulls from the posts using the api for all the travel tagged posts
-// 2. will store a private md file for each album that contains the album link and the narrative 
+// 2. will store a private md file for each album that contains the album link and the narrative  -->
 <svelte:head>
 	<title>Travel</title>
 </svelte:head>
 
-🚧 To Be Completed 🚧 -->
+🚧 To Be Completed 🚧
 
 <h1>Places Visited</h1>
 <div class="tags">

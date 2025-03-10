@@ -12,9 +12,6 @@
 
 <svelte:head>
 	<title>Dispatches from a [blerd 🤓]</title>
-	<!-- RSS -->
-	<link href="/api/rss.xml" type="application/atom+xml" rel="alternate" title="Teon's Blog Feed">
-	<meta data-key="description" name="description" content={siteDescription}>
 </svelte:head>
 
 <h1 align='center'>Dispatches from a [🤓 blerd]</h1>
