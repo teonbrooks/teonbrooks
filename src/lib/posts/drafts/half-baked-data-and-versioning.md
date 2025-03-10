@@ -3,7 +3,7 @@ title: The Making of a Future Blog Post
 slug: half-baked-data-and-versioning
 authors:
   - Teon L Brooks
-date: "2025-01-24"
+date: "2025-02-28"
 tags:
   - tech
 coverImage: /images/blog_images/2018-travel-in-review/2018-travel-in-review.png
@@ -12,6 +12,7 @@ lang: en-US
 ---
 <script>
     let { toml } = $props();
+    console.log(toml)
     import Timeline from '$lib/components/Timeline.svelte'
 </script>
 
