@@ -15,3 +15,6 @@ static/content/press
 static/content/wip
 **/.obsidian
 .yarn/install-state.gz
+# currently there's an issue with package-lock.json and the build step
+# https://github.com/npm/cli/issues/4828
+package-lock.json

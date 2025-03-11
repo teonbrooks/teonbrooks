@@ -1,21 +1,13 @@
 <!-- This file renders each individual blog post for reading. Be sure to update the svelte:head below -->
 <script>
-	import { run } from 'svelte/legacy';
-	import Article from "$lib/components/Article.svelte";
 	import ButtonDownSignUp from "$lib/components/ButtonDownSignUp.svelte"
-	import Giscus from "@giscus/svelte";
 	import { siteImage } from "$lib/config";
 	import Card, { Content } from '@smui/card';
+	import { CommentSection } from "bluesky-comments-svelte";
 	
-	// let meta;
+	const author = "teon.bsky.social";
 	let { data } = $props();
 	let { toml = {} } = data;
-	// let PostContent = $state();
-
-	// $effect.pre(() => {
-	// 	({ PostContent, meta } = data)
-	// });
-
 	let { PostContent, meta } = data;
 
 	let { title, excerpt, date, updated, 
@@ -24,7 +16,6 @@
 	// TODO: Currently if date is not presented as string, it becomes datetime
 	// 		 For now, we will just wrap it as a string in the post
 	//       Consider parsing it as a datetime and returning YYYY-MM-DD
-
 
 </script>
 
@@ -88,21 +79,8 @@
 	
 	<!-- Add commenting -->
 	<h2>Comments</h2>
-    <Giscus
-      id="comments"
-      repo="teonbrooks/teonbrooks"
-      repoId="MDEwOlJlcG9zaXRvcnkzNjc1NjkwOQ=="
-      category="Blog comments"
-      categoryId="DIC_kwDOAjDdrc4CTFLR"
-      mapping="pathname"
-      term="Welcome to teonbrooks blog!"
-      reactionsEnabled="1"
-      emitMetadata="0"
-      inputPosition="bottom"
-      theme="preferred_color_scheme"
-      lang="en"
-    />
-	<!-- Quick fix to embed tweets properly -->
+	<CommentSection {author} />
+	<!-- Quick fix to embed content properly -->
 	<!-- This should be conditional on the blog post -->
 	{#if social}
 		{#if social.includes('strava')}

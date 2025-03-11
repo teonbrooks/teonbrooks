@@ -15,7 +15,6 @@
 	"devDependencies": {
 		"@fortawesome/free-brands-svg-icons": "^6.7.2",
 		"@fortawesome/free-solid-svg-icons": "^6.7.2",
-		"@giscus/svelte": "^3.1.0",
 		"@mdi/js": "^7.0.96",
 		"@smui/card": "^8.0.0-beta.3",
 		"@smui/dialog": "^8.0.0-beta.3",
@@ -25,6 +24,7 @@
 		"@sveltejs/adapter-static": "^3.0.0",
 		"@sveltejs/kit": "^2.5.27",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0",
+		"bluesky-comments-svelte": "^0.0.10",
 		"eslint": "^8.56.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.45.1",
