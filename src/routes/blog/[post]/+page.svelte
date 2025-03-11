@@ -73,13 +73,18 @@
 		</Card>
 	</article>
 
+	<!-- Add commenting -->
+	<div class="comments">
+		<div class="content">
+			<h2>Comments</h2>
+			<CommentSection {author} />
+		</div>
+	</div>
+
 	<!-- Add Signup Form -->
 	<h2>Signup</h2>
 	<ButtonDownSignUp />
-	
-	<!-- Add commenting -->
-	<h2>Comments</h2>
-	<CommentSection {author} />
+
 	<!-- Quick fix to embed content properly -->
 	<!-- This should be conditional on the blog post -->
 	{#if social}
@@ -113,5 +118,13 @@
 <style>
 	article {
 		display: inline-block
+	}
+
+	.comments {
+		background-color: white;
+		
+	}
+	.content {
+		margin: 1rem 1rem;
 	}
 </style>
