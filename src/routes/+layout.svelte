@@ -81,15 +81,15 @@
 	<!-- GitHub -->
 	<link href="https://github.com/teonbrooks" rel="me">
 	<!-- h-card -->
-	<link href="https://teonbrooks.com/" class="h-card" rel="me" />
+	<link href="https://teonbrooks.com/" class="h-card u-url u-uid" rel="me" />
 	<!-- Bluesky -->
-	<link href="https://fed.brid.gy/bsky/teon.bsky.social" rel="me" />
+	<link href="https://bsky.app/profile/teon.bsky.social" rel="me" />
+	<!-- Bridgy -->
+	<link href="https://brid.gy/bluesky/did:plc:yl7wcldipsfnjdww2jg5mnrv" rel="me" />
 	<!-- Mastodon -->
 	<link href="https://hachyderm.io/@teon" rel="me">
 	<!-- Web Mentions -->
 	<link rel="webmention" href="https://webmention.io/teonbrooks.com/webmention" />
-	<!-- GitHub -->
-	<link href="https://github.com/teonbrooks" rel="me">
 	<!-- RSS -->
 	<link href="/api/rss.xml" type="application/atom+xml" rel="alternate" title="Teon's Blog Feed">
 	<!-- Add Google Analytics -->

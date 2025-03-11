@@ -29,7 +29,7 @@
             </div> -->
         </Content>
         <Media>
-            <img {src} alt='Teon' />
+            <img {src} alt='Teon' class="u-photo" />
         </Media>
         <p>
             {#each occupations as occupation}
