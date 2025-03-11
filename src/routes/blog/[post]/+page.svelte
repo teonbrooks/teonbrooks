@@ -84,7 +84,6 @@
 	<!-- Add Signup Form -->
 	<h2>Signup</h2>
 	<ButtonDownSignUp />
-
 	<!-- Quick fix to embed content properly -->
 	<!-- This should be conditional on the blog post -->
 	{#if social}
