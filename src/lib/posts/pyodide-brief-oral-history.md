@@ -6,7 +6,7 @@ authors:
 date: "2025-03-10"
 categories:
   - tech
-coverImage: /images/blog_images/pyodide-brief-oral-history/logo.svg
+coverImage: /blog_assets/pyodide-brief-oral-history/logo.svg
 excerpt: "tl;dr: Pyodide gets its name from being the first language plug-in for a defunct data science notebook project called Iodide."
 lang: en-US
 ---
@@ -21,7 +21,7 @@ tl;dr: Pyodide gets its name from being the first language plug-in for a defunct
 The Iodide project was a skunkworks project inside of Mozilla Data org to create an experimental data science notebook that provided a full data exploration environment with modern editor capabilities. Its tagline was "View Source for Science".
 
 <div style="text-align:center">
-	<img src="/images/blog_images/pyodide-brief-oral-history/iodide-explore-to-report.gif" alt="Iodide notebook in action">
+	<img src="/blog_assets/pyodide-brief-oral-history/iodide-explore-to-report.gif" alt="Iodide notebook in action">
 </div>
 
 This project started roughly around 2018 and it was shuttered in 2021. The main contributors to the projects were Brendan Colloran, Hamilton Ulmer, Mike Droettboem, and William LaChance.
@@ -48,7 +48,7 @@ Initially the Iodide notebook enabled easy access to Javascript libraries for da
 Realizing that a lot of data science analysis workflow is done in Python (and in R), the team strategized on ways to bring the necessary tools to the notebook experience. The team chatted with some of the WebAssembly folks who were at Mozilla at the time (Alon Zakai and friends) about the plausibility of getting Python to work in a browser context. The team took the advice and then [Mike Droetboom](https://www.linkedin.com/in/mdboom), famously worked on it over a weekend and brought back a proof-of-concept for getting Python to compile to WebAssembly using Emscripten. He spearheaded the work on bringing Python to the web and created the first language plugin for Iodide known affectionately as Pyodide \[[ref](https://droettboom.com/blog/2018/04/04/python-in-the-browser/)\].
 
 <div style="text-align:center">
-	<img src="/images/blog_images/pyodide-brief-oral-history/scientific-python-to-wasm.png" alt="Scientific Python to WebAssembly">
+	<img src="/blog_assets/pyodide-brief-oral-history/scientific-python-to-wasm.png" alt="Scientific Python to WebAssembly">
 </div>
 
 ## Iodide Prototype
@@ -63,7 +63,7 @@ Realizing that a lot of data science analysis workflow is done in Python (and in
 	- It would be rendered at load time though, no cache
 
 <div style="text-align:center">
-	<img src="/images/blog_images/pyodide-brief-oral-history/iodide-notebook.png" alt="Iodide Notebook">
+	<img src="/blog_assets/pyodide-brief-oral-history/iodide-notebook.png" alt="Iodide Notebook">
 </div>
 
 ## Iodide Instances

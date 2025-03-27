@@ -8,7 +8,7 @@ tags:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/cookie-challenge/cookie-challenge-week-07.jpg"
+coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-07.jpg"
 excerpt: Sweet, tangy, and spicy
 lang: en-US
 social:

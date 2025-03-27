@@ -7,7 +7,7 @@ date: "2017-01-25"
 tags:
 - open-science
 - tech
-coverImage: "/images/blog_images/upcoming-coding-sprints/upcoming-coding-sprints.png"
+coverImage: "/blog_assets/upcoming-coding-sprints/upcoming-coding-sprints.png"
 coverWidth: 16
 coverHeight: 9
 excerpt: Over the past few months, I have gotten involved in organizing a few upcoming coding sprints.

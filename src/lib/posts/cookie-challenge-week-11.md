@@ -8,7 +8,7 @@ tags:
 - kitchen
 collections:
 - cookies
-coverImage: /images/blog_images/cookie-challenge/cookie-challenge-week-11.jpg
+coverImage: /blog_assets/cookie-challenge/cookie-challenge-week-11.jpg
 excerpt: This cookie reminds me of the chocolate chip cookie from Chick-Fil-A
 lang: en-US
 social:

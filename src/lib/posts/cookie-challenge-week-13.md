@@ -8,7 +8,7 @@ tags:
 - kitchen
 collections:
 - cookies
-coverImage: /images/blog_images/cookie-challenge/cookie-challenge-week-13.jpg
+coverImage: /blog_assets/cookie-challenge/cookie-challenge-week-13.jpg
 excerpt: An inventive island delight
 lang: en-US
 ---

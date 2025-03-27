@@ -247,7 +247,7 @@ category = ["Past Projects", "Volunteer", "Open Source"]
 [[positions]]
 filename = "nyu.png"
 organization = "New York University"
-title = "PhD"
+title = "Doctor of Philosophy in Experimental Psychology (PhD)"
 timespan = "2011-2017"
 description = """
 *PhD (2011-2017)*
@@ -255,10 +255,12 @@ description = """
 Experimental Psychology: Cognition and Perception
 
 *President, NYU Cog Collective (2015-2017)*
+
 Cofounder of student organization representing the Cognition and Perception program.
 We thought workshops and hosted socials [link](https://github.com/nyu-cogcollective).
 
-*Master of Arts (2011-2013)
+*Master of Arts (2011-2013)*
+
 Experimental Psychology: Cognition and Perception
 """
 website = "https://as.nyu.edu/psychology.html"
@@ -393,7 +395,11 @@ organization = "New York City Community Board (BKCB1)"
 title = "Board Member"
 timespan = "2020-2022"
 description = """
-I served on the Capital Budget Committee, the Board Budget Committee, the Education committee, and the Outreach Committee.
+I served on the following committees:
+- Capital Budget Committee
+- the Board Budget Committee
+- the Education committee
+- Outreach Committee
 
 I created and managed the community board Twitter account (@BrooklynCB1).
 """
@@ -407,9 +413,13 @@ title = "Senior Adjunct Professorial Lecturer"
 timespan = "2021"
 description = """
 Statistical Programming: R + Tidyverse
+
+- Taught a course for undergraduate and graduate students on the foundations of the R programming language. 
+
+- This course also taught the Tidyverse, a collection R packages for data wrangling.
 """
 website = ""
-category = ["Past Orgs"]
+category = ["Past Orgs", "Teaching"]
 
 [[positions]]
 filename = "aimlabs.png"

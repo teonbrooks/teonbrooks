@@ -8,7 +8,7 @@ tags:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/cookie-challenge/cookie-challenge-week-08.jpg"
+coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-08.jpg"
 excerpt: Cream of Tartar otherwise it's just a sugar cookie
 lang: en-US
 social:

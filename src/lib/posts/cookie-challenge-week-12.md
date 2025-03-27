@@ -8,7 +8,7 @@ tags:
 - kitchen
 collections:
 - cookies
-coverImage: /images/blog_images/cookie-challenge/cookie-challenge-week-12.jpg
+coverImage: /blog_assets/cookie-challenge/cookie-challenge-week-12.jpg
 excerpt: Very similar to the Vanishing Oatmeal recipe
 lang: en-US
 ---

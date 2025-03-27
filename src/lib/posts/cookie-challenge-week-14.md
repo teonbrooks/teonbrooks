@@ -8,7 +8,7 @@ tags:
 - kitchen
 collections:
 - cookies
-coverImage: /images/blog_images/cookie-challenge/cookie-challenge-week-14.jpg
+coverImage: /blog_assets/cookie-challenge/cookie-challenge-week-14.jpg
 excerpt: "I made a cookie from cookie. It's so wrong, it's right 🤤"
 lang: en-US
 ---

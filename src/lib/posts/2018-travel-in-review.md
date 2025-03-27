@@ -6,7 +6,7 @@ authors:
 date: "2019-01-06"
 tags:
 - travel
-coverImage: "/images/blog_images/2018-travel-in-review/2018-travel-in-review.png"
+coverImage: "/blog_assets/2018-travel-in-review/2018-travel-in-review.png"
 excerpt: 2018 was a very busy year for me.
 lang: en-US
 ---
@@ -18,7 +18,7 @@ Here below is a list of them all, some close by and some far, and some photo hig
 
 <Album 
     albumHref = "https://photos.app.goo.gl/iqGQCPB6YjrPPgVa9"
-    imageHref = "/images/blog_images/2018-travel-in-review/IMG_20180912_160409.jpg"
+    imageHref = "/blog_assets/2018-travel-in-review/IMG_20180912_160409.jpg"
     alt = "Me holding a glass of champagne at a champagne house"
     caption = "🎒 2018 Travel in Review"
 />

@@ -11,7 +11,7 @@ tags:
 collections:
   - recurse-2023s1
   - cestlavie
-coverImage: /images/blog_images/recurse/week-04/nadal.jpg
+coverImage: /blog_assets/recurse/week-04/nadal.jpg
 excerpt: "Recurse Center Week 04: King of Clay, français, Sacré, Beyoncé"
 lang: en-US
 social:
@@ -45,7 +45,7 @@ Last year, I had come down for Thanksgiving and for her birthday, which was Nove
 
 <Album 
     albumHref = "https://photos.app.goo.gl/iqGQCPB6YjrPPgVa9"
-    imageHref = "/images/blog_images/recurse/week-04/PXL_20230314_175047149~2.jpg"
+    imageHref = "/blog_assets/recurse/week-04/PXL_20230314_175047149~2.jpg"
     alt = "Me wearing a jean jacket sitting on a trolley with a leather satchel"
     caption = "🎒 Nomadic Adventures: Crescent Line"
 />
@@ -116,7 +116,7 @@ When I first ran the model on a page from my scrapbook, I started it right befor
 Once we finished, I re-ran it, and it still required the same amount of resources, but it did finish 🎉 I got a list of dictionaries containing individual masks generated from my scrapbook page. I'll say it took about 5 minutes. I realized that all the processing was taking place on the CPU, no real use of the GPU. It was a good first step getting this part working and now it was time for me to start chipping away on more parts of the project.
 
 <figure>
-    <img src="/images/blog_images/recurse/week-04/segmented.png" alt="Segmented page from scrapbook"/>
+    <img src="/blog_assets/recurse/week-04/segmented.png" alt="Segmented page from scrapbook"/>
     <figcaption style:text-align="center">Segmented page from scrapbook</figcaption>
 </figure>
 
@@ -166,7 +166,7 @@ Afterwards, I did some additional reading about SAM and I discovered that the mo
 - I went to a third round match of the French Open at Roland-Garros on Monday! I spent the afternoon refreshing the page constantly to get a ticket and managed!
 
 <figure style:text-align="center">
-    <img src="/images/blog_images/recurse/week-04/PXL_20230605_211036856.jpg" width="300px" alt="Me holding the peace sign at Roland Garros" />
+    <img src="/blog_assets/recurse/week-04/PXL_20230605_211036856.jpg" width="300px" alt="Me holding the peace sign at Roland Garros" />
 </figure>
 
 - Micro.blog. I spent some time exploring different microblogging solutions and I decided to setup a micro.blog page at <https://teon.micro.blog> for now. There were easy plugins to import my old tweets and my Swarm data.
@@ -178,7 +178,7 @@ Afterwards, I did some additional reading about SAM and I discovered that the mo
 - Had drinks and dinner with my friends Remy and Roman. A long wait but we had an awesome seat for the evening in front of the Sacré-Cœur.
 
 <figure style:text-align="center">
-    <img src="/images/blog_images/recurse/week-04/IMG-20230608-WA0004.jpg" alt="Me and two friends on a rooftop bar with the view of the Sacré-Cœur" width=300px style:text-align="center" />
+    <img src="/blog_assets/recurse/week-04/IMG-20230608-WA0004.jpg" alt="Me and two friends on a rooftop bar with the view of the Sacré-Cœur" width=300px style:text-align="center" />
 </figure>
 
 (More on these next week, too much content for this week lol)

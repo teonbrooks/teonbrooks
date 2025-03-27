@@ -8,7 +8,7 @@ tags:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/cookie-challenge/cookie-challenge-week-04.jpg"
+coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-04.jpg"
 excerpt: "One of my favorite chocolate chip cookie recipes 😋"
 lang: en-US
 social:
@@ -42,7 +42,7 @@ social:
 
 <Album
     albumHref="https://photos.app.goo.gl/AVKBACdGkAVAmM1t6"
-    imageHref="/images/blog_images/cookie-challenge/cookie-challenge-week-04.jpg"
+    imageHref="/blog_assets/cookie-challenge/cookie-challenge-week-04.jpg"
     alt="Chewy Chocolate Chip Cookies"
     caption="👨🏾‍🍳 Dispatches from the kitchen: 52 Week Cookie Challenge 🍪"
 />

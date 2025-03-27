@@ -18,7 +18,7 @@ const config = {
 			rehypePlugins: [
 				rehypeSlug,
 				rehypeAutolinkHeadings,
-				rehypeToc
+				// rehypeToc
 			],
 		}),
 	],

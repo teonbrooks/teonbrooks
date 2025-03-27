@@ -8,7 +8,7 @@ tags:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/cookie-challenge/cookie-challenge-week-10.jpg"
+coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-10.jpg"
 excerpt: Sometimes you want a no-fuss, basic-ass classic
 lang: en-US
 social:

@@ -8,7 +8,7 @@ tags:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/cookie-challenge/cookie-challenge-week-03.jpg"
+coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-03.jpg"
 excerpt: A very fancy peanut cookie
 lang: en-US
 social:

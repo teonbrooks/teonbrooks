@@ -8,7 +8,7 @@ tags:
 - kitchen
 collections:
 - cookies
-coverImage: /images/blog_images/cookie-challenge/cookie-challenge-week-02.jpg
+coverImage: /blog_assets/cookie-challenge/cookie-challenge-week-02.jpg
 excerpt: Salt and butter, FTW
 lang: en-US
 social:

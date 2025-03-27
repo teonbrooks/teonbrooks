@@ -11,7 +11,7 @@ tags:
 collections:
   - recurse-2023s1
   - cestlavie
-coverImage: /images/blog_images/recurse/week-03/dispatches-nomad-recurse-week-03.jpg
+coverImage: /blog_assets/recurse/week-03/dispatches-nomad-recurse-week-03.jpg
 coverWidth: 16
 coverHeight: 9
 excerpt: "Recurse Center Week 03: Poppin' bottles, and making ink flow"
@@ -38,7 +38,7 @@ The album is a bit sparse on details of the train travels right now because I di
 
 <Album
     albumHref="https://photos.app.goo.gl/8oZxrNwx2YYDBCPu9"
-    imageHref="/images/blog_images/recurse/week-03/nomadic_adventures_california_zephyr.jpg"
+    imageHref="/blog_assets/recurse/week-03/nomadic_adventures_california_zephyr.jpg"
     alt="Me wearing a NPR shirt with a journal front of me staring out a window of a train as I ride through Colorado"
     caption="🎒 Nomadic Adventures: Lakeshore Limited and California"
 />
@@ -61,7 +61,7 @@ While on the tour, I learned that Madame Pommery was the one responsible for the
 
 <Album
     albumHref="https://photos.app.goo.gl/usYAGrv4PN6vREnw8"
-    imageHref="/images/blog_images/recurse/week-03/taittinger.jpg"
+    imageHref="/blog_assets/recurse/week-03/taittinger.jpg"
     alt="A bottle of Taittinger champagne, vintage 2015"
     caption="🍾 Champagning in Reims!"
 />
@@ -88,7 +88,7 @@ So I bought it! A Lamy Safari Special Edition Light Rose ✒️
 I was also informed that this particular Lamy is the perfect starter fountain pen. Nice entry price, super performant, it could be my daily driver. From the sticker price of some of the other models in the store, these pens just go up and to the right in a hockey-stick shape fashion for price 🏒
 
 <figure style:text-align="center">
-    <img src='/images/blog_images/recurse/week-03/lamy-safari-lightrose-fountain-pen.jpg' alt="A rose pink Lamy fountain pen" />
+    <img src='/blog_assets/recurse/week-03/lamy-safari-lightrose-fountain-pen.jpg' alt="A rose pink Lamy fountain pen" />
 </figure>
 
 While I was leaving the shop, I talked to a woman who teaches calligraphy who had also just purchased some things from the shop, and she gave me some pointers of starting my letter movement from bottom up to evoke the ink in the pen.
@@ -96,7 +96,7 @@ While I was leaving the shop, I talked to a woman who teaches calligraphy who ha
 Later that afternoon, I had a 1-on-1 chat with Zach of my cohort, and we had a chance to do a proper meet and greet, and then we discussed the projects we were planning to work on. We also both geeked out over our favorite writing instruments. I had just showed off my new pen and he showed me his, a [Caran D'Ache](https://www.carandache.com/fr/fr/stylo-bille/stylo-bille-849-popline-orange-fluo-avec-etui-p-10215.htm?nosto=searchpage-nosto-1).
 
 <figure style:text-align="center">
-    <img src='/images/blog_images/recurse/week-03/caran-d-ache.png' alt="An orange Caran d'Ache pen" />
+    <img src='/blog_assets/recurse/week-03/caran-d-ache.png' alt="An orange Caran d'Ache pen" />
 </figure>
 
 It's really in moments like these that I remember that these quirky things like a favorite pen brand, finding good stationery, all these analog tools that makes us uniquely human, give us shape and dimensionality that gets lost in the digital world.

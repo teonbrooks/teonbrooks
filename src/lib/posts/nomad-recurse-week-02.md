@@ -11,7 +11,7 @@ tags:
 collections:
   - recurse-2023s1
   - cestlavie
-coverImage: /images/blog_images/recurse/week-01/recurse-week-01.jpg
+coverImage: /blog_assets/recurse/week-01/recurse-week-01.jpg
 excerpt: "Recurse Center Week 02: Easing into the work, Questioning life in general"
 lang: en-US
 social:

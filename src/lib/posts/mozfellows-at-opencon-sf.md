@@ -7,7 +7,7 @@ date: "2017-04-08"
 tags:
 - open-science
 - msf
-coverImage: "/images/blog_images/mozfellows-at-opencon-sf/mozfellows.jpg"
+coverImage: "/blog_assets/mozfellows-at-opencon-sf/mozfellows.jpg"
 excerpt: Fellows of Mozilla Science Lab are no over halfway through their Fellowship so we all came together for a workweek in San Francisco.
 lang: en-US
 ---
@@ -23,13 +23,13 @@ The OpenCon [satellite events](http://www.opencon2016.org/satellites) held aroun
 The night kicked off with an [introduction and welcome](https://f1000research.com/slides/6-114) from the event organizer [Gary McDowell](https://twitter.com/BiophysicalFrog).
 
 <figure style:text-align="center">
-    <img src='/images/blog_images/mozfellows-at-opencon-sf/gary_mcdowell_presenting.jpg' alt="Gary McDowell presenting" />
+    <img src='/blog_assets/mozfellows-at-opencon-sf/gary_mcdowell_presenting.jpg' alt="Gary McDowell presenting" />
 </figure>
 
 Our first invited speaker was the inspirational [Stephanie Santoso](https://twitter.com/smsantoso), former White House Senior Advisor for Making. Santoso spoke on building a [Nation of Makers](http://www.nationofmakers.us/), which showcased the creativity and ingenuity of innovators, both young and young at heart. Making and Science, affectionately referred to as Maker Science, has reinvigorated the way science and technology are being introduced in the classroom, labs, hackerspaces and living rooms. Santoso highlighted citizen science projects, like the [Foldscope](https://www.foldscope.com/), that promote the philosophy of open science: information sharing and collaboration. These projects invoke discovery with the power of putting simple tools in the hands of the public.
 
 <figure style:text-align="center">
-    <img src='/images/blog_images/mozfellows-at-opencon-sf/stephanie_stanoso_presenting.jpg' alt="Stephanie Stanoso presenting" />
+    <img src='/blog_assets/mozfellows-at-opencon-sf/stephanie_stanoso_presenting.jpg' alt="Stephanie Stanoso presenting" />
 </figure>
 
 The dynamic and passionate [Mónica Feliú-Mójer](https://twitter.com/moefeliu) then showed us the most exceptional video of an octopus so brilliantly camouflaged that we needed to watch the clip in slow motion to even spot it!
@@ -37,7 +37,7 @@ The dynamic and passionate [Mónica Feliú-Mójer](https://twitter.com/moefeliu)
 The point was not simply to see ridiculously cool cephalopods in action, but to demonstrate the power of scientific communication. This video shares scientific knowledge with a broad audience without stripping it of excitement. By talking directly with the public via YouTube, scientists are able to convey the rich experience of discovery. The videos on [iBiology](https://www.ibiology.org/) disseminate research findings in an much more engaging and accessible way than traditional academic journal articles.
 
 <figure style:text-align="center">
-    <img src='/images/blog_images/mozfellows-at-opencon-sf/monica_feliu_mojer_presenting.jpg' alt="Mónica Feliú-Mójer presenting" />
+    <img src='/blog_assets/mozfellows-at-opencon-sf/monica_feliu_mojer_presenting.jpg' alt="Mónica Feliú-Mójer presenting" />
 </figure>
 
 In true OpenCon community style we had some food and drinks, and then the floor was open for anyone in the room who wanted to share their work:
@@ -47,7 +47,7 @@ In true OpenCon community style we had some food and drinks, and then the floor 
 *   Mozilla fellow [Danielle Robinson](https://twitter.com/daniellecrobins) pulled up some slides she had on her laptop and gave a quick tour of the [Mozilla Science Lab community](https://github.com/daniellecrobinson/fellows-class-2016/blob/b334283994963df310f6c21b0168152ad6c4015d/danielle/Mozilla%20-%20OpenConSF.pdf).
 
 <figure style:text-align="center">
-    <img src='/images/blog_images/mozfellows-at-opencon-sf/danielle_robinson_presenting.jpg' alt="Danielle Robinson presenting" />
+    <img src='/blog_assets/mozfellows-at-opencon-sf/danielle_robinson_presenting.jpg' alt="Danielle Robinson presenting" />
 </figure>
 
 It was so much fun getting to represent the Mozilla Science Lab all four fellows together. We’re usually in different places and we love our biweekly check in calls, but there’s something special about all going out to talk Open Science together!

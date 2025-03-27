@@ -6,7 +6,7 @@ authors:
 date: "2016-11-15"
 tags:
 - me
-coverImage: "/images/blog_images/inaugural-post/inaugural-post.png"
+coverImage: "/blog_assets/inaugural-post/inaugural-post.png"
 coverWidth: 16
 # coverHeight: 9
 excerpt: "Hello world! My name is Teon Brooks and this is my blog :)"

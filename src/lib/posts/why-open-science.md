@@ -7,7 +7,7 @@ authors:
 date: "2017-03-04"
 tags:
 - open-science
-coverImage: "/images/blog_images/why-open-science/why-open-science-wordcloud.png"
+coverImage: "/blog_assets/why-open-science/why-open-science-wordcloud.png"
 excerpt: A few days ago we reached out to our network of friends and colleagues and we asked them “Why Open Science?
 lang: en-US
 ---
@@ -190,7 +190,7 @@ This might very well be the most epic post we’ve ever put together.
 The OpenBCI Team
 
 <figure style:text-align="center">
-    <img src='/images/blog_images/why-open-science/openbci.png' alt="OpenBCI logo" />
+    <img src='/blog_assets/why-open-science/openbci.png' alt="OpenBCI logo" />
 </figure>
 
 > Originally published at neurotechnews.com on December 23, 2015.

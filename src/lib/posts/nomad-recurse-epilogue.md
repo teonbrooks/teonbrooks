@@ -11,7 +11,7 @@ tags:
 collections:
   - recurse-2023s1
   - cestlavie
-coverImage: /images/blog_images/recurse/epilogue/dispatches-nomad-recurse-week-epilogue.jpg
+coverImage: /blog_assets/recurse/epilogue/dispatches-nomad-recurse-week-epilogue.jpg
 excerpt: "Recurse Center Epilogue: Some lessons learned"
 lang: en-US
 social:

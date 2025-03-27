@@ -8,7 +8,7 @@ tags:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/cookie-challenge/cookie-challenge-week-06.jpg"
+coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-06.jpg"
 excerpt: "My go-to chocolate chip cookie recipe"
 lang: en-US
 social:

@@ -8,7 +8,7 @@ tags:
   - kitchen
 collections:
   - cookies
-coverImage: /images/blog_images/cookie-challenge/cookie-challenge.jpg
+coverImage: /blog_assets/cookie-challenge/cookie-challenge.jpg
 excerpt: A public declaration of a 52-week cookie challenge
 lang: en-US
 ---

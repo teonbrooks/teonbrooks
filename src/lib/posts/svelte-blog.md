@@ -6,7 +6,7 @@ authors:
 date: "2022-12-14"
 tags:
 - tech
-coverImage: "/images/blog_images/svelte-blog/svelte.png"
+coverImage: "/blog_assets/svelte-blog/svelte.png"
 excerpt: I'm now hosting my own blog, powered by Sveltekit 🎉
 lang: en-US
 ---

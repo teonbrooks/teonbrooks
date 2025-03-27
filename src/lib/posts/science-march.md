@@ -10,7 +10,7 @@ tags:
 - science-and-society
 collections:
 - msf
-coverImage: "/images/blog_images/science-march/science-march.png"
+coverImage: "/blog_assets/science-march/science-march.png"
 coverWidth: 16
 coverHeight: 9
 excerpt: The March for Science is officially happening!

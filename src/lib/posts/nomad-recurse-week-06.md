@@ -11,7 +11,7 @@ tags:
 collections:
   - recurse-2023s1
   - cestlavie
-coverImage: /images/blog_images/recurse/week-06/dispatches-nomad-recurse-week-06.jpg
+coverImage: /blog_assets/recurse/week-06/dispatches-nomad-recurse-week-06.jpg
 excerpt: "Recurse Center Week 06: Last week of my half-batch"
 lang: en-US
 social:
@@ -49,7 +49,7 @@ After our study session, I was inspired to extend my stay at Recurse. My goals f
 
 <Album 
     albumHref = "https://photos.app.goo.gl/itX8WBWvwMZHdbFx7"
-    imageHref = "/images/blog_images/recurse/week-06/PXL_20230620_115129679.jpg"
+    imageHref = "/blog_assets/recurse/week-06/PXL_20230620_115129679.jpg"
     alt = "Me wearing a red cap eating a pistachio roll"
     caption = "Last Week in Paris"
 />

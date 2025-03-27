@@ -7,7 +7,7 @@ date: "2017-01-06"
 tags:
 - travel
 - open-science
-coverImage: "/images/blog_images/a-scientist-studying-abroad/me-in-the-pyrenees.png"
+coverImage: "/blog_assets/a-scientist-studying-abroad/me-in-the-pyrenees.png"
 excerpt: I studied abroad the fourth year of my PhD program.
 lang: en-US
 ---
@@ -32,5 +32,5 @@ Below, I wrote up a [blurb](https://www.chateaubriand-fellowship.org/Teon-Brooks
 
     Working toward a PhD is super hard. The Chateaubriand fellowship helped me be productive and master new skills all the while having some fun along the way.
 <figure style:text-align="center">
-    <img src="/images/blog_images/a-scientist-studying-abroad/me-and-my-lab-mates.jpg" alt="Me and my lab mates" />
+    <img src="/blog_assets/a-scientist-studying-abroad/me-and-my-lab-mates.jpg" alt="Me and my lab mates" />
 </figure>

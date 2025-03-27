@@ -6,7 +6,7 @@ authors:
 date: "2023-05-17"
 tags:
 - tech
-coverImage: "/images/blog_images/new-pocket-feature/pocket.png"
+coverImage: "/blog_assets/new-pocket-feature/pocket.png"
 excerpt: Pocket just announced a new feature, Lists.
 lang: en-US
 ---

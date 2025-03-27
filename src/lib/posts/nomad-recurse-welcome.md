@@ -10,7 +10,7 @@ tags:
   - travel
 collections:
   - recurse-2023s1
-coverImage: /images/blog_images/recurse/week-01/recurse-week-01.jpg
+coverImage: /blog_assets/recurse/week-01/recurse-week-01.jpg
 excerpt: Dear friends and family, I'm starting a newsletter 🎉
 lang: en-US
 ---

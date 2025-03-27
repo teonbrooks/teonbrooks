@@ -6,7 +6,7 @@ authors:
 date: "2023-05-25"
 tags:
 - tech
-coverImage: "/images/blog_images/rss-to-email/rss-to-email.png"
+coverImage: "/blog_assets/rss-to-email/rss-to-email.png"
 excerpt: "Yesterday, I wrote my newsletter! Then I realized something very frustrating"
 lang: en-US
 ---

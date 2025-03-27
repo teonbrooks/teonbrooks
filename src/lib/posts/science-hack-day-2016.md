@@ -7,7 +7,7 @@ date: "2016-11-16"
 tags:
 - open-science
 - cogsci
-coverImage: "/images/blog_images/science-hack-day-2016/lightning-talk.png"
+coverImage: "/blog_assets/science-hack-day-2016/lightning-talk.png"
 excerpt: "This weekend I attended my first #ScienceHackDay ever!"
 lang: en-US
 social:

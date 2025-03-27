@@ -8,7 +8,7 @@ tags:
 - kitchen
 collections:
 - cookies
-coverImage: /images/blog_images/cookie-challenge/cookie-challenge-week-16.jpg
+coverImage: /blog_assets/cookie-challenge/cookie-challenge-week-16.jpg
 excerpt: "Simple and delicious 😋"
 lang: en-US
 ---

@@ -8,7 +8,7 @@ tags:
 - kitchen
 collections:
 - cookies
-coverImage: "/images/blog_images/cookie-challenge/cookie-challenge-week-09.jpg"
+coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-09.jpg"
 excerpt: Triple the chocolate, triple the fun
 lang: en-US
 social:

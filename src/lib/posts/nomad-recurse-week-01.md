@@ -11,7 +11,7 @@ tags:
 collections:
   - recurse-2023s1
   - cestlavie
-coverImage: /images/blog_images/recurse/week-01/recurse-week-01.jpg
+coverImage: /blog_assets/recurse/week-01/recurse-week-01.jpg
 excerpt: "Recurse Center Week 01: Organized calamity of the highest regard."
 lang: en-US
 social:

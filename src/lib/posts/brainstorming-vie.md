@@ -8,7 +8,7 @@ tags:
 - tech
 collections:
 - cestlavie
-coverImage: "/images/blog_images/brainstorming-vie/brainstorming-vie.png"
+coverImage: "/blog_assets/brainstorming-vie/brainstorming-vie.png"
 excerpt: Thinking through a new indieweb app called Vie based on Svelte.
 lang: en-US
 ---

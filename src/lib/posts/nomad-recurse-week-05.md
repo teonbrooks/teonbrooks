@@ -11,7 +11,7 @@ tags:
 collections:
   - recurse-2023s1
   - cestlavie
-coverImage: /images/blog_images/recurse/week-05/beyonce.jpg
+coverImage: /blog_assets/recurse/week-05/beyonce.jpg
 excerpt: "Recurse Center Week 05: Live Music and Machine Learning Model Serialization"
 lang: en-US
 social:
@@ -35,7 +35,7 @@ This week I'm featuring my trip down to Marseille and the Beyoncé concert. Plea
 
 <Album
     albumHref="https://photos.app.goo.gl/y9WmsyHdKhqvNQgWA"
-    imageHref="/images/blog_images/recurse/week-05/PXL_20230613_104251680.jpg"
+    imageHref="/blog_assets/recurse/week-05/PXL_20230613_104251680.jpg"
     alt="Cathédrale La Major"
     caption="🎒 Nomadic Adventures: Marseille"
 />
@@ -61,7 +61,7 @@ We got there and the energy was already palpable. You could feel both the bass o
 <!-- album -->
 <Album
     albumHref="https://photos.app.goo.gl/iboVHz6c1FgkBw6r6"
-    imageHref="/images/blog_images/recurse/week-05/PXL_20230609_234322190.jpg"
+    imageHref="/blog_assets/recurse/week-05/PXL_20230609_234322190.jpg"
     alt="A display projecting Boiler Room x La Creole"
     caption="Boiler Room x La Creole"
 />
@@ -82,7 +82,7 @@ The sheer dedication and talent she exhibited was truly exceptional. This made m
 
 <Album
     albumHref="https://photos.app.goo.gl/E2UuLiXmMQEDPXea8"
-    imageHref="/images/blog_images/recurse/week-05/beyonce.jpg"
+    imageHref="/blog_assets/recurse/week-05/beyonce.jpg"
     alt="A huge screen illuminate with an image of Beyonce reclined"
     caption="Beyoncé in Marseille 💃🏽"
 />
