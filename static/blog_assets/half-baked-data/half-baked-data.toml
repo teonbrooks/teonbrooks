@@ -1,0 +1,101 @@
+[[events]]
+date = 'Jun 2022'
+description = """
+Back in June 2022, I made a [request](https://github.com/pyodide/pyodide/issues/2785) to support `pyheif` for Pillow.
+"""
+
+[[events]]
+date = "Oct 2022"
+description = """
+## Pillow_heif Request
+
+- Solved with [PKG add libheif, pyheif, and pillow_heif (decoder only) by ryanking13 · Pull Request #3161 · pyodide/pyodide · GitHub](https://github.com/pyodide/pyodide/pull/3161)
+
+It isn't a simple Python Wheels, it has some c++ bindings so it requires a full build to WASM
+- requires libheif
+    - requires libde265
+- pillow_heif (0.6.1)
+- pyheif (0.7.0)
+- There is a difference in `pillow_heif` and `pyheif`. I ended up needing `pillow_heif`.
+"""
+
+[[events]]
+date = "Nov 2022"
+description = """
+## Pyodide (0.22) release
+
+- Pyodide (0.22.0a2) release Nov 2022
+- Pyodide (0.22.0) release Jan 2023
+    - Pillow (9.1.1)
+    - pillow_heif (0.8.0)
+    - Things are compatible ✅
+    - I should have written and shared the blog piece here, two years ago 🤣
+- Cautionary tale about versioning
+    - Unbeknownst to me, the Pyodide (0.25) would break all things necessary for a straightforward blog post.
+"""
+
+[[events]]
+date = "Sep 2023"
+description = """
+## Pyodide (0.24) release
+
+- Pyodide (0.24) upgraded Pillow to (10.0.0)
+- Just checked, still stable with pillow_heif (0.8.0) ✅
+"""
+
+[[events]]
+date = "Jan 2024"
+description = """
+## Pyodide 0.25 release
+
+- Pillow upgraded to (10.2.0) ([commit](https://github.com/pyodide/pyodide/commit/a4f644daf0211f8bfc4e72cdc88e6ece70f0c4e6#diff-d00d244600509aedc51f2e5f9b4d4c0b20e7a539ef043aedec4dd6da5dad244e))
+- Changelog doesn't attribute package change
+- It's in a commit with a lot of packages being upgraded (minus pillow-heif) so I guess changelog update was just skipped for that massive overhaul
+    - should probably still capture it though
+- Pillow (10.2.0) breaks compatibility with pillow_heif (0.8.0)
+    - True culprit is Pillow=10.1.0 (release date: 2023-10-15)
+- pillow_heif (0.13.0) fixes compatibility with Pillow (release date: 2023-08-09)
+    - [pillow_heif/CHANGELOG.md at master · bigcat88/pillow_heif · GitHub](https://github.com/bigcat88/pillow_heif/blob/master/CHANGELOG.md#added-8)
+    - [fixed `Image.mode` for Pillow 10.1+ (#122) · bigcat88/pillow_heif@d6e38b6 · GitHub](https://github.com/bigcat88/pillow_heif/commit/d6e38b6021a91972cbf9a0a13d67cb4e5687b6e1)
+
+"""
+
+[[events]]
+date = "Sep 2024"
+description = """
+## Updated to latest Jupyterlite demo release
+
+- Jupyterlite relies on `pyodide-kernel` to power the Jupyterlab experience
+- As of `pyodide-kernel` (0.4.0), it relies on Pyodide (0.26.0), the problematic build
+- Jupyterlite demo had been bumped to `jupyterlite-pyodide-kernel==0.4.2`
+- `pyodide-kernel` (0.4.2) relies on Pyodide (0.26.2)
+    - Py3.12
+    - pillow (0.10.2)
+    - pillow_heif (0.8.0)
+"""
+
+[[events]]
+date = "Sep 25, 2024"
+description = """
+## Pyodide Pull Request to bump `pillow_heif`
+
+- [Update pillow_heif to 0.18.0 by teonbrooks · Pull Request #5087 · pyodide/pyodide · GitHub](https://github.com/pyodide/pyodide/pull/5087)
+"""
+
+[[events]]
+date = "Dec 2024"
+description = """
+## This PR superseded previous one to bump `pillow_heif`
+
+- Solved with [Bump pillow-heif to 0.20.0 and pyheif 0.8.0 by ryanking13 · Pull Request #5178 · pyodide/pyodide · GitHub](https://github.com/pyodide/pyodide/pull/5178)
+
+"""
+
+[[events]]
+date = "Jan 2025"
+description = """
+- Pyodide (0.27.0) release - Jan 1, 2025
+    - pillow_heif (0.8.0) with mislabeled package name --> pillow-heif (0.20.0)
+    - pillow (10.2.0)
+- Jupyterlite (0.6.0) release - Jan 2, 2025 - [Support Pyodide 0.27 by jtpio · Pull Request #156 · jupyterlite/pyodide-kernel · GitHub](https://github.com/jupyterlite/pyodide-kernel/pull/156/files)
+"""
