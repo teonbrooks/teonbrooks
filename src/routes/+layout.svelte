@@ -39,7 +39,6 @@
 </script>
 
 <svelte:head>
-	<meta data-key="description" name="description" content={siteDescription} />
 	<meta name="author" content={siteAuthor}>
 	<!-- WIP: clean up and consolidate CSS  -->
 	<link rel="stylesheet" href="/css/vars.css" />
@@ -60,20 +59,6 @@
 		title={siteTitle}
 		href="{siteURL}/api/rss.xml"
 	/>
-	<!-- Open Graph -->
-	<meta property="og:type" content="profile" />
-	<meta property="og:url" content={siteURL}>
-	<meta property="og:title" content={siteTitle} />
-	<meta property="og:description" content={siteDescription} />
-	<meta property="og:image" content={faviconImage} />
-	<meta property="og:image:width" content={siteImageWidth} />
-	<meta property="og:image:height" content={siteImageWidth} />
-	<!-- Twitter -->
-	<meta name="twitter:title" content={siteTitle}>
-	<meta name="twitter:description" content={siteDescription}>
-	<meta name="twitter:site" content="@teonbrooks">
-	<meta name="twitter:image" content={faviconImage}>
-	<meta name="twitter:card" content="summary_large_image">
 	<!-- Identity -->
 	<!-- Indieweb -->
 	<link rel="openid.delegate" href="https://teonbrooks.com/" />
