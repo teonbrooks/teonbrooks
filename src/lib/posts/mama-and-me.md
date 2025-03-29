@@ -139,6 +139,23 @@ All the artists would come by and rub her belly when she was pregnant. She says 
     <figcaption>Mama in her Security Officer outfit</figcaption>
 </figure>
 
+> *This section below was added March 29, 2025*
+
+I still remember very vividly the penultimate time Mama was in the hospital. I had just brought her back some rotisserie chicken. She had been craving it from the day before when they had it for one of her meals. 
+
+Completely unprompted, Mama told me that she wanted to walk with me in the Pride Parade, the one with all the rainbows, in Charlotte. I told her that I would gather some friends and we would make that happen. Unfortunately she and I never had the chance to walk in the parade together.
+
+Last year, I was committed to honoring her wish: 
+
+I organized some of my friends to come to Charlotte for its Pride weekend and plan a bunch of activities to show them Charlotte and show them where my mom grew up, and some of the family traditions we had. 
+
+I reached out to PFLAG-Charlotte, historically known as Parents and Friends of Lesbians and Gays, and asked if our group could walk with them, to which they agreed warmly.
+
+<figure style:text-align="center">
+    <img src='/blog_assets/mama-and-me/PXL_20240818_175057557.MP.jpg' alt='Charlotte Pride Parade with friends in Honor of Mama' />
+    <figcaption>Charlotte Pride Parade with friends in Honor of Mama</figcaption>
+</figure>
+
 ---
 
 She knew exactly how I liked my sandwiches.
