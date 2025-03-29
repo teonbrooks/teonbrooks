@@ -4,7 +4,7 @@ slug: pyodide-brief-oral-history
 authors:
   - Teon L Brooks
 date: "2025-03-10"
-categories:
+tags:
   - tech
 coverImage: /blog_assets/pyodide-brief-oral-history/logo.svg
 excerpt: "tl;dr: Pyodide gets its name from being the first language plug-in for a defunct data science notebook project called Iodide."
