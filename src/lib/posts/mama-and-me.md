@@ -32,6 +32,7 @@ So this morning, I got up at 4:30am and drove to Lanikai Pillbox for a pre-dawn 
 
 <figure style:text-align="center">
     <img src='/blog_assets/mama-and-me/PXL_20250328_162729890.jpg' alt='Sunrise in Hawaii' />
+    <img src='/blog_assets/mama-and-me/PXL_20250328_170234391.jpg' alt='Mountains after sunrise in Hawaii' />
     <figcaption>Sunrise in Hawaii</figcaption>
 </figure>
 
@@ -76,11 +77,9 @@ We were all there with her for her surgery and was there supporting in the heali
 She would go to different events across the city to support other women who were battling breast cancer, never taking for granted anything. We would go to reunion events in the city to celebrate her being in remission and she would write notes of encouragement for people battling cancer as well.
 
 <figure style:text-align="center">
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); align-items: center; justify-content: center">
 	<img src='/blog_assets/mama-and-me/IMG_8989.jpeg' alt='Me and Mama at a Breast Cancer Survivor event at Atrium Health' style="padding: 1rem;" />
     <img src='/blog_assets/mama-and-me/IMG_2515.JPG' alt='Mama signing the survivior wall' style="padding: 1rem;" />
     <img src='/blog_assets/mama-and-me/IMG_2519.JPG' alt='Mama writing a note to people battling Breast Cancer' style="padding: 1rem;" />
-</div>
 <figcaption>Me and Mama at a Breast Cancer Survivor event at Atrium Health</figcaption>
 </figure>
 
