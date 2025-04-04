@@ -77,6 +77,8 @@
 	<link rel="webmention" href="https://webmention.io/teonbrooks.com/webmention" />
 	<!-- RSS -->
 	<link href="/api/rss.xml" type="application/atom+xml" rel="alternate" title="Teon's Blog Feed">
+	<!-- Add Peasy Analytics -->
+	<script src="https://cdn.peasy.so/peasy.js" data-website-id="01jr0mcj9ds23rexg7w7weqbqs" async></script>
 	<!-- Add Google Analytics -->
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GREYXSYBVM"></script>
