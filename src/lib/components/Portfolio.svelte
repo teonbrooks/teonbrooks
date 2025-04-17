@@ -21,10 +21,10 @@
 	});
 </script>
 
-<article id="portfolio" class="panel">
-	<section id="page-portfolio" class="page-portfolio">
+<div id="portfolio">
+	<section>
 		<h3 class="section-subtitle">Collection of my work</h3>
-		<div class="grid">
+		<div class="portfolioGrid">
 			<div id="filters">
 				<button onclick={() => (isClicked = false)}>Show All</button>
 				{#each categories as category}
@@ -44,20 +44,27 @@
 			</div>
 		</div>
 	</section>
-</article>
+</div>
 
 <style>
 	#filters {
 		display: grid;
-		grid-template-columns: repeat(4, minmax(0, 1fr));
+		/* grid-template-columns: repeat(auto-fit, 6rem); */
+		grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
 		padding: 2rem;
+		column-gap: 2rem;
+		/* row-gap: 1rem; */
+	}
+
+	#filters button {
+		font-size: .75rem;
 	}
 
 	#grid {
 		display: grid;
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-		align-items: center;
-		justify-content: space-between;
-		flex-wrap: wrap;
+		grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+		column-gap: 2rem;
+		justify-items: center;
 	}
+
 </style>

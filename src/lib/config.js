@@ -23,7 +23,7 @@ export const navItems = [
 		route: '/blog'
 	}, {
 		title: 'Travel (wip)',
-		route: '/travel'
+		route: 'https://cestlavie.app/u/teon/tags'
 	}, {
 		title: 'Portfolio',
 		route: '/portfolio'

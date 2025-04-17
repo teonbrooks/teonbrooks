@@ -98,7 +98,7 @@ website = "https://chateaubriand-fellowship.org/"
 category = "Fellowships"
 
 [[positions]]
-filename = "ciel.png"
+filename = "gdc.png"
 organization = "Gotham Data Clinic"
 title = "Executive Director"
 timespan = "2019-Present"
@@ -123,9 +123,9 @@ category = "Fellowships"
 filename = "firefox.png"
 organization = "Mozilla"
 title = "Staff Data Scientist"
-timespan = "2017-2022, 2024-Present"
+timespan = "2017-2022, 2024"
 description = """
-*Revenue Intelligence (2024-Present)*
+*Revenue Intelligence (2024)*
 
 - Conduct experimentation for new machine-learning-powered experiences in 
 address bar in the Firefox browser.
@@ -162,7 +162,7 @@ Previously, I have worked with one of our product development teams, [Test Pilot
 
 """
 website = "https://mozilla.org"
-category = "Current Orgs"
+category = ["Past Orgs"]
 # from Ben's LinkedIn
 # Technical lead of the Revenue and Search data science team. 
 # Partnered with Product, Business Development and Finance teams to create alignment around revenue+search metrics. 
@@ -439,6 +439,19 @@ altered states of consciousness such as concussion.
 website = "aimlabs.com"
 category = "Past Orgs"
 
+[[positions]]
+filename = "cestlavie.png"
+organization = "C'est La Vie"
+title = "Creator"
+timespan = "2024-Present"
+description = """
+A digital scrapbook and life Log.
+
+discovery and recommendations, curated by friends
+"""
+website = "https://cestlavie.app"
+category = ["Current Orgs"]
+
 # [[positions]]
 # filename = ""
 # organization = "New York Cares"
@@ -458,5 +471,5 @@ category = "Past Orgs"
 # description = """
 # """
 # website = ""
-# category = ""
+# category = []
 

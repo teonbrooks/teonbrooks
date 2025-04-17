@@ -64,13 +64,13 @@
 <style>
 
 	#card {
-		width: 200px;
-		height: 300px;
+		width: 12rem;
+		height: 20rem;
 	}
 
 	img {
-		width: 150px;
-		height: 150px;
+		width: 10rem;
+		height: 10rem;
 	}
 
 	.image {

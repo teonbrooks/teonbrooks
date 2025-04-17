@@ -8,9 +8,9 @@
 
 main {
 	/* width: 100%; */
-	/* max-width: 42rem; */
-	/* max-width: 56rem; */
-	max-width: 80vw;
+	/* need to set a minimum width so grid-template-columns works with repeat */
+	min-width: 50dvw;
+	max-width: 80dvw;
 	margin: 6rem auto;
 	padding: 0 1rem;
 }
@@ -21,12 +21,6 @@ main {
 	grid-template-rows: auto 1fr auto;
 	min-height: 100vh;
 }
-
-/* img {
-	width: 100%;
-	max-width: 100%;
-	height: auto;
-} */
 
 .post {
 	h1 {
