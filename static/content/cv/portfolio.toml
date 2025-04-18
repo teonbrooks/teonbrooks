@@ -40,29 +40,148 @@ natural_languages =	["English (native)", "French (B2)", "Portuguese (B1)"]
 programming_languages =	["Python (adv.)", "R (adv.)", "JavaScript (int.)"]
 
 [[positions]]
-filename = "bids.png"
-organization = "Brain Imaging Data Structure"
-title = "BIDS-MEG contributor"
-timespan = "2017-2020"
+filename = "unc.png"
+organization = "University of North Carolina"
+title = "Bachelor of Science"
+timespan = "2005-2009"
 description = """
+Double Major in Psychology and Linguistics
 """
-website = "https://bids.neuroimaging.io"
-category = ["Past Projects", "Open Source"]
+website = "https://unc.edu"
+category = "Education"
 
 [[positions]]
-filename = "brainwaves.png"
-organization = "BrainWaves"
-title = "President of Advisory Board"
-timespan = "2017-2022"
+filename = "covenant.png"
+organization = "Carolina Covenant"
+title = "Scholar"
+timespan = "2006-2009"
 description = """
-*President of Advisory Board*
-
-*Product Manager*
-
-Democratizing Cognitive Science
+Funding initiative for low-income students to graduate 
+from college debt-free through grants, scholarships, and work-study.
 """
-website = "https://wp.nyu.edu/brainwaves/"
-category = ["Past Projects", "Volunteer", "Education"]
+website = "https://www.unc.edu/story/carolina-covenant/"
+category = "Fellowships"
+
+[[positions]]
+filename = "grfp.png"
+organization = "National Science Foundation Graduate Research Fellowship Program"
+title = "NSF Graduate Research Fellow"
+timespan = "2011-2016"
+description = """
+Fellowship recipient in prestigious national competition 
+for graduate-level STEM Research.
+"""
+website = "https://nsfgrfp.org"
+category = "Fellowships"
+
+[[positions]]
+filename = "nyu.png"
+organization = "New York University"
+title = "Doctor of Philosophy in Experimental Psychology (PhD)"
+timespan = "2011-2017"
+description = """
+*PhD (2011-2017)*
+
+Experimental Psychology: Cognition and Perception
+
+*President, NYU Cog Collective (2015-2017)*
+
+Cofounder of student organization representing the Cognition and Perception program.
+We thought workshops and hosted socials [link](https://github.com/nyu-cogcollective).
+
+*Master of Arts (2011-2013)*
+
+Experimental Psychology: Cognition and Perception
+"""
+website = "https://as.nyu.edu/psychology.html"
+category = "Education"
+
+[[positions]]
+filename = "mne.png"
+organization = "MNE-tools"
+title = "Core Contributor"
+timespan = "2012-2017"
+description = """
+*MNE-Python: Core Contributor (2012-2017)*
+
+MEG and EEG Data Processing and Analysis Package in Python.
+
+*MNE-Realtime: Maintainer (2019-2023)*
+
+Supported realtime data analysis with support for LSL and FieldTrip clients.
+This project has been deprecated and superseded by 
+[mne-lsl](https://mne.tools/mne-lsl/).
+
+*MNE-BIDS: Core Contributor (2017-2020)*
+Read and write BIDS-compatible datasets with the help of MNE-Python in Python.
+"""
+website = "https://mne.tools"
+category = ["Past Projects", "Volunteer", "Open Source"]
+
+[[positions]]
+filename = "chateaubriand.png"
+organization = "French Embassy to the U.S."
+title = "STEM Fellow"
+timespan = "2014-2015"
+description = """
+Fellowship to conduct dissertation research in France.
+"""
+website = "https://chateaubriand-fellowship.org/"
+category = "Fellowships"
+
+[[positions]]
+filename = "telecom.png"
+organization = "Telecom ParisTech"
+title = "Chateaubriand STEM Fellow"
+timespan = "2014-2015"
+description = """
+"""
+website = ""
+category = "Education"
+
+[[positions]]
+filename = "unesco.png"
+organization = "UNESCO"
+title = "Intern"
+timespan = "2015"
+description = """
+Intern in the Science Department.
+"""
+website = ""
+category = ["Volunteer"]
+
+[[positions]]
+# correct the icon
+filename = "braiNY-SFN.png"
+organization = "Greater NYC Chapter of Society for Neuroscience"
+title = "Co-Chair"
+timespan = "2015-2016"
+description = """
+"""
+website = ""
+category = ["Volunteer"]
+
+[[positions]]
+filename = "openbci.png"
+organization = "OpenBCI"
+title = "Research Scientist Consultant"
+timespan = "2015-2016"
+description = """
+Research consultant for EEG data analysis and software design.
+"""
+website = "https://openbci.com"
+category = "Past Orgs"
+
+[[positions]]
+filename = "openexp.png"
+organization = "OpenEXP"
+title = "Product Manager"
+timespan = "2015-2016"
+description = """
+EEG Experimentation Platform
+"""
+website = "https://github.com/OpenEXP/OpenEXP"
+category = ["Past Projects", "Volunteer"]
 
 [[positions]]
 # correct the icon
@@ -87,37 +206,45 @@ website = "https://github.com/teonbrooks/DIYSciThai"
 category = ["Past Projects", "Education"]
 
 [[positions]]
-filename = "chateaubriand.png"
-organization = "French Embassy to the U.S."
-title = "STEM Fellow"
-timespan = "2017-2018"
+filename = "msl.png"
+organization = "Mozilla Science Lab"
+title = "Fellow for Open Science"
+timespan = "2016-2017"
 description = """
-Fellowship to conduct dissertation research in France.
+10-month fellowship
 """
-website = "https://chateaubriand-fellowship.org/"
+website = "https://wiki.mozilla.org/ScienceLab"
 category = "Fellowships"
 
 [[positions]]
-filename = "gdc.png"
-organization = "Gotham Data Clinic"
-title = "Executive Director"
-timespan = "2019-Present"
+filename = "stanford.png"
+organization = "Stanford University"
+title = "Mozilla Fellow/Postdoctoral Scholar"
+timespan = "2016-2017"
 description = """
+During my 2016-2017 Mozilla Fellowship for Science, I was a national co-organizer for the inaugural [March for Science](https://marchforscience.org) in Washington, D.C., which amassed 100k advocates for Science, and for evidence-based decisions in policy-making.
+
+During my postdoc at Stanford, I was a core-contributor to __(1)__ the [Brain Imaging Data Structure](https://bids.neuroimaging.io/) project for the inclusion of MEG into the specification ([our paper](https://www.nature.com/articles/sdata2018110)), and to __(2)__ the [MNE-BIDS](https://github.com/mne-tools/mne-bids) project to provide a software implementation ([our paper](https://joss.theoj.org/papers/10.21105/joss.01896)).
 """
-website = "https://gothamdataclinic.org"
-category = "Current Orgs"
+website = "https://stanford.edu"
+category = "Education"
 
 [[positions]]
-filename = "covenant.png"
-organization = "Carolina Covenant"
-title = "Scholar"
-timespan = "2006-2009"
+filename = "mfs.png"
+organization = "March for Science"
+title = "National Co-Organizer: Co-Director of Partnerships"
+timespan = "2017"
 description = """
-Funding initiative for low-income students to graduate 
-from college debt-free through grants, scholarships, and work-study.
+- Co-led a team to build a coalition of >300 scientific
+societies, NGOs, science museums, and non-profits to mobilize their
+members to march. 
+
+- Organized and coordinated one of the largest science
+demonstration with 100k marchers in Washington, DC and over a million marchers in
+610 cities worldwide.
 """
-website = "https://www.unc.edu/story/carolina-covenant/"
-category = "Fellowships"
+website = "https://marchforscience.org"
+category = ["Past Orgs", "Volunteer"]
 
 [[positions]]
 filename = "firefox.png"
@@ -169,6 +296,41 @@ category = ["Past Orgs"]
 # Oversaw dozens of experiments & extensively researched the relationship between revenue and user behavior.
 
 [[positions]]
+filename = "queerhack.png"
+organization = "QueerHack"
+title = "2017"
+timespan = ""
+description = """
+"""
+website = ""
+category = "Past Orgs"
+
+[[positions]]
+filename = "shd.png"
+organization = "Science Hack Day"
+title = "Co-Organizer"
+timespan = "2017"
+description = """
+"""
+website = ""
+category = ["Past Orgs", "Volunteer"]
+
+[[positions]]
+filename = "brainwaves.png"
+organization = "BrainWaves"
+title = "President of Advisory Board"
+timespan = "2017-2022"
+description = """
+*President of Advisory Board*
+
+*Product Manager*
+
+Democratizing Cognitive Science
+"""
+website = "https://wp.nyu.edu/brainwaves/"
+category = ["Past Projects", "Volunteer", "Education"]
+
+[[positions]]
 filename = "FoR.png"
 organization = "Future of Research"
 title = "Board Member"
@@ -183,211 +345,34 @@ website = "https://futureofresearch.org"
 category = ["Past Orgs", "Volunteer"]
 
 [[positions]]
-filename = "grfp.png"
-organization = "National Science Foundation Graduate Research Fellowship Program"
-title = "NSF Graduate Research Fellow"
-timespan = "2011-2016"
+filename = "bids.png"
+organization = "Brain Imaging Data Structure"
+title = "BIDS-MEG contributor"
+timespan = "2017-2020"
 description = """
-Fellowship recipient in prestigious national competition 
-for graduate-level STEM Research.
 """
-website = "https://nsfgrfp.org"
-category = "Fellowships"
+website = "https://bids.neuroimaging.io"
+category = ["Past Projects", "Open Source"]
 
 [[positions]]
-filename = "mfs.png"
-organization = "March for Science"
-title = "National Co-Organizer: Co-Director of Partnerships"
-timespan = "2017"
-description = """
-- Co-led a team to build a coalition of >300 scientific
-societies, NGOs, science museums, and non-profits to mobilize their
-members to march. 
-
-- Organized and coordinated one of the largest science
-demonstration with 100k marchers in Washington, DC and over a million marchers in
-610 cities worldwide.
-"""
-website = "https://marchforscience.org"
-category = ["Past Orgs", "Volunteer"]
-
-[[positions]]
-filename = "msl.png"
-organization = "Mozilla Science Lab"
-title = "Fellow for Open Science"
-timespan = "2016-2017"
-description = """
-10-month fellowship
-"""
-website = "https://wiki.mozilla.org/ScienceLab"
-category = "Fellowships"
-
-[[positions]]
-filename = "mne.png"
-organization = "MNE-tools"
-title = "Core Contributor"
-timespan = "2012-2017"
-description = """
-*MNE-Python: Core Contributor (2012-2017)*
-
-MEG and EEG Data Processing and Analysis Package in Python.
-
-*MNE-Realtime: Maintainer (2019-2023)*
-
-Supported realtime data analysis with support for LSL and FieldTrip clients.
-This project has been deprecated and superseded by 
-[mne-lsl](https://mne.tools/mne-lsl/).
-
-*MNE-BIDS: Core Contributor (2017-2020)*
-Read and write BIDS-compatible datasets with the help of MNE-Python in Python.
-"""
-website = "https://mne.tools"
-category = ["Past Projects", "Volunteer", "Open Source"]
-
-[[positions]]
-filename = "nyu.png"
-organization = "New York University"
-title = "Doctor of Philosophy in Experimental Psychology (PhD)"
-timespan = "2011-2017"
-description = """
-*PhD (2011-2017)*
-
-Experimental Psychology: Cognition and Perception
-
-*President, NYU Cog Collective (2015-2017)*
-
-Cofounder of student organization representing the Cognition and Perception program.
-We thought workshops and hosted socials [link](https://github.com/nyu-cogcollective).
-
-*Master of Arts (2011-2013)*
-
-Experimental Psychology: Cognition and Perception
-"""
-website = "https://as.nyu.edu/psychology.html"
-category = "Education"
-
-[[positions]]
-filename = "openbci.png"
-organization = "OpenBCI"
-title = "Research Scientist Consultant"
-timespan = ""
-description = """
-Research consultant for EEG data analysis and software design.
-"""
-website = "https://openbci.com"
-category = "Past Orgs"
-
-[[positions]]
-filename = "openexp.png"
-organization = "OpenEXP"
-title = "Product Manager"
-timespan = "2015-2016"
-description = """
-EEG Experimentation Platform
-"""
-website = "https://github.com/OpenEXP/OpenEXP"
-category = ["Past Projects", "Volunteer"]
-
-[[positions]]
-filename = "queerhack.png"
-organization = "QueerHack"
-title = ""
-timespan = ""
+filename = "gdc.png"
+organization = "Gotham Data Clinic"
+title = "Executive Director"
+timespan = "2019-Present"
 description = """
 """
-website = ""
-category = "Past Orgs"
-
-[[positions]]
-filename = "recurse.png"
-organization = "The Recurse Center"
-title = "Recurser"
-timespan = "2023, 2024"
-description = """
-Summer 1 Half-Batch.
-
-Winter 1 Full-Batch.
-
-[Projet Vie](https://cestlavie.app).
-"""
-website = "https://recurse.com"
-category = "Education"
-
-[[positions]]
-filename = "shd.png"
-organization = "Science Hack Day"
-title = "Co-Organizer"
-timespan = "2017"
-description = """
-"""
-website = ""
-category = ["Past Orgs", "Volunteer"]
-
-[[positions]]
-filename = "stanford.png"
-organization = "Stanford University"
-title = "Mozilla Fellow/Postdoctoral Scholar"
-timespan = "2016-2017"
-description = """
-During my 2016-2017 Mozilla Fellowship for Science, I was a national co-organizer for the inaugural [March for Science](https://marchforscience.org) in Washington, D.C., which amassed 100k advocates for Science, and for evidence-based decisions in policy-making.
-
-During my postdoc at Stanford, I was a core-contributor to __(1)__ the [Brain Imaging Data Structure](https://bids.neuroimaging.io/) project for the inclusion of MEG into the specification ([our paper](https://www.nature.com/articles/sdata2018110)), and to __(2)__ the [MNE-BIDS](https://github.com/mne-tools/mne-bids) project to provide a software implementation ([our paper](https://joss.theoj.org/papers/10.21105/joss.01896)).
-"""
-website = "https://stanford.edu"
-category = "Education"
-
-[[positions]]
-filename = "telecom.png"
-organization = "Telecom ParisTech"
-title = "Chateaubriand STEM Fellow"
-timespan = "2014-2015"
-description = """
-"""
-website = ""
-category = "Education"
+website = "https://gothamdataclinic.org"
+category = "Current Orgs"
 
 [[positions]]
 filename = "trainer-hex.png"
 organization = "RStudio"
 title = "Certified Trainer"
-timespan = ""
+timespan = "2019"
 description = """
 """
 website = "https://education.rstudio.com/trainers/"
 category = "Education"
-
-[[positions]]
-filename = "unc.png"
-organization = "University of North Carolina"
-title = "Bachelor of Science"
-timespan = "2005-2009"
-description = """
-Double Major in Psychology and Linguistics
-"""
-website = "https://unc.edu"
-category = "Education"
-
-[[positions]]
-filename = "unesco.png"
-organization = "UNESCO"
-title = "Intern"
-timespan = "2015"
-description = """
-Intern in the Science Department.
-"""
-website = ""
-category = ["Volunteer"]
-
-[[positions]]
-# correct the icon
-filename = "braiNY-SFN.png"
-organization = "Greater NYC Chapter of Society for Neuroscience"
-title = "Co-Chair"
-timespan = "2015-2016"
-description = """
-"""
-website = ""
-category = ["Volunteer"]
 
 [[positions]]
 filename = "bkcb1.png"
@@ -438,6 +423,21 @@ altered states of consciousness such as concussion.
 """
 website = "aimlabs.com"
 category = "Past Orgs"
+
+[[positions]]
+filename = "recurse.png"
+organization = "The Recurse Center"
+title = "Recurser"
+timespan = "2023, 2024"
+description = """
+Summer 1 Half-Batch.
+
+Winter 1 Full-Batch.
+
+[Projet Vie](https://cestlavie.app).
+"""
+website = "https://recurse.com"
+category = "Education"
 
 [[positions]]
 filename = "cestlavie.png"

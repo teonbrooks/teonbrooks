@@ -3,7 +3,7 @@
 	import Portfolio from "$lib/components/Portfolio.svelte";
 	let { data } = $props();
 
-	const items = data.portfolio.positions;
+	const items = data.portfolio.positions.reverse();
 	const path = data.path;
 
 </script>
