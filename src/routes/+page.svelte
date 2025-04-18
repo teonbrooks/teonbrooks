@@ -12,4 +12,13 @@
 	<title>{siteTitle}</title>
 </svelte:head>
 
-<BusinessCard {...portfolio.id} src={portfolio.id.imageURL} />
+<div id="card">
+	<BusinessCard {...portfolio.id} src={portfolio.id.imageURL} />
+</div>
+
+<style>
+	#card {
+		display: grid;
+		justify-content: center;
+	}
+</style>

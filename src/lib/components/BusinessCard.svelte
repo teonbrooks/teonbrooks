@@ -44,6 +44,7 @@
     article {
         display: block;
         text-align: center;
+        max-width: 100dvh;
     }
     img {
         width: 300px;
