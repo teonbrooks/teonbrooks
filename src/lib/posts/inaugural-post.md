@@ -5,7 +5,7 @@ authors:
 - Teon L Brooks
 date: "2016-11-15"
 tags:
-- me
+- life
 coverImage: "/blog_assets/inaugural-post/inaugural-post.png"
 coverWidth: 16
 # coverHeight: 9

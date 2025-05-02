@@ -12,4 +12,4 @@ Dr. Brooks has served as the technical advisor and President of [BrainWaves](htt
 
 Recently, Dr. Brooks led the Research and Development team at [Aimlabs](https://aimlabs.com), the makers of [Aim Lab](https://aimlab.gg), a first-person-shooter aim trainer. Prior to Aimlabs, Dr. Brooks worked primarily as a staff product data scientist at Mozilla.
 
-He posts on Bluesky 🦋 at [@teonbrooks.com](https://bsky.app/profile/teonbrooks.com).
+He posts on Bluesky 🦋 at [@teonbrooks.com](https://bsky.app/profile/teon.bsky.social).

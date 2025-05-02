@@ -29,4 +29,12 @@
 
 <h1>Portfolio</h1>   
 
+<div class="portfolio">
 <Portfolio {path} {items} />
+</div>
+
+<style>
+	.portfolio {
+		width: 90dvw;
+	}
+</style>

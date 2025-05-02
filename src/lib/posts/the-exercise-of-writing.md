@@ -5,7 +5,7 @@ authors:
 - Teon L Brooks
 date: "2018-09-21"
 tags:
-- me
+- life
 coverImage: "/blog_assets/the-exercise-of-writing/writing-dissertation.jpg"
 coverWidth: 16
 coverHeight: 9
