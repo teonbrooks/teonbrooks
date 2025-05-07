@@ -36,7 +36,10 @@ export const navItems = [
 	}, {
 		title: 'Contact',
 		route: '/contact' 
-	},
+	}, {
+		title: 'Consulting',
+		route: '/consulting' 
+	}
 ]
 
 export const tagsEmoji = {

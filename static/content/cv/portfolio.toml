@@ -116,7 +116,7 @@ This project has been deprecated and superseded by
 Read and write BIDS-compatible datasets with the help of MNE-Python in Python.
 """
 website = "https://mne.tools"
-category = ["Past Projects", "Volunteer", "Open Source"]
+category = ["Past Projects", "Volunteer", "Research Software Engineering"]
 
 [[positions]]
 filename = "chateaubriand.png"
@@ -170,7 +170,7 @@ description = """
 Research consultant for EEG data analysis and software design.
 """
 website = "https://openbci.com"
-category = "Past Orgs"
+category = ["Past Orgs", "Consulting"]
 
 [[positions]]
 filename = "openexp.png"
@@ -250,16 +250,8 @@ category = ["Past Orgs", "Volunteer"]
 filename = "firefox.png"
 organization = "Mozilla"
 title = "Staff Data Scientist"
-timespan = "2017-2022, 2024"
+timespan = "2017-2022"
 description = """
-*Revenue Intelligence (2024)*
-
-- Conduct experimentation for new machine-learning-powered experiences in 
-address bar in the Firefox browser.
-
-- Conduct large-scale data analyses across hundreds of millions of users for our 
-revenue-producing products and our advertising business.
-
 *Product Management, ML (2021-2022)*
 
 - Led new product development to incorporate on-device machine learning in applications.
@@ -328,7 +320,7 @@ description = """
 Democratizing Cognitive Science
 """
 website = "https://wp.nyu.edu/brainwaves/"
-category = ["Past Projects", "Volunteer", "Education"]
+category = ["Past Projects", "Volunteer", "Education", "Consulting"]
 
 [[positions]]
 filename = "FoR.png"
@@ -352,7 +344,7 @@ timespan = "2017-2020"
 description = """
 """
 website = "https://bids.neuroimaging.io"
-category = ["Past Projects", "Open Source"]
+category = ["Past Projects", "Research Software Engineering"]
 
 [[positions]]
 filename = "gdc.png"
@@ -378,8 +370,10 @@ category = "Education"
 filename = "bkcb1.png"
 organization = "New York City Community Board (BKCB1)"
 title = "Board Member"
-timespan = "2020-2022"
+timespan = "2020-2022, 2025-Present"
 description = """
+## 2020-2022
+
 I served on the following committees:
 - Capital Budget Committee
 - the Board Budget Committee
@@ -387,6 +381,10 @@ I served on the following committees:
 - Outreach Committee
 
 I created and managed the community board Twitter account (@BrooklynCB1).
+
+## 2025-Present
+
+I was recently appointed to Brooklyn CB1 on May 5, 2025. This section will be updated once I've been sworned and assigned committees.
 """
 website = ""
 category = ["Volunteer", "Civic Engagement"]
@@ -451,6 +449,41 @@ discovery and recommendations, curated by friends
 """
 website = "https://cestlavie.app"
 category = ["Current Orgs"]
+
+[[positions]]
+filename = "firefox.png"
+organization = "Mozilla"
+title = "Consultant"
+timespan = "2017-2022, 2024"
+description = """
+*Professional Services: Data Science*
+
+*Revenue Intelligence (2024)*
+- Conduct experimentation for new machine-learning-powered experiences in 
+address bar in the Firefox browser.
+
+- Conduct large-scale data analyses across hundreds of millions of users for our 
+revenue-producing products and our advertising business.
+
+*Consultant*
+- Designed a curriculum teaching open-source LLMs.
+- Delivered course to students at San Jose State University in partnership with Mozilla.
+- Led a hackathon to design apps using open-source LLMs for social good.
+"""
+website = "https://mozilla.org"
+category = ["Consulting"]
+
+[[positions]]
+filename = "mskcc.png"
+organization = "Memorial Sloan Kettering"
+title = "Consultant, Instructor"
+timespan = "2025"
+description = """
+- Co-designed a new curriculum to teach scientific computing using Python to incoming PhD students in Cancer Biology and Cancer Engineering.
+- Will deliver the course in Fall 2025.
+"""
+website = "https://www.sloankettering.edu/gerstner"
+category = ["Consulting"]
 
 # [[positions]]
 # filename = ""

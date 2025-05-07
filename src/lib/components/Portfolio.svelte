@@ -1,7 +1,7 @@
 <script>
 	import PortfolioCard from './PortfolioCard.svelte';
 
-	let { items = [], path } = $props();
+	let { items = [], path, filters = true } = $props();
 
 	let categories = items
 		.map((x) => x.category)
@@ -23,20 +23,21 @@
 
 <div id="portfolio">
 	<section>
-		<h3 class="section-subtitle">Collection of my work</h3>
 		<div class="portfolioGrid">
-			<div id="filters">
-				<button onclick={() => (isClicked = false)}>Show All</button>
-				{#each categories as category}
-					<button
-							class="button"
-							data-filter=".{category}"
-							onclick={() => {
-								isClicked = category;
-							}}>{category}</button
-						>
-				{/each}
-			</div>
+			{#if filters}
+				<div id="filters">
+					<button onclick={() => (isClicked = false)}>Show All</button>
+					{#each categories as category}
+						<button
+								class="button"
+								data-filter=".{category}"
+								onclick={() => {
+									isClicked = category;
+								}}>{category}</button
+							>
+					{/each}
+				</div>
+			{/if}
 			<div id="grid">
 				{#each items.filter(matches) as item}
 					<PortfolioCard {item} {path} />
