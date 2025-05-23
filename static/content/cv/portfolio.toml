@@ -116,7 +116,7 @@ This project has been deprecated and superseded by
 Read and write BIDS-compatible datasets with the help of MNE-Python in Python.
 """
 website = "https://mne.tools"
-category = ["Past Projects", "Volunteer", "Research Software Engineering"]
+category = ["Research Software Engineering"]
 
 [[positions]]
 filename = "chateaubriand.png"
@@ -181,7 +181,7 @@ description = """
 EEG Experimentation Platform
 """
 website = "https://github.com/OpenEXP/OpenEXP"
-category = ["Past Projects", "Volunteer"]
+category = ["Past Projects"]
 
 [[positions]]
 # correct the icon
@@ -320,7 +320,7 @@ description = """
 Democratizing Cognitive Science
 """
 website = "https://wp.nyu.edu/brainwaves/"
-category = ["Past Projects", "Volunteer", "Education", "Consulting"]
+category = ["Past Projects", "Education", "Consulting"]
 
 [[positions]]
 filename = "FoR.png"
@@ -344,7 +344,7 @@ timespan = "2017-2020"
 description = """
 """
 website = "https://bids.neuroimaging.io"
-category = ["Past Projects", "Research Software Engineering"]
+category = ["Research Software Engineering"]
 
 [[positions]]
 filename = "gdc.png"
@@ -372,6 +372,10 @@ organization = "New York City Community Board (BKCB1)"
 title = "Board Member"
 timespan = "2020-2022, 2025-Present"
 description = """
+## 2025-Present
+
+I was recently appointed to Brooklyn CB1 on May 5, 2025. This section will be updated once I've been sworned and assigned committees.
+
 ## 2020-2022
 
 I served on the following committees:
@@ -381,10 +385,6 @@ I served on the following committees:
 - Outreach Committee
 
 I created and managed the community board Twitter account (@BrooklynCB1).
-
-## 2025-Present
-
-I was recently appointed to Brooklyn CB1 on May 5, 2025. This section will be updated once I've been sworned and assigned committees.
 """
 website = ""
 category = ["Volunteer", "Civic Engagement"]

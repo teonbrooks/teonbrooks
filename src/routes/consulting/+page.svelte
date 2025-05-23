@@ -5,6 +5,7 @@
 	let { data } = $props();
 
 	let items = data.portfolio;
+	let projects = data.projects;
 	const path = data.path;
 
 	import MdRaw from "$lib/content/about/brooks_consulting.md?raw";
@@ -36,6 +37,9 @@
 <div class="portfolio">
 	<h2>Collections of Clients</h2>
 	<Portfolio {path} {items} filters={false} />
+
+	<h2>Collection of Projects</h2>
+	<Portfolio {path} items={projects} filters={false} />
 </div>
 
 <style>
