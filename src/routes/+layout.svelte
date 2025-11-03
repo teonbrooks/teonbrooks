@@ -40,6 +40,7 @@
 
 <svelte:head>
 	<meta name="author" content={siteAuthor}>
+	<meta name="description" content="#nobridge">
 	<!-- WIP: clean up and consolidate CSS  -->
 	<link rel="stylesheet" href="/css/vars.css" />
 	<link rel="stylesheet" href="/css/root.css" />
