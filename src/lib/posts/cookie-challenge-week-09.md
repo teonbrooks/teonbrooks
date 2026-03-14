@@ -9,7 +9,7 @@ tags:
 collections:
 - cookies
 coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-09.jpg"
-excerpt: Triple the chocolate, triple the fun
+excerpt: "Week 09: Triple Chocolate Chip Cookie - Triple the chocolate, triple the fun."
 lang: en-US
 social:
 - bluesky

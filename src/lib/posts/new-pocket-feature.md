@@ -7,7 +7,7 @@ date: "2023-05-17"
 tags:
 - tech
 coverImage: "/blog_assets/new-pocket-feature/pocket.png"
-excerpt: Pocket just announced a new feature, Lists.
+excerpt: "Pocket launched a new feature called Lists."
 lang: en-US
 ---
 

@@ -9,9 +9,7 @@ tags:
 - advocacy
 - science-and-society
 coverImage: "/blog_assets/mfs-5yrs-later/mfs-5yrs-later.jpg"
-coverWidth: 16
-coverHeight: 9
-excerpt: Reflections on the March for Science, 5 years later.
+excerpt: "Five years after co-organizing the March for Science, here are some reflections on what it has meant for science advocacy, community organizing, and my own career path."
 lang: en-US
 ---
 

@@ -9,7 +9,7 @@ tags:
 collections:
 - cookies
 coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-01.jpg"
-excerpt: "A crowd favorite!"
+excerpt: "Week 01: Ginger Molasses Cookie — a crowd favorite and the most requested cookie I make. Pro tip: let the dough rest overnight for deeper spice flavor and a firmer, easier-to-scoop consistency."
 lang: en-US
 social:
 - bluesky

@@ -7,8 +7,6 @@ date: "2018-09-21"
 tags:
 - life
 coverImage: "/blog_assets/the-exercise-of-writing/writing-dissertation.jpg"
-coverWidth: 16
-coverHeight: 9
 excerpt: "I initially started this blog with one goal in mind: get better at writing."
 lang: en-US
 ---

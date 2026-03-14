@@ -7,7 +7,7 @@ date: "2023-05-25"
 tags:
 - tech
 coverImage: "/blog_assets/rss-to-email/rss-to-email.png"
-excerpt: "Yesterday, I wrote my newsletter! Then I realized something very frustrating"
+excerpt: "Yesterday, I wrote my newsletter! Then I realized something very frustrating."
 lang: en-US
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>

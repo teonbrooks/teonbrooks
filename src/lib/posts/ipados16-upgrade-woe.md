@@ -7,7 +7,7 @@ date: "2022-12-22"
 tags:
 - tech
 coverImage: "/blog_assets/ipados16-upgrade-woe/IPadOS_16_icon.webp"
-excerpt: For the life of me, I couldn't figure out why it wouldn't upgrade.
+excerpt: "For the life of me, I couldn't figure out why it wouldn't upgrade. Why is Apple so hostile to their customers? 😭"
 lang: en-US
 ---
 

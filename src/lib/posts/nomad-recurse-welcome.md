@@ -11,7 +11,7 @@ tags:
 collections:
   - recurse-2023s1
 coverImage: /blog_assets/recurse/week-01/recurse-week-01.jpg
-excerpt: Dear friends and family, I'm starting a newsletter 🎉
+excerpt: "Dear friends and family, I'm starting a newsletter 🎉"
 lang: en-US
 ---
 

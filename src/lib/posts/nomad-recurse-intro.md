@@ -12,7 +12,7 @@ collections:
   - recurse-2023s1
   - cestlavie
 coverImage: /blog_assets/recurse/week-01/recurse-week-01.jpg
-excerpt: Dear friends and family, I'm starting a newsletter...
+excerpt: "This series will capture my experience going through Recurse and my travels."
 lang: en-US
 ---
 

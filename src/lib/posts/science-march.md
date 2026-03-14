@@ -11,9 +11,7 @@ tags:
 collections:
 - msf
 coverImage: "/blog_assets/science-march/science-march.png"
-coverWidth: 16
-coverHeight: 9
-excerpt: The March for Science is officially happening!
+excerpt: "The March for Science is officially happening!"
 lang: en-US
 ---
 

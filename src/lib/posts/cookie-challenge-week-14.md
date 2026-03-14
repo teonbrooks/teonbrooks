@@ -9,7 +9,7 @@ tags:
 collections:
 - cookies
 coverImage: /blog_assets/cookie-challenge/cookie-challenge-week-14.jpg
-excerpt: "I made a cookie from cookie. It's so wrong, it's right 🤤"
+excerpt: "Week 14: Oatmeal Cookie Butter Cookie - I made a cookie from cookie. It's so wrong, it's right 🤤."
 lang: en-US
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>

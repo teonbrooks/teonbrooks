@@ -9,7 +9,7 @@ tags:
 collections:
 - cestlavie
 coverImage: "/blog_assets/brainstorming-vie/brainstorming-vie.png"
-excerpt: Thinking through a new indieweb app called Vie based on Svelte.
+excerpt: "I'm building Vie, an indieweb app to aggregate the different parts of my life — books, runs, saved articles, check-ins — into one shareable place. Here's the motivation, the design, and the tech stack."
 lang: en-US
 ---
 

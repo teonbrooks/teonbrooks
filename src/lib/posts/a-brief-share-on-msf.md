@@ -8,7 +8,7 @@ tags:
 - travel
 - open-science
 coverImage: "/blog_assets/a-brief-share-on-msf/me-and-comma-llama.jpeg"
-excerpt: I know that this will sound epicly cheesy and cliché but this fellowship has truly been a once in an lifetime opportunity, especially after spending a lifetime in the academy.
+excerpt: "I know that this will sound epicly cheesy and cliché but this fellowship has truly been a once in an lifetime opportunity, especially after spending a lifetime in the academy."
 lang: en-US
 ---
 

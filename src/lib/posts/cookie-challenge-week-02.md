@@ -9,7 +9,7 @@ tags:
 collections:
 - cookies
 coverImage: /blog_assets/cookie-challenge/cookie-challenge-week-02.jpg
-excerpt: Salt and butter, FTW
+excerpt: "Week 02: Salted Chocolate Chunk Shortbread — a buttery slice-and-bake cookie finished with fleur de sel. Lessons learned: shape the log properly, and the sugar coating is trickier than it looks."
 lang: en-US
 social:
 - bluesky

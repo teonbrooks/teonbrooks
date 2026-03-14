@@ -9,7 +9,7 @@ tags:
 collections:
 - cookies
 coverImage: /blog_assets/cookie-challenge/cookie-challenge-week-13.jpg
-excerpt: An inventive island delight
+excerpt: "Week 13: Passionfruit Rum Cookie - An inventive island delight."
 lang: en-US
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>

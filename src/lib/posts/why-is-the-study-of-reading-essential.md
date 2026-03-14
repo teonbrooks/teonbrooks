@@ -9,9 +9,7 @@ tags:
 - cogsci
 - advocacy
 coverImage: "/blog_assets/why-is-the-study-of-reading-essential/why-is-the-study-of-reading-essential.jpg"
-coverWidth: 16
-coverHeight: 9
-excerpt: While I was writing my dissertation, I wanted to ground my research in some real-world, tangible context
+excerpt: "Why study reading? Because literacy is tied directly to economic outcomes, civic engagement, and health."
 lang: en-US
 ---
 

@@ -9,7 +9,7 @@ tags:
 collections:
 - cookies
 coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-05.jpg"
-excerpt: "Sweet and spicy, a great combo 😋"
+excerpt: "Week 05: Gochujang Caramel Cookie — sweet, spicy, and beautifully marbled."
 lang: en-US
 social:
 - bluesky

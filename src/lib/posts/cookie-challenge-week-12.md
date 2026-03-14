@@ -9,7 +9,7 @@ tags:
 collections:
 - cookies
 coverImage: /blog_assets/cookie-challenge/cookie-challenge-week-12.jpg
-excerpt: Very similar to the Vanishing Oatmeal recipe
+excerpt: "Week 12: Dark Chocolate Chunk Oatmeal Cookie — Used hazelnut chocolate instead of standard dark chocolate chunks. Just go wild!"
 lang: en-US
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>

@@ -7,7 +7,7 @@ tags:
 keywords: 
 slug: museums-memories
 coverImage: "/blog_assets/museums-memories/sf_contemporary_jewish_museum.jpg"
-description: A year ago yesterday, Christmas Day 2016, while waiting to see Hidden Figures, I went to the Contemporary Jewish Museum in San Francisco…
+excerpt: "Two separate museum visits connected through memory. A reflection on how we store and pass on memories."
 ---
 
 ![SF Contemporary Jewish Museum](/blog_assets/museums-memories/sf_contemporary_jewish_museum.jpg)

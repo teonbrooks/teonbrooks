@@ -9,7 +9,7 @@ tags:
 collections:
 - cookies
 coverImage: /blog_assets/cookie-challenge/cookie-challenge-week-16.jpg
-excerpt: "Simple and delicious 😋"
+excerpt: "Week 16: Lace Cookie — inspired by my desire not to spend $8 on the almond dark chocolate lace cookies from Whole Foods."
 lang: en-US
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>

@@ -9,7 +9,7 @@ tags:
 collections:
 - cookies
 coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-03.jpg"
-excerpt: A very fancy peanut cookie
+excerpt: "Week 03: Tahini Peanut Cookie — A very fancy peanut-butter-like cookie."
 lang: en-US
 social:
 - bluesky

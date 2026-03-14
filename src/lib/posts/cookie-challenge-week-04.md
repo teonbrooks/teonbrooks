@@ -9,7 +9,7 @@ tags:
 collections:
 - cookies
 coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-04.jpg"
-excerpt: "One of my favorite chocolate chip cookie recipes 😋"
+excerpt: "Week 04: Chewy Chocolate Chip Cookie — one of my favorite recipes. Remember, chocolate deserves salt, add a pinch to bring out the chocolate flavor."
 lang: en-US
 social:
 - bluesky

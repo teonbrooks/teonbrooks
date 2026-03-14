@@ -9,7 +9,7 @@ tags:
 collections:
 - cookies
 coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-10.jpg"
-excerpt: Sometimes you want a no-fuss, basic-ass classic
+excerpt: "Week 10: Old-fashioned Peanut Butter Cookie - Sometimes you want a no-fuss, basic-ass classic."
 lang: en-US
 social:
 - bluesky

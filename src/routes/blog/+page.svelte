@@ -39,10 +39,10 @@
 
 <style>
 	#selectTags {
-		flex-flow: row wrap;
 		display: flex;
-		justify-content: space-between;
-		
+		flex-flow: row wrap;
+		justify-content: center;
+		gap: 0.5rem;
 	}
 	#allTags {
 		display: flex;

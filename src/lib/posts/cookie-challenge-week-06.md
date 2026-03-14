@@ -9,7 +9,7 @@ tags:
 collections:
 - cookies
 coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-06.jpg"
-excerpt: "My go-to chocolate chip cookie recipe"
+excerpt: "Week 06: Oatmeal Chocolate Chunk Cookie — the classic Quaker Oats recipe from the lid of the container, with chocolate instead of raisins because I'm not a monster."
 lang: en-US
 social:
 - bluesky
@@ -34,8 +34,8 @@ social:
 
 ## Commentary
 
-This is my go-to cookie recipe. 
+This is my go-to cookie recipe.
 
-I always love trying recipes that come included. These companies have food scientists on staff whose whole purpose is to make their product shine. 
+I always love trying recipes that come included. These companies have food scientists on staff whose whole purpose is to make their product shine.
 
-This recipe comes from the lid of the oatmeal and I replaced the raisins with chocolate bc I'm not a monster.
+This recipe comes from the lid of the oatmeal and I replaced the raisins with chocolate because I'm not a monster.

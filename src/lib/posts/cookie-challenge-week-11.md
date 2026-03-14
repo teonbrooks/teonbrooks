@@ -9,7 +9,7 @@ tags:
 collections:
 - cookies
 coverImage: /blog_assets/cookie-challenge/cookie-challenge-week-11.jpg
-excerpt: This cookie reminds me of the chocolate chip cookie from Chick-Fil-A
+excerpt: "Week 11: Peanut Butter Oatmeal Chocolate Chip Cookie - This cookie reminds me of the chocolate chip cookie from Chick-Fil-A."
 lang: en-US
 social:
 - bluesky

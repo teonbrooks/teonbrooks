@@ -9,7 +9,7 @@ tags:
 collections:
 - cookies
 coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-07.jpg"
-excerpt: Sweet, tangy, and spicy
+excerpt: "Week 07: Lemon Glazed Gingerbread Cookie — sweet, tangy, and spicy. It was more bread-like than expected."
 lang: en-US
 social:
 - bluesky

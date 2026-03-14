@@ -8,7 +8,7 @@ date: "2017-03-04"
 tags:
 - open-science
 coverImage: "/blog_assets/why-open-science/why-open-science-wordcloud.png"
-excerpt: A few days ago we reached out to our network of friends and colleagues and we asked them “Why Open Science?
+excerpt: "A few days ago we reached out to our network of friends and colleagues and we asked them “Why Open Science?"
 lang: en-US
 ---
 

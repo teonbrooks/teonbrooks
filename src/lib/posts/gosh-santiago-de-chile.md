@@ -9,7 +9,7 @@ collections:
 - msf
 keywords:
 coverImage: "/blog_assets/gosh-santiago-de-chile/santiago_aerial.jpeg"
-excerpt: In March, researchers, technologists, hackers, citizen scientists, and just plain curious folk came together in Santiago Chile for the…
+excerpt: "I traveled to Santiago, Chile GOSH 2017: researchers, technologists, hackers, and citizen scientists gathered to roadmap the future of open source hardware."
 slug: gosh-santiago-de-chile
 lang: en-US
 ---

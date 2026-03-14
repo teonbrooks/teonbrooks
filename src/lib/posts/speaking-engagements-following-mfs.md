@@ -9,7 +9,7 @@ tags:
 - open-science
 - science-and-society
 coverImage: "/blog_assets/speaking-engagements-following-mfs/capitol-building.jpeg"
-excerpt: The March actually happened! We managed pulled it off 🎉, which was no small feat.
+excerpt: "The March actually happened! We managed pulled it off 🎉, which was no small feat."
 lang: en-US
 ---
 

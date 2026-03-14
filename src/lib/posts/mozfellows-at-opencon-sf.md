@@ -8,7 +8,7 @@ tags:
 - open-science
 - msf
 coverImage: "/blog_assets/mozfellows-at-opencon-sf/mozfellows.jpg"
-excerpt: Fellows of Mozilla Science Lab are no over halfway through their Fellowship so we all came together for a workweek in San Francisco.
+excerpt: "My co-fellows and I gathered in San Francisco for a workweek and attended OpenCon SF."
 lang: en-US
 ---
 

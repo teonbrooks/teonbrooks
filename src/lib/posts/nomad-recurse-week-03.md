@@ -12,8 +12,6 @@ collections:
   - recurse-2023s1
   - cestlavie
 coverImage: /blog_assets/recurse/week-03/dispatches-nomad-recurse-week-03.jpg
-coverWidth: 16
-coverHeight: 9
 excerpt: "Recurse Center Week 03: Poppin' bottles, and making ink flow"
 lang: en-US
 social:

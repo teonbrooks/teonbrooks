@@ -12,7 +12,7 @@ collections:
   - recurse-2023s1
   - cestlavie
 coverImage: /blog_assets/recurse/epilogue/dispatches-nomad-recurse-week-epilogue.jpg
-excerpt: "Recurse Center Epilogue: Some lessons learned"
+excerpt: "Recurse Center Epilogue: Reflections on my remote half-batch at Recurse."
 lang: en-US
 social:
   - strava

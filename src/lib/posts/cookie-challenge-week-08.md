@@ -9,7 +9,7 @@ tags:
 collections:
 - cookies
 coverImage: "/blog_assets/cookie-challenge/cookie-challenge-week-08.jpg"
-excerpt: Cream of Tartar otherwise it's just a sugar cookie
+excerpt: "Week 08: Snickerdoodle Cookie - Use Cream of Tartar otherwise it's just a sugar cookie."
 lang: en-US
 social:
 - bluesky
