@@ -17,7 +17,8 @@ https://svelte.dev/e/attribute_invalid_event_handler -->
 		justify-content: center;
   }
 
-  form {
+  /* Targets the form injected by the Kit embed script */
+  :global(form) {
     width: 600px;
     background-color: white;
     padding: 25px;

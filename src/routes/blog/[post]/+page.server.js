@@ -3,7 +3,12 @@ import { parse } from 'smol-toml'
 export const prerender = true
 
 export const load = async ({ params }) => {
-    const { metadata } = await import(`../../../lib/posts/${params.post}.md`)
+    let metadata;
+    try {
+        ({ metadata } = await import(`../../../lib/posts/${params.post}.md`))
+    } catch {
+        return { toml: null }
+    }
     if (!metadata.data) return { toml: null }
 
     const tomlFiles = import.meta.glob('/static/blog_assets/**/*.toml', { query: '?raw', import: 'default' })

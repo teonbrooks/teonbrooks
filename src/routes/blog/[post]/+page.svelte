@@ -8,8 +8,8 @@
 
 	const author = "teonbrooks.com";
 	let { data } = $props();
-	let { toml = {} } = data;
-	setContext('toml', toml);
+	let { toml } = data;
+	setContext('toml', toml ?? {});
 	let { PostContent, meta } = data;
 
 	let { title, excerpt, date, updated,
@@ -38,6 +38,15 @@
 	<meta property="og:image:width" content={coverWidth} />
 	<meta property="og:image:height" content={coverHeight} />
 	<meta name="twitter:image" content={coverImage} />
+	{#if social?.includes('strava')}
+		<script src="https://strava-embeds.com/embed.js"></script>
+	{/if}
+	{#if social?.includes('googlePhotos')}
+		<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+	{/if}
+	{#if social?.includes('bluesky')}
+		<script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+	{/if}
 </svelte:head>
 
 
@@ -91,21 +100,7 @@
 	<!-- Add Signup Form -->
 	<h2>Signup</h2>
 	<KitSignUp />
-	<!-- Quick fix to embed content properly -->
-	<!-- This should be conditional on the blog post -->
-	{#if social}
-		{#if social.includes('strava')}
-			<script src="https://strava-embeds.com/embed.js"></script>
-		{/if}
-		{#if social.includes('googlePhotos')}
-			<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
-		{/if}
-		{#if social.includes('bluesky')}
-			<script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
-		{/if}		
-	{/if}
-
-	{#if tags}
+{#if tags}
 		<aside class="post-footer">
 			<h2>Posted in: </h2>
 			<ul class="post-footer__tags">
