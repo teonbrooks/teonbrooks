@@ -11,6 +11,7 @@ tags:
 coverImage: "/blog_assets/why-is-the-study-of-reading-essential/why-is-the-study-of-reading-essential.jpg"
 excerpt: "Why study reading? Because literacy is tied directly to economic outcomes, civic engagement, and health."
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxnwggp2i"
 ---
 
 While I was writing my dissertation, I wanted to ground my research in some real-world, tangible context, mostly in response to the pointed way people often asked me: why is my research important? Or why am I interested in understanding how people read? What is the broader impact of this research?

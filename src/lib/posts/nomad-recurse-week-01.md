@@ -16,6 +16,7 @@ excerpt: "Recurse Center Week 01: Organized calamity of the highest regard."
 lang: en-US
 social:
   - strava
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxdb7752v"
 ---
 
 *The week of May 15, 2023*

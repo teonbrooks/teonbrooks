@@ -13,6 +13,7 @@ excerpt: "Week 05: Gochujang Caramel Cookie — sweet, spicy, and beautifully ma
 lang: en-US
 social:
 - bluesky
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwtr25o2q"
 ---
 %% gochuchang_cookie.md %%
 <script>

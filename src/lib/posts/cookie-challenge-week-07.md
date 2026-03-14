@@ -13,6 +13,7 @@ excerpt: "Week 07: Lemon Glazed Gingerbread Cookie — sweet, tangy, and spicy. 
 lang: en-US
 social:
 - bluesky
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cws5n3k2l"
 ---
 
 <script> import Callout from '$lib/components/Callout.svelte'; </script>

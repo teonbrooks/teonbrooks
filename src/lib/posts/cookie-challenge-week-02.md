@@ -13,6 +13,7 @@ excerpt: "Week 02: Salted Chocolate Chunk Shortbread — a buttery slice-and-bak
 lang: en-US
 social:
 - bluesky
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cww2xyu2j"
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
 

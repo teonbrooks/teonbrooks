@@ -12,6 +12,7 @@ excerpt: "This weekend I attended my first #ScienceHackDay ever!"
 lang: en-US
 social:
 - bluesky
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxrqqj32w"
 ---
 Me giving a lightning talk at #ScienceHackDay, Nov 12, 2016
 This weekend I attended my first #ScienceHackDay ever! I really loved it. I actually didn’t know what to expect going into it. I assumed it was a thing oriented to kids, like a science outreach thing and teaching them about science experiments. Last week, I went to the first-ever [EmojiCon](http://2016.emojicon.co/) and I snagged all the leftover #ACSChemoji decals to give out to the participants.

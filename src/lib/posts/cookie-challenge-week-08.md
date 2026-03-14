@@ -13,6 +13,7 @@ excerpt: "Week 08: Snickerdoodle Cookie - Use Cream of Tartar otherwise it's jus
 lang: en-US
 social:
 - bluesky
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwrfogt2w"
 ---
 
 <script> import Callout from '$lib/components/Callout.svelte'; </script>

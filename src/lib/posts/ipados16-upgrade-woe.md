@@ -9,6 +9,7 @@ tags:
 coverImage: "/blog_assets/ipados16-upgrade-woe/IPadOS_16_icon.webp"
 excerpt: "For the life of me, I couldn't figure out why it wouldn't upgrade. Why is Apple so hostile to their customers? 😭"
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxfkleu2j"
 ---
 
 *tl;dr: If your iPad won't upgrade to the latest version, maybe you should check whether you're beta testing a previous version.*

@@ -11,6 +11,7 @@ collections:
 coverImage: /blog_assets/cookie-challenge/cookie-challenge-week-15.jpg
 excerpt: "Week 15: World Peace Cookie - It's described as a cross between the French sable and American chocolate chip. With a pinch of salt, I call it delicious 😋."
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwky3z52v"
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
 

@@ -13,6 +13,7 @@ excerpt: "Week 04: Chewy Chocolate Chip Cookie — one of my favorite recipes. R
 lang: en-US
 social:
 - bluesky
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwukqmd25"
 ---
 <script>
   import Callout from '$lib/components/Callout.svelte';

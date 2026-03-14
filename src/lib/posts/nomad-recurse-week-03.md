@@ -16,6 +16,7 @@ excerpt: "Recurse Center Week 03: Poppin' bottles, and making ink flow"
 lang: en-US
 social:
   - strava
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxa4clo2q"
 ---
 <script>import Album from '$lib/components/Album.svelte'</script>
 

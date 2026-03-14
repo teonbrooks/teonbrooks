@@ -11,6 +11,7 @@ tags:
 coverImage: "/blog_assets/speaking-engagements-following-mfs/capitol-building.jpeg"
 excerpt: "The March actually happened! We managed pulled it off 🎉, which was no small feat."
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxk4xgf2v"
 ---
 
 The March actually [happened](https://www.youtube.com/watch?v=nNz8GO-d9wI)! We managed pulled it off 🎉, which was no small feat. Things operated at a frenetic pace from late January til the summer, supported wholly on volunteers. With respect to the DC march, we had around [50 people](https://en.wikipedia.org/wiki/March_for_Science#Planning_and_participants) who really dropped pretty much everything they were doing and working on to orchestrate an event that was larger in size than we could have imagined. That same story was echoed all around the world with volunteers stepping up and organizing over 600 marches worldwide, mobilizing over a million people to stand up for Science. With much gratitude, I thank everyone involved. There’s no way any part of this could have been done without every volunteer, partner org, each and every marcher out there.

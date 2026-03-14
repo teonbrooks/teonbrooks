@@ -9,6 +9,7 @@ tags:
 coverImage: /blog_assets/half-baked-data/liteWordmark.svg
 excerpt: "It's been three years and I still haven't publish a simple data science blog: scope creep, HEIC images, and dependency resolution hell. Perfect truly is the enemy of good. Just be good enough!"
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwj54sa2m"
 ---
 <script>
     let { toml } = $props();

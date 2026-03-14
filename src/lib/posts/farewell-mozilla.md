@@ -13,6 +13,7 @@ excerpt: After nearly 6 years contributing to the Mozilla project, today is my l
 lang: en-US
 social:
 - bluesky
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxhm5vf2q"
 ---
 
 ## Twitter (now Bluesky)

@@ -11,6 +11,7 @@ collections:
 coverImage: /blog_assets/cookie-challenge/cookie-challenge.jpg
 excerpt: A public declaration of a 52-week cookie challenge
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwxxeam2k"
 ---
 
 This year, I'm doing things a bit different. I have dubbed 2024 as "the Year of Stability", which means I am planning to do as little travel as possible. I do have some trips grandfathered in that I will be doing.

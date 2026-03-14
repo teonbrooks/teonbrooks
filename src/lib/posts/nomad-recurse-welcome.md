@@ -13,6 +13,7 @@ collections:
 coverImage: /blog_assets/recurse/week-01/recurse-week-01.jpg
 excerpt: "Dear friends and family, I'm starting a newsletter 🎉"
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxekv6n2v"
 ---
 
 ## Intro

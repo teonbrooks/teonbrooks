@@ -9,6 +9,7 @@ tags:
 coverImage: "/blog_assets/new-pocket-feature/pocket.png"
 excerpt: "Pocket launched a new feature called Lists."
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxet2jv23"
 ---
 
 Pocket just [announced](https://blog.getpocket.com/2023/05/pockets-new-features-make-it-even-easier-to-discover-and-organize-content/) a new feature, **Lists**. Soon, I suspect, we will be able to share these different lists to each other based on our saved Pocket items. I am truly delighted!

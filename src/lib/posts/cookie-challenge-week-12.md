@@ -11,6 +11,7 @@ collections:
 coverImage: /blog_assets/cookie-challenge/cookie-challenge-week-12.jpg
 excerpt: "Week 12: Dark Chocolate Chunk Oatmeal Cookie — Used hazelnut chocolate instead of standard dark chocolate chunks. Just go wild!"
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwnx7iu2j"
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
 

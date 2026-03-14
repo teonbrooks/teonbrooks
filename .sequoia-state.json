@@ -1,0 +1,304 @@
+{
+  "posts": {
+    "src/lib/posts/mama-and-me.md": {
+      "contentHash": "d9d52f1146016be5f23026902b2e674ee1640d1da4451e8a4bad74a9824d2b4e",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwiijk52q",
+      "lastPublished": "2026-03-14T20:56:40.609Z",
+      "slug": "mama-and-me"
+    },
+    "src/lib/posts/half-baked-data.md": {
+      "contentHash": "3d134e7acf2bfe1445e70f77ffe776a50425823aa0a2b930a93ee712df50df2f",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwj54sa2m",
+      "lastPublished": "2026-03-14T20:56:41.248Z",
+      "slug": "half-baked-data"
+    },
+    "src/lib/posts/cookie-challenge-week-16.md": {
+      "contentHash": "b30313379b88bd15e10a21b090fea16b50b6d4b87b8c40c3d6d0cbef26c09d16",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwk5y6c2a",
+      "lastPublished": "2026-03-14T20:56:42.347Z",
+      "slug": "cookie-challenge-week-16"
+    },
+    "src/lib/posts/cookie-challenge-week-15.md": {
+      "contentHash": "f227f7bf46e459f0e059614cda91676001b995f388c1ae77077680260f9812f4",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwky3z52v",
+      "lastPublished": "2026-03-14T20:56:43.245Z",
+      "slug": "cookie-challenge-week-15"
+    },
+    "src/lib/posts/cookie-challenge-week-14.md": {
+      "contentHash": "f2905438959c99d615299be38ac92ddc0e7360a3231ae0772ea80a3d70395b82",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwlsqnl25",
+      "lastPublished": "2026-03-14T20:56:44.213Z",
+      "slug": "cookie-challenge-week-14"
+    },
+    "src/lib/posts/cookie-challenge-week-13.md": {
+      "contentHash": "9cefcb838b850ca8196954083b1e0d5b0bc9a45ad0f783912910acfcee181d07",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwmpac523",
+      "lastPublished": "2026-03-14T20:56:45.470Z",
+      "slug": "cookie-challenge-week-13"
+    },
+    "src/lib/posts/cookie-challenge-week-12.md": {
+      "contentHash": "05688eaa967e069d815dda2942e5a898022e062d4286b64c6daca6c9d8c5d055",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwnx7iu2j",
+      "lastPublished": "2026-03-14T20:56:46.403Z",
+      "slug": "cookie-challenge-week-12"
+    },
+    "src/lib/posts/cookie-challenge-week-11.md": {
+      "contentHash": "223f9dce4fb0af389d4cb22f95912640b29bf1078ebd30249f29e2e10d63c5f1",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwot3zy2m",
+      "lastPublished": "2026-03-14T20:56:47.214Z",
+      "slug": "cookie-challenge-week-11"
+    },
+    "src/lib/posts/cookie-challenge-week-10.md": {
+      "contentHash": "dc1b6c3a73de292b9c6c9e3c407e00808cf2f497c82debe6d712270291c4232d",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwpkmll25",
+      "lastPublished": "2026-03-14T20:56:47.990Z",
+      "slug": "cookie-challenge-week-10"
+    },
+    "src/lib/posts/cookie-challenge-week-09.md": {
+      "contentHash": "03b2bbe4a8bc091b88ac8561724756492b321ba66fa501ee13d6e80c5522c572",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwqf45f2v",
+      "lastPublished": "2026-03-14T20:56:48.956Z",
+      "slug": "cookie-challenge-week-09"
+    },
+    "src/lib/posts/cookie-challenge-week-08.md": {
+      "contentHash": "08ba9640c74e1b6cd9020a33d3e4c702527246eb6b6ee022b1fbd174d8f5edee",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwrfogt2w",
+      "lastPublished": "2026-03-14T20:56:49.869Z",
+      "slug": "cookie-challenge-week-08"
+    },
+    "src/lib/posts/cookie-challenge-week-07.md": {
+      "contentHash": "5f05a34e511db9982b6fa65d31f9568ed42d00e51406a8cb40293066560e26e0",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cws5n3k2l",
+      "lastPublished": "2026-03-14T20:56:50.748Z",
+      "slug": "cookie-challenge-week-07"
+    },
+    "src/lib/posts/cookie-challenge-week-06.md": {
+      "contentHash": "1822d0ed9caf144d976db30ef38d1fc34acbd0b068bb3fd6e7d9eb961d8e416a",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwsxbwo2q",
+      "lastPublished": "2026-03-14T20:56:51.592Z",
+      "slug": "cookie-challenge-week-06"
+    },
+    "src/lib/posts/cookie-challenge-week-05.md": {
+      "contentHash": "4c8b21e55898d5570c1ec5a47344fbfc776c56576480de627c47ca987a07540f",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwtr25o2q",
+      "lastPublished": "2026-03-14T20:56:52.448Z",
+      "slug": "cookie-challenge-week-05"
+    },
+    "src/lib/posts/cookie-challenge-week-04.md": {
+      "contentHash": "d2ca0a778b531e8dbd0dc290520dbb4afa7be614b087913191b0ea3b7fa34137",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwukqmd25",
+      "lastPublished": "2026-03-14T20:56:53.288Z",
+      "slug": "cookie-challenge-week-04"
+    },
+    "src/lib/posts/cookie-challenge-week-03.md": {
+      "contentHash": "4299f5746f3f28e8a06f3d465373a6c5ddb103b89d35d772d64d9bf8ae369070",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwveifd2u",
+      "lastPublished": "2026-03-14T20:56:54.103Z",
+      "slug": "cookie-challenge-week-03"
+    },
+    "src/lib/posts/cookie-challenge-week-02.md": {
+      "contentHash": "2815a0abc85e1de1b6f7800e49f0296b51e75426b4423095463d5736d6d05d1b",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cww2xyu2j",
+      "lastPublished": "2026-03-14T20:56:54.844Z",
+      "slug": "cookie-challenge-week-02"
+    },
+    "src/lib/posts/cookie-challenge-week-01.md": {
+      "contentHash": "305eea9cd8df534002dccf24dc2a83cf538b735e26fb9b022841df3ae538b609",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwwvphu2j",
+      "lastPublished": "2026-03-14T20:56:55.864Z",
+      "slug": "cookie-challenge-week-01"
+    },
+    "src/lib/posts/cookie-challenge.md": {
+      "contentHash": "7c1fea36d3cd6be61e52fbc4af20973be8361ea2d051a55490c39ab13ccff91a",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwxxeam2k",
+      "lastPublished": "2026-03-14T20:56:56.979Z",
+      "slug": "cookie-challenge"
+    },
+    "src/lib/posts/nomad-recurse-week-06.md": {
+      "contentHash": "722ada36c0a0028aa0fdd62dac94d941b937bfdeb70229e9ae905d7f974ec351",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwz2imo2w",
+      "lastPublished": "2026-03-14T20:56:58.086Z",
+      "slug": "nomad-recurse-week-06"
+    },
+    "src/lib/posts/nomad-recurse-epilogue.md": {
+      "contentHash": "b63cf35bf435918799f9536e002c2c29dfa8171bd9722b132a2fad67f5b4bc68",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cx2aguo2q",
+      "lastPublished": "2026-03-14T20:56:59.385Z",
+      "slug": "nomad-recurse-epilogue"
+    },
+    "src/lib/posts/nomad-recurse-week-05.md": {
+      "contentHash": "fc6bffbb727061bcfc8a8ba51c389ffe0e5f2740bdf94d98f2eee6f8e6504814",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cx33wym2k",
+      "lastPublished": "2026-03-14T20:57:00.082Z",
+      "slug": "nomad-recurse-week-05"
+    },
+    "src/lib/posts/nomad-recurse-week-04.md": {
+      "contentHash": "51f98854144b559094ffd8fe86632d7b2777796ca44b70782f9a8b05c83b5bcd",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cx42qkc2l",
+      "lastPublished": "2026-03-14T20:57:04.674Z",
+      "slug": "nomad-recurse-week-04"
+    },
+    "src/lib/posts/nomad-recurse-week-03.md": {
+      "contentHash": "3b01513e4197d28d6f0ecbe0f8e6fc50b50f927114c0545e09f39967977c81f9",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxa4clo2q",
+      "lastPublished": "2026-03-14T20:57:05.346Z",
+      "slug": "nomad-recurse-week-03"
+    },
+    "src/lib/posts/nomad-recurse-week-02.md": {
+      "contentHash": "309f5af2b0f9aa8634962b7b0313431be651df73c9b27d7b04b8901cb9bcc4aa",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxb4q5c2l",
+      "lastPublished": "2026-03-14T20:57:06.543Z",
+      "slug": "nomad-recurse-week-02"
+    },
+    "src/lib/posts/rss-to-email.md": {
+      "contentHash": "55b625f8ecf6dc80ea320b41d6ece267f8e9def7ef7158db714bde279cfae783",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxc4b6v23",
+      "lastPublished": "2026-03-14T20:57:07.589Z",
+      "slug": "rss-to-email"
+    },
+    "src/lib/posts/nomad-recurse-week-01.md": {
+      "contentHash": "eccdc291d920b28fcb2d0a4aea8ee767ef98e9ed65cd3c2b40016a99b3c3fbd9",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxdb7752v",
+      "lastPublished": "2026-03-14T20:57:08.285Z",
+      "slug": "nomad-recurse-week-01"
+    },
+    "src/lib/posts/nomad-recurse-intro.md": {
+      "contentHash": "31e2a3ab35373abbdc7561dc0215f96af0f05da9c299be8e281a63be6946b386",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxdxye42u",
+      "lastPublished": "2026-03-14T20:57:09.036Z",
+      "slug": "nomad-recurse-intro"
+    },
+    "src/lib/posts/nomad-recurse-welcome.md": {
+      "contentHash": "7067d315b9b381d1f77f60398307a73d94e739dc7590a0c8333a76ef435fbfa0",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxekv6n2v",
+      "lastPublished": "2026-03-14T20:57:09.650Z",
+      "slug": "nomad-recurse-welcome"
+    },
+    "src/lib/posts/new-pocket-feature.md": {
+      "contentHash": "b1e317cbb17f266c787de8e276f6f9135d009148c30e57595689e0a0c8a8cb77",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxet2jv23",
+      "lastPublished": "2026-03-14T20:57:10.303Z",
+      "slug": "new-pocket-feature"
+    },
+    "src/lib/posts/ipados16-upgrade-woe.md": {
+      "contentHash": "49fac2e7dd3c50c0b65f24f5ce92152e06b246332d933caf900a690d8be774eb",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxfkleu2j",
+      "lastPublished": "2026-03-14T20:57:11.042Z",
+      "slug": "ipados16-upgrade-woe"
+    },
+    "src/lib/posts/svelte-blog.md": {
+      "contentHash": "0ca70d8e2cd02a2c50716e4dea4d63fd4219ef36cb97f444d04ba58103ee4147",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxgbdje2k",
+      "lastPublished": "2026-03-14T20:57:11.815Z",
+      "slug": "svelte-blog"
+    },
+    "src/lib/posts/mfs-5yrs-later.md": {
+      "contentHash": "c81ebce440870d61346acea927ee6fb246338ac6c2cb8ee80d0987f8f45ed384",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxgxulw2z",
+      "lastPublished": "2026-03-14T20:57:12.570Z",
+      "slug": "mfs-5yrs-later"
+    },
+    "src/lib/posts/farewell-mozilla.md": {
+      "contentHash": "3debb9c77e94c8493c26c2595f6e50ea1147319ab3d8dbf96a7f4a482e922099",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxhm5vf2q",
+      "lastPublished": "2026-03-14T20:57:13.236Z",
+      "slug": "farewell-mozilla"
+    },
+    "src/lib/posts/brainstorming-vie.md": {
+      "contentHash": "5c21e91cc953f18d3763bb7df2c73f3fc1d3673e6ef4fe93073b1b312bcbd407",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxi7zjh2i",
+      "lastPublished": "2026-03-14T20:57:13.490Z",
+      "slug": "brainstorming-vie"
+    },
+    "src/lib/posts/2018-travel-in-review.md": {
+      "contentHash": "9b715002873820de1fb0cb2a0bff6aa25086ddae6172a9baa3e759e58d63da72",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxil4yh2i",
+      "lastPublished": "2026-03-14T20:57:14.280Z",
+      "slug": "2018-travel-in-review"
+    },
+    "src/lib/posts/the-exercise-of-writing.md": {
+      "contentHash": "5b5930793832aa456c7bd683eb5b930c1e13db5c9fc57119f23483634ba33f99",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxjaug52q",
+      "lastPublished": "2026-03-14T20:57:15.119Z",
+      "slug": "the-exercise-of-writing"
+    },
+    "src/lib/posts/speaking-engagements-following-mfs.md": {
+      "contentHash": "fea36a9420a02c97bff0fa58d35d23d282d07b7241295e6bdebc9a99e61376e9",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxk4xgf2v",
+      "lastPublished": "2026-03-14T20:57:15.951Z",
+      "slug": "speaking-engagements-following-mfs"
+    },
+    "src/lib/posts/museums-memories.md": {
+      "contentHash": "e25e218ea48fa9f598cc53f6ba36ae0510a04bc9b953f5ee7d6dce02c76f65e6",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxkuqsm2u",
+      "lastPublished": "2026-03-14T20:57:16.581Z",
+      "slug": "museums-memories"
+    },
+    "src/lib/posts/gosh-santiago-de-chile.md": {
+      "contentHash": "eb6dde9aa0c3562c647a0f4efd0db11a0d223363054ddf982bfd5d0151d33aac",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxlgvqm2j",
+      "lastPublished": "2026-03-14T20:57:17.162Z",
+      "slug": "gosh-santiago-de-chile"
+    },
+    "src/lib/posts/a-brief-share-on-msf.md": {
+      "contentHash": "35c8010e71058df981b1ff4041cef1e38f0085275824667d20b404be8625de51",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxlzhhw2w",
+      "lastPublished": "2026-03-14T20:57:17.808Z",
+      "slug": "a-brief-share-on-msf"
+    },
+    "src/lib/posts/mozfellows-at-opencon-sf.md": {
+      "contentHash": "10fe9042dc92a9ff2a24e3697eb47293f62f4fea1c67363403c6503bbeec0e88",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxmmdks2a",
+      "lastPublished": "2026-03-14T20:57:18.409Z",
+      "slug": "mozfellows-at-opencon-sf"
+    },
+    "src/lib/posts/why-open-science.md": {
+      "contentHash": "2fd5c9e58c7ddfa64c8c1bd746c0210734fba1122deea9a141f80e2b12e2df75",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxnah4k2a",
+      "lastPublished": "2026-03-14T20:57:19.111Z",
+      "slug": "why-open-science"
+    },
+    "src/lib/posts/why-is-the-study-of-reading-essential.md": {
+      "contentHash": "afee3da0cca17899a4be71a37a4162edcc1c5ba1c8c562ea0924061590df635c",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxnwggp2i",
+      "lastPublished": "2026-03-14T20:57:19.932Z",
+      "slug": "why-is-the-study-of-reading-essential"
+    },
+    "src/lib/posts/science-march.md": {
+      "contentHash": "1393f8c01ecc7cd0da08438c6c2a7fcefac9586876c316edddee9565f53866cf",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxorath2i",
+      "lastPublished": "2026-03-14T20:57:20.757Z",
+      "slug": "science-march"
+    },
+    "src/lib/posts/few-remarks-on-the-planned-mfs.md": {
+      "contentHash": "a370a7f72a13529d390f25dec985375b4de58badffcc6243008323d551dfa515",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxplkto2w",
+      "lastPublished": "2026-03-14T20:57:21.588Z",
+      "slug": "few-remarks-on-the-planned-mfs"
+    },
+    "src/lib/posts/upcoming-coding-sprints.md": {
+      "contentHash": "7080a8e03db7708c0c8e3b31678f3d785c3fe0c6ef475937b3edbd6196ed1424",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxqc22v2v",
+      "lastPublished": "2026-03-14T20:57:22.384Z",
+      "slug": "upcoming-coding-sprints"
+    },
+    "src/lib/posts/a-scientist-studying-abroad.md": {
+      "contentHash": "6d1034439ab437e7f4d0aa75276fe7ca8acdb471f645e70eed8272e3fde83fcc",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxr3hcs25",
+      "lastPublished": "2026-03-14T20:57:23.134Z",
+      "slug": "a-scientist-studying-abroad"
+    },
+    "src/lib/posts/science-hack-day-2016.md": {
+      "contentHash": "bf26c63eaf4163ff7c7997ca7c0c021552ea81dcd74acd48e8d885ebdfee7ddc",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxrqqj32w",
+      "lastPublished": "2026-03-14T20:57:23.842Z",
+      "slug": "science-hack-day-2016"
+    },
+    "src/lib/posts/inaugural-post.md": {
+      "contentHash": "7d462c19bc6ccea359ef10dd2900bea1733c0b7147eb6264f521c103a4e32017",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxsxuvs25",
+      "lastPublished": "2026-03-14T20:57:25.159Z",
+      "slug": "inaugural-post"
+    }
+  }
+}

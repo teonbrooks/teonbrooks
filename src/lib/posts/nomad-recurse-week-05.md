@@ -16,6 +16,7 @@ excerpt: "Recurse Center Week 05: Live Music and Machine Learning Model Serializ
 lang: en-US
 social:
   - strava
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cx33wym2k"
 ---
 <script>import Album from '$lib/components/Album.svelte'</script>
 

@@ -16,6 +16,7 @@ excerpt: "Recurse Center Week 06: Last week of my half-batch"
 lang: en-US
 social:
   - strava
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwz2imo2w"
 ---
 <script> 
     import Callout from '$lib/components/Callout.svelte';

@@ -9,6 +9,7 @@ tags:
 coverImage: "/blog_assets/2018-travel-in-review/2018-travel-in-review.png"
 excerpt: "2018 was a very busy year: I bounced between coasts, moved back to NYC, and spent a good chunk of time in Europe. Here's a look back at all the trips, big and small, with some photo highlights."
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxil4yh2i"
 ---
 <script>import Album from '$lib/components/Album.svelte'</script>
 

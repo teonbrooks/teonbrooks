@@ -10,6 +10,7 @@ tags:
 coverImage: "/blog_assets/upcoming-coding-sprints/upcoming-coding-sprints.png"
 excerpt: Over the past few months, I have gotten involved in organizing a few upcoming coding sprints.
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxqc22v2v"
 ---
 
 Over the past few months, I have gotten involved in organizing a few upcoming coding sprints. Out of the Berkeley Institute for Data Science, we will be launching a [Docathon](https://bids.github.io/docathon/) the week of **March 6th, 2017**! There will be a few events going on at Berkeley but the event is largely remote, which means you can participate in it from all the corners of the globe!

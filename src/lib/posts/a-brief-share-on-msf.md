@@ -10,6 +10,7 @@ tags:
 coverImage: "/blog_assets/a-brief-share-on-msf/me-and-comma-llama.jpeg"
 excerpt: "I know that this will sound epicly cheesy and cliché but this fellowship has truly been a once in an lifetime opportunity, especially after spending a lifetime in the academy."
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxlzhhw2w"
 ---
 
 The Mozilla Science Fellowship applications are [open](https://science.mozilla.org/programs/fellowships) until May 14th! I wanted to share a few of my experiences as a Fellow so far. Also, look out #TeonMozAMA on Twitter Thursday, May 11th (tbd). I will be responding to any questions you might have about my experience and the fellowship itself.

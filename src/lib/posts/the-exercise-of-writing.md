@@ -9,6 +9,7 @@ tags:
 coverImage: "/blog_assets/the-exercise-of-writing/writing-dissertation.jpg"
 excerpt: "I initially started this blog with one goal in mind: get better at writing."
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxjaug52q"
 ---
 
 I initially started this blog with one goal in mind: get better at writing. Writing has never been a strong suit of mine, and I’ve always felt dread when I had to do it. For me, I tend to get in my head about these things:

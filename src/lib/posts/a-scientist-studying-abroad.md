@@ -10,6 +10,7 @@ tags:
 coverImage: "/blog_assets/a-scientist-studying-abroad/me-in-the-pyrenees.png"
 excerpt: "I studied abroad the fourth year of my PhD on a Chateaubriand Fellowship in Paris, learning machine learning for neuroscience research and exploring Europe on weekends. Here's why international education matters for scientists."
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxr3hcs25"
 ---
 
 Happy New Year!

@@ -11,6 +11,7 @@ coverWidth: 16
 # coverHeight: 9
 excerpt: "Hello world! My name is Teon Brooks and this is my blog :)"
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxsxuvs25"
 ---
 
 Me giving the valedictory speech at PhD Convocation, May 13 2016

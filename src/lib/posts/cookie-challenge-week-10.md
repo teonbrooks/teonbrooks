@@ -13,6 +13,7 @@ excerpt: "Week 10: Old-fashioned Peanut Butter Cookie - Sometimes you want a no-
 lang: en-US
 social:
 - bluesky
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwpkmll25"
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
 

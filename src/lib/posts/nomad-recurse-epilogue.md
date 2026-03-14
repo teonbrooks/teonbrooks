@@ -16,6 +16,7 @@ excerpt: "Recurse Center Epilogue: Reflections on my remote half-batch at Recurs
 lang: en-US
 social:
   - strava
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cx2aguo2q"
 ---
 
 ## Recap

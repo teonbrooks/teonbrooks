@@ -13,6 +13,7 @@ collections:
 coverImage: "/blog_assets/science-march/science-march.png"
 excerpt: "The March for Science is officially happening!"
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxorath2i"
 ---
 
 The March for Science is officially happening! On April 22, 2017, there will be a network of marches worldwide aimed to engage the community in science and support scientific research.

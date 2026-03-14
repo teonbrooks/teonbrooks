@@ -8,6 +8,7 @@ keywords:
 slug: museums-memories
 coverImage: "/blog_assets/museums-memories/sf_contemporary_jewish_museum.jpg"
 excerpt: "Two separate museum visits connected through memory. A reflection on how we store and pass on memories."
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxkuqsm2u"
 ---
 
 ![SF Contemporary Jewish Museum](/blog_assets/museums-memories/sf_contemporary_jewish_museum.jpg)

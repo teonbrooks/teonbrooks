@@ -11,6 +11,7 @@ collections:
 coverImage: "/blog_assets/brainstorming-vie/brainstorming-vie.png"
 excerpt: "I'm building Vie, an indieweb app to aggregate the different parts of my life — books, runs, saved articles, check-ins — into one shareable place. Here's the motivation, the design, and the tech stack."
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxi7zjh2i"
 ---
 
 This year, I've been thinking about how I could fulfill one of my resolutions to write more and the year is already off to a stumbling start:

@@ -9,6 +9,7 @@ tags:
 coverImage: /blog_assets/mama-and-me/C91FF672-035C-4672-B769-45653790E5EE.jpg
 excerpt: Three years ago today, my mom passed away. Three years later, my world is still forever changed.
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwiijk52q"
 ---
 *Il y a trois années...*
 

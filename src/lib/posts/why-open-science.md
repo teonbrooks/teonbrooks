@@ -10,6 +10,7 @@ tags:
 coverImage: "/blog_assets/why-open-science/why-open-science-wordcloud.png"
 excerpt: "A few days ago we reached out to our network of friends and colleagues and we asked them “Why Open Science?"
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxnah4k2a"
 ---
 
 This weekend is a kick-off to a lot of cool hackathons I’m involved with such as the [BrainHack Global](http://events.brainhack.org/global2017/), the first-ever [Docathon](https://bids.github.io/docathon/), and a [Working Open Workshop](https://mozillascience.github.io/WOW-2017/) (WOW), all related to Open Science.

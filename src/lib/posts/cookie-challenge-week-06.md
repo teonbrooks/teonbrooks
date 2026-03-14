@@ -13,6 +13,7 @@ excerpt: "Week 06: Oatmeal Chocolate Chunk Cookie — the classic Quaker Oats re
 lang: en-US
 social:
 - bluesky
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwsxbwo2q"
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
 

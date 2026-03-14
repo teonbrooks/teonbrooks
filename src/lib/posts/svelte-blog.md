@@ -9,6 +9,7 @@ tags:
 coverImage: "/blog_assets/svelte-blog/svelte.png"
 excerpt: I'm now hosting my own blog, powered by Sveltekit 🎉
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxgbdje2k"
 ---
 
 First off, congrats to the Svelte team on getting [Sveltekit](https://kit.svelte.dev) to 1.0! 🎉

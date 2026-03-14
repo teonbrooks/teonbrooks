@@ -16,6 +16,7 @@ excerpt: "Recurse Center Week 02: Easing into the work, Questioning life in gene
 lang: en-US
 social:
   - strava
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxb4q5c2l"
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
 

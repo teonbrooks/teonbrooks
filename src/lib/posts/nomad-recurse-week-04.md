@@ -16,6 +16,7 @@ excerpt: "Recurse Center Week 04: King of Clay, français, Sacré, Beyoncé"
 lang: en-US
 social:
   - strava
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cx42qkc2l"
 ---
 <script> 
     import Callout from '$lib/components/Callout.svelte';

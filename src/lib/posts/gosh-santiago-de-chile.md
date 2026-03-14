@@ -12,6 +12,7 @@ coverImage: "/blog_assets/gosh-santiago-de-chile/santiago_aerial.jpeg"
 excerpt: "I traveled to Santiago, Chile GOSH 2017: researchers, technologists, hackers, and citizen scientists gathered to roadmap the future of open source hardware."
 slug: gosh-santiago-de-chile
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxlgvqm2j"
 ---
 
 ![Santiago from above](/blog_assets/gosh-santiago-de-chile/santiago_aerial.jpeg)

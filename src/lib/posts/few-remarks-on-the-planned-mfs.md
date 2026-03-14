@@ -12,6 +12,7 @@ collections:
 coverImage: "/blog_assets/few-remarks-on-planned-mfs/few-remarks-on-planned-mfs.png"
 excerpt: When I heard that there were talks about a March for Science, I immediately threw myself at all the opportunities to get involved.
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxplkto2w"
 ---
 
 When I heard that there were talks about a [March for Science](https://www.facebook.com/marchforscience/), I immediately threw myself at all the opportunities to get involved. It’s been a rapid ascension for the Facebook group with a couple hundred thousand new followers with countless comments, kudos, and concerns. Over the past couple of days, I have been patiently waiting for a response to the Google Form I filled or the tweets that I sent when I realized I don’t know anything about this group, who the organizing committee is, who they are speaking on behalf, and their platform. This has given me pause to collect my thoughts and begin formulating a list of issues and potential recommendations in defense of publicly-funded science.

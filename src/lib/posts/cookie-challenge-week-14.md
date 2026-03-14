@@ -11,6 +11,7 @@ collections:
 coverImage: /blog_assets/cookie-challenge/cookie-challenge-week-14.jpg
 excerpt: "Week 14: Oatmeal Cookie Butter Cookie - I made a cookie from cookie. It's so wrong, it's right 🤤."
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwlsqnl25"
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
 

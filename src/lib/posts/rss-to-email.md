@@ -9,6 +9,7 @@ tags:
 coverImage: "/blog_assets/rss-to-email/rss-to-email.png"
 excerpt: "Yesterday, I wrote my newsletter! Then I realized something very frustrating."
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxc4b6v23"
 ---
 <script> import Callout from '$lib/components/Callout.svelte'; </script>
 

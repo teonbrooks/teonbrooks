@@ -10,6 +10,7 @@ tags:
 coverImage: "/blog_assets/mozfellows-at-opencon-sf/mozfellows.jpg"
 excerpt: "My co-fellows and I gathered in San Francisco for a workweek and attended OpenCon SF."
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxmmdks2a"
 ---
 
 [Bruno](https://medium.com/u/92ab61277046), [Danielle](https://twitter.com/daniellecrobins), [Kirstie](https://twitter.com/kirstie_j) and [Teon](https://medium.com/u/60886f45ef85), fellows of [Mozilla Science Lab](https://medium.com/u/e5bb8166cdbf), are now over halfway through their [Mozilla Science Fellowship](https://science.mozilla.org/programs/fellowships) so we all came together for a [workweek in San Francisco](https://blog.mozilla.org/foundation-archive/mozilla-science/mozfellows-workweek) in February to share skills, give and get feedback on our projects, and inspire each other with new ideas. By pure coincidence it also gave us the chance to attend [OpenCon SF](http://www.opencon2016.org/opencon_san_francisco).
