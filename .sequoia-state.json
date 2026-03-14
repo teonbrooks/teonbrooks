@@ -1,15 +1,15 @@
 {
   "posts": {
     "src/lib/posts/mama-and-me.md": {
-      "contentHash": "d9d52f1146016be5f23026902b2e674ee1640d1da4451e8a4bad74a9824d2b4e",
+      "contentHash": "db600ab0a92780f6fa07fe408cb67d26653d471ce26f76415ba9f9330d5feaea",
       "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwiijk52q",
-      "lastPublished": "2026-03-14T20:56:40.609Z",
+      "lastPublished": "2026-03-14T22:12:59.890Z",
       "slug": "mama-and-me"
     },
     "src/lib/posts/half-baked-data.md": {
-      "contentHash": "3d134e7acf2bfe1445e70f77ffe776a50425823aa0a2b930a93ee712df50df2f",
+      "contentHash": "0de758700e0fa0f4be9d0c450624adadcb609314124d50b306e60a2e82778f5e",
       "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwj54sa2m",
-      "lastPublished": "2026-03-14T20:56:41.248Z",
+      "lastPublished": "2026-03-14T22:13:00.189Z",
       "slug": "half-baked-data"
     },
     "src/lib/posts/cookie-challenge-week-16.md": {
@@ -133,15 +133,15 @@
       "slug": "nomad-recurse-week-05"
     },
     "src/lib/posts/nomad-recurse-week-04.md": {
-      "contentHash": "51f98854144b559094ffd8fe86632d7b2777796ca44b70782f9a8b05c83b5bcd",
+      "contentHash": "9e49fa6f1fae2ab368661eec46e46cfbb1c3694985fce356e5fac6feb3be942b",
       "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cx42qkc2l",
-      "lastPublished": "2026-03-14T20:57:04.674Z",
+      "lastPublished": "2026-03-14T22:13:01.145Z",
       "slug": "nomad-recurse-week-04"
     },
     "src/lib/posts/nomad-recurse-week-03.md": {
-      "contentHash": "3b01513e4197d28d6f0ecbe0f8e6fc50b50f927114c0545e09f39967977c81f9",
+      "contentHash": "fb09dbfc620f2b42eead709a79f174899201f2635aed069347a7704d9a5c3750",
       "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxa4clo2q",
-      "lastPublished": "2026-03-14T20:57:05.346Z",
+      "lastPublished": "2026-03-14T22:13:01.507Z",
       "slug": "nomad-recurse-week-03"
     },
     "src/lib/posts/nomad-recurse-week-02.md": {
@@ -181,9 +181,9 @@
       "slug": "new-pocket-feature"
     },
     "src/lib/posts/ipados16-upgrade-woe.md": {
-      "contentHash": "49fac2e7dd3c50c0b65f24f5ce92152e06b246332d933caf900a690d8be774eb",
+      "contentHash": "31565aa6a2c3155a4bc4ef9d4621ada0a215d272e4363158b1ea083c21712f08",
       "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxfkleu2j",
-      "lastPublished": "2026-03-14T20:57:11.042Z",
+      "lastPublished": "2026-03-14T22:13:05.597Z",
       "slug": "ipados16-upgrade-woe"
     },
     "src/lib/posts/svelte-blog.md": {
