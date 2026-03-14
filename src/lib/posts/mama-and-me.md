@@ -33,7 +33,7 @@ A few weeks ago, a familiar wave of emotions hit me, remembering and re-experien
 
 So this morning, I got up at 4:30am and drove to Lanikai Pillbox for a pre-dawn hike. I made it to the top of the mountain for sunrise and read this eulogy to you, Mama. Here's my eulogy to the woman who made me, who raised me, and to the life she gave me.
 
-<figure style:text-align="center">
+<figure>
     <img src='/blog_assets/mama-and-me/PXL_20250328_162729890.jpg' alt='Sunrise in Hawaii' />
     <img src='/blog_assets/mama-and-me/PXL_20250328_170234391.jpg' alt='Mountains after sunrise in Hawaii' />
     <figcaption>Sunrise in Hawaii</figcaption>
@@ -46,7 +46,7 @@ One of my very first memories is being carried across an overpass at dawn. For t
 
 She used to take my brother, (Gary) Jr. and me to Discovery Place when we were younger. It was the science museum in Charlotte and she had a friend who worked there so she would get a chance to catch up with him and I could run around the museum learning all I could from the exhibits, and playing all the interactive games.
 
-<figure style:text-align="center">
+<figure>
     <img src='/blog_assets/mama-and-me/Image 040.jpg' alt='Mama, Jr., and Me at the Campground' />
     <figcaption>Jr. and Me in Discovery Place t-shirts with Mama at the Campground</figcaption>
 </figure>
@@ -79,10 +79,10 @@ We were all there with her for her surgery and was there supporting in the heali
 
 She would go to different events across the city to support other women who were battling breast cancer, never taking for granted anything. We would go to reunion events in the city to celebrate her being in remission and she would write notes of encouragement for people battling cancer as well.
 
-<figure style:text-align="center">
-	<img src='/blog_assets/mama-and-me/IMG_8989.jpeg' alt='Me and Mama at a Breast Cancer Survivor event at Atrium Health' style="padding: 1rem;" />
-    <img src='/blog_assets/mama-and-me/IMG_2515.JPG' alt='Mama signing the survivior wall' style="padding: 1rem;" />
-    <img src='/blog_assets/mama-and-me/IMG_2519.JPG' alt='Mama writing a note to people battling Breast Cancer' style="padding: 1rem;" />
+<figure>
+	<img src='/blog_assets/mama-and-me/IMG_8989.jpeg' alt='Me and Mama at a Breast Cancer Survivor event at Atrium Health' />
+    <img src='/blog_assets/mama-and-me/IMG_2515.JPG' alt='Mama signing the survivior wall' />
+    <img src='/blog_assets/mama-and-me/IMG_2519.JPG' alt='Mama writing a note to people battling Breast Cancer' />
 <figcaption>Me and Mama at a Breast Cancer Survivor event at Atrium Health</figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ She would go to different events across the city to support other women who were
 
 During my PhD convocation, I had a chance to thank her for all she did in front of the whole graduating class who applauded her for what she did for me.
 
-<figure style:text-align="center">
+<figure>
     <img src='/blog_assets/mama-and-me/IMG_5402.JPG' alt='Tee, Ty, Me, Mama, and Jr. at the PhD graduation' />
     <figcaption>Tee, Ty, Me, Mama, and Jr. at the PhD graduation</figcaption>
 </figure>
@@ -104,7 +104,7 @@ She was the oldest of six. Raised in Catawba Springs, a rural area about forty-f
 
 She was in the first class to integrate her high school at East Lincoln High.
 
-<figure style:text-align="center">
+<figure>
     <img src='/blog_assets/mama-and-me/Image 044.jpg' alt="Mama's student ID" />
     <figcaption>Mama's student ID</figcaption>
 </figure>
@@ -113,7 +113,7 @@ She wanted to be a typist and secretary and begun typing classes before she and 
 
 She worked at a button factory making around $2 an hour, and then became a full-time home baker.
 
-<figure style:text-align="center">
+<figure>
     <img src='/blog_assets/mama-and-me/Image 026.jpg' alt="Mama and Daddy on their wedding night" />
     <figcaption>Mama and Daddy on their wedding night</figcaption>
 </figure>
@@ -122,7 +122,7 @@ She worked at a button factory making around $2 an hour, and then became a full-
 
 Jr. and I often joke that Mama had two families because the kids came in two phases: the older ones, and us.
 
-<figure style:text-align="center">
+<figure>
     <img src='/blog_assets/mama-and-me/Photo_2023-03-05_212630.jpg' alt="Mama with Ty, Pooh, and Kristal" />
     <figcaption>Mama with Ty, Pooh, and Kristal</figcaption>
 </figure>
@@ -137,7 +137,7 @@ One of her jobs was working security at Spirit Square, an art gallery in <dfn id
 
 All the artists would come by and rub her belly when she was pregnant. She says that's how I became left-handed, probably also why I'm gay 😅🌈
 
-<figure style:text-align="center">
+<figure>
     <img src='/blog_assets/mama-and-me/FullSizeRender.jpg' alt='Mama in her Security Officer outfit' />
     <figcaption>Mama in her Security Officer outfit</figcaption>
 </figure>
@@ -154,7 +154,7 @@ I organized some of my friends to come to Charlotte for its Pride weekend and pl
 
 I reached out to PFLAG-Charlotte, historically known as Parents and Friends of Lesbians and Gays, and asked if our group could walk with them, to which they agreed warmly.
 
-<figure style:text-align="center">
+<figure>
     <img src='/blog_assets/mama-and-me/PXL_20240818_175057557.MP.jpg' alt='Charlotte Pride Parade with friends in Honor of Mama' />
     <figcaption>Charlotte Pride Parade with friends in Honor of Mama</figcaption>
 </figure>
@@ -195,5 +195,54 @@ I love you Mama. I really hope you are resting in peace. You brought me to where
 Your loving son,
 
 Teon
+
+<style>
+  figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem 0;
+  }
+
+  figure img {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  /* Multiple images in one figure sit side by side on desktop */
+  figure:has(img + img) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  figure:has(img + img) img {
+    max-width: 400px;
+    width: calc(50% - 0.75rem);
+  }
+
+  /* Stack on mobile */
+  @media (max-width: 600px) {
+    figure:has(img + img) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    figure:has(img + img) img {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+
+  figcaption {
+    width: 100%;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #666;
+    text-align: center;
+  }
+</style>
 
 
