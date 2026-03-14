@@ -1,22 +1,14 @@
+import { parse } from 'smol-toml'
+
 export const prerender = true
 
-export const load = async ({ url, fetch, params }) => {
-    let toml;
-    const { post } = params;
-    const tomls = import.meta.glob(`/static/blog_assets/*/*.toml`);
+export const load = async ({ params }) => {
+    const { metadata } = await import(`../../../lib/posts/${params.post}.md`)
+    if (!metadata.data) return { toml: null }
 
-    const idx = Object.keys(tomls).findIndex(element => element.includes(post));
+    const tomlFiles = import.meta.glob('/static/blog_assets/**/*.toml', { query: '?raw', import: 'default' })
+    const getRaw = tomlFiles[`/static${metadata.data}`]
+    if (!getRaw) return { toml: null }
 
-    // note that findIndex returns -1 if not found
-    if (idx > -1) {
-        try {
-            const resp = await fetch(`${url.origin}/api/${post}.toml`)
-            toml = await resp.json()
-        }
-        catch (error) {
-            console.error(error);
-        }
-    }
-
-    return { toml }
+    return { toml: parse(await getRaw()) }
 }

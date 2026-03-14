@@ -3,22 +3,20 @@
 
 	let { items = [], path, filters = true } = $props();
 
-	let categories = items
-		.map((x) => x.category)
-		.flat(Infinity)
-		.filter((v, i, a) => a.indexOf(v) === i);
+	let categories = $derived(
+		items
+			.map((x) => x.category)
+			.flat(Infinity)
+			.filter((v, i, a) => a.indexOf(v) === i)
+	);
 
 	let isClicked = $state(false);
 
-	let matches = $derived((item) => {
-		if (!Array.isArray(item.category)) {
-			item.category = [item.category];
-		}
-		if (!isClicked) {
-			return item;
-		}
-		return item.category.includes(isClicked) ? item : false;
-	});
+	let filteredItems = $derived(
+		isClicked
+			? items.filter(item => [item.category].flat().includes(isClicked))
+			: items
+	);
 </script>
 
 <div id="portfolio">
@@ -39,7 +37,7 @@
 				</div>
 			{/if}
 			<div id="grid">
-				{#each items.filter(matches) as item (item.title)}
+				{#each filteredItems as item (`${item.organization}-${item.title}`)}
 					<PortfolioCard {item} {path} />
 				{/each}
 			</div>

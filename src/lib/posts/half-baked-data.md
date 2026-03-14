@@ -10,13 +10,11 @@ coverImage: /blog_assets/half-baked-data/liteWordmark.svg
 excerpt: "It's been three years and I still haven't publish a simple data science blog: scope creep, HEIC images, and dependency resolution hell. Perfect truly is the enemy of good. Just be good enough!"
 lang: en-US
 atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwj54sa2m"
+data: /blog_assets/half-baked-data/half-baked-data.toml
 ---
 <script>
-    let { toml } = $props();
     import Timeline from '$lib/components/Timeline.svelte'
 </script>
-
-*Sorry in advance, the timeline below isn't working quite well on mobile. Will fix soon!*
 
 ## tl;dr
 
@@ -138,7 +136,7 @@ With Pyodide (0.22), everything worked! \[*ship it 🚀* \] tbh, I probably shou
 
 It took me some time to figure out what went wrong. I spent some mapping out the time, place, and the murder weapon and decided a timeline would best highlights the events.
 
-<Timeline {toml} />
+<Timeline />
 
 ## Lessons Learned
 

@@ -1,13 +1,15 @@
 <!-- This file renders each individual blog post for reading. Be sure to update the svelte:head below -->
 <script>
+	import { setContext } from 'svelte';
 	import KitSignUp from "$lib/components/KitSignUp.svelte"
 	import Card, { Content } from '@smui/card';
 	import { CommentSection } from "bluesky-comments-svelte";
 	import "$lib/components/sequoia-comments.js";
-	
+
 	const author = "teonbrooks.com";
 	let { data } = $props();
 	let { toml = {} } = data;
+	setContext('toml', toml);
 	let { PostContent, meta } = data;
 
 	let { title, excerpt, date, updated,
