@@ -1,5 +1,5 @@
 <script>
-	import { siteTitle, siteDescription, siteImage, siteImageWidth, siteAuthor, siteURL, faviconImage } from '$lib/config';
+	import { siteTitle, siteDescription, siteImageWidth, siteURL, faviconImage } from '$lib/config';
 	import Portfolio from "$lib/components/Portfolio.svelte";
 	import md from 'markdown-it';
 	let { data } = $props();
@@ -31,6 +31,10 @@
 	<title>Consulting</title>
 </svelte:head>
 
+<!-- Content is from trusted static markdown files — no XSS risk.
+     For untrusted input, use marked + DOMPurify instead:
+     {@html DOMPurify.sanitize(marked.parse(content))} -->
+<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 {@html md().render(MdRaw)}
 
 

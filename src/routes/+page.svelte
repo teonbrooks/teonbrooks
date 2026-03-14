@@ -1,5 +1,5 @@
 <script>
-	import { siteTitle, siteDescription, siteImage, siteImageWidth, siteAuthor, siteURL, faviconImage } from '$lib/config';
+	import { siteTitle } from '$lib/config';
 	import BusinessCard from '$lib/components/BusinessCard.svelte';
 	let { data } = $props();
 

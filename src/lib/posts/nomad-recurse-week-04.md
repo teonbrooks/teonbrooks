@@ -134,7 +134,7 @@ On the first day, it was just me. I realized that I didn't do much advertisement
     <img src="https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_EEK2CuV.max-900x900.png" alt= "Plot depicting the subfields of machine learning" />
 </figure>
 
-Later in the week, I was joined by two Recursers, and we briefly discussed the GCP learning path. The topic at hand was Introduction to Large Language Models, and how best to go about watching the videos in discussion. We decided to watch them individually and to come back afterwards for the quiz and have a discussion. 
+Later in the week, I was joined by two Recursers, and we briefly discussed the GCP learning path. The topic at hand was Introduction to Large Language Models, and how best to go about watching the videos in discussion. We decided to watch them individually and to come back afterwards for the quiz and have a discussion.
 
 I watched the second video and it was also pretty introductory but it eerily also just felt like a sale's pitch for GCP, to the extent it was mentioned that only few institutions have the resources to do this, so essentially: kids, don't try this at home, just use their offering lol. I knew that it would be a showcase of their offerings and solutions, but I thought there would be more in the content of the video. Then again, it is just the second video and it is labeled introductory so maybe I should just move through them faster.
 

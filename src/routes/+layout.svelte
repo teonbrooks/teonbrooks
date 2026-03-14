@@ -2,7 +2,7 @@
 <script>
 	import { run } from 'svelte/legacy';
 
-	import { siteTitle, siteDescription, siteImage, siteImageWidth, siteAuthor, siteURL, faviconImage } from '$lib/config';
+	import { siteTitle, siteDescription, siteAuthor, siteURL, faviconImage } from '$lib/config';
 	// use default svelte-material-ui css
 	import '$lib/../../node_modules/svelte-material-ui/bare.css';
 	import Header from '$lib/components/Header.svelte';

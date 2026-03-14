@@ -4,7 +4,7 @@
 </script>
 
 <ul>
-	{#each navItems as page}
+	{#each navItems as page (page.route)}
 		<NavItem href={page.route}>
 			{page.title}
 		</NavItem>

@@ -10,7 +10,9 @@
 
   const { page, posts, tag, tagsTotal } = data
 
+	// eslint-disable-next-line no-unused-vars
 	let lowerBound = $derived((page * postsPerPage) - (postsPerPage - 1) || 1)
+	// eslint-disable-next-line no-unused-vars
 	let upperBound = $derived(Math.min(page * postsPerPage, tagsTotal))
 </script>
 

@@ -1,5 +1,3 @@
-import { error } from '@sveltejs/kit'
-
 // export const load = async () => {
 // 	try {
 // 		const MdFile = await import('$lib/content/about/brooks_bio.md');

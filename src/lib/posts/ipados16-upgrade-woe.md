@@ -45,7 +45,7 @@ Longer answer: It's a [iPad Pro 11"](https://support.apple.com/en-us/HT201471) r
 
 ## Lightbulb Moment
 
-Then I remembered something...I *AM* a techie **AND** an early adopter. I was reading through this [article](https://www.macworld.com/article/673681/how-to-get-ipados-15-on-your-ipad.html), which honestly needs an update, and it reads like it was written for iPadOS 15 and just changed the headline, even the url slug has `ipados-15` in it, and it had a section about beta testing. I must have enrolled in the beta testing for iPadOS 15 last year and had forgotten about it. 
+Then I remembered something...I *AM* a techie **AND** an early adopter. I was reading through this [article](https://www.macworld.com/article/673681/how-to-get-ipados-15-on-your-ipad.html), which honestly needs an update, and it reads like it was written for iPadOS 15 and just changed the headline, even the url slug has `ipados-15` in it, and it had a section about beta testing. I must have enrolled in the beta testing for iPadOS 15 last year and had forgotten about it.
 
 So I began searching for the profile configuration in the settings that lets you know whether you're enrolled or not. This is tucked away from prying eyes. Apple keeps this profile configuration in the same location as the VPN (I found it through exhaustive searching).
 

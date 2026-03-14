@@ -20,23 +20,23 @@ atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwj54sa
 
 ## tl;dr
 
-- Don't let **perfect** me the enemy of *good enough*. 
+- Don't let **perfect** me the enemy of *good enough*.
 - Sometimes a simple solution is better than a fully correct solution.
-- Share early, share often. 
+- Share early, share often.
 - I have my own data playground now: https://data.teonbrooks.com
 
 ## How It Started
 
 I initially began working on this *forthcoming blog* three years ago and thought that it would be a simple afternoon project, but who hasn't left a blog post unfinished for years with the promised to return to it 😅
  
-So this all started because I had this idea to create a **simple** *data playground* on my blog for bite-sized data science projects. 
+So this all started because I had this idea to create a **simple** *data playground* on my blog for bite-sized data science projects.
 
 The setup was seemingly straightforward and my inaugural bite-sized project started off like most well-intended projects:
 
 - properly scoped
 - MVP
 
-But this *little project that could* ended up falling victim to scope-creep, perfectionism, grandiose plans, and multiple acts of abandonment. 
+But this *little project that could* ended up falling victim to scope-creep, perfectionism, grandiose plans, and multiple acts of abandonment.
 
 Recently, I finally decided to just publish the damned thing and move on with my life, but before I did, I wanted to document the papercuts of being on the bleeding edge of using Python on the web using [Jupyterlite](https://jupyterlite.readthedocs.io/), powered by [Pyodide](https://pyodide.org), the eternal love-hate relationship of packaging, versioning, and dependency resolution in Python and scientific computing.
 
@@ -78,7 +78,7 @@ However, at the moment, it does have a few shortcoming:
 ## When the Rubber meets the Road
 
 The Jupyterlite setup portion was pretty straightforward: 
-- I cloned the [demo template](https://github.com/jupyterlite/demo) and set up my repo. 
+- I cloned the [demo template](https://github.com/jupyterlite/demo) and set up my repo.
 - I deployed it to one of my subdomain so now I have https://data.teonbrooks.com as my very own Jupyterlite instance, which is pretty cool 😎
 
 ### Working with Photos in Python
@@ -100,7 +100,7 @@ Now I need to figure out to recreate this magic on the web.
 
 ### Accessing files
 
-So file storage isn't (readily) free 😅. You need to find somewhere to host your photos/dataset. This is something worth noting when you want to get a project off the ground and you want someone to be able to recreate your steps exactly. 
+So file storage isn't (readily) free 😅. You need to find somewhere to host your photos/dataset. This is something worth noting when you want to get a project off the ground and you want someone to be able to recreate your steps exactly.
 
 One piece of advice I wish I had followed and listened to (I even told myself this early on), is reduce your data payload. You can do do this a few different ways:
 1. Compress yodur images
@@ -108,7 +108,7 @@ One piece of advice I wish I had followed and listened to (I even told myself th
 
 I ended up storing all the files with `git-lfs`. At first I stored a zip of the directory but then I had figure out how to read a zip into memory in Jupyterlite and I really went down the rabbit hole on that one. I later unzipped and `git-lfs` the individual images.
 
-** Note**: Remember to fetch your files in your GitHub Actions when you're building your site otherwise they won't be there. 
+** Note**: Remember to fetch your files in your GitHub Actions when you're building your site otherwise they won't be there.
 
 ### Getting the Package Right
 

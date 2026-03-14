@@ -2,9 +2,7 @@
 	import {
 		siteTitle,
 		siteDescription,
-		siteImage,
 		siteImageWidth,
-		siteAuthor,
 		siteURL,
 		faviconImage
 	} from '$lib/config';

@@ -5,7 +5,7 @@
 </script>
 
 <ul class="posts-list">
-	{#each posts as post}
+	{#each posts as post (post.slug)}
 		<li>
 			<div class="blogCard">
 				<div class="blogCardSize">

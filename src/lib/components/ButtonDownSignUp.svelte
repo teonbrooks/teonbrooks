@@ -29,7 +29,7 @@ https://svelte.dev/e/attribute_invalid_event_handler -->
     <label for="bd-email">Enter your email</label>
     <input type="email" name="email" id="bd-email" />
     <p>
-      {#each formTags as formTag}
+      {#each formTags as formTag (formTag)}
         {#if tag == formTag}
           <input type="checkbox" id="{formTag}" name="tag" value={formTag} checked>
         {:else}

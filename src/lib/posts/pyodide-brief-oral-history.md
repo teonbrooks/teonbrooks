@@ -82,7 +82,7 @@ Internal service
 
 ## Life After Iodide
 
-Fast forward, the Iodide Project was 86'd (RIP 😢) due to lack of executive leadership support at Mozilla to further develop it. But fortunately, Pyodide was spun out to become a community project ([Pyodide Spin Out and 0.17 Release - Mozilla Hacks - the Web developer blog](https://hacks.mozilla.org/2021/04/pyodide-spin-out-and-0-17-release/)), and many people and companies began to take an interest in the success. 
+Fast forward, the Iodide Project was 86'd (RIP 😢) due to lack of executive leadership support at Mozilla to further develop it. But fortunately, Pyodide was spun out to become a community project ([Pyodide Spin Out and 0.17 Release - Mozilla Hacks - the Web developer blog](https://hacks.mozilla.org/2021/04/pyodide-spin-out-and-0-17-release/)), and many people and companies began to take an interest in the success.
 
 ### Jupyterlite
 [Jupyterlite](https://jupyterlite.readthedocs.io) seems to have finally solved a scenario of providing a self-contained interactive notebook environment that can be easily shared or hosted. This project is being worked on by the fine folks over at [Quantstack](https://quantstack.net/). Keenly, they see this as an excellent tool for education. A few related projects:

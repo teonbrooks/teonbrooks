@@ -27,7 +27,7 @@
 			{#if filters}
 				<div id="filters">
 					<button onclick={() => (isClicked = false)}>Show All</button>
-					{#each categories as category}
+					{#each categories as category (category)}
 						<button
 								class="button"
 								data-filter=".{category}"
@@ -39,7 +39,7 @@
 				</div>
 			{/if}
 			<div id="grid">
-				{#each items.filter(matches) as item}
+				{#each items.filter(matches) as item (item.title)}
 					<PortfolioCard {item} {path} />
 				{/each}
 			</div>

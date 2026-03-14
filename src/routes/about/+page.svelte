@@ -1,5 +1,5 @@
 <script>
-	import { siteTitle, siteDescription, siteImage, siteImageWidth, siteAuthor, siteURL, faviconImage } from '$lib/config';	
+	import { siteTitle, siteDescription, siteImageWidth, siteURL, faviconImage } from '$lib/config';
 	import Article from "$lib/components/Article.svelte";
 	// TODO: consider creating a page.js similar to blog/[post]/+page.js for import
 	import MdRaw from "$lib/content/about/brooks_bio.md?raw";

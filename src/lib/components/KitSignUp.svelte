@@ -1,15 +1,9 @@
 <!-- @migration-task Error while migrating Svelte code: Event attribute must be a JavaScript expression, not a string
 https://svelte.dev/e/attribute_invalid_event_handler -->
 <script>
-  import { tagsEmoji } from "$lib/config";
-  
-  let { tag } = $props();
-  let formTags = ['life', 'travel', 'tech'];
-
   // function myFunction() {
   //   window.open('https://buttondown.com/teon', 'popupwindow')
   // }
-
 </script>
 
 <div class="align">

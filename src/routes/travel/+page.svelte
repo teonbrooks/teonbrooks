@@ -1,5 +1,5 @@
 <script>
-  import { siteTitle, siteDescription, siteImage, siteImageWidth, siteAuthor, siteURL, faviconImage } from '$lib/config';
+  import { siteTitle, siteDescription, siteImageWidth, siteURL, faviconImage } from '$lib/config';
   import TravelTag from '$lib/components/TravelTag.svelte'
 
   let { data } = $props();
@@ -10,7 +10,7 @@
   logTravel.trips.forEach((trip, idx) => {
       if (trip.stays) {
           trip.stays.forEach((stay, idy) => {
-              recommendations.filter(rec => stay.destination == stay.destination).pop()
+              recommendations.filter(_ => stay.destination == stay.destination).pop()
               let rec = recommendations.filter(r => r.destination == stay.destination)[0];
               logTravel.trips[idx].stays[idy].linkRec = typeof rec === 'undefined' ? '' : rec['linkRec'];
 
@@ -48,9 +48,9 @@
 
 <h1>Places Visited</h1>
 <div class="tags">
-{#each logTravel['trips'] as trip}
+{#each logTravel['trips'] as trip (trip.destination)}
     {#if trip['stays']}
-        {#each trip['stays'] as stay}
+        {#each trip['stays'] as stay (stay.destination)}
         <TravelTag {...stay}/>
         {/each}
     {/if}

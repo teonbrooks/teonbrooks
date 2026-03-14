@@ -9,7 +9,7 @@
     <article>
         <h3>Ingredients:</h3>
         <ul>
-            {#each ingredients as ingredient}
+            {#each ingredients as ingredient (ingredient.name)}
             <li>
                 <Ingredient name={ingredient.name} bind:used={ingredient.used} />
             </li>
@@ -22,7 +22,7 @@
     <article>
         <h3>Ingredients:</h3>
         <ul>
-            {#each ingredients as ingredient}
+            {#each ingredients as ingredient (ingredient.name)}
             <li>
                 <Ingredient name={ingredient.name} bind:used={ingredient.used} />
             </li>

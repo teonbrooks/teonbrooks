@@ -1,4 +1,3 @@
-import { postsPerPage } from '$lib/config'
 import fetchPosts from '$lib/assets/js/fetchPosts'
 import { json } from '@sveltejs/kit'
 

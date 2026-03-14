@@ -5,7 +5,7 @@
   "imagesDir": "static/blog_assets",
   "publicDir": "static",
   "outputDir": "build",
-  "pathPrefix": "/blog/",
+  "pathPrefix": "/blog",
   "publicationUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.publication/3mgzwvx3ecd2j",
   "frontmatter": {
     "description": "excerpt",
@@ -15,8 +15,5 @@
   "publishContent": true,
   "bluesky": {
     "enabled": true
-  },
-  "ui": {
-    "components": "src/lib/components"
   }
 }

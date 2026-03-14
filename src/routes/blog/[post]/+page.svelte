@@ -1,7 +1,6 @@
 <!-- This file renders each individual blog post for reading. Be sure to update the svelte:head below -->
 <script>
 	import KitSignUp from "$lib/components/KitSignUp.svelte"
-	import { siteImage } from "$lib/config";
 	import Card, { Content } from '@smui/card';
 	import { CommentSection } from "bluesky-comments-svelte";
 	import "$lib/components/sequoia-comments.js";
@@ -108,7 +107,7 @@
 		<aside class="post-footer">
 			<h2>Posted in: </h2>
 			<ul class="post-footer__tags">
-				{#each tags as tag}
+				{#each tags as tag (tag)}
 					<li>
 						<a href="/blog/tag/{tag}/">
 							{ tag }

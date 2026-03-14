@@ -30,7 +30,7 @@ In case you missed last week's edition, you can find it [HERE](./dispatches-noma
 
 ## Nomadic Adventures
 
-This week, I'm featuring my first cross-country train trip that I did back in October 2022. I traveled from New York to San Francisco via the Amtrak and had one of the most amazing journeys along the way. I made stops in Chicago, Denver, took a bit of a detour flight down to Austin to celebrate my friend, Austin, and his birthday at no other than Austin City Limits. So in Austin in Austin for Austin...City Limits. 
+This week, I'm featuring my first cross-country train trip that I did back in October 2022. I traveled from New York to San Francisco via the Amtrak and had one of the most amazing journeys along the way. I made stops in Chicago, Denver, took a bit of a detour flight down to Austin to celebrate my friend, Austin, and his birthday at no other than Austin City Limits. So in Austin in Austin for Austin...City Limits.
 Flew back to Denver to continue trip westward with stops in Glenwood Springs, Salt Lake City, a quick trip up to Park City before returning to SLC for a final stretch to Emeryville. From there, we concluded our epic, transcontinental odyssey by unceremoniously loading into a charter bus to complete our SF arrival at some random street corner in downtown.
 
 The album is a bit sparse on details of the train travels right now because I did my journaling with pen and paper and haven't had the time to type a summary up. However, I wanted to share some of the photos from the trip and I'll follow up with some proper travel blogging in the near future.
@@ -79,7 +79,7 @@ I'm a leftie, both the political kind and the one of the southpaw persuasion, an
 
 I began looking for an entry fountain pen, you know, that gateway drug to better writing. I stumbled upon Lamy and it was love at first write. I really liked the striking design, the palette of colors, and the fact that it had a fine point nib. I also learned that Lamy has created a left-handed nib for the pen, but the problems I found with it is that:
 
-(1) the tip is medium, which means there's more ink flow, which is problematic with ink drying and your hand smearing it. Truly, the life and the mark of a leftie back in grade school was to have the outer regions of the palm completely covered with ink or graphite. 
+(1) the tip is medium, which means there's more ink flow, which is problematic with ink drying and your hand smearing it. Truly, the life and the mark of a leftie back in grade school was to have the outer regions of the palm completely covered with ink or graphite.
 
 (2) over time, I have learned to adjust to the way right-handed pens are made, which are to be dragged behind them, and I'm not sure I could write in a natural left-handed way anymore that would be conducive to the nib. Maybe Teon of the past, maybe 25 years ago, would have appreciated this nib, but also he would have still been covered in ink.
 

@@ -1,5 +1,5 @@
 <script>
-	import { siteTitle, siteDescription, siteImage, siteImageWidth, siteAuthor, siteURL, faviconImage } from '$lib/config';	
+	import { siteTitle, siteDescription, siteImageWidth, siteURL, faviconImage } from '$lib/config';
 	import KitSignUp from "$lib/components/KitSignUp.svelte";
 </script>
 

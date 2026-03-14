@@ -1,7 +1,7 @@
 <script>
 	import PostsList from '$lib/components/PostsList.svelte'
 	import Pagination from '$lib/components/Pagination.svelte'
-	import { postsPerPage, siteDescription, tagsEmoji } from '$lib/config'
+	import { postsPerPage, tagsEmoji } from '$lib/config'
 	import KitSignUp from '$lib/components/KitSignUp.svelte';
 
 	let { data } = $props();
@@ -17,7 +17,7 @@
 <h1 align='center'>Dispatches from a [👨🏾‍💻 blerd]</h1>
 
 <div id='selectTags'>
-	{#each selectTags as tag}
+	{#each selectTags as tag (tag)}
 		<button onclick={() => window.open(`./blog/tag/${tag}`, '_self')}>
 			{`{${tagsEmoji[tag]} ${tag} edition}`}
 		</button>
