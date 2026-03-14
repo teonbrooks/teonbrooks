@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: Ginger Molasses Cookie"
+title: "Dispatches from the kitchen: Ginger Molasses Cookie"
 slug: cookie-challenge-week-01
 authors:
 - Teon L Brooks

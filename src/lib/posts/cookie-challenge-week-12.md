@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: Dark Chocolate Chunk Oatmeal Cookie"
+title: "Dispatches from the kitchen: Dark Chocolate Chunk Oatmeal Cookie"
 slug: cookie-challenge-week-12
 authors:
 - Teon L Brooks

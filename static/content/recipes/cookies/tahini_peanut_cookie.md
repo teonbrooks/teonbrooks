@@ -1,3 +1,6 @@
+---
+read: true
+---
 # Tahini Peanut Cookie
 
 ## Original Recipe

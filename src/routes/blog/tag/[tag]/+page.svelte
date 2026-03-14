@@ -3,7 +3,7 @@
 	import PostsList from '$lib/components/PostsList.svelte'
 	import Pagination from '$lib/components/Pagination.svelte'
   	import { postsPerPage } from '$lib/config'
-	import ButtonDownSignUp from '$lib/components/ButtonDownSignUp.svelte';
+	import KitSignUp from '$lib/components/KitSignUp.svelte';
 	import { tagsEmoji } from '$lib/config';
 
 	let { data } = $props();
@@ -25,7 +25,7 @@
 {#if posts.length}
 	<PostsList posts={posts.slice(0, postsPerPage)} />
 	<Pagination currentPage={page} totalPosts={tagsTotal} path="/blog/tag/{tag}/page" />
-	<ButtonDownSignUp {tag} />
+	<KitSignUp {tag} />
 {:else}
 	<p><strong>Ope!</strong> Sorry, couldn't find any posts in the tag "{tag}".</p>
 

@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: A 52-Week Cookie Challenge"
+title: "Dispatches from the kitchen: A 52-Week Cookie Challenge"
 slug: cookie-challenge
 authors:
   - Teon L Brooks

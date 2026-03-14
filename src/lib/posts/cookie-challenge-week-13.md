@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: Passionfruit Rum Cookie"
+title: "Dispatches from the kitchen: Passionfruit Rum Cookie"
 slug: cookie-challenge-week-13
 authors:
 - Teon L Brooks

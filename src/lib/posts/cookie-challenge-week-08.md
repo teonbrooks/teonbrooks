@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: Snickerdoodle Cookie"
+title: "Dispatches from the kitchen: Snickerdoodle Cookie"
 slug: cookie-challenge-week-08
 authors:
 - Teon L Brooks

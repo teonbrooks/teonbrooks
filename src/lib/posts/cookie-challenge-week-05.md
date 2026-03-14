@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: Gochujang Caramel Cookie"
+title: "Dispatches from the kitchen: Gochujang Caramel Cookie"
 slug: cookie-challenge-week-05
 authors:
 - Teon L Brooks

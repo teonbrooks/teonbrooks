@@ -1,3 +1,6 @@
+---
+read: true
+---
 # Gochachung Caramel Cookie
 
 ## Original Recipe

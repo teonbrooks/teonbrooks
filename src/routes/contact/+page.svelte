@@ -1,6 +1,6 @@
 <script>
 	import { siteTitle, siteDescription, siteImage, siteImageWidth, siteAuthor, siteURL, faviconImage } from '$lib/config';	
-	import ButtonDownSignUp from "$lib/components/ButtonDownSignUp.svelte";
+	import KitSignUp from "$lib/components/KitSignUp.svelte";
 </script>
 
 <svelte:head>
@@ -51,7 +51,7 @@
 </article>
 
 <h1>Subscribe</h1>
-<ButtonDownSignUp />
+<KitSignUp />
 
 <style>
 	form {

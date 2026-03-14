@@ -1,3 +1,6 @@
+---
+read: true
+---
 # Lace Cookie
 
 ## Original recipe

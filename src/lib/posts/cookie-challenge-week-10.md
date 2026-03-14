@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: Old-fashioned Peanut Butter Cookie"
+title: "Dispatches from the kitchen: Old-fashioned Peanut Butter Cookie"
 slug: cookie-challenge-week-10
 authors:
 - Teon L Brooks

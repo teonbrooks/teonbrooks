@@ -32,6 +32,9 @@ jobs:
         run: |
           npm run build
 
+      - name: Inject Sequoia link tags
+        run: npx sequoia inject
+
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
         with:

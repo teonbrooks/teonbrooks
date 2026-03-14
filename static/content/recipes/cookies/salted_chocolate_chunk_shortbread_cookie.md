@@ -1,3 +1,6 @@
+---
+read: true
+---
 # Salted Chocolate Chunk Shortbread Cookie
 ## Original Recipe
 - [Salted Chocolate Chunk Shortbread Cookies Recipe](https://cooking.nytimes.com/recipes/1019152-salted-chocolate-chunk-shortbread-cookies)

@@ -1,21 +1,23 @@
 <!-- This file renders each individual blog post for reading. Be sure to update the svelte:head below -->
 <script>
-	import ButtonDownSignUp from "$lib/components/ButtonDownSignUp.svelte"
+	import KitSignUp from "$lib/components/KitSignUp.svelte"
 	import { siteImage } from "$lib/config";
 	import Card, { Content } from '@smui/card';
 	import { CommentSection } from "bluesky-comments-svelte";
+	import "$lib/components/sequoia-comments.js";
 	
-	const author = "teon.bsky.social";
+	const author = "teonbrooks.com";
 	let { data } = $props();
 	let { toml = {} } = data;
 	let { PostContent, meta } = data;
 
-	let { title, excerpt, date, updated, 
-		  coverImage, coverWidth, coverHeight, 
+	let { title, excerpt, date, updated,
+		  coverImage, coverWidth, coverHeight,
 		  tags, social, authors } = meta;
-	// TODO: Currently if date is not presented as string, it becomes datetime
-	// 		 For now, we will just wrap it as a string in the post
-	//       Consider parsing it as a datetime and returning YYYY-MM-DD
+
+	const formatDate = (d) => new Date(d).toISOString().slice(0, 10);
+	let formattedDate = $derived(formatDate(date));
+	let formattedUpdated = $derived(updated ? formatDate(updated) : null);
 
 </script>
 
@@ -58,10 +60,10 @@
 	<h1>{ title }</h1>
 	
 	<div class="meta">
-		<b>Published:</b> {date}
-		{#if updated}
+		<b>Published:</b> {formattedDate}
+		{#if formattedUpdated}
 			<br>
-			<b>Updated:</b> {updated}
+			<b>Updated:</b> {formattedUpdated}
 		{/if}
 	</div>
 	
@@ -77,13 +79,17 @@
 	<div class="comments">
 		<div class="content">
 			<h2>Comments</h2>
-			<CommentSection {author} />
+			{#if social && social.includes('bluesky')}
+				<CommentSection {author} />
+			{:else}
+				<sequoia-comments hide="auto"></sequoia-comments>
+			{/if}
 		</div>
 	</div>
 
 	<!-- Add Signup Form -->
 	<h2>Signup</h2>
-	<ButtonDownSignUp />
+	<KitSignUp />
 	<!-- Quick fix to embed content properly -->
 	<!-- This should be conditional on the blog post -->
 	{#if social}
@@ -117,6 +123,13 @@
 <style>
 	article {
 		display: inline-block
+	}
+
+	.cover-image {
+		max-width: 600px;
+		width: 100%;
+		display: block;
+		margin: 0 auto;
 	}
 
 	.comments {

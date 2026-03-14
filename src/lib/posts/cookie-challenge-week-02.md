@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: Salted Chocolate Chunk Shortbread Cookie"
+title: "Dispatches from the kitchen: Salted Chocolate Chunk Shortbread Cookie"
 slug: cookie-challenge-week-02
 authors:
 - Teon L Brooks

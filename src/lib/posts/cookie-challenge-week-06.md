@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: Oatmeal Chocolate Chunk Cookie"
+title: "Dispatches from the kitchen: Oatmeal Chocolate Chunk Cookie"
 slug: cookie-challenge-week-06
 authors:
 - Teon L Brooks

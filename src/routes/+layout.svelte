@@ -69,7 +69,7 @@
 	<!-- h-card -->
 	<link href="https://teonbrooks.com/" class="h-card u-url u-uid" rel="me" />
 	<!-- Bluesky -->
-	<link href="https://bsky.app/profile/teon.bsky.social" rel="me" />
+	<link href="https://bsky.app/profile/teonbrooks.com" rel="me" />
 	<!-- Bridgy -->
 	<link href="https://brid.gy/bluesky/did:plc:yl7wcldipsfnjdww2jg5mnrv" rel="me" />
 	<!-- Mastodon -->

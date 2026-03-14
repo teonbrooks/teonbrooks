@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: Chewy Chocolate Chip Cookie"
+title: "Dispatches from the kitchen: Chewy Chocolate Chip Cookie"
 slug: cookie-challenge-week-04
 authors:
 - Teon L Brooks

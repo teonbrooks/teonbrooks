@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: Tahini Peanut Cookie"
+title: "Dispatches from the kitchen: Tahini Peanut Cookie"
 slug: cookie-challenge-week-03
 authors:
 - Teon L Brooks

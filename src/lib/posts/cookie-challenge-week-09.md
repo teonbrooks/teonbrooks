@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: Triple Chocolate Chip Cookie"
+title: "Dispatches from the kitchen: Triple Chocolate Chip Cookie"
 slug: cookie-challenge-week-09
 authors:
 - Teon L Brooks

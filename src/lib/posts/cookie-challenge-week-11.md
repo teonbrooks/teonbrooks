@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: Peanut Butter Oatmeal Chocolate Chip Cookie"
+title: "Dispatches from the kitchen: Peanut Butter Oatmeal Chocolate Chip Cookie"
 slug: cookie-challenge-week-11
 authors:
 - Teon L Brooks

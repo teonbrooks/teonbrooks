@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: Lemon Glazed Gingerbread Cookie"
+title: "Dispatches from the kitchen: Lemon Glazed Gingerbread Cookie"
 slug: cookie-challenge-week-07
 authors:
 - Teon L Brooks

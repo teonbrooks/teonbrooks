@@ -1,3 +1,6 @@
+---
+read: true
+---
 # Ginger Molasses Cookie
 ## Original Recipe
 [Soft and Chewy Ginger Molasses Cookies | Mel's Kitchen Cafe](https://www.melskitchencafe.com/soft-and-chewy-ginger-molasses-cookies/)

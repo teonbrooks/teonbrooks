@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: Oatmeal Cookie Butter Cookie"
+title: "Dispatches from the kitchen: Oatmeal Cookie Butter Cookie"
 slug: cookie-challenge-week-14
 authors:
 - Teon L Brooks

@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: Lace Cookie"
+title: "Dispatches from the kitchen: Lace Cookie"
 slug: cookie-challenge-week-16
 authors:
 - Teon L Brooks

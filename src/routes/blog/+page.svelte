@@ -2,7 +2,7 @@
 	import PostsList from '$lib/components/PostsList.svelte'
 	import Pagination from '$lib/components/Pagination.svelte'
 	import { postsPerPage, siteDescription, tagsEmoji } from '$lib/config'
-	import ButtonDownSignUp from '$lib/components/ButtonDownSignUp.svelte';
+	import KitSignUp from '$lib/components/KitSignUp.svelte';
 
 	let { data } = $props();
 	const selectTags = ['travel', 'tech', 'kitchen'];
@@ -11,10 +11,10 @@
 
 
 <svelte:head>
-	<title>Dispatches from a [blerd 🤓]</title>
+	<title>Dispatches from a [👨🏾‍💻 blerd]</title>
 </svelte:head>
 
-<h1 align='center'>Dispatches from a [🤓 blerd]</h1>
+<h1 align='center'>Dispatches from a [👨🏾‍💻 blerd]</h1>
 
 <div id='selectTags'>
 	{#each selectTags as tag}
@@ -34,7 +34,7 @@
 
 <!-- Add a mailto button option -->
 
-<ButtonDownSignUp />
+<KitSignUp />
 
 
 <style>

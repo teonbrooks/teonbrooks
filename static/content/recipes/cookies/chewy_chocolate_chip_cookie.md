@@ -1,3 +1,6 @@
+---
+read: true
+---
 # Chewy Chocolate Chip Cookie
 ## Original Recipe
 [Best Chocolate Chip Cookies (Popular Recipe!) - Sally's Baking Addiction](https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/)

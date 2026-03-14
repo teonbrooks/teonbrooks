@@ -43,5 +43,5 @@ P.S. I made a [sticker book](https://photos.app.goo.gl/x4jBd4pp3LWWeoNK6) from m
 
 - Web: https://teonbrooks.com
 - LinkedIn: https://linkedin.com/in/teonbrooks
-- Bluesky: [@teon](https://teon.bsky.social)
+- Bluesky: [@teonbrooks.com](https://bsky.app/profile/teonbrooks.com)
 - Email: `[firstname].[lastname] @ gmail.com`

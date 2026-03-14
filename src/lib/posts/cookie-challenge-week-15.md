@@ -1,5 +1,5 @@
 ---
-title: "Dispatches from a kitchen: World Peace Cookie"
+title: "Dispatches from the kitchen: World Peace Cookie"
 slug: cookie-challenge-week-15
 authors:
 - Teon L Brooks
