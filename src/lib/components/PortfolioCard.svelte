@@ -25,13 +25,15 @@
 					<Label>Details</Label>
 				</Button>
 			</ActionButtons>
-			<ActionIcons>
-				<IconButton onclick={() => window.open(item.website)} title="Open Link">
-					<Icon tag="svg" viewBox="0 0 24 24">
-						<path fill="currentColor" d={mdiLink} />
-					</Icon>
-				</IconButton>
-			</ActionIcons>
+			{#if item.website}
+				<ActionIcons>
+					<IconButton onclick={() => window.open(item.website)} title="Open Link">
+						<Icon tag="svg" viewBox="0 0 24 24">
+							<path fill="currentColor" d={mdiLink} />
+						</Icon>
+					</IconButton>
+				</ActionIcons>
+			{/if}
 		</Actions>
 	</Card>
 	<Dialog bind:open sheet aria-describedby="sheet-content">

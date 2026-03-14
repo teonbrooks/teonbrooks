@@ -68,13 +68,13 @@
 		{/if}
 	</div>
 	
-	<article>
+	<div class="post-content">
 		<Card padded>
 			<Content>
-				<PostContent {toml} />
+				<PostContent />
 			</Content>
 		</Card>
-	</article>
+	</div>
 
 	<!-- Add commenting -->
 	<div class="comments">

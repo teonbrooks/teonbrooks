@@ -6,6 +6,14 @@ import rehypeToc from 'rehype-toc'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+	vitePlugin: {
+		// mdsvex generates <script context="module"> for frontmatter exports, which is
+		// deprecated in Svelte 5 but not yet fixed upstream in mdsvex.
+		onwarn: (warning, handler) => {
+			if (warning.filename?.endsWith('.md') && warning.message?.includes('context="module"')) return;
+			handler(warning);
+		}
+	},
 	// Ensures both .svelte and .md files are treated as components (can be imported and used anywhere, or used as pages)
 	extensions: ['.svelte', '.md'],
 
