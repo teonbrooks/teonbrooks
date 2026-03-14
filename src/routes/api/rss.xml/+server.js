@@ -1,21 +1,26 @@
 import { siteTitle, siteDescription, siteURL } from '$lib/config'
-import { render } from 'svelte/server'
+import MarkdownIt from 'markdown-it'
 import fetchPosts from '$lib/assets/js/fetchPosts'
 
 export const prerender = true
 
+const md = new MarkdownIt({ html: true })
+
+const stripFrontmatter = (raw) => raw.replace(/^---[\s\S]*?---\n/, '')
+const stripStyleAndScript = (html) =>
+	html.replace(/<style[\s\S]*?<\/style>/gi, '').replace(/<script[\s\S]*?<\/script>/gi, '')
+
 export const GET = async () => {
 	const { posts } = await fetchPosts({ limit: -1 })
 
-	// Render each post's body HTML via its mdsvex component
-	const postModules = import.meta.glob('/src/lib/posts/*.md')
+	// Get raw markdown and render to HTML for each post
+	const rawModules = import.meta.glob('/src/lib/posts/*.md', { query: '?raw', import: 'default' })
 	const htmlBySlug = {}
 	await Promise.all(
-		Object.entries(postModules).map(async ([path, resolver]) => {
-			const { default: Component } = await resolver()
-			const { html } = render(Component)
+		Object.entries(rawModules).map(async ([path, getRaw]) => {
+			const raw = await getRaw()
 			const slug = path.split('/').pop().slice(0, -3)
-			htmlBySlug[slug] = html
+			htmlBySlug[slug] = stripStyleAndScript(md.render(stripFrontmatter(raw)))
 		})
 	)
 
