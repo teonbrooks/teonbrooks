@@ -1,0 +1,10 @@
+#!/bin/sh
+# Check if any blog posts are staged.
+# If so, publish them to the AT Protocol via Sequoia and
+# stage the updated .sequoia-state.json so it's included in the commit.
+
+if git diff --cached --name-only | grep -q "^src/lib/posts/.*\.md$"; then
+  echo "Blog post changes detected. Running sequoia publish..."
+  npx sequoia publish || exit 1
+  git add .sequoia-state.json
+fi
