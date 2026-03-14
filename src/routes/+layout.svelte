@@ -41,6 +41,14 @@
 <svelte:head>
 	<meta name="author" content={siteAuthor}>
 	<meta name="description" content="#nobridge">
+	<!-- Favicon -->
+	<link rel="icon" href="/favicon.png" />
+	<!-- OG -->
+	<meta property="og:site_name" content={siteTitle} />
+	<meta property="og:image" content="{siteURL}{faviconImage}" />
+	<meta property="og:description" content={siteDescription} />
+	<meta name="twitter:image" content="{siteURL}{faviconImage}" />
+	<meta name="twitter:card" content="summary" />
 	<!-- WIP: clean up and consolidate CSS  -->
 	<link rel="stylesheet" href="/css/vars.css" />
 	<link rel="stylesheet" href="/css/root.css" />
