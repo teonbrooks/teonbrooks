@@ -12,9 +12,11 @@
 					<a href="/blog/{post.slug}">
 						<Card padded>
 							<Content>
-								<div class="image">
-									<img src={post.coverImage} alt="" width="400px" />
-								</div>
+								{#if post.coverImage}
+									<div class="image">
+										<img src={post.coverImage} alt="Cover image for {post.title}" width="400px" />
+									</div>
+								{/if}
 								<h2>
 									{post.title}
 								</h2>

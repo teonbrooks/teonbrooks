@@ -6,7 +6,7 @@
 	import { CommentSection } from "bluesky-comments-svelte";
 	import "$lib/components/sequoia-comments.js";
 
-	const author = "teonbrooks.com";
+	const author = "did:plc:yl7wcldipsfnjdww2jg5mnrv";
 	let { data } = $props();
 	let { toml } = data;
 	setContext('toml', toml ?? {});
@@ -52,11 +52,13 @@
 
 <article class="post">
 	<!-- You might want to add an alt frontmatter attribute. If not, leaving alt blank here works, too. -->
-	<img
-		class="cover-image"
-		src="{coverImage}"
-		alt=""
-	/>
+	{#if coverImage}
+		<img
+			class="cover-image"
+			src="{coverImage}"
+			alt="Cover image for {title}"
+		/>
+	{/if}
 	<!-- Figure out how to images that don't conform to the aspect ratio -->
 	<!-- <img
 		class="cover-image"
