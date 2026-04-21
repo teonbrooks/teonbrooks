@@ -42,7 +42,7 @@
 	<meta name="author" content={siteAuthor}>
 	<meta name="description" content="#nobridge">
 	<!-- Favicon -->
-	<link rel="icon" href="/favicon.png" />
+	<link rel="icon" href="{siteURL}{faviconImage}" />
 	<!-- OG -->
 	<meta property="og:site_name" content={siteTitle} />
 	<meta property="og:image" content="{siteURL}{faviconImage}" />
