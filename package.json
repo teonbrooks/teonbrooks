@@ -24,7 +24,7 @@
 		"@smui/layout-grid": "^8.0.3",
 		"@smui/snackbar": "^8.0.3",
 		"@sveltejs/adapter-static": "^3.0.10",
-		"@sveltejs/kit": "^2.55.0",
+		"@sveltejs/kit": "^2.57.1",
 		"@sveltejs/vite-plugin-svelte": "^7.0.0",
 		"bluesky-comments-svelte": "^0.1.3",
 		"eslint": "^10.0.3",
