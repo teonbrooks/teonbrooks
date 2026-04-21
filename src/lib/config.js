@@ -22,8 +22,8 @@ export const navItems = [
 		title: 'Blog',
 		route: '/blog'
 	}, {
-		title: 'Travel (wip)',
-		route: 'https://cestlavie.app/u/teon/passport'
+		title: 'Travel',
+		route: 'https://passports.social/profile/teonbrooks.com/travel'
 	}, {
 		title: 'Portfolio',
 		route: '/portfolio'

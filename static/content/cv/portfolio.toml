@@ -8,6 +8,8 @@ Teon L. Brooks, Ph.D is the co-founder of the nonprofit, [Gotham Data Clinic](ht
 Dr. Brooks has extensive expertise in data science, applied statistics, experimental design, and research methodology. 
 His research background in psycholinguistics, cognitive science, and data science education.
 
+Outside of research, Teon has also been working a new project, [passports.social](https://passports.social) (pre-alpha), a new [open social app](https://atmosphereaccount.com) focused on life logging and discovery.
+
 He posts on Bluesky 🦋 at [@teonbrooks.com](https://bsky.app/profile/teonbrooks.com).
 """
 [[id.social]]
@@ -30,9 +32,9 @@ organization = 'Gotham Data Clinic'
 website = "https://gothamdataclinic.org"
 
 [[id.occupations]]
-title = 'Principal Consultant'
-organization = 'datalus'
-website = ""
+title = 'Data Scientist'
+organization = 'Brain & AI, Meta FAIR'
+website = "https://ai.meta.com/research/publications/a-foundation-model-of-vision-audition-and-language-for-in-silico-neuroscience/"
 
 [skills]
 
@@ -505,4 +507,3 @@ category = ["Consulting"]
 # """
 # website = ""
 # category = []
-

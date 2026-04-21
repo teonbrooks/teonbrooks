@@ -69,6 +69,8 @@
 		href="{siteURL}/api/rss.xml"
 	/>
 	<!-- Identity -->
+	<!-- Sifa.id -->
+	<link rel="me" href="https://sifa.id/p/teonbrooks.com">
 	<!-- Indieweb -->
 	<link rel="openid.delegate" href="https://teonbrooks.com/" />
 	<link rel="openid.server" href="https://openid.indieauth.com/openid" />
@@ -80,14 +82,12 @@
 	<link href="https://bsky.app/profile/teonbrooks.com" rel="me" />
 	<!-- Bridgy -->
 	<link href="https://brid.gy/bluesky/did:plc:yl7wcldipsfnjdww2jg5mnrv" rel="me" />
-	<!-- Mastodon -->
-	<link href="https://hachyderm.io/@teon" rel="me">
 	<!-- Web Mentions -->
 	<link rel="webmention" href="https://webmention.io/teonbrooks.com/webmention" />
 	<!-- RSS -->
 	<link href="/api/rss.xml" type="application/atom+xml" rel="alternate" title="Teon's Blog Feed">
-	<!-- Add Peasy Analytics -->
-	<script src="https://cdn.peasy.so/peasy.js" data-website-id="01jr0mcj9ds23rexg7w7weqbqs" async></script>
+	<!-- NeuroAI -->
+	<link href="https://github.com/facebookresearch/neuroai" rel="me">
 	<!-- Add Google Analytics -->
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GREYXSYBVM"></script>

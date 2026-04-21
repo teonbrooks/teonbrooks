@@ -15,6 +15,10 @@ main {
 	padding: 0 1rem;
 }
 
+main:has(article.post) {
+	max-width: 90dvw;
+}
+
 .layout {
 	display: grid;
 	grid-template-columns: 100%;

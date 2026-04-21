@@ -120,7 +120,8 @@
 
 <style>
 	article {
-		display: inline-block
+		display: block;
+		width: 100%;
 	}
 
 	.cover-image {
