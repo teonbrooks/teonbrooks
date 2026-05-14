@@ -41,7 +41,7 @@
 		"rehype-toc": "^3.0.2",
 		"sequoia-cli": "^0.5.1",
 		"smol-toml": "^1.6.0",
-		"svelte": "^5.53.12",
+		"svelte": "^5.55.7",
 		"svelte-fa": "^4.0.4",
 		"svelte-material-ui": "^8.0.3",
 		"svelte-preprocess": "^6.0.0",
