@@ -10,6 +10,6 @@ Teon has served as a core contributor to the MNE Project, a collection of open-s
 
 Dr. Brooks has served as the technical advisor and President of [BrainWaves](https://wp.nyu.edu/brainwaves), an NIH-funded project to teach experimentation and cognitive neuroscience to high school students in NYC, and has co-founded the [Gotham Data Clinic](https://gothamdataclinic.org), a nonprofit that aims to further the mission of the BrainWaves project while focusing on data science, computational thinking, and understanding computations in both humans and machines.
 
-Recently, Dr. Brooks led the Research and Development team at [Aimlabs](https://aimlabs.com), the makers of [Aim Lab](https://aimlab.gg), a first-person-shooter aim trainer. Prior to Aimlabs, Dr. Brooks worked primarily as a staff product data scientist at Mozilla.
+Recently, Dr. Brooks joined the Brain and AI team at Meta FAIR as a neural data scientist. Prior to FAIR, Dr. Brooks worked primarily as a staff product data scientist at Mozilla.
 
 He posts on Bluesky 🦋 at [@teonbrooks.com](https://bsky.app/profile/teonbrooks.com).
