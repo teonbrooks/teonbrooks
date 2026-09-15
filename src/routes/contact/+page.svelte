@@ -28,12 +28,12 @@
 	<form action="https://formspree.io/f/xjvpopgr" method="POST">
 		<div class="form-section">
 			<label for="name">Name</label>
-			<input class="field" type="text" id="name" placeholder="First name" />
+			<input class="field" type="text" id="name" name="name" placeholder="First name" />
 		</div>
-		
+
 		<div class="form-section">
 			<label for="email">Email</label>
-			<input class="field" type="email" id="email" placeholder="Email address" />
+			<input class="field" type="email" id="email" name="email" placeholder="Email address" />
 		</div>
 		
 		<div class="form-section">
