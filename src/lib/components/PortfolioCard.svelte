@@ -55,13 +55,13 @@
 				<h1>{item.organization}</h1>
 				<h2>{item.title}</h2>
 				<p><em>{item.timespan}</em></p>
-				<p>
+				<div>
 					<!-- Content is from trusted static TOML files — no XSS risk.
 					     For untrusted input, use marked + DOMPurify instead:
 					     {@html DOMPurify.sanitize(marked.parse(content))} -->
 					<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 					{@html md().render(item.description)}
-				</p>
+				</div>
 			</div>
 		</DContent>
 	</Dialog>
