@@ -90,4 +90,16 @@
 	h2 {
 		font-size: large;
 	}
+
+	/* MDC's card-action button ripple mis-centers its hover/focus state layer,
+	   so the highlight only ever covers the left half of the button. Disable
+	   it and use a plain, correctly-sized hover/focus background instead. */
+	:global(.mdc-card__action--button .mdc-button__ripple::before),
+	:global(.mdc-card__action--button .mdc-button__ripple::after) {
+		display: none !important;
+	}
+	:global(.mdc-card__action--button:hover),
+	:global(.mdc-card__action--button:focus) {
+		background-color: rgba(98, 0, 238, 0.08) !important;
+	}
 </style>
