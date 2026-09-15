@@ -30,10 +30,6 @@
 	{/each}
 </ul>
 
-<!-- width={post.coverWidth} -->
-<!-- height={post.coverHeight} -->
-<!-- style="ratio: {post.coverWidth} / {post.coverHeight}" -->
-
 <style>
 	.blogCard {
 		display: flex;
