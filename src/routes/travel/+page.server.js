@@ -1,11 +1,7 @@
-export const prerender = true
+import { redirect } from '@sveltejs/kit';
 
-export const load = async ({ url, fetch }) => {
-    const travelRes = await fetch(`${url.origin}/api/logs/log-travel.toml`)
-    const recsRes = await fetch(`${url.origin}/api/logs/log-recommendations.toml`)
+export const prerender = true;
 
-    const logTravel = await travelRes.json()
-    const recs = await recsRes.json()
-
-    return { logTravel, recs }
-}
+export const load = () => {
+	redirect(308, 'https://passports.social/profile/teonbrooks.com/travel');
+};
