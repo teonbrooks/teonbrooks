@@ -304,7 +304,7 @@ function formatRelativeTime(dateString) {
 	const diffYears = Math.floor(diffDays / 365);
 
 	if (diffSeconds < 60) {
-		return "just now";
+		return 'just now';
 	}
 	if (diffMinutes < 60) {
 		return `${diffMinutes}m ago`;
@@ -330,7 +330,7 @@ function formatRelativeTime(dateString) {
  * @returns {string} Escaped HTML
  */
 function escapeHtml(text) {
-	const div = document.createElement("div");
+	const div = document.createElement('div');
 	div.textContent = text;
 	return div.innerHTML;
 }
@@ -352,11 +352,9 @@ function renderTextWithFacets(text, facets) {
 	const textBytes = encoder.encode(text);
 
 	// Sort facets by start index
-	const sortedFacets = [...facets].sort(
-		(a, b) => a.index.byteStart - b.index.byteStart,
-	);
+	const sortedFacets = [...facets].sort((a, b) => a.index.byteStart - b.index.byteStart);
 
-	let result = "";
+	let result = '';
 	let lastEnd = 0;
 
 	for (const facet of sortedFacets) {
@@ -375,11 +373,11 @@ function renderTextWithFacets(text, facets) {
 		// Find the first renderable feature
 		const feature = facet.features[0];
 		if (feature) {
-			if (feature.$type === "app.bsky.richtext.facet#link") {
+			if (feature.$type === 'app.bsky.richtext.facet#link') {
 				result += `<a href="${escapeHtml(feature.uri)}" target="_blank" rel="noopener noreferrer">${escapeHtml(facetText)}</a>`;
-			} else if (feature.$type === "app.bsky.richtext.facet#mention") {
+			} else if (feature.$type === 'app.bsky.richtext.facet#mention') {
 				result += `<a href="https://bsky.app/profile/${escapeHtml(feature.did)}" target="_blank" rel="noopener noreferrer">${escapeHtml(facetText)}</a>`;
-			} else if (feature.$type === "app.bsky.richtext.facet#tag") {
+			} else if (feature.$type === 'app.bsky.richtext.facet#tag') {
 				result += `<a href="https://bsky.app/hashtag/${escapeHtml(feature.tag)}" target="_blank" rel="noopener noreferrer">${escapeHtml(facetText)}</a>`;
 			} else {
 				result += escapeHtml(facetText);
@@ -429,7 +427,7 @@ function parseAtUri(atUri) {
 	return {
 		did: match[1],
 		collection: match[2],
-		rkey: match[3],
+		rkey: match[3]
 	};
 }
 
@@ -442,7 +440,7 @@ function parseAtUri(atUri) {
 async function resolvePDS(did) {
 	let pdsUrl;
 
-	if (did.startsWith("did:plc:")) {
+	if (did.startsWith('did:plc:')) {
 		// Fetch DID document from plc.directory
 		const didDocUrl = `https://plc.directory/${did}`;
 		const didDocResponse = await fetch(didDocUrl);
@@ -453,12 +451,12 @@ async function resolvePDS(did) {
 
 		// Find the PDS service endpoint
 		const pdsService = didDoc.service?.find(
-			(s) => s.id === "#atproto_pds" || s.type === "AtprotoPersonalDataServer",
+			(s) => s.id === '#atproto_pds' || s.type === 'AtprotoPersonalDataServer'
 		);
 		pdsUrl = pdsService?.serviceEndpoint;
-	} else if (did.startsWith("did:web:")) {
+	} else if (did.startsWith('did:web:')) {
 		// For did:web, fetch the DID document from the domain
-		const domain = did.replace("did:web:", "");
+		const domain = did.replace('did:web:', '');
 		const didDocUrl = `https://${domain}/.well-known/did.json`;
 		const didDocResponse = await fetch(didDocUrl);
 		if (!didDocResponse.ok) {
@@ -467,7 +465,7 @@ async function resolvePDS(did) {
 		const didDoc = await didDocResponse.json();
 
 		const pdsService = didDoc.service?.find(
-			(s) => s.id === "#atproto_pds" || s.type === "AtprotoPersonalDataServer",
+			(s) => s.id === '#atproto_pds' || s.type === 'AtprotoPersonalDataServer'
 		);
 		pdsUrl = pdsService?.serviceEndpoint;
 	} else {
@@ -475,7 +473,7 @@ async function resolvePDS(did) {
 	}
 
 	if (!pdsUrl) {
-		throw new Error("Could not find PDS URL for user");
+		throw new Error('Could not find PDS URL for user');
 	}
 
 	return pdsUrl;
@@ -492,9 +490,9 @@ async function getRecord(did, collection, rkey) {
 	const pdsUrl = await resolvePDS(did);
 
 	const url = new URL(`${pdsUrl}/xrpc/com.atproto.repo.getRecord`);
-	url.searchParams.set("repo", did);
-	url.searchParams.set("collection", collection);
-	url.searchParams.set("rkey", rkey);
+	url.searchParams.set('repo', did);
+	url.searchParams.set('collection', collection);
+	url.searchParams.set('rkey', rkey);
 
 	const response = await fetch(url.toString());
 	if (!response.ok) {
@@ -526,11 +524,9 @@ async function getDocument(atUri) {
  * @returns {Promise<ThreadViewPost>} Thread view post
  */
 async function getPostThread(postUri, depth = 6) {
-	const url = new URL(
-		"https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread",
-	);
-	url.searchParams.set("uri", postUri);
-	url.searchParams.set("depth", depth.toString());
+	const url = new URL('https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread');
+	url.searchParams.set('uri', postUri);
+	url.searchParams.set('depth', depth.toString());
 
 	const response = await fetch(url.toString());
 	if (!response.ok) {
@@ -539,8 +535,8 @@ async function getPostThread(postUri, depth = 6) {
 
 	const data = await response.json();
 
-	if (data.thread.$type !== "app.bsky.feed.defs#threadViewPost") {
-		throw new Error("Post not found or blocked");
+	if (data.thread.$type !== 'app.bsky.feed.defs#threadViewPost') {
+		throw new Error('Post not found or blocked');
 	}
 
 	return data.thread;
@@ -580,7 +576,7 @@ function buildBlackskyAppUrl(postUri) {
  * @returns {boolean} True if post is a ThreadViewPost
  */
 function isThreadViewPost(post) {
-	return post?.$type === "app.bsky.feed.defs#threadViewPost";
+	return post?.$type === 'app.bsky.feed.defs#threadViewPost';
 }
 
 // ============================================================================
@@ -598,29 +594,29 @@ const BLACKSKY_ICON =
 // ============================================================================
 
 // SSR-safe base class - use HTMLElement in browser, empty class in Node.js
-const BaseElement = typeof HTMLElement !== "undefined" ? HTMLElement : class {};
+const BaseElement = typeof HTMLElement !== 'undefined' ? HTMLElement : class {};
 
 class SequoiaComments extends BaseElement {
 	constructor() {
 		super();
-		const shadow = this.attachShadow({ mode: "open" });
+		const shadow = this.attachShadow({ mode: 'open' });
 
-		const styleTag = document.createElement("style");
+		const styleTag = document.createElement('style');
 		shadow.appendChild(styleTag);
 		styleTag.innerText = styles;
 
-		const container = document.createElement("div");
+		const container = document.createElement('div');
 		shadow.appendChild(container);
-		container.className = "sequoia-comments-container";
-		container.part = "container";
+		container.className = 'sequoia-comments-container';
+		container.part = 'container';
 
 		this.commentsContainer = container;
-		this.state = { type: "loading" };
+		this.state = { type: 'loading' };
 		this.abortController = null;
 	}
 
 	static get observedAttributes() {
-		return ["document-uri", "depth", "hide"];
+		return ['document-uri', 'depth', 'hide'];
 	}
 
 	connectedCallback() {
@@ -640,26 +636,24 @@ class SequoiaComments extends BaseElement {
 
 	get documentUri() {
 		// First check attribute
-		const attrUri = this.getAttribute("document-uri");
+		const attrUri = this.getAttribute('document-uri');
 		if (attrUri) {
 			return attrUri;
 		}
 
 		// Then scan for link tag in document head
-		const linkTag = document.querySelector(
-			'link[rel="site.standard.document"]',
-		);
+		const linkTag = document.querySelector('link[rel="site.standard.document"]');
 		return linkTag?.href ?? null;
 	}
 
 	get depth() {
-		const depthAttr = this.getAttribute("depth");
+		const depthAttr = this.getAttribute('depth');
 		return depthAttr ? parseInt(depthAttr, 10) : 6;
 	}
 
 	get hide() {
-		const hideAttr = this.getAttribute("hide");
-		return hideAttr === "auto";
+		const hideAttr = this.getAttribute('hide');
+		return hideAttr === 'auto';
 	}
 
 	async loadComments() {
@@ -667,12 +661,12 @@ class SequoiaComments extends BaseElement {
 		this.abortController?.abort();
 		this.abortController = new AbortController();
 
-		this.state = { type: "loading" };
+		this.state = { type: 'loading' };
 		this.render();
 
 		const docUri = this.documentUri;
 		if (!docUri) {
-			this.state = { type: "no-document" };
+			this.state = { type: 'no-document' };
 			this.render();
 			return;
 		}
@@ -683,7 +677,7 @@ class SequoiaComments extends BaseElement {
 
 			// Check if document has a Bluesky post reference
 			if (!document.bskyPostRef) {
-				this.state = { type: "no-comments-enabled" };
+				this.state = { type: 'no-comments-enabled' };
 				this.render();
 				return;
 			}
@@ -697,24 +691,23 @@ class SequoiaComments extends BaseElement {
 			// Check if there are any replies
 			const replies = thread.replies?.filter(isThreadViewPost) ?? [];
 			if (replies.length === 0) {
-				this.state = { type: "empty", postUrl, blackskyPostUrl };
+				this.state = { type: 'empty', postUrl, blackskyPostUrl };
 				this.render();
 				return;
 			}
 
-			this.state = { type: "loaded", thread, postUrl, blackskyPostUrl };
+			this.state = { type: 'loaded', thread, postUrl, blackskyPostUrl };
 			this.render();
 		} catch (error) {
-			const message =
-				error instanceof Error ? error.message : "Failed to load comments";
-			this.state = { type: "error", message };
+			const message = error instanceof Error ? error.message : 'Failed to load comments';
+			this.state = { type: 'error', message };
 			this.render();
 		}
 	}
 
 	render() {
 		switch (this.state.type) {
-			case "loading":
+			case 'loading':
 				this.commentsContainer.innerHTML = `
 					<div class="sequoia-loading">
 						<span class="sequoia-loading-spinner"></span>
@@ -723,18 +716,18 @@ class SequoiaComments extends BaseElement {
 				`;
 				break;
 
-			case "no-document":
+			case 'no-document':
 				this.commentsContainer.innerHTML = `
 					<div class="sequoia-warning">
 						No document found. Add a <code>&lt;link rel="site.standard.document" href="at://..."&gt;</code> tag to your page.
 					</div>
 				`;
 				if (this.hide) {
-					this.commentsContainer.style.display = "none";
+					this.commentsContainer.style.display = 'none';
 				}
 				break;
 
-			case "no-comments-enabled":
+			case 'no-comments-enabled':
 				this.commentsContainer.innerHTML = `
 					<div class="sequoia-empty">
 						Comments are not enabled for this post.
@@ -742,7 +735,7 @@ class SequoiaComments extends BaseElement {
 				`;
 				break;
 
-			case "empty":
+			case 'empty':
 				this.commentsContainer.innerHTML = `
 					<div class="sequoia-comments-header">
 						<h3 class="sequoia-comments-title">Comments</h3>
@@ -761,7 +754,7 @@ class SequoiaComments extends BaseElement {
 				`;
 				break;
 
-			case "error":
+			case 'error':
 				this.commentsContainer.innerHTML = `
 					<div class="sequoia-error">
 						Failed to load comments: ${escapeHtml(this.state.message)}
@@ -769,17 +762,14 @@ class SequoiaComments extends BaseElement {
 				`;
 				break;
 
-			case "loaded": {
-				const replies =
-					this.state.thread.replies?.filter(isThreadViewPost) ?? [];
-				const threadsHtml = replies
-					.map((reply) => this.renderThread(reply))
-					.join("");
+			case 'loaded': {
+				const replies = this.state.thread.replies?.filter(isThreadViewPost) ?? [];
+				const threadsHtml = replies.map((reply) => this.renderThread(reply)).join('');
 				const commentCount = this.countComments(replies);
 
 				this.commentsContainer.innerHTML = `
 					<div class="sequoia-comments-header">
-						<h3 class="sequoia-comments-title">${commentCount} Comment${commentCount !== 1 ? "s" : ""}</h3>
+						<h3 class="sequoia-comments-title">${commentCount} Comment${commentCount !== 1 ? 's' : ''}</h3>
 						<div>
 							<a href="${this.state.postUrl}" target="_blank" rel="noopener noreferrer" class="sequoia-reply-button sequoia-reply-bluesky">
 								${BLUESKY_ICON}
@@ -809,7 +799,7 @@ class SequoiaComments extends BaseElement {
 
 		result.push({
 			post: thread.post,
-			hasMoreReplies: nestedReplies.length > 0,
+			hasMoreReplies: nestedReplies.length > 0
 		});
 
 		// Recursively flatten nested replies
@@ -826,10 +816,8 @@ class SequoiaComments extends BaseElement {
 	renderThread(thread) {
 		const flatComments = this.flattenThread(thread);
 		const commentsHtml = flatComments
-			.map((item, index) =>
-				this.renderComment(item.post, item.hasMoreReplies, index),
-			)
-			.join("");
+			.map((item, index) => this.renderComment(item.post, item.hasMoreReplies, index))
+			.join('');
 
 		return `<div class="sequoia-thread">${commentsHtml}</div>`;
 	}
@@ -850,9 +838,7 @@ class SequoiaComments extends BaseElement {
 		const profileUrl = `https://bsky.app/profile/${author.did}`;
 		const textHtml = renderTextWithFacets(post.record.text, post.record.facets);
 		const timeAgo = formatRelativeTime(post.record.createdAt);
-		const threadLineHtml = showThreadLine
-			? '<div class="sequoia-thread-line"></div>'
-			: "";
+		const threadLineHtml = showThreadLine ? '<div class="sequoia-thread-line"></div>' : '';
 
 		return `
 			<div class="sequoia-comment">
@@ -886,8 +872,8 @@ class SequoiaComments extends BaseElement {
 }
 
 // Register the custom element
-if (typeof customElements !== "undefined") {
-	customElements.define("sequoia-comments", SequoiaComments);
+if (typeof customElements !== 'undefined') {
+	customElements.define('sequoia-comments', SequoiaComments);
 }
 
 // Export for module usage

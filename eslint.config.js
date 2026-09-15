@@ -5,10 +5,7 @@ import globals from 'globals';
 
 export default [
 	{
-		ignores: [
-			'**/.obsidian/**',
-			'src/lib/components/sequoia-comments.js'
-		]
+		ignores: ['**/.obsidian/**', 'src/lib/components/sequoia-comments.js']
 	},
 	js.configs.recommended,
 	...svelte.configs['flat/recommended'],

@@ -1,40 +1,40 @@
-import { siteTitle, siteDescription, siteURL } from '$lib/config'
-import MarkdownIt from 'markdown-it'
-import fetchPosts from '$lib/assets/js/fetchPosts'
+import { siteTitle, siteDescription, siteURL } from '$lib/config';
+import MarkdownIt from 'markdown-it';
+import fetchPosts from '$lib/assets/js/fetchPosts';
 
-export const prerender = true
+export const prerender = true;
 
-const md = new MarkdownIt({ html: true })
+const md = new MarkdownIt({ html: true });
 
-const stripFrontmatter = (raw) => raw.replace(/^---[\s\S]*?---\n/, '')
+const stripFrontmatter = (raw) => raw.replace(/^---[\s\S]*?---\n/, '');
 const stripStyleAndScript = (html) =>
-	html.replace(/<style[\s\S]*?<\/style>/gi, '').replace(/<script[\s\S]*?<\/script>/gi, '')
+	html.replace(/<style[\s\S]*?<\/style>/gi, '').replace(/<script[\s\S]*?<\/script>/gi, '');
 
 export const GET = async () => {
-	const { posts } = await fetchPosts({ limit: -1 })
+	const { posts } = await fetchPosts({ limit: -1 });
 
 	// Get raw markdown and render to HTML for each post
-	const rawModules = import.meta.glob('/src/lib/posts/*.md', { query: '?raw', import: 'default' })
-	const htmlBySlug = {}
+	const rawModules = import.meta.glob('/src/lib/posts/*.md', { query: '?raw', import: 'default' });
+	const htmlBySlug = {};
 	await Promise.all(
 		Object.entries(rawModules).map(async ([path, getRaw]) => {
-			const raw = await getRaw()
-			const slug = path.split('/').pop().slice(0, -3)
-			htmlBySlug[slug] = stripStyleAndScript(md.render(stripFrontmatter(raw)))
+			const raw = await getRaw();
+			const slug = path.split('/').pop().slice(0, -3);
+			htmlBySlug[slug] = stripStyleAndScript(md.render(stripFrontmatter(raw)));
 		})
-	)
+	);
 
-	const postsWithHtml = posts.map(post => ({ ...post, html: htmlBySlug[post.slug] ?? '' }))
+	const postsWithHtml = posts.map((post) => ({ ...post, html: htmlBySlug[post.slug] ?? '' }));
 
-	const body = renderFeed(postsWithHtml)
+	const body = renderFeed(postsWithHtml);
 	const options = {
 		headers: {
 			'Cache-Control': `max-age=0, s-max-age=${600}`,
-			'Content-Type': 'application/xml',
+			'Content-Type': 'application/xml'
 		}
-	}
-	return new Response(body, options)
-}
+	};
+	return new Response(body, options);
+};
 
 const renderFeed = (posts) => `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
@@ -43,15 +43,23 @@ const renderFeed = (posts) => `<?xml version="1.0" encoding="UTF-8" ?>
 <description>${siteDescription}</description>
 <link>${siteURL}</link>
 <atom:link href="${siteURL}/api/rss.xml" rel="self" type="application/rss+xml"/>
-${posts.map((post) => `<item>
+${posts
+	.map(
+		(post) => `<item>
 <guid isPermaLink="true">${siteURL}/blog/${post.slug}</guid>
 <title>${post.title}</title>
 <link>${siteURL}/blog/${post.slug}</link>
 <description>${post.excerpt ?? ''}</description>
-<pubDate>${new Date(post.date).toUTCString()}</pubDate>${post.coverImage ? `
-<media:content url="${siteURL}${post.coverImage}" medium="image"/>` : ''}
+<pubDate>${new Date(post.date).toUTCString()}</pubDate>${
+			post.coverImage
+				? `
+<media:content url="${siteURL}${post.coverImage}" medium="image"/>`
+				: ''
+		}
 <content:encoded><![CDATA[${post.html}]]></content:encoded>
-</item>`).join('')}
+</item>`
+	)
+	.join('')}
 </channel>
 </rss>
-`
+`;

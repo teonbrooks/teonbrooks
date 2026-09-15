@@ -1,17 +1,17 @@
 .callout {
 	background: lightblue;
 	padding: 2rem 1rem;
-  width: calc(50% + 2rem);
+	width: calc(50% + 2rem);
 	max-width: unset;
-  margin: 2rem -2rem 2rem 0rem;
+	margin: 2rem -2rem 2rem 0rem;
 	font-style: italic;
 	border-radius: 0.125rem;
 
-  @media (min-width: 48rem) {
-    width: calc(50% + 4rem);
-    margin: 0rem 0 0rem 0rem;
-    padding: .25rem;
-  }
+	@media (min-width: 48rem) {
+		width: calc(50% + 4rem);
+		margin: 0rem 0 0rem 0rem;
+		padding: 0.25rem;
+	}
 }
 
 .pagination {
@@ -41,19 +41,18 @@
 			height: 2em;
 			font-family: var(--primaryFont);
 			font-weight: bold;
-			transition: background .1s;
+			transition: background 0.1s;
 
 			&:hover {
 				background: var(--accent);
 				color: var(--background);
 			}
 
-			&[aria-current="true"] {
+			&[aria-current='true'] {
 				background: var(--accent);
 				color: var(--background);
 				border: 1px solid currentColor;
 			}
 		}
-
 	}
 }

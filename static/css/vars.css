@@ -2,16 +2,16 @@
 	/* Colors */
 	/* --accent: #E63946; */
 	--accent: #1d3557;
-	/* original background, includes footer text */ 
+	/* original background, includes footer text */
 	/* --background: #FAF9F8; */
 	--background: #eeb6a5;
 	/* original header background */
 	/* --lightAccent: #A8DAE5; */
 	--lightAccent: #eeb6a5;
-	--lighterAccent: #E6E8E4;
-	--dark: #457B9D;
-	--darker: #1D3557;
-	--slate: #2F3948;
+	--lighterAccent: #e6e8e4;
+	--dark: #457b9d;
+	--darker: #1d3557;
+	--slate: #2f3948;
 
 	--white: #fff;
 	--black: #152030;

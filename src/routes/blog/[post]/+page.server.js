@@ -1,19 +1,22 @@
-import { parse } from 'smol-toml'
+import { parse } from 'smol-toml';
 
-export const prerender = true
+export const prerender = true;
 
 export const load = async ({ params }) => {
-    let metadata;
-    try {
-        ({ metadata } = await import(`../../../lib/posts/${params.post}.md`))
-    } catch {
-        return { toml: null }
-    }
-    if (!metadata.data) return { toml: null }
+	let metadata;
+	try {
+		({ metadata } = await import(`../../../lib/posts/${params.post}.md`));
+	} catch {
+		return { toml: null };
+	}
+	if (!metadata.data) return { toml: null };
 
-    const tomlFiles = import.meta.glob('/static/blog_assets/**/*.toml', { query: '?raw', import: 'default' })
-    const getRaw = tomlFiles[`/static${metadata.data}`]
-    if (!getRaw) return { toml: null }
+	const tomlFiles = import.meta.glob('/static/blog_assets/**/*.toml', {
+		query: '?raw',
+		import: 'default'
+	});
+	const getRaw = tomlFiles[`/static${metadata.data}`];
+	if (!getRaw) return { toml: null };
 
-    return { toml: parse(await getRaw()) }
-}
+	return { toml: parse(await getRaw()) };
+};

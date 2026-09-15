@@ -1,31 +1,30 @@
-import { postsPerPage } from '$lib/config'
+import { postsPerPage } from '$lib/config';
 
 const fetchPosts = async ({ offset = 0, limit = postsPerPage, tag = '' } = {}) => {
-
 	const allPosts = await Promise.all(
 		Object.entries(import.meta.glob('/src/lib/posts/**/*.md')).map(async ([path, resolver]) => {
-			const { metadata } = await resolver()
-			const slug = path.split('/').pop().slice(0, -3)
-			return { ...metadata, slug }
+			const { metadata } = await resolver();
+			const slug = path.split('/').pop().slice(0, -3);
+			return { ...metadata, slug };
 		})
-	)
+	);
 
 	let sortedPosts = allPosts
-		.filter(post => import.meta.env.DEV || !post.draft)
-		.sort((a, b) => new Date(b.date) - new Date(a.date))
+		.filter((post) => import.meta.env.DEV || !post.draft)
+		.sort((a, b) => new Date(b.date) - new Date(a.date));
 	let tagsTotal;
-	
+
 	if (tag) {
-		sortedPosts = sortedPosts.filter(post => post.tags.includes(tag))
-		tagsTotal = sortedPosts.length
+		sortedPosts = sortedPosts.filter((post) => post.tags.includes(tag));
+		tagsTotal = sortedPosts.length;
 	}
-  
+
 	if (offset) {
-		sortedPosts = sortedPosts.slice(offset)
+		sortedPosts = sortedPosts.slice(offset);
 	}
-	
+
 	if (limit && limit < sortedPosts.length && limit != -1) {
-		sortedPosts = sortedPosts.slice(0, limit)
+		sortedPosts = sortedPosts.slice(0, limit);
 	}
 
 	// sortedPosts = sortedPosts.map(post => ({
@@ -33,7 +32,7 @@ const fetchPosts = async ({ offset = 0, limit = postsPerPage, tag = '' } = {}) =
 	// 	slug: post.slug,
 	// 	excerpt: post.excerpt,
 	// 	coverImage: post.coverImage,
-	// 	coverWidth: post.coverWidth, 
+	// 	coverWidth: post.coverWidth,
 	// 	coverHeight: post.coverHeight,
 	// 	date: post.date,
 	// 	tags: post.tags,
@@ -43,7 +42,7 @@ const fetchPosts = async ({ offset = 0, limit = postsPerPage, tag = '' } = {}) =
 	return {
 		posts: sortedPosts,
 		tagsTotal
-	}
-}
+	};
+};
 
-export default fetchPosts
+export default fetchPosts;
