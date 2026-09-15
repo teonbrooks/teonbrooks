@@ -8,7 +8,10 @@
 
 	let { data } = $props();
 
-  const { page, posts, tag, tagsTotal } = data
+	let page = $derived(data.page);
+	let posts = $derived(data.posts);
+	let tag = $derived(data.tag);
+	let tagsTotal = $derived(data.tagsTotal);
 
 	// eslint-disable-next-line no-unused-vars
 	let lowerBound = $derived((page * postsPerPage) - (postsPerPage - 1) || 1)

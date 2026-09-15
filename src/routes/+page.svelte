@@ -3,7 +3,7 @@
 	import BusinessCard from '$lib/components/BusinessCard.svelte';
 	let { data } = $props();
 
-	let { portfolio } = data;
+	let portfolio = $derived(data.portfolio);
 
 </script>
 

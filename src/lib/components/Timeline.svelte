@@ -2,11 +2,11 @@
     import { getContext } from 'svelte';
     import md from 'markdown-it';
 
-    const toml = getContext('toml');
+    const tomlContext = getContext('toml');
 </script>
 
 <ul class="timeline">
-    {#each toml.events as event (event.date)}
+    {#each tomlContext.current.events as event (event.date)}
         <li>
             <div class="timeline-middle">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">

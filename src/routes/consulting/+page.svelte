@@ -4,9 +4,9 @@
 	import md from 'markdown-it';
 	let { data } = $props();
 
-	let items = data.portfolio;
-	let projects = data.projects;
-	const path = data.path;
+	let items = $derived(data.portfolio);
+	let projects = $derived(data.projects);
+	let path = $derived(data.path);
 
 	import MdRaw from "$lib/content/about/brooks_consulting.md?raw";
 

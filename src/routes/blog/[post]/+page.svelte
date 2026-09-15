@@ -8,13 +8,21 @@
 
 	const author = "did:plc:yl7wcldipsfnjdww2jg5mnrv";
 	let { data } = $props();
-	let { toml } = data;
-	setContext('toml', toml ?? {});
-	let { PostContent, meta } = data;
+	let toml = $derived(data.toml ?? {});
+	setContext('toml', { get current() { return toml; } });
+	let PostContent = $derived(data.PostContent);
+	let meta = $derived(data.meta);
 
-	let { title, excerpt, date, updated,
-		  coverImage, coverWidth, coverHeight,
-		  tags, social, authors } = meta;
+	let title = $derived(meta.title);
+	let excerpt = $derived(meta.excerpt);
+	let date = $derived(meta.date);
+	let updated = $derived(meta.updated);
+	let coverImage = $derived(meta.coverImage);
+	let coverWidth = $derived(meta.coverWidth);
+	let coverHeight = $derived(meta.coverHeight);
+	let tags = $derived(meta.tags);
+	let social = $derived(meta.social);
+	let authors = $derived(meta.authors);
 
 	const formatDate = (d) => new Date(d).toISOString().slice(0, 10);
 	let formattedDate = $derived(formatDate(date));
@@ -59,15 +67,6 @@
 			alt="Cover image for {title}"
 		/>
 	{/if}
-	<!-- Figure out how to images that don't conform to the aspect ratio -->
-	<!-- <img
-		class="cover-image"
-		src="{coverImage}"
-		alt=""
-		style="aspect-ratio: {coverWidth} / {coverHeight};"
-		width={coverWidth}
-		height={coverHeight}
-	/> -->
 
 	<h1>{ title }</h1>
 	

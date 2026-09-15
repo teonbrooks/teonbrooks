@@ -9,8 +9,8 @@
 	import Portfolio from '$lib/components/Portfolio.svelte';
 	let { data } = $props();
 
-	const items = data.portfolio.positions.reverse();
-	const path = data.path;
+	let items = $derived([...data.portfolio.positions].reverse());
+	let path = $derived(data.path);
 </script>
 
 <svelte:head>
