@@ -21,7 +21,7 @@
 		</Content>
 		<Actions style="align-items:end">
 			<ActionButtons>
-				<Button onclick={() => (open = true)}>
+				<Button ripple={false} onclick={() => (open = true)}>
 					<Label>Details</Label>
 				</Button>
 			</ActionButtons>
