@@ -65,45 +65,86 @@ function tomlMultilineString(s) {
 	return `"""\n${s ?? ''}\n"""`;
 }
 
-function tomlDate(...parts) {
-	return parts.filter(Boolean).join('–') || '';
-}
-
 // ---------------------------------------------------------------------------
 // portfolio.toml: [[positions]] + [skills]
 // ---------------------------------------------------------------------------
 
-// Categories for positions with no counterpart in the old portfolio.toml
-// (nothing to reuse a category from), keyed by "company|title".
-const NEW_ENTRY_CATEGORIES = {
-	'City University of New York|Adjunct Assistant Professor': ['Current Orgs', 'Teaching'],
-	'Meta (United States)|Data Scientist': ['Current Orgs'],
-	'|Personal Sabbatical': ['Past Orgs']
-};
+// Organizations that appear on the live Portfolio page but have no
+// corresponding Sifa `position` record — they're open-source *project*
+// engagements (tracked in id.sifa.profile.project / projects.toml instead),
+// not employment. Carried forward verbatim from the existing file on every
+// re-export so they don't silently disappear (as happened once already: the
+// first Sifa sync dropped them because this function only ever looked at
+// Sifa's position records).
+const MANUAL_PORTFOLIO_ORGANIZATIONS = new Set([
+	'MNE-tools',
+	'Brain Imaging Data Structure (BIDS)',
+	'OpenEXP',
+	'BrainWaves',
+	'Carolina Covenant',
+	'National Science Foundation Graduate Research Fellowship Program',
+	'French Embassy to the U.S.',
+	'Mozilla Science Lab'
+]);
 
-// Fallback only: Sifa company name -> old-file shorthand, used ONLY when no
-// direct company match exists (i.e. bootstrapping from a pre-Sifa file that
-// used different names, e.g. "Mozilla Corporation" vs "Mozilla"). Once the
-// file has been through one export it carries Sifa's own names, so this
-// fallback stops mattering on subsequent runs.
-const COMPANY_ALIASES = {
-	'university of north carolina at chapel hill': 'university of north carolina',
-	'télécom paris': 'telecom paristech',
-	'datalus, llc': 'openbci', // datalus folds in the old OpenBCI entry
-	'mozilla corporation': 'mozilla', // ambiguous: old file had 2 Mozilla entries; disambiguated by title below
-	'statespace': 'state space labs',
-	'recurse center': 'the recurse center'
-};
+// Portfolio card date ranges are always year-only for display, never
+// year-month.
+function yearOnly(s) {
+	const m = (s ?? '').match(/\d{4}/);
+	return m ? m[0] : s ?? '';
+}
 
-// Old-file Mozilla title, keyed by which new title should use it. Old file
-// had "Mozilla|Staff Data Scientist" (employee) and "Mozilla|Consultant".
-const MOZILLA_TITLE_FALLBACK = {
-	'senior data scientist': 'staff data scientist',
-	'senior product manager, machine learning': 'staff data scientist',
-	'staff data scientist': 'staff data scientist'
-};
+// Any company with more than one Sifa position record (distinct employment
+// stints for the same employer, e.g. with a gap in between, or an employee
+// stint plus a later consulting stint) collapses to ONE portfolio card,
+// listing each stint by title and dates within the description — Teon wants
+// one card per organization, not one per stint.
+function mergeStints(positions) {
+	const merged = [];
+	const groups = new Map();
+	for (const p of positions) {
+		// An empty company (e.g. "Personal Sabbatical") never merges with
+		// another empty-company entry — each gets its own unique key.
+		const key = p.company || Symbol();
+		if (!groups.has(key)) groups.set(key, []);
+		groups.get(key).push(p);
+	}
+	for (const stints of groups.values()) {
+		if (stints.length === 1) {
+			merged.push(stints[0]);
+			continue;
+		}
+		stints.sort((a, b) => (a.startedAt ?? '').localeCompare(b.startedAt ?? ''));
+		const description = stints
+			.map((p) => {
+				const start = yearOnly(p.startedAt);
+				const end = p.endedAt ? yearOnly(p.endedAt) : 'Present';
+				const range = start === end ? start : `${start}–${end}`;
+				return `### ${p.title} (${range})\n\n${p.description}`;
+			})
+			.join('\n\n');
+		// Stints can overlap (e.g. a PhD spanning years alongside a one-semester
+		// TA role within it), so the true end date is the latest across ALL
+		// stints, not just the one that started last. An ongoing stint
+		// (no endedAt) always wins.
+		const latestEndingStint = stints.reduce((best, p) => {
+			if (!best.endedAt) return best;
+			if (!p.endedAt) return p;
+			return p.endedAt > best.endedAt ? p : best;
+		});
+		merged.push({
+			...latestEndingStint,
+			title: latestEndingStint.title,
+			startedAt: stints[0].startedAt,
+			endedAt: latestEndingStint.endedAt,
+			description
+		});
+	}
+	return merged;
+}
 
-async function buildPortfolio(positions, languages, skills) {
+async function buildPortfolio(rawPositions, languages, skills) {
+	const positions = mergeStints(rawPositions);
 	// Read the current file's own metadata before it gets overwritten, so
 	// filename/category/website (local-only fields with no Sifa equivalent)
 	// survive from one run to the next. Matches by company+title first (most
@@ -119,41 +160,56 @@ async function buildPortfolio(positions, languages, skills) {
 		if (!(company in oldByCompany)) oldByCompany[company] = p;
 	}
 
-	const posBlocks = positions
-		.slice()
-		.sort((a, b) => (a.startedAt ?? '').localeCompare(b.startedAt ?? ''))
-		.map((p) => {
-			const company = (p.company ?? '').toLowerCase();
-			const title = (p.title ?? '').toLowerCase();
-			const aliasCompany = COMPANY_ALIASES[company];
-			const aliasTitle = MOZILLA_TITLE_FALLBACK[title];
-			const match =
-				oldByCompanyTitle[`${company}|${title}`] ??
-				oldByCompany[company] ??
-				(aliasCompany && aliasTitle ? oldByCompanyTitle[`${aliasCompany}|${aliasTitle}`] : undefined) ??
-				(aliasCompany ? oldByCompany[aliasCompany] : undefined);
-			const filename = match?.filename ?? '';
-			const newCategory = NEW_ENTRY_CATEGORIES[`${p.company ?? ''}|${p.title ?? ''}`];
-			const category = match?.category
-				? Array.isArray(match.category)
-					? JSON.stringify(match.category)
-					: `"${match.category}"`
-				: newCategory
-					? JSON.stringify(newCategory)
-					: '""';
-			const website = match?.website ?? '';
-			const timespan = `${p.startedAt ?? ''}${p.endedAt ? `-${p.endedAt}` : '-Present'}`;
-			return (
-				`[[positions]]\n` +
-				`filename = ${tomlString(filename)}\n` +
-				`organization = ${tomlString(p.company ?? '')}\n` +
-				`title = ${tomlString(p.title ?? '')}\n` +
-				`timespan = ${tomlString(timespan)}\n` +
-				`description = ${tomlMultilineString(p.description)}\n` +
-				`website = ${tomlString(website)}\n` +
-				`category = ${category}`
-			);
+	const toCategoryToml = (category) => (Array.isArray(category) ? JSON.stringify(category) : `"${category ?? ''}"`);
+
+	function positionBlock({ filename, organization, title, timespan, description, website, category }) {
+		return (
+			`[[positions]]\n` +
+			`filename = ${tomlString(filename)}\n` +
+			`organization = ${tomlString(organization)}\n` +
+			`title = ${tomlString(title)}\n` +
+			`timespan = ${tomlString(timespan)}\n` +
+			`description = ${tomlMultilineString(description)}\n` +
+			`website = ${tomlString(website)}\n` +
+			`category = ${category}`
+		);
+	}
+
+	const sifaEntries = positions.map((p) => {
+		const company = (p.company ?? '').toLowerCase();
+		const title = (p.title ?? '').toLowerCase();
+		const match = oldByCompanyTitle[`${company}|${title}`] ?? oldByCompany[company];
+		const block = positionBlock({
+			filename: match?.filename ?? '',
+			organization: p.company ?? '',
+			title: p.title ?? '',
+			timespan: `${p.startedAt ?? ''}${p.endedAt ? `-${p.endedAt}` : '-Present'}`,
+			description: p.description,
+			website: match?.website ?? '',
+			category: toCategoryToml(match?.category)
 		});
+		return { sortKey: p.startedAt ?? '', block };
+	});
+
+	const manualEntries = old.positions
+		.filter((p) => MANUAL_PORTFOLIO_ORGANIZATIONS.has(p.organization))
+		.map((p) => {
+			const block = positionBlock({
+				filename: p.filename ?? '',
+				organization: p.organization ?? '',
+				title: p.title ?? '',
+				timespan: p.timespan ?? '',
+				description: (p.description ?? '').trim(),
+				website: p.website ?? '',
+				category: toCategoryToml(p.category)
+			});
+			return { sortKey: (p.timespan ?? '').match(/^\d{4}/)?.[0] ?? '', block };
+		});
+
+	const posBlocks = sifaEntries
+		.concat(manualEntries)
+		.sort((a, b) => a.sortKey.localeCompare(b.sortKey))
+		.map((e) => e.block);
 
 	const langList = languages.map((l) => {
 		const prof = { native: 'native', fullProfessional: 'C1', professionalWorking: 'B2', limitedWorking: 'B1', elementary: 'A2' };
@@ -285,18 +341,36 @@ function buildHonors(records) {
 	return blocks.join('\n\n') + '\n';
 }
 
-function buildProjects(records) {
+async function buildProjects(records) {
+	// `role` (Maintainer, Core Contributor, Project Lead, etc.) has no equivalent
+	// in Sifa's id.sifa.profile.project lexicon, so it's a local-only field
+	// preserved across re-exports by matching on project name, same as
+	// filename/category/website for positions.
+	let oldByName = {};
+	try {
+		const oldRaw = await readFile(path.join(CONTENT_DIR, 'projects.toml'), 'utf-8');
+		const old = parseToml(oldRaw);
+		for (const p of old.project ?? []) {
+			oldByName[(p.name ?? '').toLowerCase()] = p;
+		}
+	} catch {
+		// no existing file yet
+	}
+
 	const blocks = records
 		.sort((a, b) => (a.startedAt ?? '').localeCompare(b.startedAt ?? ''))
-		.map(
-			(p) =>
+		.map((p) => {
+			const role = oldByName[(p.name ?? '').toLowerCase()]?.role ?? '';
+			return (
 				`[[project]]\n` +
 				`name = ${tomlString(p.name ?? '')}\n` +
+				`role = ${tomlString(role)}\n` +
 				`url = ${tomlString(p.url ?? '')}\n` +
 				`started = ${tomlString(p.startedAt ?? '')}\n` +
 				`ended = ${tomlString(p.endedAt ?? '')}\n` +
 				`description = ${tomlMultilineString(p.description)}`
-		);
+			);
+		});
 	return blocks.join('\n\n') + '\n';
 }
 
@@ -348,7 +422,7 @@ async function main() {
 	await writeFile(path.join(CONTENT_DIR, 'honors.toml'), buildHonors(honors));
 	console.log(`honors.toml: ${honors.length} entries (new file)`);
 
-	await writeFile(path.join(CONTENT_DIR, 'projects.toml'), buildProjects(projects));
+	await writeFile(path.join(CONTENT_DIR, 'projects.toml'), await buildProjects(projects));
 	console.log(`projects.toml: ${projects.length} entries (new file)`);
 
 	await writeFile(path.join(CONTENT_DIR, 'education.toml'), buildEducation(education));

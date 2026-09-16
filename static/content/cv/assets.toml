@@ -1,0 +1,75 @@
+[[assets]]
+title = "Fakebook: Using Data Science to Spot Fake News"
+authors = "Modeste, J.; Azeka, S.; & Brooks, T. L."
+kind = "workshop kit"
+date = "March 2021"
+publisher = "Zenodo"
+link = "https://doi.org/10.5281/zenodo.4592531"
+description = """
+Workshop teaching kit developed for the Gotham Data Clinic (fka CiELabs) on
+spotting misinformation using data science: examining credible vs.
+pseudoscientific sources and building a rubric for identifying fake news.
+"""
+
+[[assets]]
+title = "The Brain Imaging Data Structure (BIDS) Specification"
+authors = "BIDS Contributors"
+kind = "standard"
+date = "2026"
+publisher = "Zenodo"
+link = "https://doi.org/10.5281/zenodo.10175845"
+description = """
+The BIDS specification itself: a simple, intuitive standard for organizing
+and describing neuroimaging and behavioral data. Registered on Zenodo at
+each major revision (2021 technical standard, 2024 and 2026 software
+releases); this is the most recent.
+"""
+
+[[assets]]
+title = "MNE-BIDS"
+authors = "MNE-BIDS Contributors"
+kind = "software"
+date = "November 2024"
+publisher = "Zenodo"
+link = "https://doi.org/10.5281/zenodo.14173773"
+description = """
+Software release registration for the MNE-BIDS Python library, which
+facilitates analyzing MEG, EEG, and iEEG data with MNE-Python for datasets
+conforming to BIDS.
+"""
+
+[[assets]]
+title = "Mne-Tools/Mne-Python"
+authors = "MNE-Python Contributors"
+kind = "software"
+date = "November 2018"
+publisher = "Zenodo"
+link = "https://doi.org/10.5281/zenodo.592483"
+description = """
+Open-source Python software for exploring, visualizing, and analyzing human
+neurophysiological data: MEG, EEG, sEEG, ECoG, and more.
+"""
+
+[[assets]]
+title = "OcularLDT"
+authors = "Brooks, T. L.; Gwilliams, L.; Gramfort, A.; & Marantz, A."
+kind = "dataset"
+date = "2019"
+publisher = "OpenNeuro"
+link = "https://doi.org/10.18112/openneuro.ds002312.v1.0.0"
+description = """
+
+"""
+
+[[assets]]
+title = "The Brain Imaging Data Structure (BIDS) extends beyond MRI"
+authors = "Brooks, T. L."
+kind = "lecture"
+date = "November 2018"
+publisher = "Zenodo"
+link = "https://doi.org/10.5281/zenodo.3245441"
+description = """
+Recorded talk given as part of the FAIR Neuroscience: Sharing and
+Collaborating for Reproducible Data workshop, Society for Neuroscience
+2018 Annual Meeting, San Diego, CA.
+"""

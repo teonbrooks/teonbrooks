@@ -1,0 +1,47 @@
+[[teaching]]
+institution = "MSKCC: Gerstner Sloan Kettering Graduate School of Biomedical Sciences"
+course = "G440: Introduction to Scientific Python"
+role = "Instructor"
+term = ["Fall 2025", "Fall 2026"]
+location = "New York, NY"
+link = ""
+
+[[teaching]]
+institution = "CUNY: College of Staten Island"
+course = "EDD 642: Creative Computing in Education"
+role = "Adjunct Assistant Professor"
+term = "Spring 2026"
+location = "New York, NY"
+link = ""
+
+[[teaching]]
+institution = "American University"
+course = "STAT 412/612: Statistical Programming using R"
+role = "Adjunct Senior Professorial Lecturer"
+term = "Spring 2021"
+location = "New York, NY"
+link = ""
+
+[[teaching]]
+institution = "New York University"
+course = "PSYCH.UA.0300-007: Lab in Cognitive Neuroscience"
+role = "Teaching Assistant"
+term = "Fall 2012"
+location = "New York, NY"
+link = ""
+
+[[teaching]]
+institution = "Mozilla (Internal Workshop)"
+course = "Intro to R and Tidyverse for Data Science"
+role = "Workshop Instructor"
+term = "December 2019"
+location = ""
+link = "https://github.com/teonbrooks/intro_to_rstudio_tidyverse/tree/mozv1.0"
+
+[[teaching]]
+institution = "Atlanta Workshop"
+course = "Intro to R and Tidyverse for Data Science"
+role = "Workshop Instructor"
+term = "October 2019"
+location = "Atlanta, GA"
+link = ["https://github.com/cdhowe/atl-welcome-tidyverse", "https://blog.rstudio.com/2019/09/30/fall-winter-workshop-roundup/"]

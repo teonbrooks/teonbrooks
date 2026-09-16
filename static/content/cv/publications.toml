@@ -33,7 +33,7 @@ type = "preprint"
 project = "compound words"
 
 [[publications]]
-date = "September 2023"
+date = "March 2024"
 authors = """
 Poldrack, R.A.; Markiewicz, C.J.; Appelhoff, S.; Ashar, Y.K.; Auer, T.; 
 Baillet, S.; Bansal, S.; Beltrachini, L.; Bénar, C.G.; Bertazzoli, G.; 
@@ -59,10 +59,12 @@ Varoquaux, G.; Voytek, B.; Welzel, J.; Wilson, M.; Yarkoni, T.;
 & Gorgolewski, K.J.
 """
 title = "The Past, Present, and Future of the Brain Imaging Data Structure (BIDS)"
-link = "https://doi.org/10.48550/arXiv.2309.05768"
-publisher = "arXiv"
-type = "preprint"
+link = "https://doi.org/10.1162/imag_a_00103"
+publisher = "Imaging Neuroscience"
+type = "journal-article"
 project = "neuroinformatics"
+preprint_link = "https://doi.org/10.48550/arXiv.2309.05768"
+preprint_date = "September 2023"
 
 [[publications]]
 date = "December 2013"	
@@ -75,6 +77,8 @@ publisher = "Frontiers"
 journal = "Frontiers in Neuroscience"
 volume = 7
 link = "https://doi.org/10.3389/fnins.2013.00267"
+
+[[publications]]
 date = "April 2015"
 authors = "Brooks, T.L.; and Cid de Garcia, D."	
 title = "Evidence for Morphological Recomposition in Compound Words using MEG"	
@@ -106,7 +110,7 @@ Holdgraf, C.; Chaumon, M.; Mikulan, E.; Tavabi, K.; Höchenberger, R.;
 Welke, D.; Brunner, C.; Rockhill, A.; Larson, E.; Gramfort, A.; Jas, M.
 """
 title = """
-MNE-BIDS: Organizing electrophysiological data into the BIDS format and 
+MNE-BIDS: Organizing electrophysiological data into the BIDS format and
 facilitating their analysis
 """
 publisher = "Open Journals"
@@ -114,3 +118,53 @@ journal = "Journal of Open Source Software"
 volume = "4(44)"
 page = 1896
 link = "https://doi.org/10.21105/joss.01896"
+
+[[publications]]
+date = "February 2026"
+authors = "Brooks, T. L.; & Azeka, S."
+title = """
+Broadening Access to Data Science Education in High School and Higher
+Education through Open Source Tools and Training
+"""
+link = "https://doi.org/10.5281/zenodo.17369779"
+publisher = "Zenodo"
+type = "preprint"
+project = "data science education"
+
+[[publications]]
+date = "February 2026"
+authors = "d'Ascoli, S.; Rapin, J.; Benchetrit, Y.; Brooks, T.; Begany, K.; Raugel, J.; Banville, H.; & King, J.-R."
+title = "A foundation model of vision, audition, and language for in-silico neuroscience"
+link = "https://doi.org/10.48550/arxiv.2605.04326"
+publisher = "arXiv"
+type = "preprint"
+project = "neuroai"
+
+[[publications]]
+date = "February 2026"
+authors = """
+Banville, H.; d'Ascoli, S.; Dahan, S.; Rapin, J.; Careil, M.; Benchetrit, Y.;
+Lévy, J.; Panchavati, S.; Ratouchniak, A.; Zhang, M.; Cascardi, E.;
+Begany, K.; Brooks, T.; & King, J.-R.
+"""
+title = "NeuralBench: A Unifying Framework to Benchmark NeuroAI Models"
+link = "https://doi.org/10.48550/arxiv.2605.08495"
+publisher = "arXiv"
+type = "preprint"
+project = "neuroai"
+
+[[publications]]
+date = "February 2026"
+authors = """
+King, J.-R.; Bel, C.; Evanson, L.; Gadonneix, J.; Houhamdi, S.; Lévy, J.;
+Raugel, J.; Revilla, A.S.; Zhang, M.; Bonnaire, J.; Caucheteux, C.;
+Défossez, A.; Desbordes, T.; Diego-Simón, P.; Khanna, S.; Millet, J.;
+Orhan, P.; Panchavati, S.; Ratouchniak, A.; Thual, A.; Brooks, T. L.;
+Begany, K.; Benchetrit, Y.; Careil, M.; Banville, H.; d'Ascoli, S.;
+Dahan, S.; & Rapin, J.
+"""
+title = "NeuralSet: A High-Performing Python Package for Neuro-AI"
+link = "https://doi.org/10.48550/arxiv.2605.03169"
+publisher = "arXiv"
+type = "preprint"
+project = "neuroai"

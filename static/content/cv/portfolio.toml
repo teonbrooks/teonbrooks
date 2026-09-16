@@ -44,22 +44,30 @@ natural_languages =	["English (native)", "Portuguese (B1)", "French (B2)"]
 programming_languages =	["Python (adv.)", "R (adv.)", "JavaScript (int.)"]
 
 [[positions]]
-filename = "unc.png"
-organization = "University of North Carolina at Chapel Hill"
-title = "Research Assistant"
-timespan = "2007-2008"
+filename = "covenant.png"
+organization = "Carolina Covenant"
+title = "Scholar"
+timespan = "2006-2009"
 description = """
-Research Assistant in neurobiology. Advisor: Dr. Mohanish Deshmukh.
+Funding initiative for low-income students to graduate from college debt-free through grants, scholarships, and work-study.
 """
-website = "https://unc.edu"
-category = "Education"
+website = "https://www.unc.edu/story/carolina-covenant/"
+category = "Fellowships"
 
 [[positions]]
 filename = "unc.png"
 organization = "University of North Carolina at Chapel Hill"
 title = "Research Lab Manager"
-timespan = "2008-01-2011-07"
+timespan = "2007-2011-07"
 description = """
+### Research Assistant (2007–2008)
+
+Research Assistant in neurobiology.
+
+Advisor: Dr. Mohanish Deshmukh.
+
+### Research Lab Manager (2008–2011)
+
 Manage a language comprehension research lab focused on eye-tracking research.
 
 Perform research on word recognition while reading.
@@ -70,28 +78,63 @@ website = "https://unc.edu"
 category = "Education"
 
 [[positions]]
+filename = "grfp.png"
+organization = "National Science Foundation Graduate Research Fellowship Program"
+title = "NSF Graduate Research Fellow"
+timespan = "2011-2016"
+description = """
+Fellowship recipient in prestigious national competition for graduate-level STEM Research.
+"""
+website = "https://nsfgrfp.org"
+category = "Fellowships"
+
+[[positions]]
 filename = "nyu.png"
 organization = "New York University"
 title = "Doctoral Student"
 timespan = "2011-09-2017-05"
 description = """
+### Doctoral Student (2011–2017)
+
 Ph.D. in Experimental Psychology: Cognition and Perception. Dissertation: "Minding the Gap between Eye-tracking and Neurophysiology in Reading." Committee: Dr. Alec Marantz, Dr. David Poeppel, Dr. Brian McElree.
 
 President, NYU Cog Collective (2015–2017) — cofounder of the student organization representing the Cognition and Perception program; organized workshops and hosted socials.
+
+### Teaching Assistant (2012)
+
+PSYCH.UA.0300-007: Lab in Cognitive Neuroscience. Professor: Dr. David Poeppel.
 """
 website = "https://as.nyu.edu/psychology.html"
 category = "Education"
 
 [[positions]]
-filename = "nyu.png"
-organization = "New York University"
-title = "Teaching Assistant"
-timespan = "2012-09-2012-12"
+filename = "mne.png"
+organization = "MNE-tools"
+title = "Maintainer"
+timespan = "2012-2023"
 description = """
-PSYCH.UA.0300-007: Lab in Cognitive Neuroscience. Professor: Dr. David Poeppel.
+MNE-Python: Maintainer (2012-2019)
+MEG and EEG Data Processing and Analysis Package in Python.
+
+MNE-BIDS: Maintainer (2017-2020)
+Read and write BIDS-compatible datasets with the help of MNE-Python in Python.
+
+MNE-Realtime: Maintainer (2019-2023)
+Supported realtime data analysis with support for LSL and FieldTrip clients. This project has been deprecated and superseded by mne-lsl.
 """
-website = "https://as.nyu.edu/psychology.html"
-category = "Education"
+website = "https://mne.tools"
+category = ["Research Software Engineering"]
+
+[[positions]]
+filename = "chateaubriand.png"
+organization = "French Embassy to the U.S."
+title = "STEM Fellow"
+timespan = "2014-2015"
+description = """
+Fellowship to conduct dissertation research in France.
+"""
+website = "https://chateaubriand-fellowship.org/"
+category = "Fellowships"
 
 [[positions]]
 filename = "telecom.png"
@@ -107,8 +150,19 @@ website = ""
 category = "Education"
 
 [[positions]]
+filename = "openexp.png"
+organization = "OpenEXP"
+title = "Product Lead"
+timespan = "2015-2017"
+description = """
+An open-source platform for running experiments with jsPsych and collect behavioral and physiological data.
+"""
+website = "https://github.com/openexp/OpenEXP/"
+category = ["Past Projects"]
+
+[[positions]]
 filename = "openbci.png"
-organization = "datalus, LLC"
+organization = "datalus"
 title = "Principal Consultant"
 timespan = "2015-08-Present"
 description = """
@@ -123,6 +177,17 @@ Instructor for G440: Introduction to Scientific Python. https://github.com/datal
 """
 website = "https://openbci.com"
 category = ["Past Orgs","Consulting"]
+
+[[positions]]
+filename = "msl.png"
+organization = "Mozilla Science Lab"
+title = "Fellow for Open Science"
+timespan = "2016-2017"
+description = """
+10-month fellowship.
+"""
+website = "https://wiki.mozilla.org/ScienceLab"
+category = "Fellowships"
 
 [[positions]]
 filename = "stanford.png"
@@ -150,22 +215,58 @@ website = "https://stanford.edu"
 category = "Education"
 
 [[positions]]
+filename = "bids.png"
+organization = "Brain Imaging Data Structure (BIDS)"
+title = "Core Contributor"
+timespan = "2017-2020"
+description = """
+A community-driven data sharing standardization.
+"""
+website = "https://bids.neuroimaging.io"
+category = ["Research Software Engineering"]
+
+[[positions]]
+filename = "brainwaves.png"
+organization = "BrainWaves"
+title = "Product Lead"
+timespan = "2017-2022"
+description = """
+An easy-to-use platform for EEG experimentation in the classroom.
+"""
+website = "https://github.com/makebrainwaves/BrainWaves"
+category = ["Past Projects"]
+
+[[positions]]
 filename = "firefox.png"
 organization = "Mozilla Corporation"
-title = "Senior Data Scientist"
-timespan = "2017-11-2020-12"
+title = "Staff Data Scientist"
+timespan = "2017-11-2024-07"
 description = """
+### Senior Data Scientist (2017–2020)
+
 Designed and executed A/B tests and other experiments to drive new product development and optimize the search experience within Firefox.
 Leveraged non-parametric statistical methods to conduct large-scale data analysis and modeling on datasets of hundreds of millions of users to better understand how users engage with our search products.
 Combined survey methods with observational studies of browser usage to understand how user sentiment maps onto user behavior with their interactions with search in Firefox.
 Mentored two data scientist interns on exploratory data analysis and data science practices.
 Launched and managed the Data@Mozilla blog.
+
+### Senior Product Manager, Machine Learning (2021–2022)
+
+Led the strategic development and implementation of on-device machine learning capabilities within new browser products.
+Designed robust telemetry instrumentation to enable contextual recommendation within Firefox.
+Mentored students at the AUC Data Science Initiative on responsible and trustworthy AI within product development and design.
+
+### Staff Data Scientist (2024)
+
+Designed and implemented experimentation frameworks for novel machine-learning powered search suggestions and user experiences within Firefox Suggest, a novel first-party search product.
+Conducted in-depth exploratory data analyses on datasets encompassing hundreds of millions of users, extracting critical insights to inform revenue and advertising strategies.
+Designed and implemented derivative data tables to provide granular understanding and reporting on key performance indicators within the search and advertising business.
 """
 website = "https://mozilla.org"
 category = ["Past Orgs"]
 
 [[positions]]
-filename = "gdc.png"
+filename = "ciel.png"
 organization = "Gotham Data Clinic"
 title = "President"
 timespan = "2019-11-Present"
@@ -178,19 +279,6 @@ Founded and established the nonprofit from its incorporation through its applica
 """
 website = "https://gothamdataclinic.org"
 category = "Current Orgs"
-
-[[positions]]
-filename = "firefox.png"
-organization = "Mozilla Corporation"
-title = "Senior Product Manager, Machine Learning"
-timespan = "2021-01-2022-03"
-description = """
-Led the strategic development and implementation of on-device machine learning capabilities within new browser products.
-Designed robust telemetry instrumentation to enable contextual recommendation within Firefox.
-Mentored students at the AUC Data Science Initiative on responsible and trustworthy AI within product development and design.
-"""
-website = "https://mozilla.org"
-category = ["Past Orgs"]
 
 [[positions]]
 filename = "american.png"
@@ -218,7 +306,7 @@ website = "aimlabs.com"
 category = "Past Orgs"
 
 [[positions]]
-filename = ""
+filename = "sabbatical.png"
 organization = ""
 title = "Personal Sabbatical"
 timespan = "2022-11-2023-12"
@@ -232,39 +320,21 @@ category = ["Past Orgs"]
 filename = "recurse.png"
 organization = "Recurse Center"
 title = "Recurser"
-timespan = "2023-05-2023-06"
+timespan = "2023-05-2025-02"
 description = """
+### Recurser (2023)
+
 Summer 1 Half-Batch.
-"""
-website = "https://recurse.com"
-category = "Education"
 
-[[positions]]
-filename = "firefox.png"
-organization = "Mozilla Corporation"
-title = "Staff Data Scientist"
-timespan = "2024-01-2024-07"
-description = """
-Designed and implemented experimentation frameworks for novel machine-learning powered search suggestions and user experiences within Firefox Suggest, a novel first-party search product.
-Conducted in-depth exploratory data analyses on datasets encompassing hundreds of millions of users, extracting critical insights to inform revenue and advertising strategies.
-Designed and implemented derivative data tables to provide granular understanding and reporting on key performance indicators within the search and advertising business.
-"""
-website = "https://mozilla.org"
-category = ["Past Orgs"]
+### Recurser (2024–2025)
 
-[[positions]]
-filename = "recurse.png"
-organization = "Recurse Center"
-title = "Recurser"
-timespan = "2024-11-2025-02"
-description = """
 Full-stack engineering: Svelte(kit) + Supabase Machine Learning Engineering: Keras + PyTorch + Sklearn
 """
 website = "https://recurse.com"
 category = "Education"
 
 [[positions]]
-filename = ""
+filename = "brain.png"
 organization = "Meta (United States)"
 title = "Data Scientist"
 timespan = "2025-08-Present"
@@ -279,7 +349,7 @@ website = ""
 category = ["Current Orgs"]
 
 [[positions]]
-filename = ""
+filename = "cuny.png"
 organization = "City University of New York"
 title = "Adjunct Assistant Professor"
 timespan = "2026-01-2026-05"
