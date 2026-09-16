@@ -1,0 +1,71 @@
+[[project]]
+name = "OpenEXP"
+url = "https://github.com/openexp/OpenEXP/"
+started = ""
+ended = ""
+description = """
+An open-source platform for running experiments with jsPsych and collect behavioral and physiological data.
+"""
+
+[[project]]
+name = "MNE-Python"
+url = "https://github.com/mne-tools/mne-python"
+started = "2012"
+ended = "2019"
+description = """
+MEG and EEG Data Processing and Analysis Package in Python.
+"""
+
+[[project]]
+name = "Pyeparse"
+url = "https://github.com/pyeparse/pyeparse"
+started = "2015"
+ended = "2017"
+description = """
+Tools related to analyzing eye tracking data from cognitive sciences experiments in Python.
+"""
+
+[[project]]
+name = "MNE-BIDS"
+url = "https://github.com/mne-tools/mne-bids"
+started = "2017"
+ended = "2020"
+description = """
+Read and write BIDS-compatible datasets with the help of MNE-Python in Python.
+"""
+
+[[project]]
+name = "Brain Imaging Data Structure (BIDS)"
+url = "https://github.com/bids-standard/bids-specification"
+started = "2017"
+ended = "2020"
+description = """
+A community-driven data sharing standardization.
+"""
+
+[[project]]
+name = "BrainWaves"
+url = "https://github.com/makebrainwaves/BrainWaves"
+started = "2017-09"
+ended = ""
+description = """
+
+"""
+
+[[project]]
+name = "MNE-Realtime"
+url = "https://github.com/mne-tools/mne-realtime"
+started = "2019"
+ended = "2023"
+description = """
+Supported realtime data analysis with support for LSL and FieldTrip clients. This project has been deprecated and superseded by mne-lsl.
+"""
+
+[[project]]
+name = "NeuroAI"
+url = "https://github.com/facebookresearch/neuroai"
+started = "2026"
+ended = ""
+description = """
+The Python suite for Neuro-AI including NeuralSet, NeuralFetch, NeuralBench.
+"""

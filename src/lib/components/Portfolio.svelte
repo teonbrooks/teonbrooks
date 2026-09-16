@@ -37,7 +37,7 @@
 				</div>
 			{/if}
 			<div id="grid">
-				{#each filteredItems as item (`${item.organization}-${item.title}`)}
+				{#each filteredItems as item (`${item.organization}-${item.title}-${item.timespan}`)}
 					<PortfolioCard {item} {path} />
 				{/each}
 			</div>

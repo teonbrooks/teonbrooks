@@ -12,11 +12,13 @@ Outside of research, Teon has also been working a new project, [passports.social
 
 He posts on Bluesky 🦋 at [@teonbrooks.com](https://bsky.app/profile/teonbrooks.com).
 """
+location = "Brooklyn, NY, US"
 [[id.social]]
 Bluesky = "https://bsky.app/profile/teonbrooks.com"
 GitHub = "https://github.com/teonbrooks"
 LinkedIn = "https://linkedin.com/in/teonbrooks"
 ORCID = "https://orcid.org/0000-0001-7344-3230"
+Website = "https://teonbrooks.com"
 
 [[id.descriptors]]
 title = "Scientist"
@@ -27,7 +29,7 @@ title = "Technologist"
 website = "https://github.com/teonbrooks"
 
 [[id.occupations]]
-title = 'Cofounder'
+title = 'President'
 organization = 'Gotham Data Clinic'
 website = "https://gothamdataclinic.org"
 
@@ -38,472 +40,251 @@ website = "https://ai.meta.com/research/publications/a-foundation-model-of-visio
 
 [skills]
 
-natural_languages =	["English (native)", "French (B2)", "Portuguese (B1)"]
+natural_languages =	["English (native)", "Portuguese (B1)", "French (B2)"]
 programming_languages =	["Python (adv.)", "R (adv.)", "JavaScript (int.)"]
 
 [[positions]]
 filename = "unc.png"
-organization = "University of North Carolina"
-title = "Bachelor of Science"
-timespan = "2005-2009"
+organization = "University of North Carolina at Chapel Hill"
+title = "Research Assistant"
+timespan = "2007-2008"
 description = """
-Double Major in Psychology and Linguistics
+Research Assistant in neurobiology. Advisor: Dr. Mohanish Deshmukh.
 """
 website = "https://unc.edu"
 category = "Education"
 
 [[positions]]
-filename = "covenant.png"
-organization = "Carolina Covenant"
-title = "Scholar"
-timespan = "2006-2009"
+filename = "unc.png"
+organization = "University of North Carolina at Chapel Hill"
+title = "Research Lab Manager"
+timespan = "2008-01-2011-07"
 description = """
-Funding initiative for low-income students to graduate 
-from college debt-free through grants, scholarships, and work-study.
-"""
-website = "https://www.unc.edu/story/carolina-covenant/"
-category = "Fellowships"
+Manage a language comprehension research lab focused on eye-tracking research.
 
-[[positions]]
-filename = "grfp.png"
-organization = "National Science Foundation Graduate Research Fellowship Program"
-title = "NSF Graduate Research Fellow"
-timespan = "2011-2016"
-description = """
-Fellowship recipient in prestigious national competition 
-for graduate-level STEM Research.
+Perform research on word recognition while reading.
+
+Advisor: Dr. Peter C. Gordon.
 """
-website = "https://nsfgrfp.org"
-category = "Fellowships"
+website = "https://unc.edu"
+category = "Education"
 
 [[positions]]
 filename = "nyu.png"
 organization = "New York University"
-title = "Doctor of Philosophy in Experimental Psychology (PhD)"
-timespan = "2011-2017"
+title = "Doctoral Student"
+timespan = "2011-09-2017-05"
 description = """
-*PhD (2011-2017)*
+Ph.D. in Experimental Psychology: Cognition and Perception. Dissertation: "Minding the Gap between Eye-tracking and Neurophysiology in Reading." Committee: Dr. Alec Marantz, Dr. David Poeppel, Dr. Brian McElree.
 
-Experimental Psychology: Cognition and Perception
-
-*President, NYU Cog Collective (2015-2017)*
-
-Cofounder of student organization representing the Cognition and Perception program.
-We thought workshops and hosted socials [link](https://github.com/nyu-cogcollective).
-
-*Master of Arts (2011-2013)*
-
-Experimental Psychology: Cognition and Perception
+President, NYU Cog Collective (2015–2017) — cofounder of the student organization representing the Cognition and Perception program; organized workshops and hosted socials.
 """
 website = "https://as.nyu.edu/psychology.html"
 category = "Education"
 
 [[positions]]
-filename = "mne.png"
-organization = "MNE-tools"
-title = "Core Contributor"
-timespan = "2012-2017"
+filename = "nyu.png"
+organization = "New York University"
+title = "Teaching Assistant"
+timespan = "2012-09-2012-12"
 description = """
-*MNE-Python: Core Contributor (2012-2017)*
-
-MEG and EEG Data Processing and Analysis Package in Python.
-
-*MNE-Realtime: Maintainer (2019-2023)*
-
-Supported realtime data analysis with support for LSL and FieldTrip clients.
-This project has been deprecated and superseded by 
-[mne-lsl](https://mne.tools/mne-lsl/).
-
-*MNE-BIDS: Core Contributor (2017-2020)*
-Read and write BIDS-compatible datasets with the help of MNE-Python in Python.
+PSYCH.UA.0300-007: Lab in Cognitive Neuroscience. Professor: Dr. David Poeppel.
 """
-website = "https://mne.tools"
-category = ["Research Software Engineering"]
-
-[[positions]]
-filename = "chateaubriand.png"
-organization = "French Embassy to the U.S."
-title = "STEM Fellow"
-timespan = "2014-2015"
-description = """
-Fellowship to conduct dissertation research in France.
-"""
-website = "https://chateaubriand-fellowship.org/"
-category = "Fellowships"
+website = "https://as.nyu.edu/psychology.html"
+category = "Education"
 
 [[positions]]
 filename = "telecom.png"
-organization = "Telecom ParisTech"
-title = "Chateaubriand STEM Fellow"
-timespan = "2014-2015"
+organization = "Télécom Paris"
+title = "Visiting Research Fellow"
+timespan = "2014-07-2015-07"
 description = """
+Visiting research fellow sponsored by the French Embassy's Chateaubriand Graduate Research Fellowship. Acquired digital signal processing training. Acquired data analysis skills of electrophysiological data. Acquired machine learning training.
+
+Advisor: Dr. Alexandre Gramfort.
 """
 website = ""
 category = "Education"
 
 [[positions]]
-filename = "unesco.png"
-organization = "UNESCO"
-title = "Intern"
-timespan = "2015"
-description = """
-Intern in the Science Department.
-"""
-website = ""
-category = ["Volunteer"]
-
-[[positions]]
-# correct the icon
-filename = "braiNY-SFN.png"
-organization = "Greater NYC Chapter of Society for Neuroscience"
-title = "Co-Chair"
-timespan = "2015-2016"
-description = """
-"""
-website = ""
-category = ["Volunteer"]
-
-[[positions]]
 filename = "openbci.png"
-organization = "OpenBCI"
-title = "Research Scientist Consultant"
-timespan = "2015-2016"
+organization = "datalus, LLC"
+title = "Principal Consultant"
+timespan = "2015-08-Present"
 description = """
-Research consultant for EEG data analysis and software design.
+OpenBCI — Consultant: Research Scientist (2015-08 – 2016-06)
+Establishing validation and testing protocols for EEG hardware. Developing SDKs and APIs for OpenBCI Hardware. Developing an open-source software platform for running experiments, stream data for real-time analytics. Advising on research applications of wireless EEG.
+
+BrainWaves — Consultant: Product Manager (2017–2022)
+Led the end-to-end development of a novel all-in-one experimentation platform and application designed for teaching, developing, and conducting EEG-based psychology and neuroscience experiments. Conducted co-design and co-development practices to create the app for high school students and their teachers. Implemented the app in the classroom, reaching 10 schools with 30 students in each class.
+
+Memorial Sloan Kettering, Gerstner Sloan Kettering — Consultant: Instructor (2025–Present)
+Instructor for G440: Introduction to Scientific Python. https://github.com/datalus-dev/gsk-intro-scientific-python-course
 """
 website = "https://openbci.com"
-category = ["Past Orgs", "Consulting"]
-
-[[positions]]
-filename = "openexp.png"
-organization = "OpenEXP"
-title = "Product Manager"
-timespan = "2015-2016"
-description = """
-EEG Experimentation Platform
-"""
-website = "https://github.com/OpenEXP/OpenEXP"
-category = ["Past Projects"]
-
-[[positions]]
-# correct the icon
-filename = "openbci.png"
-organization = "DIYSciThai"
-title = "Workshop Creator; Co-organizer"
-timespan = "2016"
-description = """
-DIYSciThai was an Open Science workshop taught in Bangkok, Thailand in June 2016. 
-This two-day workshop is the basis of an open science initiative to provide an 
-integrative curriculum to teach cognitive science through experiential learning.
-
-This DIY workshop featured building research electronics (eye-tracker and EEG) from open-source hardware, and low-cost electronics.
-
-This workshop was supported by grants from Fulbright Thailand, the Open and Collaborative Science in Development Network (OCSDnet), 
-and NYU. 
-
-[Photos](https://photos.app.goo.gl/4zGBCM5C634B4nf9A)
-[Project Summary](https://github.com/teonbrooks/DIYSciThai)
-"""
-website = "https://github.com/teonbrooks/DIYSciThai"
-category = ["Past Projects", "Education"]
-
-[[positions]]
-filename = "msl.png"
-organization = "Mozilla Science Lab"
-title = "Fellow for Open Science"
-timespan = "2016-2017"
-description = """
-10-month fellowship
-"""
-website = "https://wiki.mozilla.org/ScienceLab"
-category = "Fellowships"
+category = ["Past Orgs","Consulting"]
 
 [[positions]]
 filename = "stanford.png"
 organization = "Stanford University"
-title = "Mozilla Fellow/Postdoctoral Scholar"
-timespan = "2016-2017"
+title = "Mozilla Fellow for Open Science, Postdoctoral Scholar"
+timespan = "2016-09-2017-12"
 description = """
-During my 2016-2017 Mozilla Fellowship for Science, I was a national co-organizer for the inaugural [March for Science](https://marchforscience.org) in Washington, D.C., which amassed 100k advocates for Science, and for evidence-based decisions in policy-making.
+Open Science + Open Source
+I spent my tenure as a Mozilla Fellow for Open Science advocating for the use of open and transparent practices in science. I traveled globally teaching workshops on using open-source technologies, and speaking at conferences.
 
-During my postdoc at Stanford, I was a core-contributor to __(1)__ the [Brain Imaging Data Structure](https://bids.neuroimaging.io/) project for the inclusion of MEG into the specification ([our paper](https://www.nature.com/articles/sdata2018110)), and to __(2)__ the [MNE-BIDS](https://github.com/mne-tools/mne-bids) project to provide a software implementation ([our paper](https://joss.theoj.org/papers/10.21105/joss.01896)).
+During the fellowship, I became one of the national organizers for the March for Science in Washington, DC. I worked as the Co-Director of Partnerships bringing in over 300 partner organizations to help mobilize scientists and science advocates. This event brought together more than a million people in over 600 cities worldwide.
+
+I also worked on a project to build software that enables experimental psychologists and neuroscientists to freely share the experiment protocols and execute their experiments using open-source, and web-based technologies.
+
+During my postdoc at Stanford, I was a core contributor to [1] the Brain Imaging Data Structure project for the inclusion of MEG into the specification, and to [2] the MNE-BIDS project to provide a software implementation.
+
+Through this project, I hope to build community and code that improve the state of brain science research.
+
+Advisor: Dr. Russell Poldrack.
+
+[1] https://bids.neuroimaging.io/ ; https://www.nature.com/articles/sdata2018110
+[2] https://github.com/mne-tools/mne-bids ; https://joss.theoj.org/papers/10.21105/joss.01896
 """
 website = "https://stanford.edu"
 category = "Education"
 
 [[positions]]
-filename = "mfs.png"
-organization = "March for Science"
-title = "National Co-Organizer: Co-Director of Partnerships"
-timespan = "2017"
-description = """
-- Co-led a team to build a coalition of >300 scientific
-societies, NGOs, science museums, and non-profits to mobilize their
-members to march. 
-
-- Organized and coordinated one of the largest science
-demonstration with 100k marchers in Washington, DC and over a million marchers in
-610 cities worldwide.
-"""
-website = "https://marchforscience.org"
-category = ["Past Orgs", "Volunteer"]
-
-[[positions]]
 filename = "firefox.png"
-organization = "Mozilla"
-title = "Staff Data Scientist"
-timespan = "2017-2022"
+organization = "Mozilla Corporation"
+title = "Senior Data Scientist"
+timespan = "2017-11-2020-12"
 description = """
-*Product Management, ML (2021-2022)*
-
-- Led new product development to incorporate on-device machine learning in applications.
-
-- Enabled robust telemetry instrumentation to enable contextual recommendation within Firefox.
-
-- Mentored students at the AUC Data Science Initiative on responsible and trustworthy AI within product development and design.
-
-
-*Product Data Science (2017-2021)*
-
-- Conducted experimentation for new product development for the address bar in the Firefox browser.
-
-- Conducted large-scale data analysis, and modeling across hundreds of millions of users using non-parametric methods.
-
-- Used mixed methods of browser telemetry data and user surveys to surface user insights for product recommendations.
-
-- Mentored two data scientist interns on exploratory data analysis and data science practices.
-
-- Launched and managed the [Data@Mozilla blog](https://blog.mozilla.org/data).
-
-__Executive Summary__
-
-At Mozilla, I supported our Revenue and Business Development teams with analytic support. Relatedly, I worked with our product team on the Awesome Bar, our combined address bar and search product within the Firefox Browser, and researched how to improve the user experience with finding things on the web.
-
-Previously, I have worked with one of our product development teams, [Test Pilot](https://medium.com/firefox-test-pilot), to rapidly iterate on new features for the browser. Within the company, I taught introductory courses in data visualization and data analysis to build product intuition and inform product decisions. I also served as a data steward to help safeguard user privacy and control over their data.
-
+Designed and executed A/B tests and other experiments to drive new product development and optimize the search experience within Firefox.
+Leveraged non-parametric statistical methods to conduct large-scale data analysis and modeling on datasets of hundreds of millions of users to better understand how users engage with our search products.
+Combined survey methods with observational studies of browser usage to understand how user sentiment maps onto user behavior with their interactions with search in Firefox.
+Mentored two data scientist interns on exploratory data analysis and data science practices.
+Launched and managed the Data@Mozilla blog.
 """
 website = "https://mozilla.org"
 category = ["Past Orgs"]
-# from Ben's LinkedIn
-# Technical lead of the Revenue and Search data science team. 
-# Partnered with Product, Business Development and Finance teams to create alignment around revenue+search metrics. 
-# Oversaw dozens of experiments & extensively researched the relationship between revenue and user behavior.
-
-[[positions]]
-filename = "queerhack.png"
-organization = "QueerHack"
-title = "2017"
-timespan = ""
-description = """
-"""
-website = ""
-category = "Past Orgs"
-
-[[positions]]
-filename = "shd.png"
-organization = "Science Hack Day"
-title = "Co-Organizer"
-timespan = "2017"
-description = """
-"""
-website = ""
-category = ["Past Orgs", "Volunteer"]
-
-[[positions]]
-filename = "brainwaves.png"
-organization = "BrainWaves"
-title = "President of Advisory Board"
-timespan = "2017-2022"
-description = """
-*President of Advisory Board*
-
-*Product Manager*
-
-Democratizing Cognitive Science
-"""
-website = "https://wp.nyu.edu/brainwaves/"
-category = ["Past Projects", "Education", "Consulting"]
-
-[[positions]]
-filename = "FoR.png"
-organization = "Future of Research"
-title = "Board Member"
-timespan = "2017-2018"
-description = """
-Served on the board of a nonprofit advocacy group 
-for early-career scientists.
-
-[Board Alumni](https://www.futureofresearch.org/boardalumnae/)
-"""
-website = "https://futureofresearch.org"
-category = ["Past Orgs", "Volunteer"]
-
-[[positions]]
-filename = "bids.png"
-organization = "Brain Imaging Data Structure"
-title = "BIDS-MEG contributor"
-timespan = "2017-2020"
-description = """
-"""
-website = "https://bids.neuroimaging.io"
-category = ["Research Software Engineering"]
 
 [[positions]]
 filename = "gdc.png"
 organization = "Gotham Data Clinic"
-title = "Executive Director"
-timespan = "2019-Present"
+title = "President"
+timespan = "2019-11-Present"
 description = """
+We are the Gotham Data Clinic, and we are focused on researching, building, and sharing data science education tools for the next generation of scientists and technologists.
+
+Originally founded in 2019 as CiELabs, the nonprofit was on hiatus through the pandemic. In 2023, we rebranded and refocused our efforts.
+
+Founded and established the nonprofit from its incorporation through its application for federal tax exemption. Lead workshops on data literacy with partner organizations. Build new partnerships with NYC Public Schools and CUNY. Lead product development work for new digital infrastructure to teach data science at scale. Write scholarly work to support both our community and product development work.
 """
 website = "https://gothamdataclinic.org"
 category = "Current Orgs"
 
 [[positions]]
-filename = "trainer-hex.png"
-organization = "RStudio"
-title = "Certified Trainer"
-timespan = "2019"
+filename = "firefox.png"
+organization = "Mozilla Corporation"
+title = "Senior Product Manager, Machine Learning"
+timespan = "2021-01-2022-03"
 description = """
+Led the strategic development and implementation of on-device machine learning capabilities within new browser products.
+Designed robust telemetry instrumentation to enable contextual recommendation within Firefox.
+Mentored students at the AUC Data Science Initiative on responsible and trustworthy AI within product development and design.
 """
-website = "https://education.rstudio.com/trainers/"
-category = "Education"
-
-[[positions]]
-filename = "bkcb1.png"
-organization = "New York City Community Board (BKCB1)"
-title = "Board Member"
-timespan = "2020-2022, 2025-Present"
-description = """
-## 2025-Present
-
-I was recently appointed to Brooklyn CB1 on May 5, 2025. This section will be updated once I've been sworned and assigned committees.
-
-## 2020-2022
-
-I served on the following committees:
-- Capital Budget Committee
-- the Board Budget Committee
-- the Education committee
-- Outreach Committee
-
-I created and managed the community board Twitter account (@BrooklynCB1).
-"""
-website = ""
-category = ["Volunteer", "Civic Engagement"]
+website = "https://mozilla.org"
+category = ["Past Orgs"]
 
 [[positions]]
 filename = "american.png"
 organization = "American University"
-title = "Senior Adjunct Professorial Lecturer"
-timespan = "2021"
+title = "Adjunct Senior Professorial Lecturer"
+timespan = "2021-01-2021-05"
 description = """
-Statistical Programming: R + Tidyverse
-
-- Taught a course for undergraduate and graduate students on the foundations of the R programming language. 
-
-- This course also taught the Tidyverse, a collection R packages for data wrangling.
+STAT 412/612: Teaching graduate/advanced-undergraduate level Statistical Programming in R
+- Foundations in R
+- Foundation in Tidyverse
+- Data Exploration, Transformation, Analysis, and Modeling
 """
 website = ""
-category = ["Past Orgs", "Teaching"]
+category = ["Past Orgs","Teaching"]
 
 [[positions]]
 filename = "aimlabs.png"
-organization = "State Space Labs"
-title = "VP, Head of Research and Development"
-timespan = "2022"
+organization = "Statespace"
+title = "VP: Head of Product, Research and Development"
+timespan = "2022-05-2022-10"
 description = """
-- Delivered and launched a mouse sensitivity finder for first-person shooter gaming 
-in a joint product venture between the core product team and R&D based on my team’s research.
-
-- Led a team of five research scientists to incorporate innovative research into Aim Lab, 
-the flagship aim trainer product. 
-
-- Led and coordinated digital health initiatives to create cognitive assessments for 
-altered states of consciousness such as concussion.
+Launched and delivered a joint product venture between the core product team and R&D, to create a mouse sensitivity finder for first-person shooter gaming, based off of my team’s research. Led cross-functional product initiatives with product and engineering teams. Led and mentored a team of five research scientists and one research assistant to publish research on motor acuity and successfully integrate key research insights into Aim Lab, the flagship aim trainer product. Led and coordinated digital health initiatives in partnership with clinics and university football teams to develop cognitive assessments for altered states of consciousness, including concussion. Impacted by a substantial company-wide reduction of workforce, which led to the cancellation of the R&D function.
 """
 website = "aimlabs.com"
 category = "Past Orgs"
 
 [[positions]]
+filename = ""
+organization = ""
+title = "Personal Sabbatical"
+timespan = "2022-11-2023-12"
+description = """
+Undertook an extended period of personal time off for bereavement, and for personal development. Enhanced web development and machine learning skills through intensive professional development at the Recurse Center.
+"""
+website = ""
+category = ["Past Orgs"]
+
+[[positions]]
 filename = "recurse.png"
-organization = "The Recurse Center"
+organization = "Recurse Center"
 title = "Recurser"
-timespan = "2023, 2024"
+timespan = "2023-05-2023-06"
 description = """
 Summer 1 Half-Batch.
-
-Winter 1 Full-Batch.
-
-[Projet Vie](https://cestlavie.app).
 """
 website = "https://recurse.com"
 category = "Education"
 
 [[positions]]
-filename = "cestlavie.png"
-organization = "C'est La Vie"
-title = "Creator"
-timespan = "2024-Present"
+filename = "firefox.png"
+organization = "Mozilla Corporation"
+title = "Staff Data Scientist"
+timespan = "2024-01-2024-07"
 description = """
-A digital scrapbook and life Log.
-
-discovery and recommendations, curated by friends
+Designed and implemented experimentation frameworks for novel machine-learning powered search suggestions and user experiences within Firefox Suggest, a novel first-party search product.
+Conducted in-depth exploratory data analyses on datasets encompassing hundreds of millions of users, extracting critical insights to inform revenue and advertising strategies.
+Designed and implemented derivative data tables to provide granular understanding and reporting on key performance indicators within the search and advertising business.
 """
-website = "https://cestlavie.app"
+website = "https://mozilla.org"
+category = ["Past Orgs"]
+
+[[positions]]
+filename = "recurse.png"
+organization = "Recurse Center"
+title = "Recurser"
+timespan = "2024-11-2025-02"
+description = """
+Full-stack engineering: Svelte(kit) + Supabase Machine Learning Engineering: Keras + PyTorch + Sklearn
+"""
+website = "https://recurse.com"
+category = "Education"
+
+[[positions]]
+filename = ""
+organization = "Meta (United States)"
+title = "Data Scientist"
+timespan = "2025-08-Present"
+description = """
+Leads the development of NeuralFetch and contributes to the NeuroAI open-source software suite to download, validate, and analyze multimodal neuroscience datasets (fMRI, MEG, EEG, iEEG, fNIRS, EMG).
+Standardizes public datasets for ingestion and validates research studies using machine learning decoding techniques.
+Develops an automated validation and replication framework for neuroscience research projects.
+
+(Meta via Magnit)
+"""
+website = ""
 category = ["Current Orgs"]
 
 [[positions]]
-filename = "firefox.png"
-organization = "Mozilla"
-title = "Consultant"
-timespan = "2017-2022, 2024"
+filename = ""
+organization = "City University of New York"
+title = "Adjunct Assistant Professor"
+timespan = "2026-01-2026-05"
 description = """
-*Professional Services: Data Science*
-
-*Revenue Intelligence (2024)*
-- Conduct experimentation for new machine-learning-powered experiences in 
-address bar in the Firefox browser.
-
-- Conduct large-scale data analyses across hundreds of millions of users for our 
-revenue-producing products and our advertising business.
-
-*Consultant*
-- Designed a curriculum teaching open-source LLMs.
-- Delivered course to students at San Jose State University in partnership with Mozilla.
-- Led a hackathon to design apps using open-source LLMs for social good.
+College of Staten Island. Spring 2026 - EDD 642: Creative Computing in Education.
 """
-website = "https://mozilla.org"
-category = ["Consulting"]
-
-[[positions]]
-filename = "mskcc.png"
-organization = "Memorial Sloan Kettering"
-title = "Consultant, Instructor"
-timespan = "2025"
-description = """
-- Co-designed a new curriculum to teach scientific computing using Python to incoming PhD students in Cancer Biology and Cancer Engineering.
-- Will deliver the course in Fall 2025.
-"""
-website = "https://www.sloankettering.edu/gerstner"
-category = ["Consulting"]
-
-# [[positions]]
-# filename = ""
-# organization = "New York Cares"
-# title = "math tutor"
-# timespan = "2013"
-# description = """
-# """
-# website = ""
-# category = ""
-
-
-# [[positions]]
-# filename = ""
-# organization = ""
-# title = ""
-# timespan = ""
-# description = """
-# """
-# website = ""
-# category = []
+website = ""
+category = ["Current Orgs","Teaching"]

@@ -1,0 +1,31 @@
+[[education]]
+institution = "University of North Carolina at Chapel Hill"
+degree = "B.S."
+field = "Psychology and Linguistics"
+started = "2006"
+ended = "2009"
+description = """
+
+"""
+
+[[education]]
+institution = "New York University"
+degree = "Master's Degree"
+field = "Experimental Psychology: Cognitive Neuroscience"
+started = "2011"
+ended = "2014"
+description = """
+Cognitive Science: Cognitive Neuroscience, Cognitive Psychology, Psycholinguistics
+"""
+
+[[education]]
+institution = "New York University"
+degree = "Ph.D."
+field = "Experimental Psychology: Cognitive Neuroscience"
+started = "2011"
+ended = "2017"
+description = """
+I received my PhD in experimental psychology from the Cognition and Perception Department. My specialty was in psycholinguistics and cognitive neuroscience where I focused on the time dynamics of visual word recognition in the human brain during reading. My methodology was magnetoencephalography (MEG) and eyetracking.
+
+My doctoral thesis is entitled "Minding the Gap between Eye-tracking and Neurophysiology during Reading". I combined these two disparate techniques in psycholinguistics to investigate the time course for recognizing words.
+"""

@@ -1,18 +1,145 @@
 name = "Invited Talks and Panels"
 
 [[engagements]]
-organization = "2nd Annual Community College Data Science Conference"
-title = "The Many Pathways to a Data Science Career"
-date = "2022-05-14"
-location = "Virtual"
-asset = ["https://centralcoastdatascience.org/news/all/2022/2nd-annual-community-college-data-science-conference",
-         "https://datascienceconference.cc/"]
+organization = "Mozilla"
+title = "March for Science chat with Mozilla Science Fellow, Teon Brooks"
+date = "2017-04-19"
+location = "San Francisco, CA"
+role = "presenter"
+asset = "https://www.facebook.com/mozilla/videos/march-for-science-chat-with-mozilla-science-fellow-teon-brooks/10155126293402381/"
 
 [[engagements]]
-organization = "Indiana University Departments of Neuroscience and Cognitive Science"
-title = "IU Neuroscience / Cognitive Science Joint Colloquium Series"
-date = "2021-03-29"
+organization = "New York University Graduate School of Arts and Science"
+title = "Doctoral Convocation: Student Speaker"
+date = "2017-05-01"
+location = "New York, NY"
+role = "presenter"
+asset = "www.nyu.edu/about/news-publications/news/2016/may/class-of-2016-commencement-profiles.html#brooks"
+date_is_approximate = true
+
+[[engagements]]
+organization = "CLEO Conference"
+title = "Scientist + Advocacy Panel"
+date = "2017-05-01"
+location = "San Jose, CA"
+role = "panelist"
+asset = "https://cleoconference.org/wp-content/uploads/2024/11/CLEO-Archive-2017.pdf"
+date_is_approximate = true
+
+[[engagements]]
+organization = "Maker Faire"
+title = "The Accessible Future of Neuroscience Panel"
+date = "2017-10-01"
+location = "New York, NY"
+role = "panelist"
+asset = "https://makerfaire.com/maker/entry/58916/"
+date_is_approximate = true
+
+[[engagements]]
+organization = "Entomological Society of America"
+title = "Organizing a national March for Science"
+date = "2017-11-08"
+location = "Denver, CO"
+role = "presenter"
+asset = "https://esa.confex.com/esa/2017/meetingapp.cgi/Paper/127628"
+
+[[engagements]]
+organization = "Tested: Offworld"
+title = "Arrival"
+date = "2017-12-01"
+location = "San Francisco, CA"
+role = "presenter"
+asset = "https://www.tested.com/podcasts/offworld/872230-offworld-arrival-2016/"
+date_is_approximate = true
+
+[[engagements]]
+organization = "Society for Neuroscience"
+title = "FAIR Neuroscience: Sharing and Collaborating for Reproducible Data Workshop"
+date = "2018-11-05"
+location = "San Diego, CA"
+role = "workshop"
+asset = ["https://www.sfn.org/annual-meeting/neuroscience-2018/sessions-and-events/professional-development-workshops#Monday-November-05-2018","https://neuronline.sfn.org/professional-development/data-sharing-principles-to-promote-open-science","https://doi.org/10.5281/zenodo.3245441"]
+
+[[engagements]]
+organization = "The University of North Carolina at Chapel Hill Psychology and Neuroscience"
+title = "Cognitive Talk Series"
+date = "2019-01-31"
+location = "Chapel Hill, NC"
+role = "presenter"
+asset = "https://psychology.unc.edu/event/cognitive-talk-81/"
+
+[[engagements]]
+organization = "Duke University Cognition and Cognitive Neuroscience"
+title = "CCN Colloquium Series"
+date = "2019-02-01"
+location = "Durham, NC"
+role = "presenter"
+asset = "https://dibs.duke.edu/events/teon-brooks-mozilla"
+
+[[engagements]]
+organization = "csv,conf"
+title = "csv,conf,v4 Keynote"
+date = "2019-05-09"
+location = "Portland, OR"
+role = "keynote"
+asset = ["https://www.youtube.com/watch?v=0_Ws9t9FGqA&feature=youtu.be","https://doi.org/10.5281/zenodo.2766123"]
+
+[[engagements]]
+organization = "Atlanta Workshop"
+title = "Intro to R and Tidyverse for Data Science"
+date = "2019-10-01"
+location = "Atlanta, Georgia, United States"
+role = "workshop"
+asset = ["https://github.com/cdhowe/atl-welcome-tidyverse","https://blog.rstudio.com/2019/09/30/fall-winter-workshop-roundup/"]
+date_is_approximate = true
+
+[[engagements]]
+organization = "City College of New York Association of Computing Machinery"
+title = "How to Open Source Panel"
+date = "2019-11-07"
+location = "New York, NY"
+role = "panelist"
+asset = "https://www.eventbrite.com/e/how-to-open-source-panel-tickets-79082246127"
+
+[[engagements]]
+organization = "Mozilla Internal Workshop"
+title = "Intro to R and Tidyverse for Data Science"
+date = "2019-12-01"
+location = ""
+role = "workshop"
+asset = "https://github.com/teonbrooks/intro_to_rstudio_tidyverse/tree/mozv1.0"
+date_is_approximate = true
+
+[[engagements]]
+organization = "New York University Graduate School of Arts and Science"
+title = "Panel on PhD Industry Job Search Panel"
+date = "2020-02-19"
+location = "New York, NY"
+role = "panelist"
+asset = ""
+
+[[engagements]]
+organization = "University of California at San Diego"
+title = "Intro to Data Science Guest Lecture"
+date = "2020-03-05"
+location = "San Diego, CA"
+role = "presenter"
+asset = "https://youtu.be/FNb3uJt5kcc?feature=shared"
+
+[[engagements]]
+organization = "University of Washington Data Science for Social Good"
+title = "Data Science for Social Good Panel: Nonprofit"
+date = "2020-07-31"
 location = "Virtual"
+role = "panelist"
+asset = "https://escience.washington.edu/2020-data-science-for-social-good-projects/"
+
+[[engagements]]
+organization = "New York University Department of Psychology"
+title = "Industry Careers Panel"
+date = "2020-11-09"
+location = "Virtual"
+role = "panelist"
 asset = ""
 
 [[engagements]]
@@ -20,120 +147,62 @@ organization = "University of Michigan Department of Psychology"
 title = "Cognition & Cognitive Neuroscience Area Forum"
 date = "2020-11-13"
 location = "Virtual"
-asset = ["https://events.umich.edu/event/79117",
-         "https://lsa.umich.edu/psych/news-events/all-events.detail.html/79117-20209854.html"]
+role = "presenter"
+asset = ["https://events.umich.edu/event/79117","https://lsa.umich.edu/psych/news-events/all-events.detail.html/79117-20209854.html"]
 
 [[engagements]]
-organization = "New York University Department of Psychology"
-title = "Industry Careers Panel"
-date = "2020-11-09"
+organization = "RStudio"
+title = "rstudio::global(2021)"
+date = "2021-01-21"
 location = "Virtual"
+role = "host"
 asset = ""
-
-[[engagements]]
-organization = "University of Washington Data Science for Social Good"
-title = "Data Science for Social Good Panel: Nonprofit"
-date = "2020-07-31"
-location = "Virtual"
-asset = "https://escience.washington.edu/2020-data-science-for-social-good-projects/"
-
-[[engagements]]
-organization = "University of California at San Diego"
-title = "Intro to Data Science Guest Lecture"
-date = "2020-03-05"
-location = "San Diego, CA"
-asset = "https://youtu.be/FNb3uJt5kcc?feature=shared"
+details = "Invited co-host for the Language interop session."
 
 [[engagements]]
 organization = "New York University Graduate School of Arts and Science"
-title = "Panel on PhD Industry Job Search Panel"
-date = "2020-02-19"
-location = "New York, NY"
+title = "QTPOC Alumni Panel: Overcoming Imposter Syndrome"
+date = "2021-02-25"
+location = "Virtual"
+role = "panelist"
 asset = ""
 
 [[engagements]]
-organization = "City College of New York Association of Computing Machinery"
-title = "How to Open Source Panel"
-date = "2019-11-07"
-location = "New York, NY"
-asset = "https://www.eventbrite.com/e/how-to-open-source-panel-tickets-79082246127"
-
-[[engagements]]
-organization = "csv,conf"
-title = "csv,conf,v4 Keynote"
-date = "2019-05-09"
-location = "Portland, OR"
-asset = ["https://www.youtube.com/watch?v=0_Ws9t9FGqA&feature=youtu.be",
-         "https://doi.org/10.5281/zenodo.2766123"]
-
-[[engagements]]
-organization = "Duke University Cognition and Cognitive Neuroscience"
-title = "CCN Colloquium Series"
-date = "2019-02-01"
-location = "Durham, NC"
-asset = "https://dibs.duke.edu/events/teon-brooks-mozilla"
-
-[[engagements]]
-organization = "The University of North Carolina at Chapel Hill Psychology and Neuroscience"
-title = "Cognitive Talk Series"
-date = "2019-01-31"
-location = "Chapel Hill, NC"
-asset = "https://psychology.unc.edu/event/cognitive-talk-81/"
-
-[[engagements]]
-organization = "Society for Neuroscience"
-title = "FAIR Neuroscience: Sharing and Collaborating for Reproducible Data Workshop"
-date = "2018-11-05"
-location = "San Diego, CA"
-asset = ["https://www.sfn.org/annual-meeting/neuroscience-2018/sessions-and-events/professional-development-workshops#Monday-November-05-2018",
-         "https://neuronline.sfn.org/professional-development/data-sharing-principles-to-promote-open-science",
-         "https://doi.org/10.5281/zenodo.3245441"]
-
-[[engagements]]
-organization = "Entomological Society of America"
-title = "Organizing a national March for Science"
-date = "2017-11-08"
-location = "Denver, CO"
-asset = "https://esa.confex.com/esa/2017/meetingapp.cgi/Paper/127628"
-
-[[engagements]]
-organization = "CLEO Conference"
-title = "Scientist + Advocacy Panel"
-date = "2017-05"
-location = "San Jose, CA"
+organization = "Indiana University Departments of Neuroscience and Cognitive Science"
+title = "IU Neuroscience / Cognitive Science Joint Colloquium Series"
+date = "2021-03-29"
+location = "Virtual"
+role = "presenter"
 asset = ""
 
 [[engagements]]
-organization = "Mozilla"
-title = "March for Science chat with Mozilla Science Fellow, Teon Brooks"
-date = "2017-04-19"
-location = "San Francisco, CA"
-asset = "https://www.facebook.com/mozilla/videos/march-for-science-chat-with-mozilla-science-fellow-teon-brooks/10155126293402381/"
+organization = "2nd Annual Community College Data Science Conference"
+title = "The Many Pathways to a Data Science Career"
+date = "2022-05-14"
+location = "Virtual"
+role = "presenter"
+asset = ["https://centralcoastdatascience.org/news/all/2022/2nd-annual-community-college-data-science-conference","https://datascienceconference.cc/"]
 
 [[engagements]]
-organization = "Tested: Offworld"
-title = "Arrival"
-date = "2017-12"
-location = "San Francisco, CA"
-asset = "https://www.tested.com/podcasts/offworld/872230-offworld-arrival-2016/"
+organization = "ATScience"
+title = "Computational Education Commons on the Atmosphere"
+date = "2026-03-27"
+location = "Vancouver, B.C."
+role = "presenter"
+asset = "https://atproto.science/events/atmosphere2026/"
 
 [[engagements]]
-organization = "Maker Faire"
-title = "The Accessible Future of Neuroscience Panel"
-date = "2017-10"
-location = "New York, NY"
-asset = "https://makerfaire.com/maker/entry/58916/"
+organization = "CCN 2026 Satellite Event: Modeling and Understanding Human Brain Computation at Scale"
+title = "Panel Discussion"
+date = "2026-08-02"
+location = "New York, New York, United States"
+role = "panelist"
+asset = "https://kriegeskorte-lab.github.io/ccn-satellite-human-brain-foundation-model/"
 
 [[engagements]]
-organization = "New York University Graduate School of Arts and Science"
-title = "Doctoral Convocation: Student Speaker"
-date = "2017-05"
-location = "New York, NY"
-asset = "www.nyu.edu/about/news-publications/news/2016/may/class-of-2016-commencement-profiles.html#brooks"
-
-# [[engagements]]
-# organization = ""
-# title = ""
-# date = ""
-# location = ""
-# asset = ""
+organization = "Clare Boothe Luce Convening for Women in STEM"
+title = "The Future of STEM Leadership: Public Engagement, Inspiring Curiosity and Navigating AI"
+date = "2026-08-03"
+location = "New York, New York, United States"
+role = "panelist"
+asset = ["https://www.canva.com/design/DAHO51x4K1E/P9M72EXnwBzov349glGlAw/view","https://hluce.org/programs/clare-boothe-luce/"]

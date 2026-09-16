@@ -1,0 +1,267 @@
+[[involvement]]
+organization = "Association for Computing Machinery"
+role = "Member"
+kind = "Other"
+started = ""
+ended = ""
+location = ""
+url = ""
+links = ""
+description = """
+
+"""
+
+[[involvement]]
+organization = "Black In AI"
+role = "Member"
+kind = "Other"
+started = ""
+ended = ""
+location = ""
+url = ""
+links = ""
+description = """
+
+"""
+
+[[involvement]]
+organization = "Spark Society"
+role = "Member"
+kind = "Other"
+started = ""
+ended = ""
+location = ""
+url = ""
+links = ""
+description = """
+
+"""
+
+[[involvement]]
+organization = "Cognitive Science Society"
+role = "Member"
+kind = "Other"
+started = ""
+ended = ""
+location = ""
+url = ""
+links = ""
+description = """
+
+"""
+
+[[involvement]]
+organization = "New York Cares"
+role = "Math Games Tutor"
+kind = "Charity"
+started = "2013-01"
+ended = "2013-06"
+location = "New York, New York, US"
+url = ""
+links = ""
+description = """
+Math games tutor for elementary school students, in partnership with The Educational Alliance.
+"""
+
+[[involvement]]
+organization = "New York Cares"
+role = "SAT Prep Tutor"
+kind = "Charity"
+started = "2013-01"
+ended = "2013-05"
+location = "New York, New York, US"
+url = ""
+links = ""
+description = """
+SAT Prep Tutor for tenth graders, in partnership with I Have a Dream Foundation.
+"""
+
+[[involvement]]
+organization = "United Nations Educational Scientific and Cultural Organization"
+role = "Intern"
+kind = "Charity"
+started = "2014-10"
+ended = "2014-12"
+location = ""
+url = "https://unesco.org"
+links = ""
+description = """
+Work on initiatives to increase science education around the world.
+"""
+
+[[involvement]]
+organization = "Neurotechx"
+role = "Organizer"
+kind = "Community"
+started = "2015"
+ended = "2016"
+location = "New York, United States"
+url = "https://neurotechx.com/chapter/1530/"
+links = ""
+description = """
+
+"""
+
+[[involvement]]
+organization = "New York Cares"
+role = "Summer Science Camp Volunteer"
+kind = "Charity"
+started = "2015-07"
+ended = "2015-08"
+location = "New York, New York, US"
+url = ""
+links = ""
+description = """
+Summer Science Camp volunteer, in partnership with The Educational Alliance.
+"""
+
+[[involvement]]
+organization = "Booker T. Washington Middle School"
+role = "Volunteer Instructor"
+kind = "Charity"
+started = "2015-09"
+ended = "2015-11"
+location = "New York, New York, US"
+url = ""
+links = ""
+description = """
+Neuroscience Outreach and Education
+"""
+
+[[involvement]]
+organization = "Biobus"
+role = "Volunteer"
+kind = "Charity"
+started = "2015-09"
+ended = "2016-03"
+location = ""
+url = ""
+links = ""
+description = """
+Taught students and adults about different types of microscopes, and the diverse microscopic aquatic life.
+"""
+
+[[involvement]]
+organization = "Greater New York City Chapter of the Society for Neuroscience (braiNY)"
+role = "Co-chair"
+kind = "Community"
+started = "2015-11"
+ended = "2016-05"
+location = ""
+url = ""
+links = ""
+description = """
+
+"""
+
+[[involvement]]
+organization = "DIY Sci Thai"
+role = "Workshop Creator; Co-organizer"
+kind = "Community"
+started = "2016-06"
+ended = "2016-06"
+location = "Bangkok, TH"
+url = "https://github.com/teonbrooks/DIYSciThai"
+links = "https://github.com/teonbrooks/DIYSciThai"
+description = """
+DIYSciThai was an Open Science workshop taught in Bangkok, Thailand in June 2016, the basis of an open science initiative to provide an integrative curriculum to teach cognitive science through experiential learning. Featured building research electronics (eye-tracker and EEG) from open-source hardware and low-cost electronics. Supported by grants from Fulbright Thailand, the Open and Collaborative Science in Development Network (OCSDnet), and NYU.
+
+Project photos available [1].
+
+[1] https://photos.app.goo.gl/4zGBCM5C634B4nf9A
+"""
+
+[[involvement]]
+organization = "QueerHack"
+role = "Co-founder"
+kind = "Charity"
+started = "2017"
+ended = "2018"
+location = ""
+url = ""
+links = ""
+description = """
+
+"""
+
+[[involvement]]
+organization = "Science Hack Day"
+role = "Co-Organizer"
+kind = "Community"
+started = "2017-01"
+ended = "2017-12"
+location = "New York, New York, US"
+url = ""
+links = "http://sf.sciencehackday.org/2017/10/03/meet-the-science-hack-day-sf-2017-organizers/"
+description = """
+
+"""
+
+[[involvement]]
+organization = "March for Science"
+role = "Co-Director of Partnerships"
+kind = "Charity"
+started = "2017-02"
+ended = "2017-11"
+location = ""
+url = ""
+links = ""
+description = """
+Formed a coalition of 270+ partner organization ranging from (inter-)national scientific societies to local science museums and outreach program. Helped coordinate the March for Science DC event where we brought together 100k participants. Helped led the March for Science Global event where we brought together 1m+ participants across 610 locations.
+
+Summary of the Event
+------------------------------
+https://en.wikipedia.org/wiki/March_for_Science
+"""
+
+[[involvement]]
+organization = "Future of Research"
+role = "Board Member"
+kind = "Charity"
+started = "2017-08"
+ended = "2018"
+location = ""
+url = ""
+links = ""
+description = """
+
+"""
+
+[[involvement]]
+organization = "BrainWaves"
+role = "President, Advisory Board"
+kind = "Charity"
+started = "2017-09"
+ended = "2022-12"
+location = ""
+url = "https://wp.nyu.edu/brainwaves/"
+links = "https://wp.nyu.edu/brainwaves/about-us/"
+description = """
+
+"""
+
+[[involvement]]
+organization = "Government of New York City"
+role = "Community Board Member (Brooklyn Community Board 1)"
+kind = "Charity"
+started = "2020-06"
+ended = "2022-06"
+location = ""
+url = "https://nyc.gov"
+links = ""
+description = """
+Served on the Capital Budget Committee, the Board Budget Committee, the Education Committee, and the Outreach Committee. Created and managed the community board Twitter account (@BrooklynCB1).
+"""
+
+[[involvement]]
+organization = "Government of New York City"
+role = "Community Board Member (Brooklyn Community Board 1)"
+kind = "Charity"
+started = "2025-05"
+ended = ""
+location = ""
+url = "https://nyc.gov"
+links = ""
+description = """
+Chair, Ad Hoc Committee for Social Media.
+"""
