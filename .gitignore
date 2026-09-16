@@ -4,6 +4,8 @@ node_modules
 /build
 /.svelte-kit
 /package
+/output
+scripts/typst/data.json
 src/lib/_template/
 src/lib/archives/
 src/lib/posts/_drafts
