@@ -18,6 +18,43 @@ function toCardShape(item) {
 	return Object.fromEntries(CARD_SHAPE.map((key) => [key, item[key] ?? '']));
 }
 
+// Some Sifa project records are natural sub-components of one umbrella tool
+// and read better as a single card than one per record.
+const PROJECT_GROUPS = {
+	'MNE-tools': ['MNE-Python', 'MNE-BIDS', 'MNE-Realtime']
+};
+
+function groupProjects(records) {
+	const grouped = [...records];
+	for (const [umbrella, memberNames] of Object.entries(PROJECT_GROUPS)) {
+		const members = memberNames.map((name) => grouped.find((p) => p.name === name)).filter(Boolean);
+		if (members.length === 0) continue;
+		for (const name of memberNames) {
+			const i = grouped.findIndex((p) => p.name === name);
+			if (i !== -1) grouped.splice(i, 1);
+		}
+		members.sort((a, b) => (a.started ?? '').localeCompare(b.started ?? ''));
+		const description = members
+			.map((p) => {
+				const range = !p.ended ? `${p.started}–Present` : p.started === p.ended ? p.started : `${p.started}–${p.ended}`;
+				return `### ${p.name}: ${p.role} (${range})\n\n${p.description ?? ''}`.trimEnd();
+			})
+			.join('\n\n');
+		const latestEnding = members.reduce((best, p) => (!best.ended ? best : !p.ended ? p : p.ended > best.ended ? p : best));
+		grouped.push({
+			filename: members[0].filename,
+			name: umbrella,
+			role: latestEnding.role,
+			url: 'https://mne.tools',
+			started: members[0].started,
+			ended: latestEnding.ended,
+			category: latestEnding.category,
+			description
+		});
+	}
+	return grouped;
+}
+
 export const load = async ({ url, fetch }) => {
 	const fetchToml = async (log) => {
 		const resp = await fetch(`${url.origin}/api/cv/${log}.toml`);
@@ -45,7 +82,7 @@ export const load = async ({ url, fetch }) => {
 		position.description += `\n\n### ${h.title} ${range}\n\n${h.description ?? ''}`.trimEnd();
 	}
 
-	const projectItems = projects.project
+	const projectItems = groupProjects(projects.project)
 		.filter((p) => p.filename)
 		.map((p) =>
 			toCardShape({
