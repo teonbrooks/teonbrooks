@@ -1,79 +1,95 @@
 [[project]]
+filename = "openexp.png"
 name = "OpenEXP"
 role = "Product Lead"
 url = "https://github.com/openexp/OpenEXP/"
 started = ""
 ended = ""
+category = ["Past Projects"]
 description = """
 An open-source platform for running experiments with jsPsych and collect behavioral and physiological data.
 """
 
 [[project]]
+filename = "mne.png"
 name = "MNE-Python"
 role = "Maintainer"
 url = "https://github.com/mne-tools/mne-python"
 started = "2012"
 ended = "2019"
+category = ["Research Software Engineering"]
 description = """
 MEG and EEG Data Processing and Analysis Package in Python.
 """
 
 [[project]]
+filename = ""
 name = "Pyeparse"
 role = "Core Contributor"
 url = "https://github.com/pyeparse/pyeparse"
 started = "2015"
 ended = "2017"
+category = ""
 description = """
 Tools related to analyzing eye tracking data from cognitive sciences experiments in Python.
 """
 
 [[project]]
+filename = "mne.png"
 name = "MNE-BIDS"
 role = "Maintainer"
 url = "https://github.com/mne-tools/mne-bids"
 started = "2017"
 ended = "2020"
+category = ["Research Software Engineering"]
 description = """
 Read and write BIDS-compatible datasets with the help of MNE-Python in Python.
 """
 
 [[project]]
+filename = "bids.png"
 name = "Brain Imaging Data Structure (BIDS)"
 role = "Core Contributor"
 url = "https://github.com/bids-standard/bids-specification"
 started = "2017"
 ended = "2020"
+category = ["Research Software Engineering"]
 description = """
 A community-driven data sharing standardization.
 """
 
 [[project]]
+filename = "brainwaves.png"
 name = "BrainWaves"
 role = "Product Lead"
 url = "https://github.com/makebrainwaves/BrainWaves"
 started = "2017-09"
 ended = ""
+category = ["Past Projects"]
 description = """
 
 """
 
 [[project]]
+filename = "mne.png"
 name = "MNE-Realtime"
 role = "Maintainer"
 url = "https://github.com/mne-tools/mne-realtime"
 started = "2019"
 ended = "2023"
+category = ["Research Software Engineering"]
 description = """
 Supported realtime data analysis with support for LSL and FieldTrip clients. This project has been deprecated and superseded by mne-lsl.
 """
 
 [[project]]
+filename = ""
 name = "NeuroAI"
 role = "Core Contributor"
 url = "https://github.com/facebookresearch/neuroai"
 started = "2026"
 ended = ""
+category = ""
 description = """
 The Python suite for Neuro-AI including NeuralSet, NeuralFetch, NeuralBench.
 """

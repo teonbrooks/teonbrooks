@@ -15,5 +15,10 @@ export const GET = async ({ fetch, params }) => {
 
 /** @type {import('./$types').EntryGenerator} */
 export function entries() {
-	return [{ dir: 'cv', log: 'portfolio' }];
+	return [
+		{ dir: 'cv', log: 'portfolio' },
+		{ dir: 'cv', log: 'projects' },
+		{ dir: 'cv', log: 'honors' },
+		{ dir: 'cv', log: 'involvement' }
+	];
 }

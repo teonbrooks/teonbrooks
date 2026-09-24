@@ -65,27 +65,36 @@ function tomlMultilineString(s) {
 	return `"""\n${s ?? ''}\n"""`;
 }
 
+// Sifa's employmentType is a real, structured field — display it as a
+// "(Label)" suffix on the position title rather than leaving it unsurfaced.
+// fullTime is the unremarkable default and omitted; every other value is
+// worth flagging (contract, part-time, board seat, fellowship, etc.).
+const EMPLOYMENT_TYPE_LABELS = {
+	'id.sifa.defs#partTime': 'Part-time',
+	'id.sifa.defs#temporary': 'Temporary',
+	'id.sifa.defs#seasonal': 'Seasonal',
+	'id.sifa.defs#contract': 'Contract',
+	'id.sifa.defs#freelance': 'Freelance',
+	'id.sifa.defs#selfEmployed': 'Self-employed',
+	'id.sifa.defs#independentWork': 'Independent',
+	'id.sifa.defs#internship': 'Internship',
+	'id.sifa.defs#apprenticeship': 'Apprenticeship',
+	'id.sifa.defs#fellowship': 'Fellowship',
+	'id.sifa.defs#trainee': 'Trainee',
+	'id.sifa.defs#volunteer': 'Volunteer',
+	'id.sifa.defs#boardMember': 'Board Member',
+	'id.sifa.defs#boardObserver': 'Board Observer',
+	'id.sifa.defs#advisor': 'Advisor'
+};
+
+function withEmploymentTypeSuffix(title, employmentType) {
+	const label = EMPLOYMENT_TYPE_LABELS[employmentType];
+	return label ? `${title} (${label})` : title;
+}
+
 // ---------------------------------------------------------------------------
 // portfolio.toml: [[positions]] + [skills]
 // ---------------------------------------------------------------------------
-
-// Organizations that appear on the live Portfolio page but have no
-// corresponding Sifa `position` record — they're open-source *project*
-// engagements (tracked in id.sifa.profile.project / projects.toml instead),
-// not employment. Carried forward verbatim from the existing file on every
-// re-export so they don't silently disappear (as happened once already: the
-// first Sifa sync dropped them because this function only ever looked at
-// Sifa's position records).
-const MANUAL_PORTFOLIO_ORGANIZATIONS = new Set([
-	'MNE-tools',
-	'Brain Imaging Data Structure (BIDS)',
-	'OpenEXP',
-	'BrainWaves',
-	'Carolina Covenant',
-	'National Science Foundation Graduate Research Fellowship Program',
-	'French Embassy to the U.S.',
-	'Mozilla Science Lab'
-]);
 
 // Portfolio card date ranges are always year-only for display, never
 // year-month.
@@ -94,57 +103,62 @@ function yearOnly(s) {
 	return m ? m[0] : s ?? '';
 }
 
-// Any company with more than one Sifa position record (distinct employment
-// stints for the same employer, e.g. with a gap in between, or an employee
-// stint plus a later consulting stint) collapses to ONE portfolio card,
-// listing each stint by title and dates within the description — Teon wants
-// one card per organization, not one per stint.
-function mergeStints(positions) {
+// Any group (by company for positions, by upstream for involvement) with
+// more than one Sifa record — distinct stints, e.g. with a gap in between,
+// or an employee stint plus a later consulting stint — collapses to ONE
+// card, listing each stint by title/role and dates within the description.
+// Teon wants one card per organization, not one per stint.
+function mergeStintsBy(records, { groupKey, title, start, end, description }) {
 	const merged = [];
 	const groups = new Map();
-	for (const p of positions) {
-		// An empty company (e.g. "Personal Sabbatical") never merges with
-		// another empty-company entry — each gets its own unique key.
-		const key = p.company || Symbol();
+	for (const r of records) {
+		// An empty/missing group key (e.g. "Personal Sabbatical") never merges
+		// with another empty-key entry — each gets its own unique key.
+		const key = r[groupKey] || Symbol();
 		if (!groups.has(key)) groups.set(key, []);
-		groups.get(key).push(p);
+		groups.get(key).push(r);
 	}
 	for (const stints of groups.values()) {
 		if (stints.length === 1) {
 			merged.push(stints[0]);
 			continue;
 		}
-		stints.sort((a, b) => (a.startedAt ?? '').localeCompare(b.startedAt ?? ''));
-		const description = stints
-			.map((p) => {
-				const start = yearOnly(p.startedAt);
-				const end = p.endedAt ? yearOnly(p.endedAt) : 'Present';
-				const range = start === end ? start : `${start}–${end}`;
-				return `### ${p.title} (${range})\n\n${p.description}`;
+		stints.sort((a, b) => (a[start] ?? '').localeCompare(b[start] ?? ''));
+		const combinedDescription = stints
+			.map((r) => {
+				const s = yearOnly(r[start]);
+				const e = r[end] ? yearOnly(r[end]) : 'Present';
+				const range = s === e ? s : `${s}–${e}`;
+				return `### ${r[title]} (${range})\n\n${r[description]}`;
 			})
 			.join('\n\n');
-		// Stints can overlap (e.g. a PhD spanning years alongside a one-semester
-		// TA role within it), so the true end date is the latest across ALL
-		// stints, not just the one that started last. An ongoing stint
-		// (no endedAt) always wins.
-		const latestEndingStint = stints.reduce((best, p) => {
-			if (!best.endedAt) return best;
-			if (!p.endedAt) return p;
-			return p.endedAt > best.endedAt ? p : best;
+		// Stints can overlap or leave a gap (e.g. a board seat held, vacated,
+		// then held again years later), so the true end date is the latest
+		// across ALL stints, not just the one that started last. An ongoing
+		// stint (no end date) always wins.
+		const latestEndingStint = stints.reduce((best, r) => {
+			if (!best[end]) return best;
+			if (!r[end]) return r;
+			return r[end] > best[end] ? r : best;
 		});
 		merged.push({
 			...latestEndingStint,
-			title: latestEndingStint.title,
-			startedAt: stints[0].startedAt,
-			endedAt: latestEndingStint.endedAt,
-			description
+			[start]: stints[0][start],
+			[end]: latestEndingStint[end],
+			[description]: combinedDescription
 		});
 	}
 	return merged;
 }
 
 async function buildPortfolio(rawPositions, languages, skills) {
-	const positions = mergeStints(rawPositions);
+	const positions = mergeStintsBy(rawPositions, {
+		groupKey: 'company',
+		title: 'title',
+		start: 'startedAt',
+		end: 'endedAt',
+		description: 'description'
+	});
 	// Read the current file's own metadata before it gets overwritten, so
 	// filename/category/website (local-only fields with no Sifa equivalent)
 	// survive from one run to the next. Matches by company+title first (most
@@ -175,39 +189,22 @@ async function buildPortfolio(rawPositions, languages, skills) {
 		);
 	}
 
-	const sifaEntries = positions.map((p) => {
-		const company = (p.company ?? '').toLowerCase();
-		const title = (p.title ?? '').toLowerCase();
-		const match = oldByCompanyTitle[`${company}|${title}`] ?? oldByCompany[company];
-		const block = positionBlock({
-			filename: match?.filename ?? '',
-			organization: p.company ?? '',
-			title: p.title ?? '',
-			timespan: `${p.startedAt ?? ''}${p.endedAt ? `-${p.endedAt}` : '-Present'}`,
-			description: p.description,
-			website: match?.website ?? '',
-			category: toCategoryToml(match?.category)
-		});
-		return { sortKey: p.startedAt ?? '', block };
-	});
-
-	const manualEntries = old.positions
-		.filter((p) => MANUAL_PORTFOLIO_ORGANIZATIONS.has(p.organization))
+	const posBlocks = positions
 		.map((p) => {
+			const company = (p.company ?? '').toLowerCase();
+			const title = (p.title ?? '').toLowerCase();
+			const match = oldByCompanyTitle[`${company}|${title}`] ?? oldByCompany[company];
 			const block = positionBlock({
-				filename: p.filename ?? '',
-				organization: p.organization ?? '',
-				title: p.title ?? '',
-				timespan: p.timespan ?? '',
-				description: (p.description ?? '').trim(),
-				website: p.website ?? '',
-				category: toCategoryToml(p.category)
+				filename: match?.filename ?? '',
+				organization: p.company ?? '',
+				title: withEmploymentTypeSuffix(p.title ?? '', p.employmentType),
+				timespan: `${p.startedAt ?? ''}${p.endedAt ? `-${p.endedAt}` : '-Present'}`,
+				description: p.description,
+				website: match?.website ?? '',
+				category: toCategoryToml(match?.category)
 			});
-			return { sortKey: (p.timespan ?? '').match(/^\d{4}/)?.[0] ?? '', block };
-		});
-
-	const posBlocks = sifaEntries
-		.concat(manualEntries)
+			return { sortKey: p.startedAt ?? '', block };
+		})
 		.sort((a, b) => a.sortKey.localeCompare(b.sortKey))
 		.map((e) => e.block);
 
@@ -305,69 +302,92 @@ function buildPosters(deliveries) {
 // involvement.toml, honors.toml, projects.toml, education.toml (new files)
 // ---------------------------------------------------------------------------
 
-function buildInvolvement(records) {
+// filename/category (and website, where Sifa has no equivalent) have no
+// place in the corresponding Sifa lexicons, so — same pattern as positions —
+// they're local-only fields preserved across re-exports by reading the
+// current file and matching on name/title before it gets overwritten.
+async function loadOldByKey(filename, tableKey, keyField) {
+	const oldByKey = {};
+	try {
+		const oldRaw = await readFile(path.join(CONTENT_DIR, filename), 'utf-8');
+		const old = parseToml(oldRaw);
+		for (const row of old[tableKey] ?? []) {
+			oldByKey[(row[keyField] ?? '').toLowerCase()] = row;
+		}
+	} catch {
+		// no existing file yet
+	}
+	return oldByKey;
+}
+
+async function buildInvolvement(rawRecords) {
+	const records = mergeStintsBy(rawRecords, {
+		groupKey: 'upstream',
+		title: 'role',
+		start: 'startedAt',
+		end: 'endedAt',
+		description: 'description'
+	});
+	const oldByOrg = await loadOldByKey('involvement.toml', 'involvement', 'organization');
 	const blocks = records
 		.sort((a, b) => (a.startedAt ?? '').localeCompare(b.startedAt ?? ''))
 		.map((v) => {
+			const match = oldByOrg[(v.upstream ?? '').toLowerCase()];
 			const links = (v.links ?? []).map((l) => l.url).filter(Boolean);
 			const linksField = links.length === 0 ? '""' : links.length === 1 ? tomlString(links[0]) : JSON.stringify(links);
 			return (
 				`[[involvement]]\n` +
+				`filename = ${tomlString(match?.filename ?? '')}\n` +
 				`organization = ${tomlString(v.upstream ?? '')}\n` +
 				`role = ${tomlString(v.role ?? '')}\n` +
 				`kind = ${tomlString((v.kind ?? '').replace('id.sifa.defs#involvement', ''))}\n` +
 				`started = ${tomlString(v.startedAt ?? '')}\n` +
 				`ended = ${tomlString(v.endedAt ?? '')}\n` +
 				`location = ${tomlString(v.location ? [v.location.locality, v.location.region, v.location.country].filter(Boolean).join(', ') : '')}\n` +
-				`url = ${tomlString(v.upstreamUrl ?? '')}\n` +
+				`url = ${tomlString(v.upstreamUrl || match?.url || '')}\n` +
 				`links = ${linksField}\n` +
+				`category = ${match?.category ? JSON.stringify([].concat(match.category)) : '""'}\n` +
 				`description = ${tomlMultilineString(v.description)}`
 			);
 		});
 	return blocks.join('\n\n') + '\n';
 }
 
-function buildHonors(records) {
+async function buildHonors(records) {
+	const oldByTitle = await loadOldByKey('honors.toml', 'honor', 'title');
 	const blocks = records
 		.sort((a, b) => (a.awardedAt ?? '').localeCompare(b.awardedAt ?? ''))
-		.map(
-			(h) =>
+		.map((h) => {
+			const match = oldByTitle[(h.title ?? '').toLowerCase()];
+			return (
 				`[[honor]]\n` +
+				`filename = ${tomlString(match?.filename ?? '')}\n` +
 				`title = ${tomlString(h.title ?? '')}\n` +
 				`issuer = ${tomlString(h.issuer ?? '')}\n` +
 				`awarded = ${tomlString(h.awardedAt ?? '')}\n` +
+				`website = ${tomlString(match?.website ?? '')}\n` +
+				`category = ${match?.category ? JSON.stringify([].concat(match.category)) : '""'}\n` +
 				`description = ${tomlMultilineString(h.description)}`
-		);
+			);
+		});
 	return blocks.join('\n\n') + '\n';
 }
 
 async function buildProjects(records) {
-	// `role` (Maintainer, Core Contributor, Project Lead, etc.) has no equivalent
-	// in Sifa's id.sifa.profile.project lexicon, so it's a local-only field
-	// preserved across re-exports by matching on project name, same as
-	// filename/category/website for positions.
-	let oldByName = {};
-	try {
-		const oldRaw = await readFile(path.join(CONTENT_DIR, 'projects.toml'), 'utf-8');
-		const old = parseToml(oldRaw);
-		for (const p of old.project ?? []) {
-			oldByName[(p.name ?? '').toLowerCase()] = p;
-		}
-	} catch {
-		// no existing file yet
-	}
-
+	const oldByName = await loadOldByKey('projects.toml', 'project', 'name');
 	const blocks = records
 		.sort((a, b) => (a.startedAt ?? '').localeCompare(b.startedAt ?? ''))
 		.map((p) => {
-			const role = oldByName[(p.name ?? '').toLowerCase()]?.role ?? '';
+			const match = oldByName[(p.name ?? '').toLowerCase()];
 			return (
 				`[[project]]\n` +
+				`filename = ${tomlString(match?.filename ?? '')}\n` +
 				`name = ${tomlString(p.name ?? '')}\n` +
-				`role = ${tomlString(role)}\n` +
+				`role = ${tomlString(match?.role ?? '')}\n` +
 				`url = ${tomlString(p.url ?? '')}\n` +
 				`started = ${tomlString(p.startedAt ?? '')}\n` +
 				`ended = ${tomlString(p.endedAt ?? '')}\n` +
+				`category = ${match?.category ? JSON.stringify([].concat(match.category)) : '""'}\n` +
 				`description = ${tomlMultilineString(p.description)}`
 			);
 		});
@@ -416,10 +436,10 @@ async function main() {
 	await writeFile(path.join(CONTENT_DIR, 'posters.toml'), buildPosters(deliveries));
 	console.log(`posters.toml: 8 posters`);
 
-	await writeFile(path.join(CONTENT_DIR, 'involvement.toml'), buildInvolvement(involvement));
+	await writeFile(path.join(CONTENT_DIR, 'involvement.toml'), await buildInvolvement(involvement));
 	console.log(`involvement.toml: ${involvement.length} entries (new file)`);
 
-	await writeFile(path.join(CONTENT_DIR, 'honors.toml'), buildHonors(honors));
+	await writeFile(path.join(CONTENT_DIR, 'honors.toml'), await buildHonors(honors));
 	console.log(`honors.toml: ${honors.length} entries (new file)`);
 
 	await writeFile(path.join(CONTENT_DIR, 'projects.toml'), await buildProjects(projects));

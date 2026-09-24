@@ -1,87 +1,120 @@
 [[honor]]
+filename = "covenant.png"
 title = "Carolina Covenant Scholarship"
 issuer = "University of North Carolina at Chapel Hill"
 awarded = "2006"
+website = "https://www.unc.edu/story/carolina-covenant/"
+category = ["Fellowships"]
 description = """
 2006–2009.
 """
 
 [[honor]]
+filename = ""
 title = "Mary and Maurice Julian Scholarship"
 issuer = "University of North Carolina at Chapel Hill"
 awarded = "2006"
+website = ""
+category = ""
 description = """
 2006–2009.
 """
 
 [[honor]]
+filename = ""
 title = "NYU Summer Research Fellowship"
 issuer = "New York University"
 awarded = "2011"
+website = ""
+category = ""
 description = """
 2011–2014.
 """
 
 [[honor]]
+filename = ""
 title = "NYU MacCracken Fellowship"
 issuer = "New York University"
 awarded = "2011"
+website = ""
+category = ""
 description = """
 2011–2016.
 """
 
 [[honor]]
+filename = ""
 title = "Society for the Neurobiology of Language Travel Award"
 issuer = "Society for the Neurobiology of Language"
 awarded = "2011"
+website = ""
+category = ""
 description = """
 
 """
 
 [[honor]]
+filename = "grfp.png"
 title = "National Science Foundation Graduate Research Fellowship"
 issuer = "National Science Foundation"
 awarded = "2011-04"
+website = "https://nsfgrfp.org"
+category = ["Fellowships"]
 description = """
 2011–2016.
 """
 
 [[honor]]
+filename = ""
 title = "Society for the Neurobiology of Language Travel Award"
 issuer = "Society for the Neurobiology of Language"
 awarded = "2013"
+website = ""
+category = ""
 description = """
 
 """
 
 [[honor]]
+filename = ""
 title = "Society of Multivariate Experimental Psychology Travel Award"
 issuer = "Society of Multivariate Experimental Psychology"
 awarded = "2013"
+website = ""
+category = ""
 description = """
 
 """
 
 [[honor]]
+filename = ""
 title = "National Science Foundation Graduate Research Opportunities Worldwide"
 issuer = "National Science Foundation"
 awarded = "2014"
+website = ""
+category = ""
 description = """
 $5,000 award.
 """
 
 [[honor]]
+filename = "chateaubriand.png"
 title = "Chateaubriand STEM Fellowship"
 issuer = "Embassy of France in Washington, D.C"
 awarded = "2014-05"
+website = "https://chateaubriand-fellowship.org/"
+category = ["Fellowships"]
 description = """
 Fellowship to support research at Telecom ParisTech.
 """
 
 [[honor]]
+filename = ""
 title = "American Delegate"
 issuer = "Lindau Nobel Laureate Meetings"
 awarded = "2014-06"
+website = ""
+category = ""
 description = """
 The 64th Lindau Nobel Laureate Meeting 2014 for Physiology/Medicine
 
@@ -89,33 +122,45 @@ Part of the 2014 US Delegation for Physiology or Medicine
 """
 
 [[honor]]
+filename = ""
 title = "NYU Prototyping Fund"
 issuer = "New York University"
 awarded = "2015"
+website = ""
+category = ""
 description = """
 $500 grant.
 """
 
 [[honor]]
+filename = ""
 title = "Open and Collaborative Science in Development Network"
 issuer = "OCSDNet"
 awarded = "2016"
+website = ""
+category = ""
 description = """
 $1,500 grant.
 """
 
 [[honor]]
+filename = ""
 title = "NYU President's Service Award"
 issuer = "New York University"
 awarded = "2016-04"
+website = ""
+category = ""
 description = """
 "For impactful work in various organizations focused on the promotion of student life in his GSAS cohort and the Neuroscience community."
 """
 
 [[honor]]
+filename = "msl.png"
 title = "Mozilla Fellowship for Open Science"
 issuer = "Mozilla Foundation"
 awarded = "2016-09"
+website = "https://wiki.mozilla.org/ScienceLab"
+category = ["Fellowships"]
 description = """
 2016–2017.
 """

@@ -1,4 +1,5 @@
 [[involvement]]
+filename = ""
 organization = "Association for Computing Machinery"
 role = "Member"
 kind = "Other"
@@ -7,11 +8,13 @@ ended = ""
 location = ""
 url = ""
 links = ""
+category = ""
 description = """
 
 """
 
 [[involvement]]
+filename = ""
 organization = "Black In AI"
 role = "Member"
 kind = "Other"
@@ -20,11 +23,13 @@ ended = ""
 location = ""
 url = ""
 links = ""
+category = ""
 description = """
 
 """
 
 [[involvement]]
+filename = ""
 organization = "Spark Society"
 role = "Member"
 kind = "Other"
@@ -33,11 +38,13 @@ ended = ""
 location = ""
 url = ""
 links = ""
+category = ""
 description = """
 
 """
 
 [[involvement]]
+filename = ""
 organization = "Cognitive Science Society"
 role = "Member"
 kind = "Other"
@@ -46,37 +53,38 @@ ended = ""
 location = ""
 url = ""
 links = ""
+category = ""
 description = """
 
 """
 
 [[involvement]]
+filename = ""
 organization = "New York Cares"
-role = "Math Games Tutor"
+role = "Summer Science Camp Volunteer"
 kind = "Charity"
 started = "2013-01"
-ended = "2013-06"
+ended = "2015-08"
 location = "New York, New York, US"
 url = ""
 links = ""
+category = ""
 description = """
+### Math Games Tutor (2013)
+
 Math games tutor for elementary school students, in partnership with The Educational Alliance.
-"""
 
-[[involvement]]
-organization = "New York Cares"
-role = "SAT Prep Tutor"
-kind = "Charity"
-started = "2013-01"
-ended = "2013-05"
-location = "New York, New York, US"
-url = ""
-links = ""
-description = """
+### SAT Prep Tutor (2013)
+
 SAT Prep Tutor for tenth graders, in partnership with I Have a Dream Foundation.
+
+### Summer Science Camp Volunteer (2015)
+
+Summer Science Camp volunteer, in partnership with The Educational Alliance.
 """
 
 [[involvement]]
+filename = "unesco.png"
 organization = "United Nations Educational Scientific and Cultural Organization"
 role = "Intern"
 kind = "Charity"
@@ -85,11 +93,13 @@ ended = "2014-12"
 location = ""
 url = "https://unesco.org"
 links = ""
+category = ["Volunteering"]
 description = """
 Work on initiatives to increase science education around the world.
 """
 
 [[involvement]]
+filename = "neurotechx.png"
 organization = "Neurotechx"
 role = "Organizer"
 kind = "Community"
@@ -98,24 +108,13 @@ ended = "2016"
 location = "New York, United States"
 url = "https://neurotechx.com/chapter/1530/"
 links = ""
+category = ["Volunteering"]
 description = """
 
 """
 
 [[involvement]]
-organization = "New York Cares"
-role = "Summer Science Camp Volunteer"
-kind = "Charity"
-started = "2015-07"
-ended = "2015-08"
-location = "New York, New York, US"
-url = ""
-links = ""
-description = """
-Summer Science Camp volunteer, in partnership with The Educational Alliance.
-"""
-
-[[involvement]]
+filename = ""
 organization = "Booker T. Washington Middle School"
 role = "Volunteer Instructor"
 kind = "Charity"
@@ -124,11 +123,13 @@ ended = "2015-11"
 location = "New York, New York, US"
 url = ""
 links = ""
+category = ""
 description = """
 Neuroscience Outreach and Education
 """
 
 [[involvement]]
+filename = ""
 organization = "Biobus"
 role = "Volunteer"
 kind = "Charity"
@@ -137,11 +138,13 @@ ended = "2016-03"
 location = ""
 url = ""
 links = ""
+category = ""
 description = """
 Taught students and adults about different types of microscopes, and the diverse microscopic aquatic life.
 """
 
 [[involvement]]
+filename = "braiNY-SFN.png"
 organization = "Greater New York City Chapter of the Society for Neuroscience (braiNY)"
 role = "Co-chair"
 kind = "Community"
@@ -150,11 +153,13 @@ ended = "2016-05"
 location = ""
 url = ""
 links = ""
+category = ["Volunteering"]
 description = """
 
 """
 
 [[involvement]]
+filename = ""
 organization = "DIY Sci Thai"
 role = "Workshop Creator; Co-organizer"
 kind = "Community"
@@ -163,6 +168,7 @@ ended = "2016-06"
 location = "Bangkok, TH"
 url = "https://github.com/teonbrooks/DIYSciThai"
 links = "https://github.com/teonbrooks/DIYSciThai"
+category = ""
 description = """
 DIYSciThai was an Open Science workshop taught in Bangkok, Thailand in June 2016, the basis of an open science initiative to provide an integrative curriculum to teach cognitive science through experiential learning. Featured building research electronics (eye-tracker and EEG) from open-source hardware and low-cost electronics. Supported by grants from Fulbright Thailand, the Open and Collaborative Science in Development Network (OCSDnet), and NYU.
 
@@ -172,6 +178,7 @@ Project photos available [1].
 """
 
 [[involvement]]
+filename = "queerhack.png"
 organization = "QueerHack"
 role = "Co-founder"
 kind = "Charity"
@@ -180,32 +187,37 @@ ended = "2018"
 location = ""
 url = ""
 links = ""
+category = ["Volunteering"]
 description = """
 
 """
 
 [[involvement]]
+filename = "shd.png"
 organization = "Science Hack Day"
 role = "Co-Organizer"
 kind = "Community"
 started = "2017-01"
 ended = "2017-12"
 location = "New York, New York, US"
-url = ""
+url = "http://sf.sciencehackday.org/2017/10/03/meet-the-science-hack-day-sf-2017-organizers/"
 links = "http://sf.sciencehackday.org/2017/10/03/meet-the-science-hack-day-sf-2017-organizers/"
+category = ["Volunteering"]
 description = """
 
 """
 
 [[involvement]]
+filename = "mfs.png"
 organization = "March for Science"
 role = "Co-Director of Partnerships"
 kind = "Charity"
 started = "2017-02"
 ended = "2017-11"
 location = ""
-url = ""
+url = "https://en.wikipedia.org/wiki/March_for_Science"
 links = ""
+category = ["Volunteering"]
 description = """
 Formed a coalition of 270+ partner organization ranging from (inter-)national scientific societies to local science museums and outreach program. Helped coordinate the March for Science DC event where we brought together 100k participants. Helped led the March for Science Global event where we brought together 1m+ participants across 610 locations.
 
@@ -213,6 +225,7 @@ https://en.wikipedia.org/wiki/March_for_Science
 """
 
 [[involvement]]
+filename = "FoR.png"
 organization = "Future of Research"
 role = "Board Member"
 kind = "Charity"
@@ -221,11 +234,13 @@ ended = "2018"
 location = ""
 url = ""
 links = ""
+category = ["Volunteering"]
 description = """
 
 """
 
 [[involvement]]
+filename = "brainwaves.png"
 organization = "BrainWaves"
 role = "President, Advisory Board"
 kind = "Charity"
@@ -234,32 +249,47 @@ ended = "2022-12"
 location = ""
 url = "https://wp.nyu.edu/brainwaves/"
 links = "https://wp.nyu.edu/brainwaves/about-us/"
+category = ["Volunteering"]
 description = """
 
 """
 
 [[involvement]]
+filename = "ciel.png"
+organization = "Gotham Data Clinic"
+role = "President"
+kind = "Charity"
+started = "2019-11"
+ended = ""
+location = ""
+url = "https://gothamdataclinic.org"
+links = ""
+category = ["Current Orgs","Volunteering"]
+description = """
+We are the Gotham Data Clinic, and we are focused on researching, building, and sharing data science education tools for the next generation of scientists and technologists.
+
+Originally founded in 2019 as CiELabs, the nonprofit was on hiatus through the pandemic. In 2023, we rebranded and refocused our efforts.
+
+Founded and established the nonprofit from its incorporation through its application for federal tax exemption. Lead workshops on data literacy with partner organizations. Build new partnerships with NYC Public Schools and CUNY. Lead product development work for new digital infrastructure to teach data science at scale. Write scholarly work to support both our community and product development work.
+"""
+
+[[involvement]]
+filename = "bkcb1.png"
 organization = "Government of New York City"
 role = "Community Board Member (Brooklyn Community Board 1)"
 kind = "Charity"
 started = "2020-06"
-ended = "2022-06"
-location = ""
-url = "https://nyc.gov"
-links = ""
-description = """
-Served on the Capital Budget Committee, the Board Budget Committee, the Education Committee, and the Outreach Committee. Created and managed the community board Twitter account (@BrooklynCB1).
-"""
-
-[[involvement]]
-organization = "Government of New York City"
-role = "Community Board Member (Brooklyn Community Board 1)"
-kind = "Charity"
-started = "2025-05"
 ended = ""
 location = ""
 url = "https://nyc.gov"
 links = ""
+category = ["Volunteering"]
 description = """
+### Community Board Member (Brooklyn Community Board 1) (2020–2022)
+
+Served on the Capital Budget Committee, the Board Budget Committee, the Education Committee, and the Outreach Committee. Created and managed the community board Twitter account (@BrooklynCB1).
+
+### Community Board Member (Brooklyn Community Board 1) (2025–Present)
+
 Chair, Ad Hoc Committee for Social Media.
 """

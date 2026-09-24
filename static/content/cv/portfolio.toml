@@ -44,17 +44,6 @@ natural_languages =	["English (native)", "Portuguese (B1)", "French (B2)"]
 programming_languages =	["Python (adv.)", "R (adv.)", "JavaScript (int.)"]
 
 [[positions]]
-filename = "covenant.png"
-organization = "Carolina Covenant"
-title = "Scholar"
-timespan = "2006-2009"
-description = """
-Funding initiative for low-income students to graduate from college debt-free through grants, scholarships, and work-study.
-"""
-website = "https://www.unc.edu/story/carolina-covenant/"
-category = "Fellowships"
-
-[[positions]]
 filename = "unc.png"
 organization = "University of North Carolina at Chapel Hill"
 title = "Research Lab Manager"
@@ -78,17 +67,6 @@ website = "https://unc.edu"
 category = "Education"
 
 [[positions]]
-filename = "grfp.png"
-organization = "National Science Foundation Graduate Research Fellowship Program"
-title = "NSF Graduate Research Fellow"
-timespan = "2011-2016"
-description = """
-Fellowship recipient in prestigious national competition for graduate-level STEM Research.
-"""
-website = "https://nsfgrfp.org"
-category = "Fellowships"
-
-[[positions]]
 filename = "nyu.png"
 organization = "New York University"
 title = "Doctoral Student"
@@ -108,35 +86,6 @@ website = "https://as.nyu.edu/psychology.html"
 category = "Education"
 
 [[positions]]
-filename = "mne.png"
-organization = "MNE-tools"
-title = "Maintainer"
-timespan = "2012-2023"
-description = """
-MNE-Python: Maintainer (2012-2019)
-MEG and EEG Data Processing and Analysis Package in Python.
-
-MNE-BIDS: Maintainer (2017-2020)
-Read and write BIDS-compatible datasets with the help of MNE-Python in Python.
-
-MNE-Realtime: Maintainer (2019-2023)
-Supported realtime data analysis with support for LSL and FieldTrip clients. This project has been deprecated and superseded by mne-lsl.
-"""
-website = "https://mne.tools"
-category = ["Research Software Engineering"]
-
-[[positions]]
-filename = "chateaubriand.png"
-organization = "French Embassy to the U.S."
-title = "STEM Fellow"
-timespan = "2014-2015"
-description = """
-Fellowship to conduct dissertation research in France.
-"""
-website = "https://chateaubriand-fellowship.org/"
-category = "Fellowships"
-
-[[positions]]
 filename = "telecom.png"
 organization = "Télécom Paris"
 title = "Visiting Research Fellow"
@@ -148,17 +97,6 @@ Advisor: Dr. Alexandre Gramfort.
 """
 website = ""
 category = "Education"
-
-[[positions]]
-filename = "openexp.png"
-organization = "OpenEXP"
-title = "Product Lead"
-timespan = "2015-2017"
-description = """
-An open-source platform for running experiments with jsPsych and collect behavioral and physiological data.
-"""
-website = "https://github.com/openexp/OpenEXP/"
-category = ["Past Projects"]
 
 [[positions]]
 filename = "openbci.png"
@@ -177,17 +115,6 @@ Instructor for G440: Introduction to Scientific Python. https://github.com/datal
 """
 website = "https://openbci.com"
 category = ["Past Orgs","Consulting"]
-
-[[positions]]
-filename = "msl.png"
-organization = "Mozilla Science Lab"
-title = "Fellow for Open Science"
-timespan = "2016-2017"
-description = """
-10-month fellowship.
-"""
-website = "https://wiki.mozilla.org/ScienceLab"
-category = "Fellowships"
 
 [[positions]]
 filename = "stanford.png"
@@ -213,28 +140,6 @@ Advisor: Dr. Russell Poldrack.
 """
 website = "https://stanford.edu"
 category = "Education"
-
-[[positions]]
-filename = "bids.png"
-organization = "Brain Imaging Data Structure (BIDS)"
-title = "Core Contributor"
-timespan = "2017-2020"
-description = """
-A community-driven data sharing standardization.
-"""
-website = "https://bids.neuroimaging.io"
-category = ["Research Software Engineering"]
-
-[[positions]]
-filename = "brainwaves.png"
-organization = "BrainWaves"
-title = "Product Lead"
-timespan = "2017-2022"
-description = """
-An easy-to-use platform for EEG experimentation in the classroom.
-"""
-website = "https://github.com/makebrainwaves/BrainWaves"
-category = ["Past Projects"]
 
 [[positions]]
 filename = "firefox.png"
@@ -264,21 +169,6 @@ Designed and implemented derivative data tables to provide granular understandin
 """
 website = "https://mozilla.org"
 category = ["Past Orgs"]
-
-[[positions]]
-filename = "ciel.png"
-organization = "Gotham Data Clinic"
-title = "President"
-timespan = "2019-11-Present"
-description = """
-We are the Gotham Data Clinic, and we are focused on researching, building, and sharing data science education tools for the next generation of scientists and technologists.
-
-Originally founded in 2019 as CiELabs, the nonprofit was on hiatus through the pandemic. In 2023, we rebranded and refocused our efforts.
-
-Founded and established the nonprofit from its incorporation through its application for federal tax exemption. Lead workshops on data literacy with partner organizations. Build new partnerships with NYC Public Schools and CUNY. Lead product development work for new digital infrastructure to teach data science at scale. Write scholarly work to support both our community and product development work.
-"""
-website = "https://gothamdataclinic.org"
-category = "Current Orgs"
 
 [[positions]]
 filename = "american.png"
@@ -336,7 +226,7 @@ category = "Education"
 [[positions]]
 filename = "brain.png"
 organization = "Meta (United States)"
-title = "Data Scientist"
+title = "Data Scientist, FAIR (Contract)"
 timespan = "2025-08-Present"
 description = """
 Leads the development of NeuralFetch and contributes to the NeuroAI open-source software suite to download, validate, and analyze multimodal neuroscience datasets (fMRI, MEG, EEG, iEEG, fNIRS, EMG).
@@ -351,7 +241,7 @@ category = ["Current Orgs"]
 [[positions]]
 filename = "cuny.png"
 organization = "City University of New York"
-title = "Adjunct Assistant Professor"
+title = "Adjunct Assistant Professor (Part-time)"
 timespan = "2026-01-2026-05"
 description = """
 College of Staten Island. Spring 2026 - EDD 642: Creative Computing in Education.

@@ -53,23 +53,6 @@ function formatTimespan(raw) {
 	return startYear === endYear ? startYear : `${startYear} – ${endYear}`;
 }
 
-// These organizations appear in portfolio.toml's positions (for the website's
-// Portfolio page/logos) but aren't real employment — see
-// MANUAL_PORTFOLIO_ORGANIZATIONS in sifa-export-toml.mjs. Open-source projects
-// are already covered by Open-Source Contributions (projects.toml) and
-// fellowships/scholarships by Honors & Awards (honors.toml), so exclude them
-// here to avoid double-listing.
-const PROJECT_ONLY_ORGANIZATIONS = new Set([
-	'MNE-tools',
-	'Brain Imaging Data Structure (BIDS)',
-	'OpenEXP',
-	'BrainWaves',
-	'Carolina Covenant',
-	'National Science Foundation Graduate Research Fellowship Program',
-	'French Embassy to the U.S.',
-	'Mozilla Science Lab'
-]);
-
 // Education is ordered by degree level (PhD, then Master's, then Bachelor's)
 // rather than strictly by start date, per Teon's preference.
 const DEGREE_RANK = { 'Ph.D.': 0, "Master's Degree": 1, 'B.S.': 2 };
@@ -150,7 +133,6 @@ export async function loadCvData() {
 		id: portfolio.id,
 		skills: portfolio.skills,
 		positions: portfolio.positions
-			.filter((p) => !PROJECT_ONLY_ORGANIZATIONS.has(p.organization))
 			.slice()
 			.sort(byNewest('timespan'))
 			.map((p) => ({ ...p, timespan: formatTimespan(p.timespan) })),
