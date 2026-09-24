@@ -8,19 +8,6 @@ type = "dissertation"
 project = "co-registration"
 
 [[publications]]
-date = "August 2017"
-authors = """
-Niso, G.; Gorgolewski, K. J.; Bock, E.; Brooks, T. L.; Flandin, G.; 
-Gramfort, A.; Henson, R. N.; Jas, M.; Litvak, V.; Moreau, J.; 
-Oostenveld, R.; Schoffelen, J.-M.; Tadel, F.; Wexler, J.; & Baillet, S.
-"""	
-title = "MEG-BIDS: an extension to the Brain Imaging Data Structure for magnetoencephalography"
-link = "https://doi.org/10.1101/172684"
-publisher = "bioRxiv"
-type = "preprint"
-project = "neuroinformatics"
-
-[[publications]]
 date = "April 2018"
 authors = "Brooks, T. L.; & Gordon, P. C."
 title = """
@@ -101,6 +88,8 @@ journal = "Scientific Data"
 volume = 5
 article_no = 180110
 link = "https://doi.org/10.1038/sdata.2018.110"
+preprint_link = "https://doi.org/10.1101/172684"
+preprint_date = "August 2017"
 
 [[publications]]
 date = "2019"
@@ -120,16 +109,19 @@ page = 1896
 link = "https://doi.org/10.21105/joss.01896"
 
 [[publications]]
-date = "February 2026"
+date = "July 2026"
 authors = "Brooks, T. L.; & Azeka, S."
 title = """
-Broadening Access to Data Science Education in High School and Higher
-Education through Open Source Tools and Training
+Broadening Access to Data Science Education: Open Source Tools and Training
+in High School and Higher Education
 """
-link = "https://doi.org/10.5281/zenodo.17369779"
-publisher = "Zenodo"
-type = "preprint"
+link = "https://doi.org/10.1162/99608f92.29efa129"
+publisher = "MIT Press"
+journal = "Harvard Data Science Review"
+type = "journal-article"
 project = "data science education"
+preprint_link = "https://doi.org/10.5281/zenodo.17369779"
+preprint_date = "February 2026"
 
 [[publications]]
 date = "February 2026"
