@@ -55,8 +55,6 @@
 #align(center)[
   #text(size: 20pt, weight: "bold", data.id.name)
   #v(2pt)
-  #text(size: 10pt, data.id.descriptors.map(d => d.title).join(" · "))
-  #v(2pt)
   #let social = data.id.social.at(0)
   #text(size: 9pt, (
     (data.id.location,) + social.pairs().map(((k, v)) => k + ": " + v)
