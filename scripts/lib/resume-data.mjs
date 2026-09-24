@@ -88,7 +88,11 @@ function parseDescriptionBlocks(description) {
 			currentBullets = { type: 'bullets', items: [] };
 			blocks.push(currentBullets);
 		}
-		currentBullets.items.push(line);
+		// A trailing URL (e.g. the MSK course link) renders on its own line
+		// within the bullet instead of wrapping inline, without starting a
+		// new bullet.
+		const urlMatch = line.match(/^(.*?)\s+(https?:\/\/\S+)$/);
+		currentBullets.items.push(urlMatch ? { text: urlMatch[1], url: urlMatch[2] } : { text: line, url: '' });
 	}
 	return blocks;
 }

@@ -28,7 +28,15 @@
       text(style: "italic", size: 9pt, "(" + b.text + ")")
     } else {
       for item in b.items {
-        list(item)
+        if type(item) == dictionary {
+          if item.url != "" {
+            list[#item.text #linebreak() #link(item.url)]
+          } else {
+            list(item.text)
+          }
+        } else {
+          list(item)
+        }
       }
     }
   }
