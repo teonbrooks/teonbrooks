@@ -105,8 +105,8 @@ organization = "datalus"
 title = "Principal Consultant"
 timespan = "2015-08-Present"
 description = """
-### OpenBCI — Consultant: Research Scientist (2015-08 – 2016-06)
-Establishing validation and testing protocols for EEG hardware. Developing SDKs and APIs for OpenBCI Hardware. Developing an open-source software platform for running experiments, stream data for real-time analytics. Advising on research applications of wireless EEG.
+### OpenBCI — Consultant: Research Scientist (2015–2016)
+Established validation and testing protocols for EEG hardware. Developed SDKs and APIs for OpenBCI Hardware. Developed an open-source software platform for running experiments, stream data for real-time analytics. Advised on research applications of wireless EEG.
 
 ### BrainWaves — Consultant: Product Manager (2017–2022)
 Led the end-to-end development of a novel all-in-one experimentation platform and application designed for teaching, developing, and conducting EEG-based psychology and neuroscience experiments. Conducted co-design and co-development practices to create the app for high school students and their teachers. Implemented the app in the classroom, reaching 10 schools with 30 students in each class.
@@ -234,9 +234,9 @@ organization = "Meta (United States)"
 title = "Data Scientist, FAIR (Contract)"
 timespan = "2025-08-Present"
 description = """
-Leads the development of NeuralFetch and contributes to the NeuroAI open-source software suite to download, validate, and analyze multimodal neuroscience datasets (fMRI, MEG, EEG, iEEG, fNIRS, EMG).
-Standardizes public datasets for ingestion and validates research studies using machine learning decoding techniques.
-Develops an automated validation and replication framework for neuroscience research projects.
+Lead the development of NeuralFetch and contribute to the NeuroAI open-source software suite to download, validate, and analyze multimodal neuroscience datasets (fMRI, MEG, EEG, iEEG, fNIRS, EMG).
+Standardize public datasets for ingestion and validate research studies using machine learning decoding techniques.
+Develop an automated validation and replication framework for neuroscience research projects.
 
 (Meta via Magnit)
 """
