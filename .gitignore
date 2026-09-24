@@ -6,6 +6,7 @@ node_modules
 /package
 /output
 scripts/typst/data.json
+scripts/typst/resume-data.json
 src/lib/_template/
 src/lib/archives/
 src/lib/posts/_drafts
