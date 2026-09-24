@@ -1,5 +1,6 @@
 [id]
 name = "Teon L Brooks, Ph.D"
+headline = "Neural Data Scientist | CogSci PhD"
 imageURL = "https://0.gravatar.com/avatar/8179ec2a3461f51e568637a913b4061ebc7d6d31d7a1aad43d0e251b1fe42c0b?size=1000"
 # imageURL = "images/home.jpg"
 short_bio = """
@@ -104,13 +105,13 @@ organization = "datalus"
 title = "Principal Consultant"
 timespan = "2015-08-Present"
 description = """
-OpenBCI — Consultant: Research Scientist (2015-08 – 2016-06)
+### OpenBCI — Consultant: Research Scientist (2015-08 – 2016-06)
 Establishing validation and testing protocols for EEG hardware. Developing SDKs and APIs for OpenBCI Hardware. Developing an open-source software platform for running experiments, stream data for real-time analytics. Advising on research applications of wireless EEG.
 
-BrainWaves — Consultant: Product Manager (2017–2022)
+### BrainWaves — Consultant: Product Manager (2017–2022)
 Led the end-to-end development of a novel all-in-one experimentation platform and application designed for teaching, developing, and conducting EEG-based psychology and neuroscience experiments. Conducted co-design and co-development practices to create the app for high school students and their teachers. Implemented the app in the classroom, reaching 10 schools with 30 students in each class.
 
-Memorial Sloan Kettering, Gerstner Sloan Kettering — Consultant: Instructor (2025–Present)
+### Memorial Sloan Kettering, Gerstner Sloan Kettering — Consultant: Instructor (2025–Present)
 Instructor for G440: Introduction to Scientific Python. https://github.com/datalus-dev/gsk-intro-scientific-python-course
 """
 website = "https://openbci.com"
@@ -190,7 +191,11 @@ organization = "Statespace"
 title = "VP: Head of Product, Research and Development"
 timespan = "2022-05-2022-10"
 description = """
-Launched and delivered a joint product venture between the core product team and R&D, to create a mouse sensitivity finder for first-person shooter gaming, based off of my team’s research. Led cross-functional product initiatives with product and engineering teams. Led and mentored a team of five research scientists and one research assistant to publish research on motor acuity and successfully integrate key research insights into Aim Lab, the flagship aim trainer product. Led and coordinated digital health initiatives in partnership with clinics and university football teams to develop cognitive assessments for altered states of consciousness, including concussion. Impacted by a substantial company-wide reduction of workforce, which led to the cancellation of the R&D function.
+Launched and delivered a joint product venture between the core product team and R&D, to create a mouse sensitivity finder for first-person shooter gaming, based off of my team’s research.
+Led cross-functional product initiatives with product and engineering teams.
+Led and mentored a team of five research scientists and one research assistant to publish research on motor acuity and successfully integrate key research insights into Aim Lab, the flagship aim trainer product.
+Led and coordinated digital health initiatives in partnership with clinics and university football teams to develop cognitive assessments for altered states of consciousness, including concussion.
+Impacted by a substantial company-wide reduction of workforce, which led to the cancellation of the R&D function.
 """
 website = "aimlabs.com"
 category = "Past Orgs"

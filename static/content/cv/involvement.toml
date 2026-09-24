@@ -266,11 +266,11 @@ url = "https://gothamdataclinic.org"
 links = ""
 category = ["Current Orgs","Volunteering"]
 description = """
-We are the Gotham Data Clinic, and we are focused on researching, building, and sharing data science education tools for the next generation of scientists and technologists.
-
-Originally founded in 2019 as CiELabs, the nonprofit was on hiatus through the pandemic. In 2023, we rebranded and refocused our efforts.
-
-Founded and established the nonprofit from its incorporation through its application for federal tax exemption. Lead workshops on data literacy with partner organizations. Build new partnerships with NYC Public Schools and CUNY. Lead product development work for new digital infrastructure to teach data science at scale. Write scholarly work to support both our community and product development work.
+Founded and established the nonprofit from its incorporation through its application for federal tax exemption.
+Lead workshops on data literacy with partner organizations.
+Build new partnerships with NYC Public Schools and CUNY.
+Lead product development work for new digital infrastructure to teach data science at scale.
+Write scholarly work to support both our community and product development work.
 """
 
 [[involvement]]
