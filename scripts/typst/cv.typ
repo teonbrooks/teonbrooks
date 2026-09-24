@@ -5,11 +5,24 @@
 #set text(font: "New Computer Modern", size: 10pt)
 #set par(justify: true, leading: 0.6em)
 
+// Matches the website's convention (PortfolioCard.svelte): every line is
+// its own paragraph/block, and a "### Title" line is a sub-heading rather
+// than literal text — previously this just split on blank lines and printed
+// "### ..." lines verbatim, so multi-stint descriptions (e.g. Government of
+// New York City, New York Cares) showed the raw "###" markers on the CV.
 #let show-paragraphs(s) = {
-  let paras = s.trim().split("\n\n").filter(p => p.trim() != "")
-  for (i, p) in paras.enumerate() {
-    p.trim()
-    if i < paras.len() - 1 { parbreak() }
+  let lines = s.trim().split(regex("\n+")).filter(p => p.trim() != "")
+  for (i, line) in lines.enumerate() {
+    let trimmed = line.trim()
+    let heading = trimmed.match(regex("^###\s+(.+)$"))
+    if heading != none {
+      if i > 0 { v(2pt) }
+      text(weight: "bold", style: "italic", size: 9.5pt, heading.captures.at(0))
+      v(2pt)
+    } else {
+      trimmed
+    }
+    if i < lines.len() - 1 { parbreak() }
   }
 }
 
