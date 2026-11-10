@@ -152,9 +152,9 @@ export async function loadResumeData() {
 	const bs = education.education.find((e) => e.degree === 'B.S.');
 
 	const educationEntries = [
-		stanford && { institution: stanford.organization, degree: stanford.title, timespan: formatTimespan(stanford.timespan) },
-		phd && { institution: phd.institution, degree: `Ph.D., ${phd.field}`, timespan: formatTimespan(`${phd.started}-${phd.ended}`) },
-		bs && { institution: bs.institution, degree: `B.S., ${bs.field}`, timespan: formatTimespan(`${bs.started}-${bs.ended}`) }
+		stanford && { institution: stanford.organization, degree: stanford.title, timespan: formatTimespan(stanford.timespan), location: stanford.location },
+		phd && { institution: phd.institution, degree: `Ph.D., ${phd.field}`, timespan: formatTimespan(`${phd.started}-${phd.ended}`), location: phd.location },
+		bs && { institution: bs.institution, degree: `B.S., ${bs.field}`, timespan: formatTimespan(`${bs.started}-${bs.ended}`), location: bs.location }
 	].filter(Boolean);
 
 	const nonprofitRaw = involvement.involvement.find((v) => v.organization === 'Gotham Data Clinic');

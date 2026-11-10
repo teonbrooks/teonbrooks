@@ -2,7 +2,7 @@
 
 #set document(title: data.id.name + " — CV", author: data.id.name)
 #set page(paper: "us-letter", margin: (x: 1.8cm, y: 1.6cm))
-#set text(font: "New Computer Modern", size: 10pt)
+#set text(font: "Trebuchet MS", size: 10pt)
 #set par(justify: true, leading: 0.6em)
 
 // Matches the website's convention (PortfolioCard.svelte): every line is
@@ -10,6 +10,10 @@
 // than literal text — previously this just split on blank lines and printed
 // "### ..." lines verbatim, so multi-stint descriptions (e.g. Government of
 // New York City, New York Cares) showed the raw "###" markers on the CV.
+// entry() has parameters named left/right that shadow the alignment values.
+#let align-left = left
+#let align-right = right
+
 #let show-paragraphs(s) = {
   let lines = s.trim().split(regex("\n+")).filter(p => p.trim() != "")
   for (i, line) in lines.enumerate() {
@@ -40,22 +44,35 @@
   else { started + "–" + ended }
 }
 
-#let section(title) = {
-  v(10pt)
-  text(size: 12pt, weight: "bold", tracking: 0.5pt, upper(title))
-  v(-4pt)
-  line(length: 100%, stroke: 0.5pt)
-  v(2pt)
-}
+// sticky keeps the heading on the same page as the first entry after it.
+#let section(title) = block(sticky: true, above: 16pt, below: 8pt)[
+  #text(size: 12pt, weight: "bold", tracking: 0.5pt, upper(title))
+  #v(-4pt)
+  #line(length: 100%, stroke: 0.5pt)
+]
 
-#let entry(left, right, subtitle: none, body: none) = block(breakable: false)[
-  #grid(
-    columns: (1fr, auto),
-    column-gutter: 1em,
-    text(weight: "bold", left), text(style: "italic", right)
-  )
-  #if subtitle != none {
-    text(style: "italic", size: 9.5pt, subtitle)
+// With a location: org + location on the first row, title + dates on the
+// second (no extra height when there is a subtitle).
+#let entry(left, right, subtitle: none, body: none, location: "") = block(breakable: false)[
+  #if location != "" {
+    grid(
+      columns: (1fr, auto),
+      column-gutter: 1em,
+      row-gutter: 4pt,
+      align: (align-left, align-right),
+      text(weight: "bold", left), text(location),
+      if subtitle != none { text(style: "italic", size: 9.5pt, subtitle) } else { [] },
+      text(style: "italic", right)
+    )
+  } else {
+    grid(
+      columns: (1fr, auto),
+      column-gutter: 1em,
+      text(weight: "bold", left), text(style: "italic", right)
+    )
+    if subtitle != none {
+      text(style: "italic", size: 9.5pt, subtitle)
+    }
   }
   #if body != none and body.trim() != "" {
     v(2pt)
@@ -67,17 +84,35 @@
 // Header
 #align(center)[
   #text(size: 20pt, weight: "bold", data.id.name)
-  #v(2pt)
+  #v(1pt)
+  #text(size: 10pt, style: "italic", data.id.location)
+  #v(5pt)
+  // Font Awesome Free icons (CC BY 4.0) — see scripts/typst/icons/.
+  #let icon-for = (
+    Bluesky: "bluesky",
+    GitHub: "github",
+    LinkedIn: "linkedin",
+    ORCID: "orcid",
+    Website: "globe",
+  )
   #let social = data.id.social.at(0)
-  #text(size: 9pt, (
-    (data.id.location,) + social.pairs().map(((k, v)) => k + ": " + v)
-  ).join("  |  "))
+  #text(size: 9pt, grid(
+    columns: (auto, auto),
+    column-gutter: 2.5em,
+    row-gutter: 5pt,
+    align: left,
+    ..social.pairs().map(((k, v)) => {
+      box(image("icons/" + icon-for.at(k, default: "globe") + ".svg", height: 0.9em), baseline: 0.1em)
+      h(4pt)
+      link(v)[#v]
+    })
+  ))
 ]
 
 #section("Positions")
 #for p in data.positions {
   if p.organization != "" {
-    entry(p.organization, p.timespan, subtitle: p.title)
+    entry(p.organization, p.timespan, subtitle: p.title, location: p.at("location", default: ""))
   } else {
     entry(p.title, p.timespan)
   }
@@ -85,7 +120,7 @@
 
 #section("Education")
 #for e in data.education {
-  entry(e.institution, daterange(e.started, e.ended), subtitle: e.degree + ", " + e.field, body: e.description)
+  entry(e.institution, daterange(e.started, e.ended), subtitle: e.degree + ", " + e.field, body: e.description, location: e.at("location", default: ""))
 }
 
 #section("Teaching Experience")

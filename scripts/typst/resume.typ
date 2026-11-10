@@ -2,17 +2,20 @@
 
 #set document(title: data.id.name + " — Résumé", author: data.id.name)
 #set page(paper: "us-letter", margin: (x: 1.7cm, y: 1.5cm))
-#set text(font: "New Computer Modern", size: 9.7pt)
+#set text(font: "Trebuchet MS", size: 9.7pt)
 #set par(justify: true, leading: 0.5em)
 #set list(spacing: 0.5em, indent: 0pt, body-indent: 0.4em)
 
-#let section(title) = {
-  v(9pt)
-  text(size: 12pt, weight: "bold", tracking: 0.5pt, upper(title))
-  v(-4pt)
-  line(length: 100%, stroke: 0.5pt)
-  v(2pt)
-}
+// entry() has parameters named left/right that shadow the alignment values.
+#let align-left = left
+#let align-right = right
+
+// sticky keeps the heading on the same page as the first entry after it.
+#let section(title) = block(sticky: true, above: 12pt, below: 6pt)[
+  #text(size: 12pt, weight: "bold", tracking: 0.5pt, upper(title))
+  #v(-4pt)
+  #line(length: 100%, stroke: 0.5pt)
+]
 
 // Bullets are left breakable across a page boundary (unlike the CV's
 // entries) — a résumé position can run to a dozen bullets across several
@@ -42,16 +45,34 @@
   }
 }
 
-#let entry(left, right, subtitle: none, blocks: none) = {
-  block(breakable: false)[
-    #grid(
+// With a location: org + location on the first row, title + dates on the
+// second, so the header takes no extra height when there is a subtitle.
+#let header-rows(left, right, subtitle, location, subtitle-size: 9.5pt) = {
+  if location != "" {
+    grid(
+      columns: (1fr, auto),
+      column-gutter: 1em,
+      row-gutter: 3pt,
+      align: (align-left, align-right),
+      text(weight: "bold", left), text(location),
+      if subtitle != none { text(style: "italic", size: subtitle-size, subtitle) } else { [] },
+      text(style: "italic", right)
+    )
+  } else {
+    grid(
       columns: (1fr, auto),
       column-gutter: 1em,
       text(weight: "bold", left), text(style: "italic", right)
     )
-    #if subtitle != none {
-      text(style: "italic", size: 9.5pt, subtitle)
+    if subtitle != none {
+      text(style: "italic", size: subtitle-size, subtitle)
     }
+  }
+}
+
+#let entry(left, right, subtitle: none, blocks: none, location: "") = {
+  block(breakable: false)[
+    #header-rows(left, right, subtitle, location)
   ]
   if blocks != none {
     v(2pt)
@@ -60,14 +81,30 @@
   v(6pt)
 }
 
-// Header
+// Header (Font Awesome Free icons, CC BY 4.0 — see scripts/typst/icons/)
+#let icon-link(icon, label, url) = {
+  box(image("icons/" + icon + ".svg", height: 0.9em), baseline: 0.1em)
+  h(4pt)
+  link(url)[#label]
+}
 #align(center)[
   #text(size: 20pt, weight: "bold", data.id.name)
   #v(2pt)
   #text(size: 10pt, data.id.headline)
-  #v(2pt)
-  #let website = data.id.social.at(0).Website
-  #text(size: 9pt, (data.id.location, data.email, website).join("  |  "))
+  #v(1pt)
+  #text(size: 10pt, style: "italic", data.id.location)
+  #v(5pt)
+  #let social = data.id.social.at(0)
+  #text(size: 9pt, grid(
+    columns: (auto, auto),
+    column-gutter: 2.5em,
+    row-gutter: 5pt,
+    align: align-left,
+    icon-link("envelope", data.email, "mailto:" + data.email),
+    icon-link("globe", social.Website, social.Website),
+    icon-link("linkedin", social.LinkedIn, social.LinkedIn),
+    icon-link("github", social.GitHub, social.GitHub),
+  ))
 ]
 #v(6pt)
 #text(size: 9.5pt, style: "italic", data.summary)
@@ -75,7 +112,7 @@
 #section("Professional Experience")
 #for p in data.positions {
   if p.organization != "" {
-    entry(p.organization, p.timespan, subtitle: p.title, blocks: p.blocks)
+    entry(p.organization, p.timespan, subtitle: p.title, blocks: p.blocks, location: p.at("location", default: ""))
   } else {
     entry(p.title, p.timespan, blocks: p.blocks)
   }
@@ -96,12 +133,7 @@
 #section("Education")
 #for e in data.education {
   block(breakable: false)[
-    #grid(
-      columns: (1fr, auto),
-      column-gutter: 1em,
-      text(weight: "bold", e.institution), text(style: "italic", e.timespan)
-    )
-    #text(style: "italic", size: 9pt, e.degree)
+    #header-rows(e.institution, e.timespan, e.degree, e.at("location", default: ""), subtitle-size: 9pt)
     #v(4pt)
   ]
 }

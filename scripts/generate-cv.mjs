@@ -24,7 +24,7 @@ async function main() {
 	await writeFile(path.join(TYPST_DIR, 'data.json'), JSON.stringify(data, null, 2));
 
 	await mkdir(OUTPUT_DIR, { recursive: true });
-	const outputPath = path.join(OUTPUT_DIR, 'cv.pdf');
+	const outputPath = path.join(OUTPUT_DIR, 'teon_brooks_phd_cv.pdf');
 
 	try {
 		await execFileAsync('typst', ['compile', path.join(TYPST_DIR, 'cv.typ'), outputPath]);
