@@ -1,5 +1,4 @@
 <script>
-    import Card, { Content, Media } from '@smui/card';
     import md from 'markdown-it';
 
     let {
@@ -13,8 +12,9 @@
 </script>
 
 <article>
-    <Card padded>
-        <Content>
+    <div class="card bg-base-100 shadow-sm">
+      <div class="card-body items-center">
+        <div>
             <h1>{name}</h1>
             <p>
                 {#each descriptors as descriptor (descriptor.title)}
@@ -22,10 +22,10 @@
                 {/each}
                 R+D
             </p>
-        </Content>
-        <Media>
+        </div>
+        <figure>
             <img {src} alt='Teon' class="u-photo" />
-        </Media>
+        </figure>
         <p>
             {#each occupations as occupation (occupation.title)}
                 {occupation.title}, {#if occupation.website}<a href="{occupation.website}">{occupation.organization}</a>{:else}{occupation.organization}{/if}<br>
@@ -36,7 +36,8 @@
              {@html DOMPurify.sanitize(marked.parse(content))} -->
         <!-- eslint-disable-next-line svelte/no-at-html-tags -->
         <div>{@html md().render(short_bio)}</div>
-    </Card>
+      </div>
+    </div>
 </article>
 
 <style>

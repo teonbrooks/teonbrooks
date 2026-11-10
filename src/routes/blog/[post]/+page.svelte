@@ -2,7 +2,6 @@
 <script>
 	import { setContext } from 'svelte';
 	import KitSignUp from "$lib/components/KitSignUp.svelte"
-	import Card, { Content } from '@smui/card';
 	import { CommentSection } from "bluesky-comments-svelte";
 	import "$lib/components/sequoia-comments.js";
 
@@ -79,11 +78,11 @@
 	</div>
 	
 	<div class="post-content">
-		<Card padded>
-			<Content>
+		<div class="card bg-base-100 shadow-sm">
+			<div class="card-body">
 				<PostContent />
-			</Content>
-		</Card>
+			</div>
+		</div>
 	</div>
 
 	<!-- Add commenting -->

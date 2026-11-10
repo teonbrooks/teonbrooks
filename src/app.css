@@ -1,0 +1,48 @@
+/* Tailwind 4 + daisyUI. The legacy static/css files load into the lowest
+   layer so daisyUI/Tailwind win wherever they are used. Preflight (Tailwind's
+   reset) is intentionally not imported so the existing styles keep working. */
+@layer legacy, theme, base, components, utilities;
+@import '../static/css/vars.css' layer(legacy);
+@import '../static/css/root.css' layer(legacy);
+@import '../static/css/fonts.css' layer(legacy);
+@import '../static/css/typography.css' layer(legacy);
+@import '../static/css/layout.css' layer(legacy);
+@import '../static/css/components.css' layer(legacy);
+@import '../static/css/header-and-footer.css' layer(legacy);
+@import '../static/css/forms.css' layer(legacy);
+@import '../static/css/animation.css' layer(legacy);
+@import '../static/css/utilities.css' layer(legacy);
+@import '../static/css/code.css' layer(legacy);
+@import '../static/css/prism.css' layer(legacy);
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+@plugin "daisyui" {
+	themes: false;
+	logs: false;
+}
+
+@plugin "daisyui/theme" {
+	name: 'teon';
+	default: true;
+	color-scheme: light;
+	--color-base-100: #ffffff;
+	--color-base-200: #e6e8e4;
+	--color-base-300: #eeb6a5;
+	--color-base-content: #2f3948;
+	--color-primary: #1d3557;
+	--color-primary-content: #ffffff;
+	--color-secondary: #457b9d;
+	--color-secondary-content: #ffffff;
+	--color-accent: #eeb6a5;
+	--color-accent-content: #152030;
+	--color-neutral: #2f3948;
+	--color-neutral-content: #ffffff;
+	--color-info: #457b9d;
+	--color-success: #2f855a;
+	--color-warning: #c4882a;
+	--color-error: #c53030;
+	--radius-box: 0.5rem;
+	--radius-field: 0.375rem;
+	--radius-selector: 0.375rem;
+}

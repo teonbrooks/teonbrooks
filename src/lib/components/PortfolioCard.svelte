@@ -1,13 +1,18 @@
 <script>
 	import { mdiLink, mdiClose } from '@mdi/js';
-	import Card, { Content, Actions, ActionButtons, ActionIcons } from '@smui/card';
-	import Button, { Label } from '@smui/button';
-	import IconButton, { Icon } from '@smui/icon-button';
-	import Dialog, { Content as DContent } from '@smui/dialog';
 	import md from 'markdown-it';
 
 	let { path, item } = $props();
 	let open = $state(false);
+	let dialog = $state();
+
+	// Native <dialog> gives focus trapping and Escape-to-close for free; the
+	// open flag stays the single source of truth.
+	$effect(() => {
+		if (!dialog) return;
+		if (open && !dialog.open) dialog.showModal();
+		else if (!open && dialog.open) dialog.close();
+	});
 
 	// portfolio.toml stores timespan as a single pre-joined string like
 	// "2008-01-2011-07" or "2015-08-Present" — display year-only ranges
@@ -33,84 +38,73 @@
 </script>
 
 <div id="card">
-	<Card>
-		<Content>
+	<div class="card bg-base-100 h-full w-full shadow-sm">
+		<div class="card-body grid flex-1 place-items-center p-4">
 			{#if item.filename}
-				<div class="image">
-					<img src="{path}/{item.filename}" alt='icon for {item.organization}' />
-				</div>
+				<img
+					class="size-40 object-contain"
+					src="{path}/{item.filename}"
+					alt="icon for {item.organization}"
+				/>
 			{/if}
-		</Content>
-		<Actions style="align-items:end">
-			<ActionButtons>
-				<Button ripple={false} onclick={() => (open = true)}>
-					<Label>Details</Label>
-				</Button>
-			</ActionButtons>
+		</div>
+		<div class="card-actions items-center justify-between px-2 pb-2">
+			<button class="btn btn-ghost btn-sm" onclick={() => (open = true)}>Details</button>
 			{#if item.website}
-				<ActionIcons>
-					<IconButton onclick={() => window.open(item.website)} title="Open Link">
-						<Icon tag="svg" viewBox="0 0 24 24">
-							<path fill="currentColor" d={mdiLink} />
-						</Icon>
-					</IconButton>
-				</ActionIcons>
+				<button
+					class="btn btn-ghost btn-circle btn-sm"
+					onclick={() => window.open(item.website)}
+					title="Open Link"
+					aria-label="Open link"
+				>
+					<svg viewBox="0 0 24 24" class="size-5"><path fill="currentColor" d={mdiLink} /></svg>
+				</button>
 			{/if}
-		</Actions>
-	</Card>
-	<Dialog bind:open sheet aria-describedby="sheet-content">
-		<DContent id="sheet-content">
-			<IconButton action="close" class="material-icons">
-				<Icon tag="svg" viewBox="0 0 24 24">
-					<path fill="currentColor" d={mdiClose} />
-				</Icon>
-			</IconButton>
-			<div>
-				{#if item.filename}
-					<img
-						src="{path}/{item.filename}"
-						alt='icon for {item.organization}'
-						width="100"
-						height="100"
-					/>
-				{/if}
-				<h1>{item.organization}</h1>
-				<h2>{item.title}</h2>
-				<p><em>{formatTimespan(item.timespan)}</em></p>
-				<div class="description">
-					<!-- Content is from trusted static TOML files — no XSS risk.
-					     For untrusted input, use marked + DOMPurify instead:
-					     {@html DOMPurify.sanitize(marked.parse(content))} -->
-					<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-					{@html md().render(withParagraphBreaks(item.description))}
-				</div>
+		</div>
+	</div>
+
+	<dialog bind:this={dialog} class="modal" onclose={() => (open = false)}>
+		<div class="modal-box max-w-3xl">
+			<button
+				class="btn btn-ghost btn-circle btn-sm absolute top-2 right-2"
+				aria-label="Close"
+				onclick={() => (open = false)}
+			>
+				<svg viewBox="0 0 24 24" class="size-5"><path fill="currentColor" d={mdiClose} /></svg>
+			</button>
+			{#if item.filename}
+				<img
+					src="{path}/{item.filename}"
+					alt="icon for {item.organization}"
+					width="100"
+					height="100"
+				/>
+			{/if}
+			<h1 class="text-2xl">{item.organization}</h1>
+			<h2 class="text-lg">{item.title}</h2>
+			<p><em>{formatTimespan(item.timespan)}</em></p>
+			<div class="description">
+				<!-- Content is from trusted static TOML files — no XSS risk.
+				     For untrusted input, use marked + DOMPurify instead:
+				     {@html DOMPurify.sanitize(marked.parse(content))} -->
+				<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+				{@html md().render(withParagraphBreaks(item.description))}
 			</div>
-		</DContent>
-	</Dialog>
+		</div>
+		<div class="modal-backdrop">
+			<button
+				class="m-0 h-full w-full cursor-default border-0 bg-transparent p-0 text-transparent"
+				aria-label="Close"
+				onclick={() => (open = false)}>close</button
+			>
+		</div>
+	</dialog>
 </div>
 
 <style>
-
 	#card {
 		width: 12rem;
 		height: 20rem;
-	}
-
-	img {
-		width: 10rem;
-		height: 10rem;
-	}
-
-	.image {
-		display: grid;
-		place-items: center;
-	}
-
-	h1 {
-		font-size: x-large;
-	}
-	h2 {
-		font-size: large;
 	}
 
 	/* h3 comes from {@html}-rendered markdown, so it needs :global to reach
@@ -119,17 +113,5 @@
 	.description :global(h3) {
 		font-size: medium;
 		margin-bottom: 0.25em;
-	}
-
-	/* MDC's card-action button ripple mis-centers its hover/focus state layer,
-	   so the highlight only ever covers the left half of the button. Disable
-	   it and use a plain, correctly-sized hover/focus background instead. */
-	:global(.mdc-card__action--button .mdc-button__ripple::before),
-	:global(.mdc-card__action--button .mdc-button__ripple::after) {
-		display: none !important;
-	}
-	:global(.mdc-card__action--button:hover),
-	:global(.mdc-card__action--button:focus) {
-		background-color: rgba(98, 0, 238, 0.08) !important;
 	}
 </style>

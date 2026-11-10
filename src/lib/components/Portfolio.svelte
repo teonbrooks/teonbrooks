@@ -63,6 +63,7 @@
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
 		column-gap: 2rem;
+		row-gap: 2rem;
 		justify-items: center;
 	}
 

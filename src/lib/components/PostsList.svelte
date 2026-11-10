@@ -1,5 +1,4 @@
 <script>
-	import Card, { Content } from '@smui/card';
 
 	let { posts = [] } = $props();
 </script>
@@ -10,8 +9,8 @@
 			<div class="blogCard">
 				<div class="blogCardSize">
 					<a href="/blog/{post.slug}">
-						<Card padded>
-							<Content>
+						<div class="card bg-base-100 shadow-sm">
+							<div class="card-body">
 								{#if post.coverImage}
 									<div class="image">
 										<img src={post.coverImage} alt="Cover image for {post.title}" width="400px" />
@@ -21,8 +20,8 @@
 									{post.title}
 								</h2>
 								<p>{post.excerpt}</p>
-							</Content>
-						</Card>
+							</div>
+						</div>
 					</a>
 				</div>
 			</div>
