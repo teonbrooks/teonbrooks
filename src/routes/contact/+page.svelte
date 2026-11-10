@@ -60,6 +60,8 @@
 		justify-content: center;
 	}
 	form {
+		width: 600px;
+		max-width: 100%;
 		background-color: white;
 		padding: 25px;
 	}
