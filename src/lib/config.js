@@ -44,7 +44,7 @@ export const navItems = [
 	},
 	{
 		title: 'Consulting',
-		route: '/consulting'
+		route: 'https://datalus.xyz'
 	}
 ];
 

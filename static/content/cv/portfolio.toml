@@ -119,7 +119,7 @@ Led the end-to-end development of a novel all-in-one experimentation platform an
 Instructor for G440: Introduction to Scientific Python. https://github.com/datalus-dev/gsk-intro-scientific-python-course
 """
 website = "https://openbci.com"
-category = ["Past Orgs","Consulting"]
+category = ["Past Orgs","Research Software Engineering"]
 
 [[positions]]
 filename = "stanford.png"

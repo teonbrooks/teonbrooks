@@ -24,7 +24,7 @@
 
 <h1>Contact</h1>
 
-<article id="contact" class="panel">
+<article id="contact" class="panel align">
 	<form action="https://formspree.io/f/xjvpopgr" method="POST">
 		<div class="form-section">
 			<label for="name">Name</label>
@@ -54,6 +54,11 @@
 <KitSignUp />
 
 <style>
+	.align {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 	form {
 		background-color: white;
 		padding: 25px;

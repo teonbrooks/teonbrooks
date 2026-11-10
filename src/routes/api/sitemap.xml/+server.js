@@ -3,7 +3,7 @@ import fetchPosts from '$lib/assets/js/fetchPosts';
 
 export const prerender = true;
 
-const staticRoutes = ['', 'about', 'blog', 'blog/tags', 'consulting', 'contact', 'portfolio'];
+const staticRoutes = ['', 'about', 'blog', 'blog/tags', 'contact', 'portfolio'];
 
 export const GET = async () => {
 	const { posts } = await fetchPosts({ limit: -1 });
