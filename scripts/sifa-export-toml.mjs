@@ -22,6 +22,8 @@ import { parse as parseToml } from 'smol-toml';
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { termLabel } from './lib/term-label.mjs';
+import { formatLocation } from './lib/location.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = path.join(__dirname, '../static/content/cv');
@@ -151,7 +153,7 @@ function mergeStintsBy(records, { groupKey, title, start, end, description }) {
 	return merged;
 }
 
-async function buildPortfolio(rawPositions, languages, skills) {
+async function buildPortfolio(rawPositions, languages, skills, headline) {
 	const positions = mergeStintsBy(rawPositions, {
 		groupKey: 'company',
 		title: 'title',
@@ -176,13 +178,14 @@ async function buildPortfolio(rawPositions, languages, skills) {
 
 	const toCategoryToml = (category) => (Array.isArray(category) ? JSON.stringify(category) : `"${category ?? ''}"`);
 
-	function positionBlock({ filename, organization, title, timespan, description, website, category }) {
+	function positionBlock({ filename, organization, title, timespan, location, description, website, category }) {
 		return (
 			`[[positions]]\n` +
 			`filename = ${tomlString(filename)}\n` +
 			`organization = ${tomlString(organization)}\n` +
 			`title = ${tomlString(title)}\n` +
 			`timespan = ${tomlString(timespan)}\n` +
+			`location = ${tomlString(location)}\n` +
 			`description = ${tomlMultilineString(description)}\n` +
 			`website = ${tomlString(website)}\n` +
 			`category = ${category}`
@@ -199,6 +202,7 @@ async function buildPortfolio(rawPositions, languages, skills) {
 				organization: p.company ?? '',
 				title: withEmploymentTypeSuffix(p.title ?? '', p.employmentType),
 				timespan: `${p.startedAt ?? ''}${p.endedAt ? `-${p.endedAt}` : '-Present'}`,
+				location: formatLocation(p.location),
 				description: p.description,
 				website: match?.website ?? '',
 				category: toCategoryToml(match?.category)
@@ -215,11 +219,13 @@ async function buildPortfolio(rawPositions, languages, skills) {
 	});
 	const skillList = skills.map((s) => `"${s.name}"`);
 
-	const header =
+	let header =
 		oldHeader.replace(
 			/natural_languages =\t?\[[^\]]*\]/,
 			`natural_languages =\t[${langList.join(', ')}]`
 		) || oldHeader;
+	// The headline lives on Sifa's profile record; the rest of [id] is local.
+	if (headline) header = header.replace(/^headline = .*$/m, `headline = ${tomlString(headline)}`);
 
 	return header.trimEnd() + '\n\n' + posBlocks.join('\n\n') + '\n';
 }
@@ -403,6 +409,7 @@ function buildEducation(records) {
 				`institution = ${tomlString(e.institution ?? '')}\n` +
 				`degree = ${tomlString(e.degree ?? '')}\n` +
 				`field = ${tomlString(e.fieldOfStudy ?? '')}\n` +
+				`location = ${tomlString(formatLocation(e.location))}\n` +
 				`started = ${tomlString(e.startedAt ?? '')}\n` +
 				`ended = ${tomlString(e.endedAt ?? '')}\n` +
 				`description = ${tomlMultilineString(e.description)}`
@@ -411,11 +418,58 @@ function buildEducation(records) {
 }
 
 // ---------------------------------------------------------------------------
+// teaching.toml (from id.sifa.profile.course records the user taught)
+// ---------------------------------------------------------------------------
+
+const COURSE_ROLE_LABELS = {
+	'id.sifa.defs#courseTaught': 'Instructor',
+	'id.sifa.defs#courseTeachingAssistant': 'Teaching Assistant'
+};
+
+// Sifa's course record has no term/location/link fields, and the CV's role
+// wording ("Adjunct Assistant Professor") is richer than its role token, so
+// those stay local overlays keyed on institution + course.
+async function buildTeaching(records) {
+	const taught = records.filter((c) => c.role in COURSE_ROLE_LABELS);
+	const oldByKey = {};
+	try {
+		const old = parseToml(await readFile(path.join(CONTENT_DIR, 'teaching.toml'), 'utf-8'));
+		for (const row of old.teaching ?? []) {
+			oldByKey[`${row.institution}|${row.course}`.toLowerCase()] = row;
+		}
+	} catch {
+		// no existing file yet
+	}
+	const field = (v) => (Array.isArray(v) ? JSON.stringify(v) : tomlString(v ?? ''));
+	const blocks = taught
+		.sort(
+			(a, b) =>
+				(b.endedAt ?? '9999').localeCompare(a.endedAt ?? '9999') ||
+				(b.startedAt ?? '').localeCompare(a.startedAt ?? '')
+		)
+		.map((c) => {
+			const course = c.number ? `${c.number}: ${c.name}` : c.name;
+			const match = oldByKey[`${c.institution ?? ''}|${course}`.toLowerCase()];
+			const derivedTerm = termLabel(c.startedAt, c.endedAt);
+			return (
+				`[[teaching]]\n` +
+				`institution = ${tomlString(c.institution ?? '')}\n` +
+				`course = ${tomlString(course)}\n` +
+				`role = ${tomlString(match?.role ?? COURSE_ROLE_LABELS[c.role])}\n` +
+				`term = ${field(match?.term ?? derivedTerm)}\n` +
+				`location = ${tomlString(match?.location ?? '')}\n` +
+				`link = ${field(match?.link ?? '')}`
+			);
+		});
+	return { count: taught.length, toml: blocks.join('\n\n') + '\n' };
+}
+
+// ---------------------------------------------------------------------------
 // main
 // ---------------------------------------------------------------------------
 
 async function main() {
-	const [positions, involvement, honors, projects, education, languages, skills, deliveries] = await Promise.all([
+	const [positions, involvement, honors, projects, education, languages, skills, deliveries, courses, selfRecords] = await Promise.all([
 		listAll('id.sifa.profile.position'),
 		listAll('id.sifa.profile.involvement'),
 		listAll('id.sifa.profile.honor'),
@@ -423,10 +477,12 @@ async function main() {
 		listAll('id.sifa.profile.education'),
 		listAll('id.sifa.profile.language'),
 		listAll('id.sifa.profile.skill'),
-		listAll('id.sifa.profile.presentationDelivery')
+		listAll('id.sifa.profile.presentationDelivery'),
+		listAll('id.sifa.profile.course'),
+		listAll('id.sifa.profile.self')
 	]);
 
-	const portfolio = await buildPortfolio(positions, languages, skills);
+	const portfolio = await buildPortfolio(positions, languages, skills, selfRecords[0]?.headline);
 	await writeFile(path.join(CONTENT_DIR, 'portfolio.toml'), portfolio);
 	console.log(`portfolio.toml: ${positions.length} positions`);
 
@@ -447,6 +503,14 @@ async function main() {
 
 	await writeFile(path.join(CONTENT_DIR, 'education.toml'), buildEducation(education));
 	console.log(`education.toml: ${education.length} entries (new file)`);
+
+	const teaching = await buildTeaching(courses);
+	if (teaching.count > 0) {
+		await writeFile(path.join(CONTENT_DIR, 'teaching.toml'), teaching.toml);
+		console.log(`teaching.toml: ${teaching.count} taught courses`);
+	} else {
+		console.log('teaching.toml: no taught courses in Sifa yet, left unchanged');
+	}
 
 	console.log('\nDone. Review the generated files before committing.');
 }
