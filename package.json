@@ -41,7 +41,7 @@
 		"svelte-vertical-timeline": "^2.0.0",
 		"tailwindcss": "^4.3.5",
 		"typescript": "^5.9.3",
-		"vite": "^8.0.9"
+		"vite": "^8.3.7"
 	},
 	"overrides": {
 		"cookie": "^0.7.0"
