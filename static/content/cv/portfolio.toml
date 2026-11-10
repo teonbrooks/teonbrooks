@@ -49,6 +49,7 @@ filename = "unc.png"
 organization = "University of North Carolina at Chapel Hill"
 title = "Research Lab Manager"
 timespan = "2007-2011-07"
+location = "Chapel Hill, NC"
 description = """
 ### Research Assistant (2007–2008)
 
@@ -72,6 +73,7 @@ filename = "nyu.png"
 organization = "New York University"
 title = "Doctoral Student"
 timespan = "2011-09-2017-05"
+location = "New York, NY"
 description = """
 ### Doctoral Student (2011–2017)
 
@@ -91,6 +93,7 @@ filename = "telecom.png"
 organization = "Télécom Paris"
 title = "Visiting Research Fellow"
 timespan = "2014-07-2015-07"
+location = "Paris, France"
 description = """
 Visiting research fellow sponsored by the French Embassy's Chateaubriand Graduate Research Fellowship. Acquired digital signal processing training. Acquired data analysis skills of electrophysiological data. Acquired machine learning training.
 
@@ -104,6 +107,7 @@ filename = "openbci.png"
 organization = "datalus"
 title = "Principal Consultant"
 timespan = "2015-08-Present"
+location = "New York, NY"
 description = """
 ### OpenBCI — Consultant: Research Scientist (2015–2016)
 Established validation and testing protocols for EEG hardware. Developed SDKs and APIs for OpenBCI Hardware. Developed an open-source software platform for running experiments, stream data for real-time analytics. Advised on research applications of wireless EEG.
@@ -122,15 +126,20 @@ filename = "stanford.png"
 organization = "Stanford University"
 title = "Mozilla Fellow for Open Science, Postdoctoral Scholar"
 timespan = "2016-09-2017-12"
+location = "Palo Alto, CA"
 description = """
 Open Science + Open Source
 I spent my tenure as a Mozilla Fellow for Open Science advocating for the use of open and transparent practices in science. I traveled globally teaching workshops on using open-source technologies, and speaking at conferences.
 
-During the fellowship, I became one of the national organizers for the March for Science in Washington, DC. I worked as the Co-Director of Partnerships bringing in over 300 partner organizations to help mobilize scientists and science advocates. This event brought together more than a million people in over 600 cities worldwide.
+### National Organizer, Co-Director of Partnerships — March for Science
+
+Served as a national organizer for the March for Science in Washington, DC. Directed partnerships, bringing in over 300 partner organizations to help mobilize scientists and science advocates. Brought together more than a million people in over 600 cities worldwide.
+
+### Neuroinformatics: BIDS-MEG, MNE-tools
+
+Core contributor to the Brain Imaging Data Structure project for the inclusion of MEG into the specification, and to the MNE-BIDS project to provide a software implementation.
 
 I also worked on a project to build software that enables experimental psychologists and neuroscientists to freely share the experiment protocols and execute their experiments using open-source, and web-based technologies.
-
-During my postdoc at Stanford, I was a core contributor to [1] the Brain Imaging Data Structure project for the inclusion of MEG into the specification, and to [2] the MNE-BIDS project to provide a software implementation.
 
 Through this project, I hope to build community and code that improve the state of brain science research.
 
@@ -147,6 +156,7 @@ filename = "firefox.png"
 organization = "Mozilla Corporation"
 title = "Staff Data Scientist"
 timespan = "2017-11-2024-07"
+location = "New York, NY"
 description = """
 ### Senior Data Scientist (2017–2020)
 
@@ -176,6 +186,7 @@ filename = "american.png"
 organization = "American University"
 title = "Adjunct Senior Professorial Lecturer"
 timespan = "2021-01-2021-05"
+location = "New York, NY"
 description = """
 STAT 412/612: Teaching graduate/advanced-undergraduate level Statistical Programming in R
 - Foundations in R
@@ -190,6 +201,7 @@ filename = "aimlabs.png"
 organization = "Statespace"
 title = "VP: Head of Product, Research and Development"
 timespan = "2022-05-2022-10"
+location = "New York, NY"
 description = """
 Launched and delivered a joint product venture between the core product team and R&D, to create a mouse sensitivity finder for first-person shooter gaming, based off of my team’s research.
 Led cross-functional product initiatives with product and engineering teams.
@@ -205,6 +217,7 @@ filename = "sabbatical.png"
 organization = ""
 title = "Personal Sabbatical"
 timespan = "2022-11-2023-12"
+location = ""
 description = """
 Undertook an extended period of personal time off for bereavement, and for personal development. Enhanced web development and machine learning skills through intensive professional development at the Recurse Center.
 """
@@ -216,6 +229,7 @@ filename = "recurse.png"
 organization = "Recurse Center"
 title = "Recurser"
 timespan = "2023-05-2025-02"
+location = "Brooklyn, NY"
 description = """
 ### Recurser (2023)
 
@@ -233,6 +247,7 @@ filename = "brain.png"
 organization = "Meta (United States)"
 title = "Data Scientist, FAIR (Contract)"
 timespan = "2025-08-Present"
+location = "New York, NY"
 description = """
 Lead the development of NeuralFetch and contribute to the NeuroAI open-source software suite to download, validate, and analyze multimodal neuroscience datasets (fMRI, MEG, EEG, iEEG, fNIRS, EMG).
 Standardize public datasets for ingestion and validate research studies using machine learning decoding techniques.
@@ -248,6 +263,7 @@ filename = "cuny.png"
 organization = "City University of New York"
 title = "Adjunct Assistant Professor (Part-time)"
 timespan = "2026-01-2026-05"
+location = "New York, NY"
 description = """
 College of Staten Island. Spring 2026 - EDD 642: Creative Computing in Education.
 """
