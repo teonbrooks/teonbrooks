@@ -6,7 +6,7 @@ https://svelte.dev/e/attribute_invalid_event_handler -->
   // }
 </script>
 
-<div class="align">
+<div class="align kit-embed">
   <script async data-uid="b4460b0498" src="https://dispatches-from-a-blerd.kit.com/b4460b0498/index.js"></script>
 </div>
 

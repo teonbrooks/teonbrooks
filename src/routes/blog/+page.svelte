@@ -18,13 +18,13 @@
 
 <div id='selectTags'>
 	{#each selectTags as tag (tag)}
-		<button onclick={() => window.open(`./blog/tag/${tag}`, '_self')}>
+		<button class="btn btn-primary mt-8 text-base font-bold" onclick={() => window.open(`./blog/tag/${tag}`, '_self')}>
 			{`{${tagsEmoji[tag]} ${tag} edition}`}
 		</button>
 	{/each}
 </div>
 <div id='allTags'>
-	<button onclick={() => window.open(`./blog/tags`, '_self')}>[All the tags]</button>
+	<button class="btn btn-primary mt-8 text-base font-bold" onclick={() => window.open(`./blog/tags`, '_self')}>[All the tags]</button>
 </div>
 
 <h2>🚰 The Firehose</h2>

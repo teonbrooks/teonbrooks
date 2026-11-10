@@ -25,28 +25,28 @@
 <h1>Contact</h1>
 
 <article id="contact" class="panel align">
-	<form action="https://formspree.io/f/xjvpopgr" method="POST">
-		<div class="form-section">
-			<label for="name">Name</label>
-			<input class="field" type="text" id="name" name="name" placeholder="First name" />
+	<form action="https://formspree.io/f/xjvpopgr" method="POST" class="my-8 flex flex-col gap-6 [&>div:first-child]:mt-6">
+		<div class="flex flex-col gap-1">
+			<label class="font-bold" for="name">Name</label>
+			<input class="input w-full border-primary [font-size:inherit]" type="text" id="name" name="name" placeholder="First name" />
 		</div>
 
-		<div class="form-section">
-			<label for="email">Email</label>
-			<input class="field" type="email" id="email" name="email" placeholder="Email address" />
-		</div>
-		
-		<div class="form-section">
-			<label for="subject">Subject</label>
-			<input class="field" type="text" name="subject" placeholder="Subject" />
-		</div>
-			
-		<div class="form-section">
-			<label for="message">Message</label>
-			<textarea name="message" placeholder="Message" rows="8"></textarea>
+		<div class="flex flex-col gap-1">
+			<label class="font-bold" for="email">Email</label>
+			<input class="input w-full border-primary [font-size:inherit]" type="email" id="email" name="email" placeholder="Email address" />
 		</div>
 
-		<input type="submit" value="Send Message">
+		<div class="flex flex-col gap-1">
+			<label class="font-bold" for="subject">Subject</label>
+			<input class="input w-full border-primary [font-size:inherit]" type="text" id="subject" name="subject" placeholder="Subject" />
+		</div>
+
+		<div class="flex flex-col gap-1">
+			<label class="font-bold" for="message">Message</label>
+			<textarea class="textarea w-full border-primary [font-size:inherit]" id="message" name="message" placeholder="Message" rows="5"></textarea>
+		</div>
+
+		<button type="submit" class="btn btn-primary mt-8 self-start text-base font-bold">Send Message</button>
 	</form>
 </article>
 
@@ -64,9 +64,5 @@
 		max-width: 100%;
 		background-color: white;
 		padding: 25px;
-	}
-	textarea {
-		display: block;
-		width: 100%;
 	}
 </style>

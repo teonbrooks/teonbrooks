@@ -10,6 +10,8 @@
 			.filter((v, i, a) => a.indexOf(v) === i)
 	);
 
+	const filterBtn = 'btn btn-primary btn-sm mt-8 h-auto min-h-8 w-max justify-self-start whitespace-normal px-4 py-2 text-xs font-bold leading-tight';
+
 	let isClicked = $state(false);
 
 	let filteredItems = $derived(
@@ -24,10 +26,10 @@
 		<div class="portfolioGrid">
 			{#if filters}
 				<div id="filters">
-					<button onclick={() => (isClicked = false)}>Show All</button>
+					<button class={filterBtn} onclick={() => (isClicked = false)}>Show All</button>
 					{#each categories as category (category)}
 						<button
-								class="button"
+								class={filterBtn}
 								data-filter=".{category}"
 								onclick={() => {
 									isClicked = category;
@@ -53,10 +55,6 @@
 		padding: 2rem;
 		column-gap: 2rem;
 		/* row-gap: 1rem; */
-	}
-
-	#filters button {
-		font-size: .75rem;
 	}
 
 	#grid {

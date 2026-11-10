@@ -3,6 +3,7 @@
    reset) is intentionally not imported so the existing styles keep working. */
 @layer legacy, theme, base, components, utilities;
 @import '../static/css/fonts.css' layer(legacy);
+@import '../static/css/kit.css' layer(legacy);
 @import '../static/css/base.css' layer(legacy);
 @import '../static/css/blog.css' layer(legacy);
 @import '../static/css/prism.css' layer(legacy);
@@ -23,7 +24,7 @@
 	--color-base-300: #eeb6a5;
 	--color-base-content: #2f3948;
 	--color-primary: #1d3557;
-	--color-primary-content: #ffffff;
+	--color-primary-content: #eeb6a5;
 	--color-secondary: #457b9d;
 	--color-secondary-content: #ffffff;
 	--color-accent: #eeb6a5;
@@ -35,8 +36,13 @@
 	--color-warning: #c4882a;
 	--color-error: #c53030;
 	--radius-box: 0.5rem;
-	--radius-field: 0.375rem;
+	--radius-field: 0.125rem;
 	--radius-selector: 0.375rem;
+	--size-selector: 0.25rem;
+	--size-field: 0.25rem;
+	--border: 1px;
+	--depth: 0;
+	--noise: 0;
 }
 
 @theme {
