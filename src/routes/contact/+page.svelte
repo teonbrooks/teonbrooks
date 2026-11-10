@@ -43,7 +43,7 @@
 
 		<div class="flex flex-col gap-1">
 			<label class="font-bold" for="message">Message</label>
-			<textarea class="textarea w-full border-primary [font-size:inherit]" id="message" name="message" placeholder="Message" rows="5"></textarea>
+			<textarea class="textarea w-full border-primary [font-size:inherit] [line-height:normal]" id="message" name="message" placeholder="Message" rows="5"></textarea>
 		</div>
 
 		<button type="submit" class="btn btn-primary mt-8 self-start text-base font-bold">Send Message</button>

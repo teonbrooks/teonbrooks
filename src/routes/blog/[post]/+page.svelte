@@ -67,9 +67,9 @@
 		/>
 	{/if}
 
-	<h1>{ title }</h1>
+	<h1 class="mb-4 {coverImage ? 'mt-4' : ''}">{ title }</h1>
 	
-	<div class="meta">
+	<div class="mb-16 text-[0.8rem]">
 		<b>Published:</b> {formattedDate}
 		{#if formattedUpdated}
 			<br>
@@ -101,12 +101,12 @@
 	<h2>Signup</h2>
 	<KitSignUp />
 {#if tags}
-		<aside class="post-footer">
+		<aside>
 			<h2>Posted in: </h2>
-			<ul class="post-footer__tags">
+			<ul>
 				{#each tags as tag (tag)}
-					<li>
-						<a href="/blog/tag/{tag}/">
+					<li class="inline-block text-[0.8rem]">
+						<a href="/blog/tag/{tag}/" class="bg-base-300 px-3 py-2 font-bold uppercase">
 							{ tag }
 						</a>
 					</li>

@@ -3,12 +3,12 @@
 	let { posts = [] } = $props();
 </script>
 
-<ul class="posts-list">
+<ul class="list-none p-0">
 	{#each posts as post (post.slug)}
-		<li>
+		<li class="mb-24">
 			<div class="blogCard">
 				<div class="blogCardSize">
-					<a href="/blog/{post.slug}">
+					<a href="/blog/{post.slug}" class="block">
 						<div class="card bg-base-100 shadow-sm">
 							<div class="card-body">
 								{#if post.coverImage}
