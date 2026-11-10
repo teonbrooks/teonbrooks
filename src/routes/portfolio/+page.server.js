@@ -61,11 +61,12 @@ export const load = async ({ url, fetch }) => {
 		return resp.json();
 	};
 
-	const [portfolio, projects, honors, involvement] = await Promise.all([
+	const [portfolio, projects, honors, involvement, teaching] = await Promise.all([
 		fetchToml('portfolio'),
 		fetchToml('projects'),
 		fetchToml('honors'),
-		fetchToml('involvement')
+		fetchToml('involvement'),
+		fetchToml('teaching')
 	]);
 
 	const positionItems = portfolio.positions.map(toCardShape);
@@ -124,10 +125,26 @@ export const load = async ({ url, fetch }) => {
 			})
 		);
 
+	// Only teaching entries with a curated logo become cards; the rest stay
+	// on the CV only.
+	const teachingItems = (teaching.teaching ?? [])
+		.filter((t) => t.filename)
+		.map((t) =>
+			toCardShape({
+				filename: t.filename,
+				organization: t.organization,
+				title: `${t.role}: ${t.course}`,
+				timespan: t.timespan,
+				description: t.description ?? `${t.role} for ${t.course}.`,
+				website: t.website,
+				category: t.category
+			})
+		);
+
 	const path = '/images/portfolio_icons';
 
 	return {
-		portfolio: { positions: [...positionItems, ...projectItems, ...honorItems, ...involvementItems] },
+		portfolio: { positions: [...positionItems, ...projectItems, ...honorItems, ...involvementItems, ...teachingItems] },
 		path
 	};
 };

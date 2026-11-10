@@ -5,6 +5,11 @@ role = "Instructor"
 term = ["Fall 2025","Fall 2026"]
 location = "New York, NY"
 link = ""
+filename = "mskcc.png"
+organization = "Memorial Sloan Kettering"
+timespan = "2025-09-Present"
+category = ["Current Orgs","Teaching"]
+website = "https://github.com/datalus-dev/gsk-intro-scientific-python-course"
 
 [[teaching]]
 institution = "CUNY: College of Staten Island"

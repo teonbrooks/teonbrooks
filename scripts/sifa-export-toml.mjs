@@ -458,7 +458,14 @@ async function buildTeaching(records) {
 				`role = ${tomlString(match?.role ?? COURSE_ROLE_LABELS[c.role])}\n` +
 				`term = ${field(match?.term ?? derivedTerm)}\n` +
 				`location = ${tomlString(match?.location ?? '')}\n` +
-				`link = ${field(match?.link ?? '')}`
+				`link = ${field(match?.link ?? '')}` +
+				(match?.filename
+					? `\nfilename = ${tomlString(match.filename)}\n` +
+						`organization = ${tomlString(match.organization ?? '')}\n` +
+						`timespan = ${tomlString(match.timespan ?? '')}\n` +
+						`category = ${field(match.category ?? '')}\n` +
+						`website = ${tomlString(match.website ?? '')}`
+					: '')
 			);
 		});
 	return { count: taught.length, toml: blocks.join('\n\n') + '\n' };

@@ -256,7 +256,7 @@ Develop an automated validation and replication framework for neuroscience resea
 (Meta via Magnit)
 """
 website = ""
-category = ["Current Orgs"]
+category = ["Current Orgs","Research Software Engineering"]
 
 [[positions]]
 filename = "cuny.png"
