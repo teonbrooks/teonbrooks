@@ -90,10 +90,13 @@
 	The below markup is used on every page in the site. The <slot> is where the page's
 	actual contents will show up.
 -->
-<div class="layout" class:open={$isMenuOpen}>
+<div class="grid min-h-screen grid-cols-1 grid-rows-[auto_1fr_auto]">
 	<Header />
 	{#key data.path}
-		<main id="main" tabindex="-1" in:fade|global={transitionIn} out:fade|global={transitionOut}>
+		<main
+			id="main"
+			tabindex="-1"
+			class="mx-auto my-24 max-w-[80dvw] min-w-[50dvw] px-4 focus:outline-none has-[article.post]:max-w-[90dvw]" in:fade|global={transitionIn} out:fade|global={transitionOut}>
 			{@render children?.()}
 		</main>
 	{/key}

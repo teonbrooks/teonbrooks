@@ -19,7 +19,7 @@
 <button
 	onclick={toggleIsMenuOpen}
 	aria-pressed={$isMenuOpen}
-	class="menu-button"
+	class="absolute top-8 right-8 m-0 block w-8 cursor-pointer border-0 bg-transparent p-0 text-inherit md:hidden"
 	tabindex={($isMenuOpen || !closeOnly) ? '0' : '-1'}
 >
 	<span class="sr-only">Toggle hamburger menu</span>

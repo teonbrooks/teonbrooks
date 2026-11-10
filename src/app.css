@@ -2,17 +2,9 @@
    layer so daisyUI/Tailwind win wherever they are used. Preflight (Tailwind's
    reset) is intentionally not imported so the existing styles keep working. */
 @layer legacy, theme, base, components, utilities;
-@import '../static/css/vars.css' layer(legacy);
-@import '../static/css/root.css' layer(legacy);
 @import '../static/css/fonts.css' layer(legacy);
-@import '../static/css/typography.css' layer(legacy);
-@import '../static/css/layout.css' layer(legacy);
-@import '../static/css/components.css' layer(legacy);
-@import '../static/css/header-and-footer.css' layer(legacy);
-@import '../static/css/forms.css' layer(legacy);
-@import '../static/css/animation.css' layer(legacy);
-@import '../static/css/utilities.css' layer(legacy);
-@import '../static/css/code.css' layer(legacy);
+@import '../static/css/base.css' layer(legacy);
+@import '../static/css/blog.css' layer(legacy);
 @import '../static/css/prism.css' layer(legacy);
 @import 'tailwindcss/theme.css' layer(theme);
 @import 'tailwindcss/utilities.css' layer(utilities);
@@ -45,4 +37,19 @@
 	--radius-box: 0.5rem;
 	--radius-field: 0.375rem;
 	--radius-selector: 0.375rem;
+}
+
+@theme {
+	--animate-slide-in-left: slide-in-left 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) forwards;
+
+	@keyframes slide-in-left {
+		from {
+			opacity: 0;
+			transform: translateX(-2rem);
+		}
+		to {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
 }
