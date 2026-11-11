@@ -12,7 +12,7 @@
 	},
 	"dependencies": {
 		"just-throttle": "^4.2.0",
-		"passports-cards": "github:datalus-dev/passports-cards#3a3ffd1418e7b50b128760c9226972c10c0f3acc"
+		"passports-cards": "github:datalus-dev/passports-cards#725482ae43018a3da597572a025ba57be1a05c8f"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
