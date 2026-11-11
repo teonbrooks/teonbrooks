@@ -14,7 +14,7 @@ As part of the fellows program, I completed/participated in the following:
 Title | Role | Assets/Notes
 ----- |----- | ------------
 [Brain Imaging Data Structure](https://bids.neurimaging.io) | Core contributor | [spec paper](https://www.nature.com/articles/sdata2018110), [implementation paper](https://joss.theoj.org/papers/10.21105/joss.01896)
-[March For Science](https://www.marchforscience.com/) | co-director of partnerships | collaborate with institutions and groups to mobilize its members to march around the world
+[March For Science](https://en.wikipedia.org/wiki/March_for_Science) | co-director of partnerships | collaborate with institutions and groups to mobilize its members to march around the world
 
 ## Talks
 Date | Venue | Location | Title | Assets/Notes
@@ -38,7 +38,7 @@ Date | Event | Location | Role | Title/Descriptor | Blog (optional)
 2017 May 08    | [LGBTQ Tech Summit](https://lesbianswhotech.org/attendee-event/2017-dc-summit/) | Washington, DC | Invited Participant | A summit for queer technologists to discuss and derive ways to address specific problems facing Americans | [Attendee Feature](https://lesbianswhotech.org/attendees/teon-brooks/)
 2017 May 02-04 | [csv,conf,v3](https://csvconf.com/) | Portland, OR | Attendee |
 2017 May 01    | [Open Source Alliance for Open Science](https://www.eventbrite.com/e/open-source-alliance-for-open-science-forum-tickets-32172984262) | Portland, OR | Attendee | A summit for collaboration and open discussion between open source and open science projects
-2017 Apr 22    | [March for Science](https://www.marchforscience.com/) | Washington, DC | National Co-organizer | A march, rally, and teach-in in support of Science | [Open and Inclusive Science](https://blog.mozilla.org/foundation-archive/mozilla-science/sciencemarch)
+2017 Apr 22    | [March for Science](https://en.wikipedia.org/wiki/March_for_Science) | Washington, DC | National Co-organizer | A march, rally, and teach-in in support of Science | [Open and Inclusive Science](https://blog.mozilla.org/foundation-archive/mozilla-science/sciencemarch)
 2017 Apr 14-15 | Mini-WOW | Portland, OR | Co-organizer | [Working Open Workshop](https://daniellecrobinson.github.io/mini-wow-pdx/): a two-day event on the practice of working openly
 2017 Mar 27-31 | [Supervised Neural Time Series](https://kingjr.github.io/supervised_time_series/) | New York, NY | Co-organizer | A week-long coding sprint to improve supervised learning functionality across open-source packages
 2017 Mar 22-25 | [Gathering of Open Science Hardware](http://openhardware.science/) | Santiago, Chile | Invitee/Presenter | A week-long gathering to discuss development and curation of open-source hardware for scientific research
