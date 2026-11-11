@@ -3,13 +3,13 @@
     "src/lib/posts/mama-and-me.md": {
       "contentHash": "1160fe7c7bbfb840695900aee66884d422df0065f27ebf71fc0506b75556b820",
       "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwiijk52q",
-      "lastPublished": "2026-03-14T22:28:56.669Z",
+      "lastPublished": "2025-03-28T00:00:00.000Z",
       "slug": "mama-and-me"
     },
     "src/lib/posts/half-baked-data.md": {
       "contentHash": "65f31a42e1884d6122dcdad4c9ca0bf569d93f58747a8309e208819c1eb8cafa",
       "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cwj54sa2m",
-      "lastPublished": "2026-03-14T23:29:38.405Z",
+      "lastPublished": "2025-03-27T00:00:00.000Z",
       "slug": "half-baked-data"
     },
     "src/lib/posts/cookie-challenge-week-16.md": {
@@ -135,13 +135,13 @@
     "src/lib/posts/nomad-recurse-week-04.md": {
       "contentHash": "9e49fa6f1fae2ab368661eec46e46cfbb1c3694985fce356e5fac6feb3be942b",
       "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cx42qkc2l",
-      "lastPublished": "2026-03-14T22:13:01.145Z",
+      "lastPublished": "2023-06-14T00:00:00.000Z",
       "slug": "nomad-recurse-week-04"
     },
     "src/lib/posts/nomad-recurse-week-03.md": {
       "contentHash": "fb09dbfc620f2b42eead709a79f174899201f2635aed069347a7704d9a5c3750",
       "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxa4clo2q",
-      "lastPublished": "2026-03-14T22:13:01.507Z",
+      "lastPublished": "2023-06-07T00:00:00.000Z",
       "slug": "nomad-recurse-week-03"
     },
     "src/lib/posts/nomad-recurse-week-02.md": {
@@ -183,7 +183,7 @@
     "src/lib/posts/ipados16-upgrade-woe.md": {
       "contentHash": "31565aa6a2c3155a4bc4ef9d4621ada0a215d272e4363158b1ea083c21712f08",
       "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxfkleu2j",
-      "lastPublished": "2026-03-14T22:13:05.597Z",
+      "lastPublished": "2022-12-22T00:00:00.000Z",
       "slug": "ipados16-upgrade-woe"
     },
     "src/lib/posts/svelte-blog.md": {
@@ -241,9 +241,9 @@
       "slug": "gosh-santiago-de-chile"
     },
     "src/lib/posts/a-brief-share-on-msf.md": {
-      "contentHash": "35c8010e71058df981b1ff4041cef1e38f0085275824667d20b404be8625de51",
+      "contentHash": "d106f2f56bc3c1b7d290a43e9a8824e3bdf37e7a5d7b7a2e80acf2fcb1c7cb21",
       "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxlzhhw2w",
-      "lastPublished": "2026-03-14T20:57:17.808Z",
+      "lastPublished": "2026-11-11T06:11:15.467Z",
       "slug": "a-brief-share-on-msf"
     },
     "src/lib/posts/mozfellows-at-opencon-sf.md": {
@@ -300,5 +300,9 @@
       "lastPublished": "2026-03-14T20:57:25.159Z",
       "slug": "inaugural-post"
     }
+  },
+  "publication": {
+    "cid": "bafyreifmltgxd5o5xc5kwd7l6merwsjfsqcndt6lqusyzqknxtalqwww7y",
+    "uri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.publication/3mgzwvx3ecd2j"
   }
 }
