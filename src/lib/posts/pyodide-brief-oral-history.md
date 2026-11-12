@@ -6,9 +6,10 @@ authors:
 date: "2025-03-10"
 tags:
   - tech
-coverImage: /blog_assets/pyodide-brief-oral-history/logo.svg
+coverImage: /blog_assets/pyodide-brief-oral-history/logo.png
 excerpt: "tl;dr: Pyodide gets its name from being the first language plug-in for a defunct data science notebook project called Iodide."
 lang: en-US
+atUri: "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3n23p7wmarb2w"
 ---
 A few weeks ago, I gave an oral history account of the Iodide and [Pyodide](https://pyodide.org) projects to some Recursers during Thursday presentations at the [Recurse Center](https://www.recurse.com/scout/click?t=f302bbc7dd078998e52bc365f1f73fa1). I worked at Mozilla at the time these projects were conceived and I served as their number one internal beta tester 😄
 

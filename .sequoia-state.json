@@ -299,6 +299,12 @@
       "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3mh2cxsxuvs25",
       "lastPublished": "2026-03-14T20:57:25.159Z",
       "slug": "inaugural-post"
+    },
+    "src/lib/posts/pyodide-brief-oral-history.md": {
+      "contentHash": "0eb26b8320447eaa587e0795d3c51e174bdfe633a25b76b8fbc8e9eab85b07d1",
+      "atUri": "at://did:plc:yl7wcldipsfnjdww2jg5mnrv/site.standard.document/3n23p7wmarb2w",
+      "lastPublished": "2026-11-12T05:08:02.895Z",
+      "slug": "pyodide-brief-oral-history"
     }
   },
   "publication": {
